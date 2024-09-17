@@ -1,0 +1,35 @@
+{
+  "resourceType": "CodeSystem",
+  "url": "http://ehrrunner.com/fhir/CodeSystem/ServiceRequestCategory",
+  "version": "1.0",
+  "name": "ServiceRequestCategory",
+  "title": "ServiceRequestCategory",
+  "status": "draft",
+  "date": "2023-11-04T17:46:04.4163856+00:00",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "description": "Categorias utilizadas nos perfis do recurso ServiceRequest",
+  "caseSensitive": false,
+  "valueSet": "http://ehrrunner.com/fhir/ValueSet/ServiceRequestCategory",
+  "compositional": false,
+  "versionNeeded": false,
+  "content": "complete",
+  "count": 2,
+  "concept": [
+    {
+      "code": "SADT",
+      "display": "Serviço Auxiliar de Diagnóstico ou Terapia"
+    },
+    {
+      "code": "Referral",
+      "display": "Referência (atenção especializada)"
+    }
+  ]
+}

@@ -1,0 +1,928 @@
+{
+  "resourceType": "StructureDefinition",
+  "url": "http://ehrrunner.com/fhir/StructureDefinition/Encounter",
+  "version": "1.0",
+  "name": "Encounter",
+  "title": "Contato Assistencial",
+  "status": "draft",
+  "date": "2023-10-04T12:03:06.914214+00:00",
+  "description": "Encontro ou Contato assistencial. Interação formal entre o paciente e profissional(is) de saúde(s) para prestação de serviços de saúde. Tipicamente, representa uma consulta ambulatorial (atenção primária e secundária), um internação, um atendimento em urgência/emergência ou um atendimento em telemedicina. O recurso é utilizado para indexação da informação na \"linha do tempo\" do Registro Eletrônico de Saúde do paciente. É parte estruturante dos seguintes modelos de informação: Registro de Atendimento Clínico (RAC), Sumário de Alta (SA), Registro de Pronto Atendimento (RPA) ou Conjunto Mínimo de Dados (CMD).",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Encounter",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Encounter",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Encounter.identifier",
+        "path": "Encounter.identifier",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "system"
+            }
+          ],
+          "rules": "open"
+        },
+        "definition": "Identificador local no sistema de origem\r\nIdentificador na RNDS\r\nIdentificador na estrutura de documentos do MHD"
+      },
+      {
+        "id": "Encounter.identifier:localIdentifier",
+        "path": "Encounter.identifier",
+        "sliceName": "localIdentifier",
+        "definition": "Identificador local no sistema de origem;",
+        "max": "1"
+      },
+      {
+        "id": "Encounter.identifier:localIdentifier.type",
+        "path": "Encounter.identifier.type",
+        "fixedCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://ehrrunner.com/fhir/CodingSystem/identifier-type",
+              "code": "local"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Encounter.identifier:localIdentifier.system",
+        "path": "Encounter.identifier.system",
+        "definition": "Deve conter o identificador do sistema de informação (S-RES) de origem. Tipicamente, esse identificador é apresentado em formato de OID (urn:oid:{{oidSistemaOrigem}}:{{cnesOrganizacao}}). O OID do sistema de origem deve ser fornecido pela plataforma.",
+        "min": 1
+      },
+      {
+        "id": "Encounter.identifier:localIdentifier.value",
+        "path": "Encounter.identifier.value",
+        "definition": "Identificador (unívoco) do registro de atendimento / contato assistêncial no sistema de origem.",
+        "min": 1
+      },
+      {
+        "id": "Encounter.identifier:localIdentifier.assigner",
+        "path": "Encounter.identifier.assigner",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.identifier:rndsIdentifier",
+        "path": "Encounter.identifier",
+        "sliceName": "rndsIdentifier",
+        "definition": "Identificador do registro na RNDS (id/identificador da Composition)",
+        "max": "1"
+      },
+      {
+        "id": "Encounter.identifier:rndsIdentifier.type",
+        "path": "Encounter.identifier.type",
+        "fixedCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://ehrrunner.com/fhir/CodingSystem/identifier-type",
+              "code": "rnds"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Encounter.identifier:rndsIdentifier.type.text",
+        "path": "Encounter.identifier.type.text",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.identifier:rndsIdentifier.system",
+        "path": "Encounter.identifier.system",
+        "definition": "OID RNDS.",
+        "min": 1,
+        "fixedUri": "urn:oid:1.3.6.1.4.1.54413.1.1.5.13"
+      },
+      {
+        "id": "Encounter.identifier:rndsIdentifier.value",
+        "path": "Encounter.identifier.value",
+        "min": 1
+      },
+      {
+        "id": "Encounter.identifier:rndsIdentifier.assigner",
+        "path": "Encounter.identifier.assigner",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.identifier:mhdIdentifier",
+        "path": "Encounter.identifier",
+        "sliceName": "mhdIdentifier",
+        "definition": "Identificador do registro MHD correspondente (quando o recurso foi gerado a partir de uma representação OpenEHR e indexado através de um Bundle MHD).",
+        "max": "1"
+      },
+      {
+        "id": "Encounter.identifier:mhdIdentifier.type",
+        "path": "Encounter.identifier.type",
+        "fixedCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://ehrrunner.com/fhir/CodingSystem/identifier-type",
+              "code": "mhd"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Encounter.identifier:mhdIdentifier.system",
+        "path": "Encounter.identifier.system",
+        "min": 1,
+        "fixedUri": "http://ehrrunner.com/fhir/NamingSystem/MHDDocumentOID"
+      },
+      {
+        "id": "Encounter.identifier:mhdIdentifier.value",
+        "path": "Encounter.identifier.value",
+        "min": 1
+      },
+      {
+        "id": "Encounter.identifier:mhdIdentifier.assigner",
+        "path": "Encounter.identifier.assigner",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.status",
+        "path": "Encounter.status",
+        "short": "finished | entered-in-error",
+        "definition": "finished | entered-in-error"
+      },
+      {
+        "id": "Encounter.statusHistory",
+        "path": "Encounter.statusHistory",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.class",
+        "path": "Encounter.class",
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "http://www.saude.gov.br/fhir/r4/ValueSet/BRModalidadeAssistencial-1.0"
+        }
+      },
+      {
+        "id": "Encounter.class.system",
+        "path": "Encounter.class.system",
+        "min": 1
+      },
+      {
+        "id": "Encounter.class.version",
+        "path": "Encounter.class.version",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.class.code",
+        "path": "Encounter.class.code",
+        "min": 1
+      },
+      {
+        "id": "Encounter.class.userSelected",
+        "path": "Encounter.class.userSelected",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.classHistory",
+        "path": "Encounter.classHistory",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.type",
+        "path": "Encounter.type",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.serviceType",
+        "path": "Encounter.serviceType",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.priority",
+        "path": "Encounter.priority",
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "http://www.saude.gov.br/fhir/r4/ValueSet/BRCaraterAtendimento-1.0"
+        }
+      },
+      {
+        "id": "Encounter.priority.coding.system",
+        "path": "Encounter.priority.coding.system",
+        "min": 1
+      },
+      {
+        "id": "Encounter.priority.coding.version",
+        "path": "Encounter.priority.coding.version",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.priority.coding.code",
+        "path": "Encounter.priority.coding.code",
+        "min": 1
+      },
+      {
+        "id": "Encounter.priority.coding.userSelected",
+        "path": "Encounter.priority.coding.userSelected",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.subject",
+        "path": "Encounter.subject",
+        "definition": "Deve conter uma referência para o paciente do Encontro.",
+        "min": 1,
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://ehrrunner.com/fhir/StructureDefinition/Patient"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Encounter.subject.type",
+        "path": "Encounter.subject.type",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.subject.identifier",
+        "path": "Encounter.subject.identifier",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.subject.display",
+        "path": "Encounter.subject.display",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.episodeOfCare",
+        "path": "Encounter.episodeOfCare",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.basedOn",
+        "path": "Encounter.basedOn",
+        "definition": "Referência para a solicitação de encaminhamento (referência ou regulação) que resultou no encontro, se disponível.",
+        "max": "1",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://ehrrunner.com/fhir/StructureDefinition/Referral"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Encounter.participant",
+        "path": "Encounter.participant",
+        "definition": "Lista de profissionais de saúde que participam do atendimento.",
+        "min": 1
+      },
+      {
+        "id": "Encounter.participant.type",
+        "path": "Encounter.participant.type",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "coding.system"
+            }
+          ],
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Encounter.participant.type:funcao",
+        "path": "Encounter.participant.type",
+        "sliceName": "funcao",
+        "min": 1,
+        "max": "1",
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "http://www.saude.gov.br/fhir/r4/ValueSet/BRResponsabilidadeParticipante-1.0"
+        }
+      },
+      {
+        "id": "Encounter.participant.type:funcao.coding",
+        "path": "Encounter.participant.type.coding",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Encounter.participant.type:funcao.coding.system",
+        "path": "Encounter.participant.type.coding.system",
+        "min": 1
+      },
+      {
+        "id": "Encounter.participant.type:funcao.coding.version",
+        "path": "Encounter.participant.type.coding.version",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.participant.type:funcao.coding.code",
+        "path": "Encounter.participant.type.coding.code",
+        "min": 1
+      },
+      {
+        "id": "Encounter.participant.type:funcao.coding.userSelected",
+        "path": "Encounter.participant.type.coding.userSelected",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.participant.type:funcao.text",
+        "path": "Encounter.participant.type.text",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.participant.type:ocupacaoProfissional",
+        "path": "Encounter.participant.type",
+        "sliceName": "ocupacaoProfissional",
+        "max": "1",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://www.saude.gov.br/fhir/r4/ValueSet/BROcupacao-1.0"
+        }
+      },
+      {
+        "id": "Encounter.participant.type:ocupacaoProfissional.coding",
+        "path": "Encounter.participant.type.coding",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Encounter.participant.type:ocupacaoProfissional.coding.system",
+        "path": "Encounter.participant.type.coding.system",
+        "min": 1
+      },
+      {
+        "id": "Encounter.participant.type:ocupacaoProfissional.coding.version",
+        "path": "Encounter.participant.type.coding.version",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.participant.type:ocupacaoProfissional.coding.code",
+        "path": "Encounter.participant.type.coding.code",
+        "min": 1
+      },
+      {
+        "id": "Encounter.participant.type:ocupacaoProfissional.coding.userSelected",
+        "path": "Encounter.participant.type.coding.userSelected",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.participant.type:ocupacaoProfissional.text",
+        "path": "Encounter.participant.type.text",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.participant.type:especialidade",
+        "path": "Encounter.participant.type",
+        "sliceName": "especialidade",
+        "max": "1"
+      },
+      {
+        "id": "Encounter.participant.type:especialidade.coding",
+        "path": "Encounter.participant.type.coding",
+        "max": "1",
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "http://ehrrunner.com/fhir/ValueSet/Especialidade-1.0"
+        }
+      },
+      {
+        "id": "Encounter.participant.type:especialidade.coding.system",
+        "path": "Encounter.participant.type.coding.system",
+        "min": 1
+      },
+      {
+        "id": "Encounter.participant.type:especialidade.coding.version",
+        "path": "Encounter.participant.type.coding.version",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.participant.type:especialidade.coding.code",
+        "path": "Encounter.participant.type.coding.code",
+        "min": 1
+      },
+      {
+        "id": "Encounter.participant.type:especialidade.coding.userSelected",
+        "path": "Encounter.participant.type.coding.userSelected",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.participant.type:areaAtuacao",
+        "path": "Encounter.participant.type",
+        "sliceName": "areaAtuacao",
+        "max": "1"
+      },
+      {
+        "id": "Encounter.participant.type:areaAtuacao.coding",
+        "path": "Encounter.participant.type.coding",
+        "max": "1",
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "http://ehrrunner.com/fhir/ValueSet/AreaAtuacao-1.0"
+        }
+      },
+      {
+        "id": "Encounter.participant.type:areaAtuacao.coding.system",
+        "path": "Encounter.participant.type.coding.system",
+        "min": 1
+      },
+      {
+        "id": "Encounter.participant.type:areaAtuacao.coding.version",
+        "path": "Encounter.participant.type.coding.version",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.participant.type:areaAtuacao.coding.code",
+        "path": "Encounter.participant.type.coding.code",
+        "min": 1
+      },
+      {
+        "id": "Encounter.participant.type:areaAtuacao.coding.userSelected",
+        "path": "Encounter.participant.type.coding.userSelected",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.participant.individual.reference",
+        "path": "Encounter.participant.individual.reference",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.participant.individual.type",
+        "path": "Encounter.participant.individual.type",
+        "fixedUri": "Practitioner"
+      },
+      {
+        "id": "Encounter.participant.individual.identifier",
+        "path": "Encounter.participant.individual.identifier",
+        "min": 1
+      },
+      {
+        "id": "Encounter.participant.individual.identifier.use",
+        "path": "Encounter.participant.individual.identifier.use",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.participant.individual.identifier.type",
+        "path": "Encounter.participant.individual.identifier.type",
+        "min": 1,
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "http://ehrrunner.com/fhir/ValueSet/IdentifierType-1.0"
+        }
+      },
+      {
+        "id": "Encounter.participant.individual.identifier.type.coding",
+        "path": "Encounter.participant.individual.identifier.type.coding",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Encounter.participant.individual.identifier.type.coding.system",
+        "path": "Encounter.participant.individual.identifier.type.coding.system",
+        "min": 1
+      },
+      {
+        "id": "Encounter.participant.individual.identifier.type.coding.version",
+        "path": "Encounter.participant.individual.identifier.type.coding.version",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.participant.individual.identifier.type.coding.code",
+        "path": "Encounter.participant.individual.identifier.type.coding.code",
+        "min": 1
+      },
+      {
+        "id": "Encounter.participant.individual.identifier.type.coding.userSelected",
+        "path": "Encounter.participant.individual.identifier.type.coding.userSelected",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.participant.individual.identifier.type.text",
+        "path": "Encounter.participant.individual.identifier.type.text",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.participant.individual.identifier.value",
+        "path": "Encounter.participant.individual.identifier.value",
+        "min": 1
+      },
+      {
+        "id": "Encounter.participant.individual.identifier.period",
+        "path": "Encounter.participant.individual.identifier.period",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.appointment",
+        "path": "Encounter.appointment",
+        "definition": "Referência para o agendamento do encontro (sistema local ou regulação), se disponível.",
+        "max": "1",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://ehrrunner.com/fhir/StructureDefinition/Appointment"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Encounter.appointment.display",
+        "path": "Encounter.appointment.display",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.period",
+        "path": "Encounter.period",
+        "min": 1
+      },
+      {
+        "id": "Encounter.reasonReference",
+        "path": "Encounter.reasonReference",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "reference"
+            }
+          ],
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Encounter.reasonReference:motivoAtendimentoSubjetivo",
+        "path": "Encounter.reasonReference",
+        "sliceName": "motivoAtendimentoSubjetivo",
+        "definition": "Motivo subjetivo para o atendimento. Anamnese.",
+        "max": "1",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://ehrrunner.com/fhir/StructureDefinition/ObservationText"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Encounter.reasonReference:motivoAtendimentoSubjetivo.type",
+        "path": "Encounter.reasonReference.type",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.reasonReference:motivoAtendimentoSubjetivo.identifier",
+        "path": "Encounter.reasonReference.identifier",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.reasonReference:motivoAtendimentoSubjetivo.display",
+        "path": "Encounter.reasonReference.display",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.reasonReference:diagnosticoPrincipal",
+        "path": "Encounter.reasonReference",
+        "sliceName": "diagnosticoPrincipal",
+        "max": "1",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://ehrrunner.com/fhir/StructureDefinition/Condition"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Encounter.reasonReference:diagnosticoPrincipal.type",
+        "path": "Encounter.reasonReference.type",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.reasonReference:diagnosticoPrincipal.identifier",
+        "path": "Encounter.reasonReference.identifier",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.diagnosis",
+        "path": "Encounter.diagnosis",
+        "definition": "Diagnósticos, problemas e procedimentos que justificam o encontro."
+      },
+      {
+        "id": "Encounter.diagnosis.condition",
+        "path": "Encounter.diagnosis.condition",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://ehrrunner.com/fhir/StructureDefinition/Condition",
+              "http://ehrrunner.com/fhir/StructureDefinition/Procedure"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Encounter.diagnosis.condition.type",
+        "path": "Encounter.diagnosis.condition.type",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.diagnosis.condition.identifier",
+        "path": "Encounter.diagnosis.condition.identifier",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.diagnosis.condition.display",
+        "path": "Encounter.diagnosis.condition.display",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.diagnosis.use",
+        "path": "Encounter.diagnosis.use",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.diagnosis.rank",
+        "path": "Encounter.diagnosis.rank",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.account",
+        "path": "Encounter.account",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.hospitalization.preAdmissionIdentifier",
+        "path": "Encounter.hospitalization.preAdmissionIdentifier",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.hospitalization.origin",
+        "path": "Encounter.hospitalization.origin",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.hospitalization.admitSource",
+        "path": "Encounter.hospitalization.admitSource",
+        "definition": "Procedência",
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "http://www.saude.gov.br/fhir/r4/ValueSet/BRProcedencia-1.0"
+        }
+      },
+      {
+        "id": "Encounter.hospitalization.admitSource.coding",
+        "path": "Encounter.hospitalization.admitSource.coding",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Encounter.hospitalization.admitSource.coding.system",
+        "path": "Encounter.hospitalization.admitSource.coding.system",
+        "min": 1
+      },
+      {
+        "id": "Encounter.hospitalization.admitSource.coding.version",
+        "path": "Encounter.hospitalization.admitSource.coding.version",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.hospitalization.admitSource.coding.code",
+        "path": "Encounter.hospitalization.admitSource.coding.code",
+        "min": 1
+      },
+      {
+        "id": "Encounter.hospitalization.admitSource.coding.userSelected",
+        "path": "Encounter.hospitalization.admitSource.coding.userSelected",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.hospitalization.admitSource.text",
+        "path": "Encounter.hospitalization.admitSource.text",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.hospitalization.reAdmission.coding",
+        "path": "Encounter.hospitalization.reAdmission.coding",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Encounter.hospitalization.reAdmission.text",
+        "path": "Encounter.hospitalization.reAdmission.text",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.hospitalization.dietPreference",
+        "path": "Encounter.hospitalization.dietPreference",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.hospitalization.specialCourtesy",
+        "path": "Encounter.hospitalization.specialCourtesy",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.hospitalization.specialArrangement",
+        "path": "Encounter.hospitalization.specialArrangement",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.hospitalization.destination",
+        "path": "Encounter.hospitalization.destination",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://ehrrunner.com/fhir/StructureDefinition/Organization-1.0"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Encounter.hospitalization.destination.reference",
+        "path": "Encounter.hospitalization.destination.reference",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.hospitalization.destination.identifier",
+        "path": "Encounter.hospitalization.destination.identifier",
+        "min": 1
+      },
+      {
+        "id": "Encounter.hospitalization.destination.identifier.use",
+        "path": "Encounter.hospitalization.destination.identifier.use",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.hospitalization.destination.identifier.type",
+        "path": "Encounter.hospitalization.destination.identifier.type",
+        "min": 1,
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "http://ehrrunner.com/fhir/ValueSet/IdentifierType-1.0"
+        }
+      },
+      {
+        "id": "Encounter.hospitalization.destination.identifier.type.coding",
+        "path": "Encounter.hospitalization.destination.identifier.type.coding",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Encounter.hospitalization.destination.identifier.type.coding.system",
+        "path": "Encounter.hospitalization.destination.identifier.type.coding.system",
+        "min": 1
+      },
+      {
+        "id": "Encounter.hospitalization.destination.identifier.type.coding.version",
+        "path": "Encounter.hospitalization.destination.identifier.type.coding.version",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.hospitalization.destination.identifier.type.coding.code",
+        "path": "Encounter.hospitalization.destination.identifier.type.coding.code",
+        "min": 1
+      },
+      {
+        "id": "Encounter.hospitalization.destination.identifier.type.coding.display",
+        "path": "Encounter.hospitalization.destination.identifier.type.coding.display",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.hospitalization.destination.identifier.type.coding.userSelected",
+        "path": "Encounter.hospitalization.destination.identifier.type.coding.userSelected",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.hospitalization.destination.identifier.type.text",
+        "path": "Encounter.hospitalization.destination.identifier.type.text",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.hospitalization.dischargeDisposition",
+        "path": "Encounter.hospitalization.dischargeDisposition",
+        "definition": "Motivo do desfecho",
+        "binding": {
+          "strength": "example",
+          "valueSet": "http://www.saude.gov.br/fhir/r4/ValueSet/BRMotivoDesfecho-1.0"
+        }
+      },
+      {
+        "id": "Encounter.hospitalization.dischargeDisposition.coding",
+        "path": "Encounter.hospitalization.dischargeDisposition.coding",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Encounter.hospitalization.dischargeDisposition.coding.system",
+        "path": "Encounter.hospitalization.dischargeDisposition.coding.system",
+        "min": 1
+      },
+      {
+        "id": "Encounter.hospitalization.dischargeDisposition.coding.version",
+        "path": "Encounter.hospitalization.dischargeDisposition.coding.version",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.hospitalization.dischargeDisposition.coding.code",
+        "path": "Encounter.hospitalization.dischargeDisposition.coding.code",
+        "min": 1
+      },
+      {
+        "id": "Encounter.hospitalization.dischargeDisposition.coding.userSelected",
+        "path": "Encounter.hospitalization.dischargeDisposition.coding.userSelected",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.hospitalization.dischargeDisposition.text",
+        "path": "Encounter.hospitalization.dischargeDisposition.text",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.location",
+        "path": "Encounter.location",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.serviceProvider",
+        "path": "Encounter.serviceProvider",
+        "min": 1,
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://ehrrunner.com/fhir/StructureDefinition/Organization"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Encounter.serviceProvider.type",
+        "path": "Encounter.serviceProvider.type",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.serviceProvider.identifier.use",
+        "path": "Encounter.serviceProvider.identifier.use",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.serviceProvider.identifier.type",
+        "path": "Encounter.serviceProvider.identifier.type",
+        "min": 1,
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "http://ehrrunner.com/fhir/ValueSet/IdentifierType-1.0"
+        }
+      },
+      {
+        "id": "Encounter.serviceProvider.identifier.type.coding",
+        "path": "Encounter.serviceProvider.identifier.type.coding",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Encounter.serviceProvider.identifier.type.coding.system",
+        "path": "Encounter.serviceProvider.identifier.type.coding.system",
+        "min": 1
+      },
+      {
+        "id": "Encounter.serviceProvider.identifier.type.coding.version",
+        "path": "Encounter.serviceProvider.identifier.type.coding.version",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.serviceProvider.identifier.type.coding.code",
+        "path": "Encounter.serviceProvider.identifier.type.coding.code",
+        "min": 1
+      },
+      {
+        "id": "Encounter.serviceProvider.identifier.type.coding.userSelected",
+        "path": "Encounter.serviceProvider.identifier.type.coding.userSelected",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.serviceProvider.identifier.value",
+        "path": "Encounter.serviceProvider.identifier.value",
+        "min": 1
+      },
+      {
+        "id": "Encounter.serviceProvider.identifier.period",
+        "path": "Encounter.serviceProvider.identifier.period",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.serviceProvider.identifier.assigner",
+        "path": "Encounter.serviceProvider.identifier.assigner",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.partOf",
+        "path": "Encounter.partOf",
+        "max": "0"
+      }
+    ]
+  }
+}

@@ -1,0 +1,279 @@
+{
+  "resourceType": "StructureDefinition",
+  "url": "http://ehrrunner.com/fhir/StructureDefinition/Procedure",
+  "version": "1.0",
+  "name": "Procedure",
+  "title": "Procedimento",
+  "status": "draft",
+  "date": "2023-10-04T12:03:06.914214+00:00",
+  "description": "Procedimento realizado",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Procedure",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Procedure",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Procedure.identifier",
+        "path": "Procedure.identifier",
+        "max": "1"
+      },
+      {
+        "id": "Procedure.identifier.use",
+        "path": "Procedure.identifier.use",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.identifier.type",
+        "path": "Procedure.identifier.type",
+        "min": 1,
+        "fixedCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoIdentificadorProcedimento-1.0",
+              "code": "AUTH"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Procedure.identifier.system",
+        "path": "Procedure.identifier.system",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.identifier.value",
+        "path": "Procedure.identifier.value",
+        "min": 1
+      },
+      {
+        "id": "Procedure.identifier.period",
+        "path": "Procedure.identifier.period",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.identifier.assigner",
+        "path": "Procedure.identifier.assigner",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.instantiatesCanonical",
+        "path": "Procedure.instantiatesCanonical",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.instantiatesUri",
+        "path": "Procedure.instantiatesUri",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.partOf",
+        "path": "Procedure.partOf",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.status",
+        "path": "Procedure.status",
+        "short": "completed | entered-in-error"
+      },
+      {
+        "id": "Procedure.statusReason",
+        "path": "Procedure.statusReason",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.category",
+        "path": "Procedure.category",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.code",
+        "path": "Procedure.code",
+        "requirements": "Se possível apresentar o código TUSS ou Tabela do SUS. Frequentemente, deve conter também o código clínico no sistema de origem. Para utilização de códigos locais (códigos clínicos) é necessário definir um \"system\" para a terminologia proprietária - que deverá ser fornecido pela plataforma.",
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "http://www.saude.gov.br/fhir/r4/ValueSet/BRProcedimentosNacionais-1.0"
+        }
+      },
+      {
+        "id": "Procedure.subject",
+        "path": "Procedure.subject",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://ehrrunner.com/fhir/StructureDefinition/Patient"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Procedure.subject.type",
+        "path": "Procedure.subject.type",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.subject.identifier",
+        "path": "Procedure.subject.identifier",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.subject.display",
+        "path": "Procedure.subject.display",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.encounter.type",
+        "path": "Procedure.encounter.type",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.encounter.identifier",
+        "path": "Procedure.encounter.identifier",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.encounter.display",
+        "path": "Procedure.encounter.display",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.performed[x]",
+        "path": "Procedure.performed[x]",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.recorder",
+        "path": "Procedure.recorder",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.asserter",
+        "path": "Procedure.asserter",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.performer.function",
+        "path": "Procedure.performer.function",
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "http://www.saude.gov.br/fhir/r4/ValueSet/BROcupacao-1.0"
+        }
+      },
+      {
+        "id": "Procedure.performer.actor",
+        "path": "Procedure.performer.actor",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://ehrrunner.com/fhir/StructureDefinition/Practitioner-1.0",
+              "http://ehrrunner.com/fhir/StructureDefinition/Organization-1.0"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Procedure.performer.actor.reference",
+        "path": "Procedure.performer.actor.reference",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.performer.actor.identifier",
+        "path": "Procedure.performer.actor.identifier",
+        "min": 1
+      },
+      {
+        "id": "Procedure.performer.onBehalfOf",
+        "path": "Procedure.performer.onBehalfOf",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.location",
+        "path": "Procedure.location",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.reasonCode",
+        "path": "Procedure.reasonCode",
+        "definition": "CID10 do procedimento, se houver",
+        "max": "1",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://www.saude.gov.br/fhir/r4/ValueSet/BRProblemaDiagnostico"
+        }
+      },
+      {
+        "id": "Procedure.reasonReference",
+        "path": "Procedure.reasonReference",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.bodySite",
+        "path": "Procedure.bodySite",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.outcome",
+        "path": "Procedure.outcome",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.report",
+        "path": "Procedure.report",
+        "max": "1"
+      },
+      {
+        "id": "Procedure.report.type",
+        "path": "Procedure.report.type",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.report.identifier",
+        "path": "Procedure.report.identifier",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.report.display",
+        "path": "Procedure.report.display",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.complication",
+        "path": "Procedure.complication",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.complicationDetail",
+        "path": "Procedure.complicationDetail",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.followUp",
+        "path": "Procedure.followUp",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.focalDevice",
+        "path": "Procedure.focalDevice",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.usedReference",
+        "path": "Procedure.usedReference",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.usedCode",
+        "path": "Procedure.usedCode",
+        "max": "0"
+      }
+    ]
+  }
+}

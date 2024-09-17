@@ -1,0 +1,246 @@
+{
+  "resourceType": "CodeSystem",
+  "url": "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+  "version": "1.0",
+  "name": "Especialidade",
+  "title": "Especialidade",
+  "status": "draft",
+  "date": "2023-11-04T17:46:04.4163856+00:00",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "description": "Especialidade médica (Resolução CFM n. 2.330/2023)",
+  "caseSensitive": false,
+  "compositional": false,
+  "versionNeeded": false,
+  "content": "complete",
+  "count": 55,
+  "concept": [
+    {
+      "code": "1",
+      "display": "Acupuntura"
+    },
+    {
+      "code": "2",
+      "display": "Alergia e imunologia"
+    },
+    {
+      "code": "3",
+      "display": "Anestesiologia"
+    },
+    {
+      "code": "4",
+      "display": "Angiologia"
+    },
+    {
+      "code": "5",
+      "display": "Cardiologia"
+    },
+    {
+      "code": "6",
+      "display": "Cirurgia cardiovascular"
+    },
+    {
+      "code": "7",
+      "display": "Cirurgia da mão"
+    },
+    {
+      "code": "8",
+      "display": "Cirurgia de cabeça e pescoço"
+    },
+    {
+      "code": "9",
+      "display": "Cirurgia do aparelho digestivo"
+    },
+    {
+      "code": "10",
+      "display": "Cirurgia geral"
+    },
+    {
+      "code": "11",
+      "display": "Cirurgia oncológica"
+    },
+    {
+      "code": "12",
+      "display": "Cirurgia pediátrica"
+    },
+    {
+      "code": "13",
+      "display": "Cirurgia plástica"
+    },
+    {
+      "code": "14",
+      "display": "Cirurgia torácica"
+    },
+    {
+      "code": "15",
+      "display": "Cirurgia vascular"
+    },
+    {
+      "code": "16",
+      "display": "Clínica médica"
+    },
+    {
+      "code": "17",
+      "display": "Coloproctologia"
+    },
+    {
+      "code": "18",
+      "display": "Dermatologia"
+    },
+    {
+      "code": "19",
+      "display": "Endocrinologia e metabologia"
+    },
+    {
+      "code": "20",
+      "display": "Endoscopia"
+    },
+    {
+      "code": "21",
+      "display": "Gastroenterologia"
+    },
+    {
+      "code": "22",
+      "display": "Genética médica"
+    },
+    {
+      "code": "23",
+      "display": "Geriatria"
+    },
+    {
+      "code": "24",
+      "display": "Ginecologia e obstetrícia"
+    },
+    {
+      "code": "25",
+      "display": "Hematologia e hemoterapia"
+    },
+    {
+      "code": "26",
+      "display": "Homeopatia"
+    },
+    {
+      "code": "27",
+      "display": "Infectologia"
+    },
+    {
+      "code": "28",
+      "display": "Mastologia"
+    },
+    {
+      "code": "29",
+      "display": "Medicina de emergência"
+    },
+    {
+      "code": "30",
+      "display": "Medicina de família e comunidade"
+    },
+    {
+      "code": "31",
+      "display": "Medicina do trabalho"
+    },
+    {
+      "code": "32",
+      "display": "Medicina de tráfego"
+    },
+    {
+      "code": "33",
+      "display": "Medicina esportiva"
+    },
+    {
+      "code": "34",
+      "display": "Medicina física e reabilitação"
+    },
+    {
+      "code": "35",
+      "display": "Medicina intensiva"
+    },
+    {
+      "code": "36",
+      "display": "Medicina legal e perícia médica"
+    },
+    {
+      "code": "37",
+      "display": "Medicina nuclear"
+    },
+    {
+      "code": "38",
+      "display": "Medicina preventiva e social"
+    },
+    {
+      "code": "39",
+      "display": "Nefrologia"
+    },
+    {
+      "code": "40",
+      "display": "Neurocirurgia"
+    },
+    {
+      "code": "41",
+      "display": "Neurologia"
+    },
+    {
+      "code": "42",
+      "display": "Nutrologia"
+    },
+    {
+      "code": "43",
+      "display": "Oftalmologia"
+    },
+    {
+      "code": "44",
+      "display": "Oncologia clínica"
+    },
+    {
+      "code": "45",
+      "display": "Ortopedia e traumatologia"
+    },
+    {
+      "code": "46",
+      "display": "Otorrinolaringologia"
+    },
+    {
+      "code": "47",
+      "display": "Patologia"
+    },
+    {
+      "code": "48",
+      "display": "Patologia clínica/medicina laboratorial"
+    },
+    {
+      "code": "49",
+      "display": "Pediatria"
+    },
+    {
+      "code": "50",
+      "display": "Pneumologia"
+    },
+    {
+      "code": "51",
+      "display": "Psiquiatria"
+    },
+    {
+      "code": "52",
+      "display": "Radiologia e diagnóstico por imagem"
+    },
+    {
+      "code": "53",
+      "display": "Radioterapia"
+    },
+    {
+      "code": "54",
+      "display": "Reumatologia"
+    },
+    {
+      "code": "55",
+      "display": "Urologia"
+    }
+  ]
+}

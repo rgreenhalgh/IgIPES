@@ -1,0 +1,47 @@
+<html>
+<head>
+  <title>StructureDefinition-IdentificadorIndividuo-maps-all</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<a name="v2"> </a><h3>Mappings for HL7 v2 Mapping (<a href="http://hl7.org/comparison-v2.html">http://hl7.org/v2</a>)</h3><table class="grid">
+ <tr><td colspan="3"><b>IdentificadorIndividuo</b></td></tr>
+ <tr><td>Identifier</td><td>CX / EI (occasionally, more often EI maps to a resource id or a URL)</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;id</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension (assignerJurisdiction)</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;use</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;type</td><td>CX.5</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;system</td><td>CX.4 / EI-2-4</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;value</td><td>CX.1 / EI.1</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;period</td><td>CX.7 + CX.8</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;assigner</td><td>CX.4 / (CX.4,CX.9,CX.10)</td> </tr>
+</table>
+<a name="rim"> </a><h3>Mappings for RIM Mapping (<a href="http://hl7.org/comparison-v3.html">http://hl7.org/v3</a>)</h3><table class="grid">
+ <tr><td colspan="3"><b>IdentificadorIndividuo</b></td></tr>
+ <tr><td>Identifier</td><td>n/a, II - The Identifier class is a little looser than the v3 type II because it allows URIs as well as registered OIDs or GUIDs.  Also maps to Role[classCode=IDENT]</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension (assignerJurisdiction)</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;use</td><td>Role.code or implied by context</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;type</td><td>Role.code or implied by context</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;system</td><td>II.root or Role.id.root</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;value</td><td>II.extension or II.root if system indicates OID or GUID (Or Role.id.extension or root)</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;period</td><td>Role.effectiveTime or implied by context</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;assigner</td><td>II.assigningAuthorityName but note that this is an improper use by the definition of the field.  Also Role.scoper</td> </tr>
+</table>
+<a name="servd"> </a><h3>Mappings for ServD (<a href="http://www.omg.org/spec/ServD/1.0/">http://www.omg.org/spec/ServD/1.0/</a>)</h3><table class="grid">
+ <tr><td colspan="3"><b>IdentificadorIndividuo</b></td></tr>
+ <tr><td>Identifier</td><td>Identifier</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;id</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension (assignerJurisdiction)</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;use</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;type</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;system</td><td>./IdentifierType</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;value</td><td>./Value</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;period</td><td>./StartDate and ./EndDate</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;assigner</td><td>./IdentifierIssuingAuthority</td> </tr>
+</table>
+</body>
+</html>

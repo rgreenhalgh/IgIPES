@@ -1,0 +1,244 @@
+{
+  "resourceType": "StructureDefinition",
+  "url": "http://ehrrunner.com/fhir/StructureDefinition/Patient",
+  "version": "1.0",
+  "name": "Patient",
+  "title": "Paciente",
+  "status": "draft",
+  "date": "2023-11-04T18:03:19.9092812+00:00",
+  "description": "Paciente (com registro ativo na plataforma).",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Patient",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Patient",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Patient.extension:parents",
+        "path": "Patient.extension",
+        "sliceName": "parents",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRParentesIndividuo-1.0"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Patient.extension:raceEthnicity",
+        "path": "Patient.extension",
+        "sliceName": "raceEthnicity",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRacaCorEtnia-1.0"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
+        "id": "Patient.extension:birthCity",
+        "path": "Patient.extension",
+        "sliceName": "birthCity",
+        "definition": "Informa o município de nascimento (apenas para nascidos no Brasil).",
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMunicipio-1.0"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
+        "id": "Patient.extension:birthCountry",
+        "path": "Patient.extension",
+        "sliceName": "birthCountry",
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://ehrrunner.com/fhir/StructureDefinition/BirthCountry-1.0"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
+        "id": "Patient.extension:citizenship",
+        "path": "Patient.extension",
+        "sliceName": "citizenship",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/patient-citizenship"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
+        "id": "Patient.extension:citizenship.extension:code",
+        "path": "Patient.extension.extension",
+        "sliceName": "code",
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "urn:iso:std:iso:3166"
+        }
+      },
+      {
+        "id": "Patient.extension:genderIdentity",
+        "path": "Patient.extension",
+        "sliceName": "genderIdentity",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/patient-genderIdentity"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
+        "id": "Patient.extension:importance",
+        "path": "Patient.extension",
+        "sliceName": "importance",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/patient-importance"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
+        "id": "Patient.identifier",
+        "path": "Patient.identifier",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "type.coding"
+            }
+          ],
+          "rules": "open"
+        },
+        "type": [
+          {
+            "code": "Identifier",
+            "profile": [
+              "http://ehrrunner.com/fhir/StructureDefinition/IdentificadorIndividuo"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Patient.identifier:cpf",
+        "path": "Patient.identifier",
+        "sliceName": "cpf",
+        "short": "CPF",
+        "max": "1"
+      },
+      {
+        "id": "Patient.identifier:cpf.type",
+        "path": "Patient.identifier.type",
+        "fixedCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+              "code": "TAX"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Patient.identifier:cpf.type.coding.system",
+        "path": "Patient.identifier.type.coding.system",
+        "min": 1
+      },
+      {
+        "id": "Patient.identifier:cpf.type.coding.code",
+        "path": "Patient.identifier.type.coding.code",
+        "min": 1
+      },
+      {
+        "id": "Patient.identifier:cpf.system",
+        "path": "Patient.identifier.system",
+        "fixedUri": "urn:oid:2.16.840.1.113883.13.237"
+      },
+      {
+        "id": "Patient.identifier:cpf.value",
+        "path": "Patient.identifier.value",
+        "min": 1
+      },
+      {
+        "id": "Patient.identifier:cns",
+        "path": "Patient.identifier",
+        "sliceName": "cns",
+        "short": "CNS"
+      },
+      {
+        "id": "Patient.identifier:cns.type",
+        "path": "Patient.identifier.type",
+        "fixedCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+              "code": "HC"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Patient.identifier:cns.type.coding.system",
+        "path": "Patient.identifier.type.coding.system",
+        "min": 1
+      },
+      {
+        "id": "Patient.identifier:cns.type.coding.code",
+        "path": "Patient.identifier.type.coding.code",
+        "min": 1
+      },
+      {
+        "id": "Patient.identifier:cns.system",
+        "path": "Patient.identifier.system",
+        "fixedUri": "urn:oid:2.16.840.1.113883.13.236"
+      },
+      {
+        "id": "Patient.identifier:cns.value",
+        "path": "Patient.identifier.value",
+        "min": 1
+      },
+      {
+        "id": "Patient.name",
+        "path": "Patient.name",
+        "type": [
+          {
+            "code": "HumanName",
+            "profile": [
+              "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRNomeIndividuo-1.0"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Patient.link",
+        "path": "Patient.link",
+        "max": "0"
+      }
+    ]
+  }
+}

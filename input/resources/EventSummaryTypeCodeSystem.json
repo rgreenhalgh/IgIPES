@@ -1,0 +1,67 @@
+{
+  "resourceType": "CodeSystem",
+  "url": "http://ehrrunner.com/fhir/CodeSystem/EventSummaryType",
+  "version": "1.0",
+  "name": "EventSummaryType",
+  "title": "EventSummaryType",
+  "status": "draft",
+  "date": "2023-11-04T17:46:04.4163856+00:00",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "description": "Tipos de estruturas usadas para construir um registro eletrônico de saúde do tipo \"sumário de evento ou contato assistencial\"",
+  "caseSensitive": false,
+  "valueSet": "http://ehrrunner.com/fhir/ValueSet/EventSummaryType",
+  "compositional": false,
+  "versionNeeded": false,
+  "content": "complete",
+  "count": 10,
+  "concept": [
+    {
+      "code": "RAC",
+      "display": "Registro de Atendimento Clínico"
+    },
+    {
+      "code": "SA",
+      "display": "Sumário de Alta"
+    },
+    {
+      "code": "SPA",
+      "display": "Sumário de Pronto Atendimento"
+    },
+    {
+      "code": "REL",
+      "display": "Resultado de Exame Laboratorial"
+    },
+    {
+      "code": "REI",
+      "display": "Resultado de Exame de Imagem"
+    },
+    {
+      "code": "RPM",
+      "display": "Registro de Prescrição de Medicamento"
+    },
+    {
+      "code": "RDM",
+      "display": "Registro de Dispensação de Medicamento"
+    },
+    {
+      "code": "RIA",
+      "display": "Registro de Imunobiológico Administrado"
+    },
+    {
+      "code": "RRA",
+      "display": "Registro de Regulação Assistencial"
+    },
+    {
+      "code": "NVE",
+      "display": "Notificação da Vigilância Epidemiológica"
+    }
+  ]
+}

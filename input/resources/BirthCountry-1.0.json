@@ -1,0 +1,50 @@
+{
+  "resourceType": "StructureDefinition",
+  "url": "http://ehrrunner.com/fhir/StructureDefinition/BirthCountry-1.0",
+  "version": "1.0",
+  "name": "BirthCountry",
+  "title": "País de Nascimento",
+  "status": "draft",
+  "date": "2023-11-04T18:03:19.9092812+00:00",
+  "description": "País de nacimento de um indivíduo.",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Patient"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "País de nascimento",
+        "definition": "País de nascimento."
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://ehrrunner.com/fhir/StructureDefinition/BirthCountry-1.0"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "urn:iso:std:iso:3166"
+        }
+      }
+    ]
+  }
+}

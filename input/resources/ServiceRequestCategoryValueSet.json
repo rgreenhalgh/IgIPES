@@ -1,0 +1,26 @@
+{
+  "resourceType": "ValueSet",
+  "url": "http://ehrrunner.com/fhir/ValueSet/ServiceRequestCategory",
+  "version": "1.0",
+  "name": "ServiceRequestCategory",
+  "title": "ServiceRequestCategory",
+  "status": "draft",
+  "date": "2023-11-04T17:46:04.4163856+00:00",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "description": "Categorias utilizadas nos perfis do recurso ServiceRequest",
+  "compose": {
+    "include": [
+      {
+        "system": "http://ehrrunner.com/fhir/CodeSystem/ServiceRequestCategory"
+      }
+    ]
+  }
+}

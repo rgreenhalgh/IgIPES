@@ -1,0 +1,247 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "2024_IG_CBIS",
+  "url": "http://ehrrunner.com/fhir/ImplementationGuide/2024_IG_CBIS",
+  "version": "1.0.0",
+  "name": "2024IGCBIS",
+  "status": "draft",
+  "publisher": "CBIS Publisher",
+  "description": "Implementation Guide for 2024 IG CBIS",
+  "fhirVersion": ["4.0.1"],
+  "packageId": "com.ehrrunner.fhir.2024_ig_cbis",
+  "definition": {
+    "grouping": [
+      {
+        "id": "core",
+        "name": "Core Profiles and Extensions"
+      }
+    ],
+    "resource": [
+      {
+        "reference": {
+          "reference": "StructureDefinition/Patient"
+        },
+        "name": "Patient",
+        "description": "Custom profile for Patient with identification extensions (CPF, CNS) and citizenship.",
+        "exampleBoolean": false,
+        "groupingId": "core"
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/IdentificadorIndividuo"
+        },
+        "name": "IdentificadorIndividuo",
+        "description": "Profile for identification with specific customizations for CPF and CNS.",
+        "exampleBoolean": false,
+        "groupingId": "core"
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/BRParentesIndividuo-1.0"
+        },
+        "name": "BRParentesIndividuo",
+        "description": "Extension for patient relatives' information.",
+        "exampleBoolean": false,
+        "groupingId": "core"
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/BRNomeIndividuo-1.0"
+        },
+        "name": "BRNomeIndividuo",
+        "description": "Custom profile for the individual's name.",
+        "exampleBoolean": false,
+        "groupingId": "core"
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/BRRacaCorEtnia-1.0"
+        },
+        "name": "BRRacaCorEtnia",
+        "description": "Extension for race/ethnicity information.",
+        "exampleBoolean": false,
+        "groupingId": "core"
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/BRMunicipio-1.0"
+        },
+        "name": "BRMunicipio",
+        "description": "Extension for the municipality of birth information.",
+        "exampleBoolean": false,
+        "groupingId": "core"
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/BirthCountry-1.0"
+        },
+        "name": "BirthCountry",
+        "description": "Extension for country of birth information.",
+        "exampleBoolean": false,
+        "groupingId": "core"
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/Procedure"
+        },
+        "name": "Procedure",
+        "description": "Custom profile for medical procedures.",
+        "exampleBoolean": false,
+        "groupingId": "core"
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/ServiceRequest"
+        },
+        "name": "ServiceRequest",
+        "description": "Custom profile for service requests.",
+        "exampleBoolean": false,
+        "groupingId": "core"
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/Organization"
+        },
+        "name": "Organization",
+        "description": "Custom profile for healthcare organizations.",
+        "exampleBoolean": false,
+        "groupingId": "core"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/AreaAtuacaoCodeSystem"
+        },
+        "name": "AreaAtuacao",
+        "description": "Code system for Área de Atuação",
+        "exampleBoolean": false,
+        "groupingId": "core"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/BRDivisaoGeograficaBrasil"
+        },
+        "name": "BRDivisaoGeograficaBrasil",
+        "description": "Code system for Divisão Geográfica do Brasil",
+        "exampleBoolean": false,
+        "groupingId": "core"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/EHRDocumentTypeCodeSystem"
+        },
+        "name": "EHRDocumentType",
+        "description": "Code system for EHR Document Types",
+        "exampleBoolean": false,
+        "groupingId": "core"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/EspecialidadeCodeSystem"
+        },
+        "name": "Especialidade",
+        "description": "Code system for medical specialties",
+        "exampleBoolean": false,
+        "groupingId": "core"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/EventSummaryTypeCodeSystem"
+        },
+        "name": "EventSummaryType",
+        "description": "Code system for Event Summary Types",
+        "exampleBoolean": false,
+        "groupingId": "core"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/NivelFederacaoCodeSystem"
+        },
+        "name": "NivelFederacao",
+        "description": "Code system for Federation Level",
+        "exampleBoolean": false,
+        "groupingId": "core"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/ServiceRequestCategoryCodeSystem"
+        },
+        "name": "ServiceRequestCategory",
+        "description": "Code system for Service Request Categories",
+        "exampleBoolean": false,
+        "groupingId": "core"
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/AreaAtuacaoValueSet"
+        },
+        "name": "AreaAtuacao",
+        "description": "ValueSet for Área de Atuação",
+        "exampleBoolean": false,
+        "groupingId": "core"
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/BRMunicipio-1.0"
+        },
+        "name": "BRMunicipio",
+        "description": "ValueSet for Brazilian municipalities",
+        "exampleBoolean": false,
+        "groupingId": "core"
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/EHRDocumentTypeValueSet"
+        },
+        "name": "EHRDocumentType",
+        "description": "ValueSet for EHR Document Types",
+        "exampleBoolean": false,
+        "groupingId": "core"
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/EspecialidadeValueSet"
+        },
+        "name": "Especialidade",
+        "description": "ValueSet for Medical Specialties",
+        "exampleBoolean": false,
+        "groupingId": "core"
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/EventSummaryTypeValueSet"
+        },
+        "name": "EventSummaryType",
+        "description": "ValueSet for Event Summary Types",
+        "exampleBoolean": false,
+        "groupingId": "core"
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/NivelFederacaoValueSet"
+        },
+        "name": "NivelFederacao",
+        "description": "ValueSet for Federation Levels",
+        "exampleBoolean": false,
+        "groupingId": "core"
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/ServiceRequestCategoryValueSet"
+        },
+        "name": "ServiceRequestCategory",
+        "description": "ValueSet for Service Request Categories",
+        "exampleBoolean": false,
+        "groupingId": "core"
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/ValueSet-BRTipoDocumentoIndividuo-1.0"
+        },
+        "name": "BRTipoDocumentoIndividuo",
+        "description": "ValueSet for Document Types for Individual Identification",
+        "exampleBoolean": false,
+        "groupingId": "core"
+      }
+    ]
+  }
+}

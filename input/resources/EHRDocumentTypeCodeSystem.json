@@ -1,0 +1,127 @@
+{
+  "resourceType": "CodeSystem",
+  "url": "http://ehrrunner.com/fhir/CodeSystem/EHRDocumentType",
+  "version": "1.0",
+  "name": "EHRDocumentType",
+  "title": "EHRDocumentType",
+  "status": "draft",
+  "date": "2023-11-04T17:46:04.4163856+00:00",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "description": "Tipos de documentos OpenEHR (TDDs)",
+  "caseSensitive": true,
+  "valueSet": "http://ehrrunner.com/fhir/ValueSet/EHRDocumentType",
+  "compositional": false,
+  "versionNeeded": false,
+  "content": "complete",
+  "count": 10,
+  "property": [
+    {
+      "code": "tenant",
+      "type": "string"
+    }
+  ],
+  "concept": [
+    {
+      "code": "RegistroAtendimentoClínico.v4.1",
+      "display": "RAC 4.1",
+      "property": [
+        {
+          "code": "tenant",
+          "valueString": "IPES"
+        }
+      ]
+    },
+    {
+      "code": "RegistroAtendimentoClínico.v4.2",
+      "display": "RAC 4.2",
+      "property": [
+        {
+          "code": "tenant",
+          "valueString": "EBSERH"
+        }
+      ]
+    },
+    {
+      "code": "Registro de Atendimento Clínico v1.0",
+      "display": "RAC 1.0",
+      "property": [
+        {
+          "code": "tenant",
+          "valueString": "HAOC"
+        }
+      ]
+    },
+    {
+      "code": "Sumário de Alta v1.0",
+      "display": "SA 1.0",
+      "property": [
+        {
+          "code": "tenant",
+          "valueString": "HAOC"
+        }
+      ]
+    },
+    {
+      "code": "SumárioAlta.v4.0",
+      "display": "SA 4.0"
+    },
+    {
+      "code": "ColetaDadosSimplificada.v4.1",
+      "display": "CDS 4.1",
+      "property": [
+        {
+          "code": "tenant",
+          "valueString": "IPES"
+        }
+      ]
+    },
+    {
+      "code": "Sumário Pronto Atendimento HAOC v 2.0",
+      "display": "SPA 2.0",
+      "property": [
+        {
+          "code": "tenant",
+          "valueString": "HAOC"
+        }
+      ]
+    },
+    {
+      "code": "Sumário Pronto Atendimento HAOC v 2.1",
+      "display": "SPA 2.1",
+      "property": [
+        {
+          "code": "tenant",
+          "valueString": "HAOC"
+        }
+      ]
+    },
+    {
+      "code": "SHROP - COVID19 laboratory report.v1.0",
+      "display": "REL COVID19 1.0",
+      "property": [
+        {
+          "code": "tenant",
+          "valueString": "SHROP"
+        }
+      ]
+    },
+    {
+      "code": "SHROP - COVID19 immunization report.v1.0",
+      "display": "RIA COVID19 1.0",
+      "property": [
+        {
+          "code": "tenant",
+          "valueString": "SHROP"
+        }
+      ]
+    }
+  ]
+}

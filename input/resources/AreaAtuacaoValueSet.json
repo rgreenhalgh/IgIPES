@@ -1,0 +1,26 @@
+{
+  "resourceType": "ValueSet",
+  "url": "http://ehrruner.com/fhir/StructureDefinition/ValueSet/AreaAtuacao",
+  "version": "1.0",
+  "name": "AreaAtuacao",
+  "title": "Área de Atuacao",
+  "status": "draft",
+  "date": "2023-11-04T17:46:04.4163856+00:00",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "description": "Área de atuação médica (Resolução CFM n. 2.330/2023)",
+  "compose": {
+    "include": [
+      {
+        "system": "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/AreaAtuacao"
+      }
+    ]
+  }
+}

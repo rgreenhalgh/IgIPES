@@ -1,0 +1,35 @@
+{
+  "resourceType": "CodeSystem",
+  "url": "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/NivelFederacao",
+  "version": "1.0",
+  "name": "NivelFederacao",
+  "title": "Nível da Federação",
+  "status": "draft",
+  "date": "2023-11-04T17:46:04.4163856+00:00",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "description": "Tipo de federação suportada para um PractitionerRole",
+  "caseSensitive": false,
+  "valueSet": "http://ehrruner.com/fhir/StructureDefinition/ValueSet/NivelFederacao",
+  "compositional": false,
+  "versionNeeded": false,
+  "content": "complete",
+  "count": 2,
+  "concept": [
+    {
+      "code": "Organizacao",
+      "display": "Todos os profissionais de saúde da organização podem federar"
+    },
+    {
+      "code": "Individuo",
+      "display": "Apenas o profissional de saúde pode federar"
+    }
+  ]
+}

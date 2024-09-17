@@ -1,0 +1,55 @@
+{
+  "resourceType": "StructureDefinition",
+  "id":"IdentificadorIndividuo",
+  "url": "http://ehrrunner.com/fhir/StructureDefinition/IdentificadorIndividuo",
+  "version": "1.0",
+  "name": "IdentificadorIndividuo",
+  "title": "Identificador do Indivíduo",
+  "status": "draft",
+  "date": "2023-11-04T18:03:19.9092812+00:00",
+  "description": "Identificador do indivíduo. Usado para identificar pacientes e profissionais de saúde. Inclui identificadores comuns, como CPF, CNS, RG, Passaporte, Registro em COnselho Profissional (CRM, COREM e outros), entre outros.",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "type": "Identifier",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Identifier",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Identifier.extension:assignerJurisdiction",
+        "path": "Identifier.extension",
+        "sliceName": "assignerJurisdiction",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRJurisdicaoOrgaoEmissor-1.0"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
+        "id": "Identifier.type",
+        "path": "Identifier.type",
+        "min": 1,
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoDocumentoIndividuo-1.0"
+        }
+      },
+      {
+        "id": "Identifier.system",
+        "path": "Identifier.system",
+        "definition": "Utilizado apenas para identificadores do tipo TAX (cpf) e HC (cns).\r\nHC: urn:oid:2.16.840.1.113883.13.236\r\nTAX: urn:oid:2.16.840.1.113883.13.237",
+        "min": 1
+      },
+      {
+        "id": "Identifier.value",
+        "path": "Identifier.value",
+        "min": 1
+      }
+    ]
+  }
+}

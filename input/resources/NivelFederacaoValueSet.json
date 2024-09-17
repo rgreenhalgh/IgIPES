@@ -1,0 +1,26 @@
+{
+  "resourceType": "ValueSet",
+  "url": "http://ehrruner.com/fhir/StructureDefinition/ValueSet/NivelFederacao",
+  "version": "1.0",
+  "name": "NivelFederacao",
+  "title": "Nível da Federacao",
+  "status": "draft",
+  "date": "2023-11-04T17:46:04.4163856+00:00",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "description": "Tipo de federação suportada para um PractitionerRole",
+  "compose": {
+    "include": [
+      {
+        "system": "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/NivelFederacao"
+      }
+    ]
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "resourceType": "CodeSystem",
+  "id":"AreaAtuacao",
+  "url": "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/AreaAtuacao",
+  "version": "1.0",
+  "name": "AreaAtuacao",
+  "title": "Área de Atuação",
+  "status": "draft",
+  "date": "2023-11-04T17:46:04.4163856+00:00",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "description": "Área de atuação médica (Resolução CFM n. 2.330/2023)",
+  "caseSensitive": false,
+  "valueSet": "http://ehrruner.com/fhir/StructureDefinition/ValueSet/AreaAtuacao",
+  "compositional": false,
+  "versionNeeded": false,
+  "content": "complete",
+  "count": 61,
+  "concept": [
+    {
+      "code": "1",
+      "display": "Administração em saúde"
+    },
+    {
+      "code": "2",
+      "display": "Alergia e imunologia pediátrica"
+    },
+    {
+      "code": "3",
+      "display": "Angiorradiologia e cirurgia endovascular"
+    },
+    {
+      "code": "4",
+      "display": "Atendimento ao queimado"
+    },
+    {
+      "code": "5",
+      "display": "Auditoria médica"
+    },
+    {
+      "code": "6",
+      "display": "Cardiologia pediátrica"
+    },
+    {
+      "code": "7",
+      "display": "Cirurgia bariátrica"
+    },
+    {
+      "code": "8",
+      "display": "Cirurgia crânio-maxilo-facial"
+    },
+    {
+      "code": "9",
+      "display": "Cirurgia do trauma"
+    },
+    {
+      "code": "10",
+      "display": "Cirurgia videolaparoscópica"
+    },
+    {
+      "code": "11",
+      "display": "Citopatologia"
+    },
+    {
+      "code": "12",
+      "display": "Densitometria óssea"
+    },
+    {
+      "code": "13",
+      "display": "Dor"
+    },
+    {
+      "code": "14",
+      "display": "Ecocardiografia"
+    },
+    {
+      "code": "15",
+      "display": "Ecografia vascular com doppler"
+    },
+    {
+      "code": "16",
+      "display": "Eletrofisiologia clínica invasiva"
+    },
+    {
+      "code": "17",
+      "display": "Emergência pediátrica"
+    },
+    {
+      "code": "18",
+      "display": "Endocrinologia pediátrica"
+    },
+    {
+      "code": "19",
+      "display": "Endoscopia digestiva"
+    },
+    {
+      "code": "20",
+      "display": "Endoscopia ginecológica"
+    },
+    {
+      "code": "21",
+      "display": "Endoscopia respiratória"
+    },
+    {
+      "code": "22",
+      "display": "Ergometria"
+    },
+    {
+      "code": "23",
+      "display": "Estimulação cardíaca eletrônica implantável"
+    },
+    {
+      "code": "24",
+      "display": "Foniatria"
+    },
+    {
+      "code": "25",
+      "display": "Gastroenterologia pediátrica"
+    },
+    {
+      "code": "26",
+      "display": "Hansenologia"
+    },
+    {
+      "code": "27",
+      "display": "Hematologia e hemoterapia pediátrica"
+    },
+    {
+      "code": "28",
+      "display": "Hemodinâmica e cardiologia intervencionista"
+    },
+    {
+      "code": "29",
+      "display": "Hepatologia"
+    },
+    {
+      "code": "30",
+      "display": "Infectologia hospitalar"
+    },
+    {
+      "code": "31",
+      "display": "Infectologia pediátrica"
+    },
+    {
+      "code": "32",
+      "display": "Mamografia"
+    },
+    {
+      "code": "33",
+      "display": "Medicina aeroespacial"
+    },
+    {
+      "code": "34",
+      "display": "Medicina do adolescente"
+    },
+    {
+      "code": "35",
+      "display": "Medicina do sono"
+    },
+    {
+      "code": "36",
+      "display": "Medicina fetal"
+    },
+    {
+      "code": "37",
+      "display": "Medicina intensiva pediátrica"
+    },
+    {
+      "code": "38",
+      "display": "Medicina paliativa"
+    },
+    {
+      "code": "39",
+      "display": "Medicina tropical"
+    },
+    {
+      "code": "40",
+      "display": "Nefrologia pediátrica"
+    },
+    {
+      "code": "41",
+      "display": "Neonatologia"
+    },
+    {
+      "code": "42",
+      "display": "Neurofisiologia clínica"
+    },
+    {
+      "code": "43",
+      "display": "Neurologia pediátrica"
+    },
+    {
+      "code": "44",
+      "display": "Neurorradiologia"
+    },
+    {
+      "code": "45",
+      "display": "Nutrição parenteral e enteral"
+    },
+    {
+      "code": "46",
+      "display": "Nutrição parenteral e enteral pediátrica"
+    },
+    {
+      "code": "47",
+      "display": "Nutrologia pediátrica"
+    },
+    {
+      "code": "48",
+      "display": "Oncologia pediátrica"
+    },
+    {
+      "code": "49",
+      "display": "Pneumologia pediátrica"
+    },
+    {
+      "code": "50",
+      "display": "Psicogeriatria"
+    },
+    {
+      "code": "51",
+      "display": "Psicoterapia"
+    },
+    {
+      "code": "52",
+      "display": "Psiquiatria da infância e adolescência"
+    },
+    {
+      "code": "53",
+      "display": "Psiquiatria forense"
+    },
+    {
+      "code": "54",
+      "display": "Radiologia intervencionista e angiorradiologia"
+    },
+    {
+      "code": "55",
+      "display": "Reprodução assistida"
+    },
+    {
+      "code": "56",
+      "display": "Reumatologia pediátrica"
+    },
+    {
+      "code": "57",
+      "display": "Sexologia"
+    },
+    {
+      "code": "58",
+      "display": "Toxicologia médica"
+    },
+    {
+      "code": "59",
+      "display": "Transplante de medula óssea"
+    },
+    {
+      "code": "60",
+      "display": "Ultrassonografia em ginecologia e obstetrícia"
+    },
+    {
+      "code": "61",
+      "display": "Ultrassonografia geral"
+    }
+  ]
+}
