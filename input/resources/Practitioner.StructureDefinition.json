@@ -1,5 +1,6 @@
 {
   "resourceType": "StructureDefinition",
+  "id":"Practitioner",
   "url": "http://ehrrunner.com/fhir/StructureDefinition/Practitioner",
   "version": "1.0",
   "name": "Practitioner",

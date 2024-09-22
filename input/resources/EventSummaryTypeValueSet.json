@@ -1,5 +1,6 @@
 {
   "resourceType": "ValueSet",
+  "id":"EventSummaryTypeValueSet",
   "url": "http://ehrrunner.com/fhir/ValueSet/EventSummaryType",
   "version": "1.0",
   "name": "EventSummaryType",

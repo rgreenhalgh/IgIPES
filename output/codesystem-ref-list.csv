@@ -1,0 +1,9 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Used
+http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade,1.0.0,draft,,Especialidade,Especialidade,"Especialidade médica (Resolução CFM n. 2.330/2023)","ValueSet/EspecialidadeValueset"
+http://ehrruner.com/fhir/StructureDefinition/CodeSystem/NivelFederacao,1.0.0,draft,,NivelFederacao,Nível da Federação,"Tipo de federação suportada para um PractitionerRole","ValueSet/NivelFederacaoValueSet"
+http://ehrrunner.com/fhir/CodeSystem/EHRDocumentType,1.0.0,draft,,EHRDocumentType,EHRDocumentType,"Tipos de documentos OpenEHR (TDDs)","ValueSet/EHRDocumentTypeValueset"
+http://ehrrunner.com/fhir/CodeSystem/EventSummaryType,1.0.0,draft,,EventSummaryType,EventSummaryType,"Tipos de estruturas usadas para construir um registro eletrônico de saúde do tipo ""sumário de evento ou contato assistencial""","ValueSet/EventSummaryTypeValueSet"
+http://ehrrunner.com/fhir/CodeSystem/ServiceRequestCategory,1.0.0,draft,,ServiceRequestCategory,ServiceRequestCategory,"Categorias utilizadas nos perfis do recurso ServiceRequest","ValueSet/ServiceRequestCategoryValueSet"
+http://hl7.org/fhir/administrative-gender,4.0.1,active,"2.16.840.1.113883.4.642.4.2",AdministrativeGender,AdministrativeGender,"The gender of a person used for administrative purposes.","ValueSet/administrative-gender"
+http://terminology.hl7.org/CodeSystem/v2-0203,4.0.0,active,"2.16.840.1.113883.18.108",IdentifierType,identifierType,"HL7-defined code system of concepts specifying type of identifier. Used in HL7 Version 2.x messaging data types CX, PLN, PPN, XCN and XON.","ValueSet/BRTipoDocumentoIndividuo-1.0_ValueSet"
+http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil,1.0.0,active,,BRDivisaoGeograficaBrasil,Divisão Geográfica do Brasil,"As regiões geográficas, estados, distrito federal e municípios do Brasil.","ValueSet/BRMunicipio-1.0_Valueset"

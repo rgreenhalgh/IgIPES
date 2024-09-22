@@ -1,5 +1,6 @@
 {
   "resourceType": "CodeSystem",
+  "id":"EHRDocumentTypeCodeSystem",
   "url": "http://ehrrunner.com/fhir/CodeSystem/EHRDocumentType",
   "version": "1.0",
   "name": "EHRDocumentType",

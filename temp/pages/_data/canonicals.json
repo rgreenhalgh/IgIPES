@@ -1,0 +1,219 @@
+[
+  {
+    "id" : "AreaAtuacaoCodeSystem",
+    "type" : "CodeSystem",
+    "url" : "http://ehrruner.com/fhir/CodeSystem/AreaAtuacao",
+    "version" : "1.0.0",
+    "name" : "AreaAtuacao"
+  },
+  {
+    "id" : "EspecialidadeCodeSystem",
+    "type" : "CodeSystem",
+    "url" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+    "version" : "1.0.0",
+    "name" : "Especialidade"
+  },
+  {
+    "id" : "NivelFederacaoCodeSystem",
+    "type" : "CodeSystem",
+    "url" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/NivelFederacao",
+    "version" : "1.0.0",
+    "name" : "NivelFederacao"
+  },
+  {
+    "id" : "EspecialidadeValueset",
+    "type" : "ValueSet",
+    "url" : "http://ehrruner.com/fhir/StructureDefinition/ValueSet/Especialidade",
+    "version" : "1.0.0",
+    "name" : "Especialidade"
+  },
+  {
+    "id" : "NivelFederacaoValueSet",
+    "type" : "ValueSet",
+    "url" : "http://ehrruner.com/fhir/StructureDefinition/ValueSet/NivelFederacao",
+    "version" : "1.0.0",
+    "name" : "NivelFederacao"
+  },
+  {
+    "id" : "AreaAtuacaoValueset",
+    "type" : "ValueSet",
+    "url" : "http://ehrruner.com/fhir/ValueSet/AreaAtuacao",
+    "version" : "1.0.0",
+    "name" : "AreaAtuacao"
+  },
+  {
+    "id" : "EHRDocumentTypeCodeSystem",
+    "type" : "CodeSystem",
+    "url" : "http://ehrrunner.com/fhir/CodeSystem/EHRDocumentType",
+    "version" : "1.0.0",
+    "name" : "EHRDocumentType"
+  },
+  {
+    "id" : "EventSummaryTypeCodeSystem",
+    "type" : "CodeSystem",
+    "url" : "http://ehrrunner.com/fhir/CodeSystem/EventSummaryType",
+    "version" : "1.0.0",
+    "name" : "EventSummaryType"
+  },
+  {
+    "id" : "ServiceRequestCategory",
+    "type" : "CodeSystem",
+    "url" : "http://ehrrunner.com/fhir/CodeSystem/ServiceRequestCategory",
+    "version" : "1.0.0",
+    "name" : "ServiceRequestCategory"
+  },
+  {
+    "id" : "2024_IG_CBIS",
+    "type" : "ImplementationGuide",
+    "url" : "http://ehrrunner.com/fhir/ImplementationGuide/2024_IG_CBIS",
+    "version" : "1.0.0",
+    "name" : "2024IGCBIS"
+  },
+  {
+    "id" : "BirthCountry-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://ehrrunner.com/fhir/StructureDefinition/BirthCountry-1.0",
+    "version" : "1.0.0",
+    "name" : "BirthCountry"
+  },
+  {
+    "id" : "Encounter",
+    "type" : "StructureDefinition",
+    "url" : "http://ehrrunner.com/fhir/StructureDefinition/Encounter",
+    "version" : "1.0.0",
+    "name" : "Encounter"
+  },
+  {
+    "id" : "IdentificadorIndividuo",
+    "type" : "StructureDefinition",
+    "url" : "http://ehrrunner.com/fhir/StructureDefinition/IdentificadorIndividuo",
+    "version" : "1.0.0",
+    "name" : "IdentificadorIndividuo"
+  },
+  {
+    "id" : "Observation",
+    "type" : "StructureDefinition",
+    "url" : "http://ehrrunner.com/fhir/StructureDefinition/Observation",
+    "version" : "1.0.0",
+    "name" : "Observation"
+  },
+  {
+    "id" : "Organization",
+    "type" : "StructureDefinition",
+    "url" : "http://ehrrunner.com/fhir/StructureDefinition/Organization",
+    "version" : "1.0.0",
+    "name" : "Organization"
+  },
+  {
+    "id" : "Patient",
+    "type" : "StructureDefinition",
+    "url" : "http://ehrrunner.com/fhir/StructureDefinition/Patient",
+    "version" : "1.0.0",
+    "name" : "Patient"
+  },
+  {
+    "id" : "Practitioner",
+    "type" : "StructureDefinition",
+    "url" : "http://ehrrunner.com/fhir/StructureDefinition/Practitioner",
+    "version" : "1.0.0",
+    "name" : "Practitioner"
+  },
+  {
+    "id" : "Procedure",
+    "type" : "StructureDefinition",
+    "url" : "http://ehrrunner.com/fhir/StructureDefinition/Procedure",
+    "version" : "1.0.0",
+    "name" : "Procedure"
+  },
+  {
+    "id" : "ServiceRequest",
+    "type" : "StructureDefinition",
+    "url" : "http://ehrrunner.com/fhir/StructureDefinition/ServiceRequest",
+    "version" : "1.0.0",
+    "name" : "ServiceRequest"
+  },
+  {
+    "id" : "EHRDocumentTypeValueset",
+    "type" : "ValueSet",
+    "url" : "http://ehrrunner.com/fhir/ValueSet/EHRDocumentType",
+    "version" : "1.0.0",
+    "name" : "EHRDocumentType"
+  },
+  {
+    "id" : "EventSummaryTypeValueSet",
+    "type" : "ValueSet",
+    "url" : "http://ehrrunner.com/fhir/ValueSet/EventSummaryType",
+    "version" : "1.0.0",
+    "name" : "EventSummaryType"
+  },
+  {
+    "id" : "ServiceRequestCategoryValueSet",
+    "type" : "ValueSet",
+    "url" : "http://ehrrunner.com/fhir/ValueSet/ServiceRequestCategory",
+    "version" : "1.0.0",
+    "name" : "ServiceRequestCategory"
+  },
+  {
+    "id" : "BRIndividuo-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/BRIndividuo-1.0",
+    "version" : "1.0.0",
+    "name" : "BRIndividuo"
+  },
+  {
+    "id" : "BRTipoDocumentoIndividuo-1.0_ValueSet",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/BRTipoDocumentoIndividuo-1.0",
+    "version" : "1.0.0",
+    "name" : "BRTipoDocumentoIndividuo"
+  },
+  {
+    "id" : "BRDivisaoGeograficaBrasilCodeSystem",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil",
+    "version" : "1.0.0",
+    "name" : "BRDivisaoGeograficaBrasil"
+  },
+  {
+    "id" : "BRJurisdicaoOrgaoEmissor-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRJurisdicaoOrgaoEmissor-1.0",
+    "version" : "1.0.0",
+    "name" : "BRJurisdicaoOrgaoExpedidor"
+  },
+  {
+    "id" : "BRMunicipio",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMunicipio-1.0",
+    "version" : "1.0.0",
+    "name" : "BRMunicipio"
+  },
+  {
+    "id" : "BRNomeIndividuo-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRNomeIndividuo-1.0",
+    "version" : "1.0.0",
+    "name" : "BRNomeIndividuo"
+  },
+  {
+    "id" : "BRParentesIndividuo-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRParentesIndividuo-1.0",
+    "version" : "1.0.0",
+    "name" : "BRParentesIndividuo"
+  },
+  {
+    "id" : "BRRacaCorEtnia-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRacaCorEtnia-1.0",
+    "version" : "1.0.0",
+    "name" : "BRRacaCorEtnia"
+  },
+  {
+    "id" : "BRMunicipio-1.0_Valueset",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRMunicipio-1.0",
+    "version" : "1.0.0",
+    "name" : "BRMunicipio"
+  }
+]

@@ -2,7 +2,7 @@
   "resourceType": "ValueSet",
   "status": "active",
   "name": "BRTipoDocumentoIndividuo",
-  "id": "BRTipoDocumentoIndividuo-1.0",
+  "id": "BRTipoDocumentoIndividuo-1.0_ValueSet",
   "title": "Tipo de Documento do Indivíduo",
   "description": "Classifica o tipo de documento que está sendo utilizado para identificar o indivíduo.",
   "url": "http://example.org/ValueSet/BRTipoDocumentoIndividuo-1.0",

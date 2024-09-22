@@ -1,6 +1,6 @@
 {
     "resourceType": "CodeSystem",
-    "id": "BRDivisaoGeograficaBrasil",
+    "id": "BRDivisaoGeograficaBrasilCodeSystem",
     "language": "pt-BR",
     "url": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil",
     "version": "201701A",

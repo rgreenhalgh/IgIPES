@@ -1,7 +1,7 @@
 {
   "resourceType": "CodeSystem",
-  "id":"AreaAtuacao",
-  "url": "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/AreaAtuacao",
+  "id":"AreaAtuacaoCodeSystem",
+  "url": "http://ehrruner.com/fhir/CodeSystem/AreaAtuacao",
   "version": "1.0",
   "name": "AreaAtuacao",
   "title": "Área de Atuação",

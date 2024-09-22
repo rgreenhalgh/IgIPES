@@ -1,5 +1,6 @@
 {
   "resourceType": "CodeSystem",
+  "id":"EventSummaryTypeCodeSystem",
   "url": "http://ehrrunner.com/fhir/CodeSystem/EventSummaryType",
   "version": "1.0",
   "name": "EventSummaryType",

@@ -1,0 +1,9 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://ehrruner.com/fhir/StructureDefinition/ValueSet/Especialidade,1.0.0,draft,,Especialidade,Especialidade,"Especialidade médica (Resolução CFM n. 2.330/2023)",,"Internal"
+http://ehrruner.com/fhir/StructureDefinition/ValueSet/NivelFederacao,1.0.0,draft,,NivelFederacao,Nível da Federacao,"Tipo de federação suportada para um PractitionerRole",,"Internal"
+http://ehrruner.com/fhir/ValueSet/AreaAtuacao,1.0.0,draft,,AreaAtuacao,Área de Atuacao,"Área de atuação médica (Resolução CFM n. 2.330/2023)",,"Other"
+http://ehrrunner.com/fhir/ValueSet/EHRDocumentType,1.0.0,draft,,EHRDocumentType,EHRDocumentType,"Tipos de documentos OpenEHR (TDDs)",,"Internal"
+http://ehrrunner.com/fhir/ValueSet/EventSummaryType,1.0.0,draft,,EventSummaryType,EventSummaryType,"Tipos de estruturas usadas para construir um registro eletrônico de saúde do tipo ""sumário de evento ou contato assistencial""",,"Internal"
+http://ehrrunner.com/fhir/ValueSet/ServiceRequestCategory,1.0.0,draft,,ServiceRequestCategory,ServiceRequestCategory,"Categorias utilizadas nos perfis do recurso ServiceRequest",,"Internal"
+http://example.org/ValueSet/BRTipoDocumentoIndividuo-1.0,1.0.0,active,,BRTipoDocumentoIndividuo,Tipo de Documento do Indivíduo,"Classifica o tipo de documento que está sendo utilizado para identificar o indivíduo.",,"THO (V2),Other"
+http://www.saude.gov.br/fhir/r4/ValueSet/BRMunicipio-1.0,1.0.0,active,,BRMunicipio,Município,"Municípios brasileiros, entes subnacionais.",,"Internal"

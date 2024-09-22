@@ -1,5 +1,6 @@
 {
   "resourceType": "ValueSet",
+  "id":"ServiceRequestCategoryValueSet",
   "url": "http://ehrrunner.com/fhir/ValueSet/ServiceRequestCategory",
   "version": "1.0",
   "name": "ServiceRequestCategory",

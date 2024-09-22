@@ -1,0 +1,223 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ehrrunner.com/fhir/CodeSystem/AreaAtuacaoCodeSystem> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "AreaAtuacaoCodeSystem"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem AreaAtuacaoCodeSystem</b></p><a name=\"AreaAtuacaoCodeSystem\"> </a><a name=\"hcAreaAtuacaoCodeSystem\"> </a><a name=\"AreaAtuacaoCodeSystem-en-US\"> </a><p>This case-insensitive code system <code>http://ehrruner.com/fhir/CodeSystem/AreaAtuacao</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"AreaAtuacaoCodeSystem-1\"> </a></td><td>Administração em saúde</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"AreaAtuacaoCodeSystem-2\"> </a></td><td>Alergia e imunologia pediátrica</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"AreaAtuacaoCodeSystem-3\"> </a></td><td>Angiorradiologia e cirurgia endovascular</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"AreaAtuacaoCodeSystem-4\"> </a></td><td>Atendimento ao queimado</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"AreaAtuacaoCodeSystem-5\"> </a></td><td>Auditoria médica</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"AreaAtuacaoCodeSystem-6\"> </a></td><td>Cardiologia pediátrica</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"AreaAtuacaoCodeSystem-7\"> </a></td><td>Cirurgia bariátrica</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"AreaAtuacaoCodeSystem-8\"> </a></td><td>Cirurgia crânio-maxilo-facial</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"AreaAtuacaoCodeSystem-9\"> </a></td><td>Cirurgia do trauma</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"AreaAtuacaoCodeSystem-10\"> </a></td><td>Cirurgia videolaparoscópica</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"AreaAtuacaoCodeSystem-11\"> </a></td><td>Citopatologia</td></tr><tr><td style=\"white-space:nowrap\">12<a name=\"AreaAtuacaoCodeSystem-12\"> </a></td><td>Densitometria óssea</td></tr><tr><td style=\"white-space:nowrap\">13<a name=\"AreaAtuacaoCodeSystem-13\"> </a></td><td>Dor</td></tr><tr><td style=\"white-space:nowrap\">14<a name=\"AreaAtuacaoCodeSystem-14\"> </a></td><td>Ecocardiografia</td></tr><tr><td style=\"white-space:nowrap\">15<a name=\"AreaAtuacaoCodeSystem-15\"> </a></td><td>Ecografia vascular com doppler</td></tr><tr><td style=\"white-space:nowrap\">16<a name=\"AreaAtuacaoCodeSystem-16\"> </a></td><td>Eletrofisiologia clínica invasiva</td></tr><tr><td style=\"white-space:nowrap\">17<a name=\"AreaAtuacaoCodeSystem-17\"> </a></td><td>Emergência pediátrica</td></tr><tr><td style=\"white-space:nowrap\">18<a name=\"AreaAtuacaoCodeSystem-18\"> </a></td><td>Endocrinologia pediátrica</td></tr><tr><td style=\"white-space:nowrap\">19<a name=\"AreaAtuacaoCodeSystem-19\"> </a></td><td>Endoscopia digestiva</td></tr><tr><td style=\"white-space:nowrap\">20<a name=\"AreaAtuacaoCodeSystem-20\"> </a></td><td>Endoscopia ginecológica</td></tr><tr><td style=\"white-space:nowrap\">21<a name=\"AreaAtuacaoCodeSystem-21\"> </a></td><td>Endoscopia respiratória</td></tr><tr><td style=\"white-space:nowrap\">22<a name=\"AreaAtuacaoCodeSystem-22\"> </a></td><td>Ergometria</td></tr><tr><td style=\"white-space:nowrap\">23<a name=\"AreaAtuacaoCodeSystem-23\"> </a></td><td>Estimulação cardíaca eletrônica implantável</td></tr><tr><td style=\"white-space:nowrap\">24<a name=\"AreaAtuacaoCodeSystem-24\"> </a></td><td>Foniatria</td></tr><tr><td style=\"white-space:nowrap\">25<a name=\"AreaAtuacaoCodeSystem-25\"> </a></td><td>Gastroenterologia pediátrica</td></tr><tr><td style=\"white-space:nowrap\">26<a name=\"AreaAtuacaoCodeSystem-26\"> </a></td><td>Hansenologia</td></tr><tr><td style=\"white-space:nowrap\">27<a name=\"AreaAtuacaoCodeSystem-27\"> </a></td><td>Hematologia e hemoterapia pediátrica</td></tr><tr><td style=\"white-space:nowrap\">28<a name=\"AreaAtuacaoCodeSystem-28\"> </a></td><td>Hemodinâmica e cardiologia intervencionista</td></tr><tr><td style=\"white-space:nowrap\">29<a name=\"AreaAtuacaoCodeSystem-29\"> </a></td><td>Hepatologia</td></tr><tr><td style=\"white-space:nowrap\">30<a name=\"AreaAtuacaoCodeSystem-30\"> </a></td><td>Infectologia hospitalar</td></tr><tr><td style=\"white-space:nowrap\">31<a name=\"AreaAtuacaoCodeSystem-31\"> </a></td><td>Infectologia pediátrica</td></tr><tr><td style=\"white-space:nowrap\">32<a name=\"AreaAtuacaoCodeSystem-32\"> </a></td><td>Mamografia</td></tr><tr><td style=\"white-space:nowrap\">33<a name=\"AreaAtuacaoCodeSystem-33\"> </a></td><td>Medicina aeroespacial</td></tr><tr><td style=\"white-space:nowrap\">34<a name=\"AreaAtuacaoCodeSystem-34\"> </a></td><td>Medicina do adolescente</td></tr><tr><td style=\"white-space:nowrap\">35<a name=\"AreaAtuacaoCodeSystem-35\"> </a></td><td>Medicina do sono</td></tr><tr><td style=\"white-space:nowrap\">36<a name=\"AreaAtuacaoCodeSystem-36\"> </a></td><td>Medicina fetal</td></tr><tr><td style=\"white-space:nowrap\">37<a name=\"AreaAtuacaoCodeSystem-37\"> </a></td><td>Medicina intensiva pediátrica</td></tr><tr><td style=\"white-space:nowrap\">38<a name=\"AreaAtuacaoCodeSystem-38\"> </a></td><td>Medicina paliativa</td></tr><tr><td style=\"white-space:nowrap\">39<a name=\"AreaAtuacaoCodeSystem-39\"> </a></td><td>Medicina tropical</td></tr><tr><td style=\"white-space:nowrap\">40<a name=\"AreaAtuacaoCodeSystem-40\"> </a></td><td>Nefrologia pediátrica</td></tr><tr><td style=\"white-space:nowrap\">41<a name=\"AreaAtuacaoCodeSystem-41\"> </a></td><td>Neonatologia</td></tr><tr><td style=\"white-space:nowrap\">42<a name=\"AreaAtuacaoCodeSystem-42\"> </a></td><td>Neurofisiologia clínica</td></tr><tr><td style=\"white-space:nowrap\">43<a name=\"AreaAtuacaoCodeSystem-43\"> </a></td><td>Neurologia pediátrica</td></tr><tr><td style=\"white-space:nowrap\">44<a name=\"AreaAtuacaoCodeSystem-44\"> </a></td><td>Neurorradiologia</td></tr><tr><td style=\"white-space:nowrap\">45<a name=\"AreaAtuacaoCodeSystem-45\"> </a></td><td>Nutrição parenteral e enteral</td></tr><tr><td style=\"white-space:nowrap\">46<a name=\"AreaAtuacaoCodeSystem-46\"> </a></td><td>Nutrição parenteral e enteral pediátrica</td></tr><tr><td style=\"white-space:nowrap\">47<a name=\"AreaAtuacaoCodeSystem-47\"> </a></td><td>Nutrologia pediátrica</td></tr><tr><td style=\"white-space:nowrap\">48<a name=\"AreaAtuacaoCodeSystem-48\"> </a></td><td>Oncologia pediátrica</td></tr><tr><td style=\"white-space:nowrap\">49<a name=\"AreaAtuacaoCodeSystem-49\"> </a></td><td>Pneumologia pediátrica</td></tr><tr><td style=\"white-space:nowrap\">50<a name=\"AreaAtuacaoCodeSystem-50\"> </a></td><td>Psicogeriatria</td></tr><tr><td style=\"white-space:nowrap\">51<a name=\"AreaAtuacaoCodeSystem-51\"> </a></td><td>Psicoterapia</td></tr><tr><td style=\"white-space:nowrap\">52<a name=\"AreaAtuacaoCodeSystem-52\"> </a></td><td>Psiquiatria da infância e adolescência</td></tr><tr><td style=\"white-space:nowrap\">53<a name=\"AreaAtuacaoCodeSystem-53\"> </a></td><td>Psiquiatria forense</td></tr><tr><td style=\"white-space:nowrap\">54<a name=\"AreaAtuacaoCodeSystem-54\"> </a></td><td>Radiologia intervencionista e angiorradiologia</td></tr><tr><td style=\"white-space:nowrap\">55<a name=\"AreaAtuacaoCodeSystem-55\"> </a></td><td>Reprodução assistida</td></tr><tr><td style=\"white-space:nowrap\">56<a name=\"AreaAtuacaoCodeSystem-56\"> </a></td><td>Reumatologia pediátrica</td></tr><tr><td style=\"white-space:nowrap\">57<a name=\"AreaAtuacaoCodeSystem-57\"> </a></td><td>Sexologia</td></tr><tr><td style=\"white-space:nowrap\">58<a name=\"AreaAtuacaoCodeSystem-58\"> </a></td><td>Toxicologia médica</td></tr><tr><td style=\"white-space:nowrap\">59<a name=\"AreaAtuacaoCodeSystem-59\"> </a></td><td>Transplante de medula óssea</td></tr><tr><td style=\"white-space:nowrap\">60<a name=\"AreaAtuacaoCodeSystem-60\"> </a></td><td>Ultrassonografia em ginecologia e obstetrícia</td></tr><tr><td style=\"white-space:nowrap\">61<a name=\"AreaAtuacaoCodeSystem-61\"> </a></td><td>Ultrassonografia geral</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://ehrruner.com/fhir/CodeSystem/AreaAtuacao"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:name [ fhir:v "AreaAtuacao"] ; # 
+  fhir:title [ fhir:v "Área de Atuação"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2023-11-04T17:46:04.4163856+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "CBIS Publisher"] ; # 
+  fhir:contact ( [
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Área de atuação médica (Resolução CFM n. 2.330/2023)"] ; # 
+  fhir:caseSensitive [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:valueSet [
+     fhir:v "http://ehrruner.com/fhir/StructureDefinition/ValueSet/AreaAtuacao"^^xsd:anyURI ;
+     fhir:link <http://ehrruner.com/fhir/StructureDefinition/ValueSet/AreaAtuacao>
+  ] ; # 
+  fhir:compositional [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:versionNeeded [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "61"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "1" ] ;
+     fhir:display [ fhir:v "Administração em saúde" ]
+  ] [
+     fhir:code [ fhir:v "2" ] ;
+     fhir:display [ fhir:v "Alergia e imunologia pediátrica" ]
+  ] [
+     fhir:code [ fhir:v "3" ] ;
+     fhir:display [ fhir:v "Angiorradiologia e cirurgia endovascular" ]
+  ] [
+     fhir:code [ fhir:v "4" ] ;
+     fhir:display [ fhir:v "Atendimento ao queimado" ]
+  ] [
+     fhir:code [ fhir:v "5" ] ;
+     fhir:display [ fhir:v "Auditoria médica" ]
+  ] [
+     fhir:code [ fhir:v "6" ] ;
+     fhir:display [ fhir:v "Cardiologia pediátrica" ]
+  ] [
+     fhir:code [ fhir:v "7" ] ;
+     fhir:display [ fhir:v "Cirurgia bariátrica" ]
+  ] [
+     fhir:code [ fhir:v "8" ] ;
+     fhir:display [ fhir:v "Cirurgia crânio-maxilo-facial" ]
+  ] [
+     fhir:code [ fhir:v "9" ] ;
+     fhir:display [ fhir:v "Cirurgia do trauma" ]
+  ] [
+     fhir:code [ fhir:v "10" ] ;
+     fhir:display [ fhir:v "Cirurgia videolaparoscópica" ]
+  ] [
+     fhir:code [ fhir:v "11" ] ;
+     fhir:display [ fhir:v "Citopatologia" ]
+  ] [
+     fhir:code [ fhir:v "12" ] ;
+     fhir:display [ fhir:v "Densitometria óssea" ]
+  ] [
+     fhir:code [ fhir:v "13" ] ;
+     fhir:display [ fhir:v "Dor" ]
+  ] [
+     fhir:code [ fhir:v "14" ] ;
+     fhir:display [ fhir:v "Ecocardiografia" ]
+  ] [
+     fhir:code [ fhir:v "15" ] ;
+     fhir:display [ fhir:v "Ecografia vascular com doppler" ]
+  ] [
+     fhir:code [ fhir:v "16" ] ;
+     fhir:display [ fhir:v "Eletrofisiologia clínica invasiva" ]
+  ] [
+     fhir:code [ fhir:v "17" ] ;
+     fhir:display [ fhir:v "Emergência pediátrica" ]
+  ] [
+     fhir:code [ fhir:v "18" ] ;
+     fhir:display [ fhir:v "Endocrinologia pediátrica" ]
+  ] [
+     fhir:code [ fhir:v "19" ] ;
+     fhir:display [ fhir:v "Endoscopia digestiva" ]
+  ] [
+     fhir:code [ fhir:v "20" ] ;
+     fhir:display [ fhir:v "Endoscopia ginecológica" ]
+  ] [
+     fhir:code [ fhir:v "21" ] ;
+     fhir:display [ fhir:v "Endoscopia respiratória" ]
+  ] [
+     fhir:code [ fhir:v "22" ] ;
+     fhir:display [ fhir:v "Ergometria" ]
+  ] [
+     fhir:code [ fhir:v "23" ] ;
+     fhir:display [ fhir:v "Estimulação cardíaca eletrônica implantável" ]
+  ] [
+     fhir:code [ fhir:v "24" ] ;
+     fhir:display [ fhir:v "Foniatria" ]
+  ] [
+     fhir:code [ fhir:v "25" ] ;
+     fhir:display [ fhir:v "Gastroenterologia pediátrica" ]
+  ] [
+     fhir:code [ fhir:v "26" ] ;
+     fhir:display [ fhir:v "Hansenologia" ]
+  ] [
+     fhir:code [ fhir:v "27" ] ;
+     fhir:display [ fhir:v "Hematologia e hemoterapia pediátrica" ]
+  ] [
+     fhir:code [ fhir:v "28" ] ;
+     fhir:display [ fhir:v "Hemodinâmica e cardiologia intervencionista" ]
+  ] [
+     fhir:code [ fhir:v "29" ] ;
+     fhir:display [ fhir:v "Hepatologia" ]
+  ] [
+     fhir:code [ fhir:v "30" ] ;
+     fhir:display [ fhir:v "Infectologia hospitalar" ]
+  ] [
+     fhir:code [ fhir:v "31" ] ;
+     fhir:display [ fhir:v "Infectologia pediátrica" ]
+  ] [
+     fhir:code [ fhir:v "32" ] ;
+     fhir:display [ fhir:v "Mamografia" ]
+  ] [
+     fhir:code [ fhir:v "33" ] ;
+     fhir:display [ fhir:v "Medicina aeroespacial" ]
+  ] [
+     fhir:code [ fhir:v "34" ] ;
+     fhir:display [ fhir:v "Medicina do adolescente" ]
+  ] [
+     fhir:code [ fhir:v "35" ] ;
+     fhir:display [ fhir:v "Medicina do sono" ]
+  ] [
+     fhir:code [ fhir:v "36" ] ;
+     fhir:display [ fhir:v "Medicina fetal" ]
+  ] [
+     fhir:code [ fhir:v "37" ] ;
+     fhir:display [ fhir:v "Medicina intensiva pediátrica" ]
+  ] [
+     fhir:code [ fhir:v "38" ] ;
+     fhir:display [ fhir:v "Medicina paliativa" ]
+  ] [
+     fhir:code [ fhir:v "39" ] ;
+     fhir:display [ fhir:v "Medicina tropical" ]
+  ] [
+     fhir:code [ fhir:v "40" ] ;
+     fhir:display [ fhir:v "Nefrologia pediátrica" ]
+  ] [
+     fhir:code [ fhir:v "41" ] ;
+     fhir:display [ fhir:v "Neonatologia" ]
+  ] [
+     fhir:code [ fhir:v "42" ] ;
+     fhir:display [ fhir:v "Neurofisiologia clínica" ]
+  ] [
+     fhir:code [ fhir:v "43" ] ;
+     fhir:display [ fhir:v "Neurologia pediátrica" ]
+  ] [
+     fhir:code [ fhir:v "44" ] ;
+     fhir:display [ fhir:v "Neurorradiologia" ]
+  ] [
+     fhir:code [ fhir:v "45" ] ;
+     fhir:display [ fhir:v "Nutrição parenteral e enteral" ]
+  ] [
+     fhir:code [ fhir:v "46" ] ;
+     fhir:display [ fhir:v "Nutrição parenteral e enteral pediátrica" ]
+  ] [
+     fhir:code [ fhir:v "47" ] ;
+     fhir:display [ fhir:v "Nutrologia pediátrica" ]
+  ] [
+     fhir:code [ fhir:v "48" ] ;
+     fhir:display [ fhir:v "Oncologia pediátrica" ]
+  ] [
+     fhir:code [ fhir:v "49" ] ;
+     fhir:display [ fhir:v "Pneumologia pediátrica" ]
+  ] [
+     fhir:code [ fhir:v "50" ] ;
+     fhir:display [ fhir:v "Psicogeriatria" ]
+  ] [
+     fhir:code [ fhir:v "51" ] ;
+     fhir:display [ fhir:v "Psicoterapia" ]
+  ] [
+     fhir:code [ fhir:v "52" ] ;
+     fhir:display [ fhir:v "Psiquiatria da infância e adolescência" ]
+  ] [
+     fhir:code [ fhir:v "53" ] ;
+     fhir:display [ fhir:v "Psiquiatria forense" ]
+  ] [
+     fhir:code [ fhir:v "54" ] ;
+     fhir:display [ fhir:v "Radiologia intervencionista e angiorradiologia" ]
+  ] [
+     fhir:code [ fhir:v "55" ] ;
+     fhir:display [ fhir:v "Reprodução assistida" ]
+  ] [
+     fhir:code [ fhir:v "56" ] ;
+     fhir:display [ fhir:v "Reumatologia pediátrica" ]
+  ] [
+     fhir:code [ fhir:v "57" ] ;
+     fhir:display [ fhir:v "Sexologia" ]
+  ] [
+     fhir:code [ fhir:v "58" ] ;
+     fhir:display [ fhir:v "Toxicologia médica" ]
+  ] [
+     fhir:code [ fhir:v "59" ] ;
+     fhir:display [ fhir:v "Transplante de medula óssea" ]
+  ] [
+     fhir:code [ fhir:v "60" ] ;
+     fhir:display [ fhir:v "Ultrassonografia em ginecologia e obstetrícia" ]
+  ] [
+     fhir:code [ fhir:v "61" ] ;
+     fhir:display [ fhir:v "Ultrassonografia geral" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

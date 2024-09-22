@@ -64,7 +64,7 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/BRMunicipio-1.0"
+          "reference": "StructureDefinition/BRMunicipio"
         },
         "name": "BRMunicipio",
         "description": "Extension for the municipality of birth information.",
@@ -118,7 +118,7 @@
       },
       {
         "reference": {
-          "reference": "CodeSystem/BRDivisaoGeograficaBrasil"
+          "reference": "CodeSystem/BRDivisaoGeograficaBrasilCodeSystem"
         },
         "name": "BRDivisaoGeograficaBrasil",
         "description": "Code system for Divisão Geográfica do Brasil",
@@ -163,7 +163,7 @@
       },
       {
         "reference": {
-          "reference": "CodeSystem/ServiceRequestCategoryCodeSystem"
+          "reference": "CodeSystem/ServiceRequestCategory"
         },
         "name": "ServiceRequestCategory",
         "description": "Code system for Service Request Categories",
@@ -172,7 +172,7 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/AreaAtuacaoValueSet"
+          "reference": "ValueSet/AreaAtuacaoValueset"
         },
         "name": "AreaAtuacao",
         "description": "ValueSet for Área de Atuação",
@@ -181,7 +181,7 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/BRMunicipio-1.0"
+          "reference": "ValueSet/BRMunicipio-1.0_Valueset"
         },
         "name": "BRMunicipio",
         "description": "ValueSet for Brazilian municipalities",
@@ -190,7 +190,7 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/EHRDocumentTypeValueSet"
+          "reference": "ValueSet/EHRDocumentTypeValueset"
         },
         "name": "EHRDocumentType",
         "description": "ValueSet for EHR Document Types",
@@ -199,7 +199,7 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/EspecialidadeValueSet"
+          "reference": "ValueSet/EspecialidadeValueset"
         },
         "name": "Especialidade",
         "description": "ValueSet for Medical Specialties",
@@ -235,13 +235,22 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/ValueSet-BRTipoDocumentoIndividuo-1.0"
+          "reference": "ValueSet/BRTipoDocumentoIndividuo-1.0_ValueSet"
         },
         "name": "BRTipoDocumentoIndividuo",
         "description": "ValueSet for Document Types for Individual Identification",
         "exampleBoolean": false,
         "groupingId": "core"
-      }
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/BRJurisdicaoOrgaoEmissor-1.0"
+        },
+        "name": "BRJurisdicaoOrgaoExpedidor",
+        "description": "Jurisdição de Órgãos Expedidores",
+        "exampleBoolean": false,
+        "groupingId": "core"
+      }      
     ]
   }
 }

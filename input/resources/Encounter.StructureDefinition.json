@@ -1,5 +1,6 @@
 {
   "resourceType": "StructureDefinition",
+  "id":"Encounter",
   "url": "http://ehrrunner.com/fhir/StructureDefinition/Encounter",
   "version": "1.0",
   "name": "Encounter",

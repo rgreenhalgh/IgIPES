@@ -1,5 +1,6 @@
 {
   "resourceType": "CodeSystem",
+  "id": "ServiceRequestCategory",
   "url": "http://ehrrunner.com/fhir/CodeSystem/ServiceRequestCategory",
   "version": "1.0",
   "name": "ServiceRequestCategory",

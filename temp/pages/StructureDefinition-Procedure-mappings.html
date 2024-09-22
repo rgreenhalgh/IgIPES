@@ -1,0 +1,27 @@
+---
+---
+<!-- get modelType -->
+{% include fragment-modelType.html id='Procedure' %}
+
+{% include fragment-pagebegin.html %}
+<div style="counter-reset: section 5" class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
+  {% include fragment-profile-navtabs.html type='StructureDefinition' id='Procedure' active='mapping' %}
+
+<a name="root"> </a>
+<h2 id="root">{{modelType}}: Procedure - Mappings</h2>
+{% include fragment-simpletable.html %}
+
+<p>Mappings for the Procedure {{modelType | downcase }}.</p>
+
+  <!-- insert intro if present -->
+  {% include fragment-intro.html type='StructureDefinition' id='Procedure' %}
+
+  {%include StructureDefinition-Procedure-maps.xhtml%}
+
+  <!-- insert notes if present -->
+  {% include fragment-notes.html type='StructureDefinition' id='Procedure' %}
+
+</div>
+{% assign includetabscripts = 'true' %}
+{% include fragment-pageend.html %}

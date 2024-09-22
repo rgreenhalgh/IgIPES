@@ -1,0 +1,46 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ehrrunner.com/fhir/CodeSystem/ServiceRequestCategory> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ServiceRequestCategory"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ServiceRequestCategory</b></p><a name=\"ServiceRequestCategory\"> </a><a name=\"hcServiceRequestCategory\"> </a><a name=\"ServiceRequestCategory-en-US\"> </a><p>This case-insensitive code system <code>http://ehrrunner.com/fhir/CodeSystem/ServiceRequestCategory</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">SADT<a name=\"ServiceRequestCategory-SADT\"> </a></td><td>Serviço Auxiliar de Diagnóstico ou Terapia</td></tr><tr><td style=\"white-space:nowrap\">Referral<a name=\"ServiceRequestCategory-Referral\"> </a></td><td>Referência (atenção especializada)</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://ehrrunner.com/fhir/CodeSystem/ServiceRequestCategory"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:name [ fhir:v "ServiceRequestCategory"] ; # 
+  fhir:title [ fhir:v "ServiceRequestCategory"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2023-11-04T17:46:04.4163856+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "CBIS Publisher"] ; # 
+  fhir:contact ( [
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Categorias utilizadas nos perfis do recurso ServiceRequest"] ; # 
+  fhir:caseSensitive [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:valueSet [
+     fhir:v "http://ehrrunner.com/fhir/ValueSet/ServiceRequestCategory"^^xsd:anyURI ;
+     fhir:link <http://ehrrunner.com/fhir/ValueSet/ServiceRequestCategory>
+  ] ; # 
+  fhir:compositional [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:versionNeeded [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "2"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "SADT" ] ;
+     fhir:display [ fhir:v "Serviço Auxiliar de Diagnóstico ou Terapia" ]
+  ] [
+     fhir:code [ fhir:v "Referral" ] ;
+     fhir:display [ fhir:v "Referência (atenção especializada)" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,5 +1,6 @@
 {
   "resourceType": "CodeSystem",
+  "id":"NivelFederacaoCodeSystem",
   "url": "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/NivelFederacao",
   "version": "1.0",
   "name": "NivelFederacao",

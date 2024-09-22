@@ -1,0 +1,89 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://ehrruner.com/fhir/StructureDefinition/ValueSet/Especialidade",
+      "version" : "1.0.0",
+      "status" : "draft",
+      "name" : "Especialidade",
+      "title" : "Especialidade",
+      "description" : "Especialidade médica (Resolução CFM n. 2.330/2023)",
+      "systems" : [
+        "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"
+      ]
+    },
+    {
+      "url" : "http://ehrruner.com/fhir/StructureDefinition/ValueSet/NivelFederacao",
+      "version" : "1.0.0",
+      "status" : "draft",
+      "name" : "NivelFederacao",
+      "title" : "Nível da Federacao",
+      "description" : "Tipo de federação suportada para um PractitionerRole",
+      "systems" : [
+        "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/NivelFederacao"
+      ]
+    },
+    {
+      "url" : "http://ehrruner.com/fhir/ValueSet/AreaAtuacao",
+      "version" : "1.0.0",
+      "status" : "draft",
+      "name" : "AreaAtuacao",
+      "title" : "Área de Atuacao",
+      "description" : "Área de atuação médica (Resolução CFM n. 2.330/2023)",
+      "systems" : [
+        "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/AreaAtuacao"
+      ]
+    },
+    {
+      "url" : "http://ehrrunner.com/fhir/ValueSet/EHRDocumentType",
+      "version" : "1.0.0",
+      "status" : "draft",
+      "name" : "EHRDocumentType",
+      "title" : "EHRDocumentType",
+      "description" : "Tipos de documentos OpenEHR (TDDs)",
+      "systems" : ["http://ehrrunner.com/fhir/CodeSystem/EHRDocumentType"]
+    },
+    {
+      "url" : "http://ehrrunner.com/fhir/ValueSet/EventSummaryType",
+      "version" : "1.0.0",
+      "status" : "draft",
+      "name" : "EventSummaryType",
+      "title" : "EventSummaryType",
+      "description" : "Tipos de estruturas usadas para construir um registro eletrônico de saúde do tipo \"sumário de evento ou contato assistencial\"",
+      "systems" : ["http://ehrrunner.com/fhir/CodeSystem/EventSummaryType"]
+    },
+    {
+      "url" : "http://ehrrunner.com/fhir/ValueSet/ServiceRequestCategory",
+      "version" : "1.0.0",
+      "status" : "draft",
+      "name" : "ServiceRequestCategory",
+      "title" : "ServiceRequestCategory",
+      "description" : "Categorias utilizadas nos perfis do recurso ServiceRequest",
+      "systems" : [
+        "http://ehrrunner.com/fhir/CodeSystem/ServiceRequestCategory"
+      ]
+    },
+    {
+      "url" : "http://example.org/ValueSet/BRTipoDocumentoIndividuo-1.0",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "BRTipoDocumentoIndividuo",
+      "title" : "Tipo de Documento do Indivíduo",
+      "description" : "Classifica o tipo de documento que está sendo utilizado para identificar o indivíduo.",
+      "systems" : [
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador",
+        "http://terminology.hl7.org/CodeSystem/v2-0203"
+      ]
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRMunicipio-1.0",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "BRMunicipio",
+      "title" : "Município",
+      "description" : "Municípios brasileiros, entes subnacionais.",
+      "systems" : [
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil"
+      ]
+    }
+  ]
+}

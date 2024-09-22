@@ -1,0 +1,94 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+      "version" : "1.0.0",
+      "status" : "draft",
+      "name" : "Especialidade",
+      "title" : "Especialidade",
+      "description" : "Especialidade médica (Resolução CFM n. 2.330/2023)",
+      "uses" : {
+      },
+      "ValueSet-EspecialidadeValueset.html" : "Especialidade"
+    },
+    {
+      "url" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/NivelFederacao",
+      "version" : "1.0.0",
+      "status" : "draft",
+      "name" : "NivelFederacao",
+      "title" : "Nível da Federação",
+      "description" : "Tipo de federação suportada para um PractitionerRole",
+      "uses" : {
+      },
+      "ValueSet-NivelFederacaoValueSet.html" : "Nível da Federacao"
+    },
+    {
+      "url" : "http://ehrrunner.com/fhir/CodeSystem/EHRDocumentType",
+      "version" : "1.0.0",
+      "status" : "draft",
+      "name" : "EHRDocumentType",
+      "title" : "EHRDocumentType",
+      "description" : "Tipos de documentos OpenEHR (TDDs)",
+      "uses" : {
+      },
+      "ValueSet-EHRDocumentTypeValueset.html" : "EHRDocumentType"
+    },
+    {
+      "url" : "http://ehrrunner.com/fhir/CodeSystem/EventSummaryType",
+      "version" : "1.0.0",
+      "status" : "draft",
+      "name" : "EventSummaryType",
+      "title" : "EventSummaryType",
+      "description" : "Tipos de estruturas usadas para construir um registro eletrônico de saúde do tipo \"sumário de evento ou contato assistencial\"",
+      "uses" : {
+      },
+      "ValueSet-EventSummaryTypeValueSet.html" : "EventSummaryType"
+    },
+    {
+      "url" : "http://ehrrunner.com/fhir/CodeSystem/ServiceRequestCategory",
+      "version" : "1.0.0",
+      "status" : "draft",
+      "name" : "ServiceRequestCategory",
+      "title" : "ServiceRequestCategory",
+      "description" : "Categorias utilizadas nos perfis do recurso ServiceRequest",
+      "uses" : {
+      },
+      "ValueSet-ServiceRequestCategoryValueSet.html" : "ServiceRequestCategory"
+    },
+    {
+      "url" : "http://hl7.org/fhir/administrative-gender",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "AdministrativeGender",
+      "title" : "AdministrativeGender",
+      "description" : "The gender of a person used for administrative purposes.",
+      "oids" : ["2.16.840.1.113883.4.642.4.2"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-administrative-gender.html" : "AdministrativeGender"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "version" : "4.0.0",
+      "status" : "active",
+      "name" : "IdentifierType",
+      "title" : "identifierType",
+      "description" : "HL7-defined code system of concepts specifying type of identifier. Used in HL7 Version 2.x messaging data types CX, PLN, PPN, XCN and XON.",
+      "oids" : ["2.16.840.1.113883.18.108"],
+      "uses" : {
+      },
+      "ValueSet-BRTipoDocumentoIndividuo-1.0_ValueSet.html" : "Tipo de Documento do Indivíduo"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "BRDivisaoGeograficaBrasil",
+      "title" : "Divisão Geográfica do Brasil",
+      "description" : "As regiões geográficas, estados, distrito federal e municípios do Brasil.",
+      "uses" : {
+      },
+      "ValueSet-BRMunicipio-1.0_Valueset.html" : "Município"
+    }
+  ]
+}

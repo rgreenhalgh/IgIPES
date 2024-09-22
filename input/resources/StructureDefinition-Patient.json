@@ -1,5 +1,6 @@
 {
   "resourceType": "StructureDefinition",
+  "id":"Patient",
   "url": "http://ehrrunner.com/fhir/StructureDefinition/Patient",
   "version": "1.0",
   "name": "Patient",

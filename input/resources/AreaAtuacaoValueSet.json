@@ -1,6 +1,7 @@
 {
   "resourceType": "ValueSet",
-  "url": "http://ehrruner.com/fhir/StructureDefinition/ValueSet/AreaAtuacao",
+  "id":"AreaAtuacaoValueset",
+  "url": "http://ehrruner.com/fhir/ValueSet/AreaAtuacao",
   "version": "1.0",
   "name": "AreaAtuacao",
   "title": "Área de Atuacao",

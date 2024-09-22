@@ -1,5 +1,6 @@
 {
   "resourceType": "CodeSystem",
+  "id":"EspecialidadeCodeSystem",
   "url": "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
   "version": "1.0",
   "name": "Especialidade",

@@ -1,0 +1,5 @@
+<menu>
+  <item label="Home" url="/" />
+  <item label="About" url="/about/" />
+  <item label="Contact" url="/contact/" />
+</menu>

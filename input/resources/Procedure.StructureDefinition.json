@@ -1,5 +1,6 @@
 {
   "resourceType": "StructureDefinition",
+  "id":"Procedure",
   "url": "http://ehrrunner.com/fhir/StructureDefinition/Procedure",
   "version": "1.0",
   "name": "Procedure",

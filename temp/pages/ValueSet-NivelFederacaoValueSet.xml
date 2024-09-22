@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="NivelFederacaoValueSet"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet NivelFederacaoValueSet</b></p><a name="NivelFederacaoValueSet"> </a><a name="hcNivelFederacaoValueSet"> </a><a name="NivelFederacaoValueSet-en-US"> </a><ul><li>Include all codes defined in <a href="CodeSystem-NivelFederacaoCodeSystem.html"><code>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/NivelFederacao</code></a></li></ul></div>
+  </text>
+  <url value="http://ehrruner.com/fhir/StructureDefinition/ValueSet/NivelFederacao"/>
+  <version value="1.0.0"/>
+  <name value="NivelFederacao"/>
+  <title value="Nível da Federacao"/>
+  <status value="draft"/>
+  <date value="2023-11-04T17:46:04.4163856+00:00"/>
+  <publisher value="CBIS Publisher"/>
+  <contact>
+    <telecom>
+      <system value="email"/>
+    </telecom>
+  </contact>
+  <description value="Tipo de federação suportada para um PractitionerRole"/>
+  <compose>
+    <include>
+      <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/NivelFederacao"/>
+    </include>
+  </compose>
+</ValueSet>

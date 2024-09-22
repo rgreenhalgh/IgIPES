@@ -1,0 +1,35 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ehrrunner.com/fhir/ValueSet/EspecialidadeValueset> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "EspecialidadeValueset"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet EspecialidadeValueset</b></p><a name=\"EspecialidadeValueset\"> </a><a name=\"hcEspecialidadeValueset\"> </a><a name=\"EspecialidadeValueset-en-US\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-EspecialidadeCodeSystem.html\"><code>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</code></a></li></ul></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://ehrruner.com/fhir/StructureDefinition/ValueSet/Especialidade"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:name [ fhir:v "Especialidade"] ; # 
+  fhir:title [ fhir:v "Especialidade"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2023-11-04T17:46:04.4163856+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "CBIS Publisher"] ; # 
+  fhir:contact ( [
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Especialidade médica (Resolução CFM n. 2.330/2023)"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"^^xsd:anyURI ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

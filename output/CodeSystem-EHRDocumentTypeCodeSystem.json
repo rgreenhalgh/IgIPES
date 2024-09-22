@@ -1,0 +1,107 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "EHRDocumentTypeCodeSystem",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem EHRDocumentTypeCodeSystem</b></p><a name=\"EHRDocumentTypeCodeSystem\"> </a><a name=\"hcEHRDocumentTypeCodeSystem\"> </a><a name=\"EHRDocumentTypeCodeSystem-en-US\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>Type</b></td></tr><tr><td>tenant</td><td>tenant</td><td>string</td></tr></table><p><b>Concepts</b></p><p>This case-sensitive code system <code>http://ehrrunner.com/fhir/CodeSystem/EHRDocumentType</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>tenant</b></td></tr><tr><td style=\"white-space:nowrap\">RegistroAtendimentoClínico.v4.1<a name=\"EHRDocumentTypeCodeSystem-RegistroAtendimentoCl.237nico.46v4.461\"> </a></td><td>RAC 4.1</td><td>IPES</td></tr><tr><td style=\"white-space:nowrap\">RegistroAtendimentoClínico.v4.2<a name=\"EHRDocumentTypeCodeSystem-RegistroAtendimentoCl.237nico.46v4.462\"> </a></td><td>RAC 4.2</td><td>EBSERH</td></tr><tr><td style=\"white-space:nowrap\">Registro de Atendimento Clínico v1.0<a name=\"EHRDocumentTypeCodeSystem-RegistrodeAtendimentoCl.237nicov1.460\"> </a></td><td>RAC 1.0</td><td>HAOC</td></tr><tr><td style=\"white-space:nowrap\">Sumário de Alta v1.0<a name=\"EHRDocumentTypeCodeSystem-Sum.225riodeAltav1.460\"> </a></td><td>SA 1.0</td><td>HAOC</td></tr><tr><td style=\"white-space:nowrap\">SumárioAlta.v4.0<a name=\"EHRDocumentTypeCodeSystem-Sum.225rioAlta.46v4.460\"> </a></td><td>SA 4.0</td><td/></tr><tr><td style=\"white-space:nowrap\">ColetaDadosSimplificada.v4.1<a name=\"EHRDocumentTypeCodeSystem-ColetaDadosSimplificada.46v4.461\"> </a></td><td>CDS 4.1</td><td>IPES</td></tr><tr><td style=\"white-space:nowrap\">Sumário Pronto Atendimento HAOC v 2.0<a name=\"EHRDocumentTypeCodeSystem-Sum.225rioProntoAtendimentoHAOCv2.460\"> </a></td><td>SPA 2.0</td><td>HAOC</td></tr><tr><td style=\"white-space:nowrap\">Sumário Pronto Atendimento HAOC v 2.1<a name=\"EHRDocumentTypeCodeSystem-Sum.225rioProntoAtendimentoHAOCv2.461\"> </a></td><td>SPA 2.1</td><td>HAOC</td></tr><tr><td style=\"white-space:nowrap\">SHROP - COVID19 laboratory report.v1.0<a name=\"EHRDocumentTypeCodeSystem-SHROP-COVID19laboratoryreport.46v1.460\"> </a></td><td>REL COVID19 1.0</td><td>SHROP</td></tr><tr><td style=\"white-space:nowrap\">SHROP - COVID19 immunization report.v1.0<a name=\"EHRDocumentTypeCodeSystem-SHROP-COVID19immunizationreport.46v1.460\"> </a></td><td>RIA COVID19 1.0</td><td>SHROP</td></tr></table></div>"
+  },
+  "url" : "http://ehrrunner.com/fhir/CodeSystem/EHRDocumentType",
+  "version" : "1.0.0",
+  "name" : "EHRDocumentType",
+  "title" : "EHRDocumentType",
+  "status" : "draft",
+  "date" : "2023-11-04T17:46:04.4163856+00:00",
+  "publisher" : "CBIS Publisher",
+  "contact" : [{
+    "telecom" : [{
+      "system" : "email"
+    }]
+  }],
+  "description" : "Tipos de documentos OpenEHR (TDDs)",
+  "caseSensitive" : true,
+  "valueSet" : "http://ehrrunner.com/fhir/ValueSet/EHRDocumentType",
+  "compositional" : false,
+  "versionNeeded" : false,
+  "content" : "complete",
+  "count" : 10,
+  "property" : [{
+    "code" : "tenant",
+    "type" : "string"
+  }],
+  "concept" : [{
+    "code" : "RegistroAtendimentoClínico.v4.1",
+    "display" : "RAC 4.1",
+    "property" : [{
+      "code" : "tenant",
+      "valueString" : "IPES"
+    }]
+  },
+  {
+    "code" : "RegistroAtendimentoClínico.v4.2",
+    "display" : "RAC 4.2",
+    "property" : [{
+      "code" : "tenant",
+      "valueString" : "EBSERH"
+    }]
+  },
+  {
+    "code" : "Registro de Atendimento Clínico v1.0",
+    "display" : "RAC 1.0",
+    "property" : [{
+      "code" : "tenant",
+      "valueString" : "HAOC"
+    }]
+  },
+  {
+    "code" : "Sumário de Alta v1.0",
+    "display" : "SA 1.0",
+    "property" : [{
+      "code" : "tenant",
+      "valueString" : "HAOC"
+    }]
+  },
+  {
+    "code" : "SumárioAlta.v4.0",
+    "display" : "SA 4.0"
+  },
+  {
+    "code" : "ColetaDadosSimplificada.v4.1",
+    "display" : "CDS 4.1",
+    "property" : [{
+      "code" : "tenant",
+      "valueString" : "IPES"
+    }]
+  },
+  {
+    "code" : "Sumário Pronto Atendimento HAOC v 2.0",
+    "display" : "SPA 2.0",
+    "property" : [{
+      "code" : "tenant",
+      "valueString" : "HAOC"
+    }]
+  },
+  {
+    "code" : "Sumário Pronto Atendimento HAOC v 2.1",
+    "display" : "SPA 2.1",
+    "property" : [{
+      "code" : "tenant",
+      "valueString" : "HAOC"
+    }]
+  },
+  {
+    "code" : "SHROP - COVID19 laboratory report.v1.0",
+    "display" : "REL COVID19 1.0",
+    "property" : [{
+      "code" : "tenant",
+      "valueString" : "SHROP"
+    }]
+  },
+  {
+    "code" : "SHROP - COVID19 immunization report.v1.0",
+    "display" : "RIA COVID19 1.0",
+    "property" : [{
+      "code" : "tenant",
+      "valueString" : "SHROP"
+    }]
+  }]
+}
