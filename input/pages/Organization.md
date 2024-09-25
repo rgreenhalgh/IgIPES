@@ -1,0 +1,28 @@
+# Resource Profile: Estabelecimento de Saúde
+
+**URL Canônica:** [https://ehrrunner.com/fhir/StructureDefinition/Organization](https://ehrrunner.com/fhir/StructureDefinition/Organization)  
+**Versão:** 0.0.1  
+**Ativo desde:** 2024-07-02  
+**Nome computável:** Organization
+
+Este perfil representa o estabelecimento onde são realizados os serviços de saúde humana sob uma responsabilidade técnica.
+
+## Escopo/Uso
+Este perfil representa uma organização que atua como executor ou observador para uma observação de resultado (laboratorial, patologia ou imagem) ou como executor de um procedimento. Trata-se de um agrupamento formal ou informalmente reconhecido de pessoas ou organizações com o propósito de alcançar alguma forma de ação coletiva. Inclui empresas, instituições, corporações, departamentos, grupos comunitários, grupos de práticas de saúde, pagador/segurador, etc.
+
+### Uso indevido
+Este recurso **não deve** ser utilizado para representar recursos que não sejam a organização/estabelecimento de saúde que executou o atendimento do paciente.
+
+## Casos de uso
+O Perfil **Organização** é necessário para manter os dados referentes ao estabelecimento em que o paciente foi atendido (nome empresarial, CPF/CNPJ, endereço e demais dados de identificação), bem como o período do atendimento e os códigos dos procedimentos realizados.
+
+A organização ou estabelecimento de saúde é uma unidade ou entidade que realiza a execução de serviços médicos e de saúde em conformidade com planos de saúde privados ou seguros de saúde complementar. Esses estabelecimentos, que podem incluir hospitais, clínicas, laboratórios e consultórios médicos, oferecem uma ampla gama de procedimentos e tratamentos médicos aos beneficiários dos planos de saúde suplementar. Eles desempenham um papel essencial no sistema de saúde suplementar ao fornecer serviços médicos necessários para diagnóstico, tratamento e cuidados de saúde, trabalhando em colaboração com as operadoras de planos de saúde para garantir uma cobertura eficaz e de qualidade aos pacientes.
+
+## Identificadores
+O Estabelecimento de Saúde deve possuir minimamente, de forma optativa, um identificador que pode ser o **Cadastro Nacional de Pessoa Jurídica (CNPJ)** ou o **Cadastro de Pessoa Física (CPF)**. Também deve ser informado o **CNES**, caso o prestador executante ainda não tenha o código do CNES.
+
+## Extensões
+Este perfil **não possui extensões**.
+
+## Limites e Relacionamentos
+Este recurso pode ser referenciado por outros recursos para obter dados relacionados aos estabelecimentos em que os serviços de cuidado do paciente foram realizados.
