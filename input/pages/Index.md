@@ -25,9 +25,6 @@ Esse guia de implementação FHIR de Sumário do Paciente fornece orientação p
 
 Este Guia de Implementação discute como implementar dois tipos relacionados de solicitações de serviço:
 
-- **Encaminhamento Eletrônico (eReferral)**: Simplifica o processo de encaminhamento, melhorando a comunicação entre provedores de cuidados primários, especialistas e outros prestadores de serviços de saúde, permitindo que encaminhamentos rápidos e seguros sejam enviados, recebidos e gerenciados por meio de uma plataforma eletrônica.
-- **Consulta Eletrônica (eConsult)**: Permite que os prestadores de cuidados primários solicitem e recebam aconselhamento de um especialista, muitas vezes eliminando a necessidade de um encaminhamento do paciente.
-
 Este guia de implementação (IG) FHIR destina-se a permitir que a solução de integração forneça maneiras padrão e não proprietárias para que os sistemas participantes do Showcase interoperem uns com os outros.
 
 Como ponto de partida, este GI suporta apenas um subconjunto da funcionalidade, caminhos e integração]previstos no...

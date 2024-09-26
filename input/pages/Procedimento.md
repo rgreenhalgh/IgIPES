@@ -1,9 +1,8 @@
-# Resources Profile: EHRrunnerProcedure
+# Resources Profile: ProcedureEHRrunner
+| URL Canônica: http://ehrrunner.com/fhir/StructureDefinition/Procedure | Versão: 1.0 |
+|------------------------------------------------------------------------------------------------|-------------|
+| Ativo desde: 2023-02-10                                                                        | Nome computável: ProcedureEhrruner |
 
-**Canonical URL:** http://ehrrunner.com/fhir/StructureDefinition/Procedure  
-**Version:** 1.0  
-**Active Since:** 2023-02-10  
-**Computable Name:** Procedure
 
 This profile represents the constraints applied to the Procedure resource, specifying an entry for the Procedure History for the iPeS Patient Summary based on the FHIR R4 standard.
 

@@ -1,31 +1,30 @@
 # *Premissas e  Princípios :  
 
-## 2.1     Premissas
+## Premissas
 
-2.2    Público-alvo
+## Público-alvo
 
- 
+Eese guia visa fornecer orientações para sistemas de informação de prestadores de serviço, publicos ou privados, para o showcase de interoperabilidade, onde vários tipos de prestadores: laboratórios, sistemas de prontuário eletrônico, vão trocar informações sobre eventos de saúde do indivíduo com o RES iPeS para compor o sumário do paciente, através de uma API  FHIR, na versaõ R4, para que ele possa ser visualizado pelo indivíduo/paciente e quem ele autorizar no seu aplicativo (Personal Health Record) ou pelo prestador de serviços que o estão atendendo, mediante seu consentimento, no Portal do Prestador, onde o prestador e pacientes vão ter uma visão longitudinal dos dados essenciais para garantir cuidados contínuos e coordenados. A partir desse sumário, vai se gerar um Sumário Internacional do Paciente, para ser visualizado no aplicativo do paciente e poder ser gerado sempre que eles tenha cuidados não planejados e transfronteiriços.
 
-2.3    Desafios 
 
-2.4     Convenções
+## Convenções
 
 Este guia de implementação usa terminologia específica para sinalizar instruções que têm relevância ao avaliar a conformidade de uma solução com o guia:
 
-DEVE indicar os requisitos que devem ser cumpridos para estar em conformidade com o caderno de especificações.
+DEVE (MUST) indicar os requisitos que devem ser cumpridos para estar em conformidade com o caderno de especificações.
 
-SHOULD indica comportamentos que são fortemente recomendados (e que podem resultar em problemas de interoperabilidade ou comportamento sub-ótimo se não forem seguidos), mas que não afetam, para esta versão da especificação, a determinação da conformidade da especificação.
+DEVERIA (SHOULD) indica comportamentos que são fortemente recomendados (e que podem resultar em problemas de interoperabilidade ou comportamento sub-ótimo se não forem seguidos), mas que não afetam, para esta versão da especificação, a determinação da conformidade da especificação.
 
-MAY descreve comportamentos opcionais que os implementadores são livres para considerar, mas onde não há recomendação a favor ou contra a adoção.
+POde (MAY) descreve comportamentos opcionais que os implementadores são livres para considerar, mas onde não há recomendação a favor ou contra a adoção.
 
-2.5 Design: Abordagem de Criação de Perfis
+## Design: Abordagem de Criação de Perfis
 
-Por design, o conjunto de dados do Recurso Sumário do Paciente é um “conjunto de dados de resumo mínimo e não exaustivo do paciente, independente de especialidade, independente da condição, mas prontamente utilizável por médicos para o atendimento não programado internacional de um paciente”.
+Por design, o conjunto de dados do Recurso Sumário do Paciente é um “conjunto de dados de resumo mínimo e não exaustivo do paciente, independente de especialidade, independente da condição, mas prontamente utilizável por médicos para o atendimento não programado ou de primeira vez de de um paciente”.
 
 Duas opções estavam, portanto, disponíveis para os perfis do Sumário do Paciente:
 
 restringindo os recursos ao conjunto de dados clínicos enviados para a RNDS
 
-sinalizndo os itens que devem ser suportados para atender ao Sumário Internacional do Paciente
+Sinalizndo os itens que devem ser suportados para atender ao Registro Eletrônico de Saúde da iPES, que já processa informações ainda não existentes na RNDS, mas que são informadas em outros municípios ou Estados do Brasil, que usam essa plataforma.
 
-O primeiro foi escolhido po rpermitir um acesso progressivo a informação já disponível, no formato dos modelos computacionais RAC e REL  e relevante para os casos de uso do showcase, que são a continuidade do cuidado do paciente e a interoperabilidade entre sistemas diferentes.Principios, Premissas e convenções de design
+Para permitir um acesso progressivo a informação já disponível, no formato dos modelos computacionais RAC, SA e REL  e relevantes para os casos de uso do showcase, O Sumario se restringiu ao conjunto de dados desses documentos da RNDS, porém se ampliou os tipos de exames, para essa demonstração de forma que se prove o conceito  que a cuidado do paciente e a interoperabilidade entre sistemas diferentes é obtida pelo uso do padrão.
