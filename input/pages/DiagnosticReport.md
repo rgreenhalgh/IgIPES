@@ -1,9 +1,10 @@
 # Resource Profile: DiagnosticReportehrrunner
 
-**URL Canônica**:  https://ehrrunner.com/fhir/StructureDefinition/DiagnosticReportPresentedForm
-**Versão**: 0.0.1  
-**Ativo desde**: 2024-05-16  
-**Nome computável**: DiagnosticReportehrrunner
+|--------------------|-----------------------------------------------------------------------|
+| URL Canônica       |[ DiagnosticReportBRIPS |](https://ehrrunner.com/fhir/StructureDefinition/DiagnosticReportPresentedForm)
+| Versão             | 0.0.1                                                                 |
+| Ativo desde        | 2024-05-16                                                            |
+| Nome computável    | DiagnosticReportehrrunner                                                |
 
 Este perfil restringe o recurso DiagnosticReport para representar testes de diagnóstico e relatórios de procedimentos em um resumo do paciente.
 
