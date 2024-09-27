@@ -6,7 +6,7 @@
 
 ## Papel do profissional prestador da assistência à saúde
 
-Este perfil representa um conjunto específico de funções/locais/especialidades/serviços que um Profissional pode executar em uma organização por um período.
+Este perfil é uma rrestrição do perfil canônico `PractitionerRole` do FHIR R4 e representa um conjunto específico de funções/locais/especialidades/serviços que um Profissional pode executar em um estabelecmento de saúde por um período.
 
 ### Escopo/Uso
 

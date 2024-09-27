@@ -3,49 +3,60 @@
 |------------------------------------------------------------------------------------------------|-------------|
 | Ativo desde: 2023-02-10                                                                        | Nome computável: ProcedureEhrruner |
 
+# Este perfil representa as restrições aplicadas ao recurso Procedure, especificando uma entrada para o Histórico de Procedimentos para o Resumo do Paciente iPeS com base no FHIR R4
 
-This profile represents the constraints applied to the Procedure resource, specifying an entry for the Procedure History for the iPeS Patient Summary based on the FHIR R4 standard.
+## Escopo/Uso
 
-## Scope/Usage
+Este recurso é usado para registrar os detalhes dos procedimentos atuais e históricos realizados em ou para um paciente. Um procedimento é uma atividade realizada em, com ou para um paciente como parte da prestação de cuidados. Exemplos incluem:
 
-This resource is used to record the details of current and historical procedures performed on or for a patient. A procedure is an activity performed on, with, or for a patient as part of care delivery. Examples include:
+- Procedimentos cirúrgicos
+- Procedimentos diagnósticos
+- Procedimentos endoscópicos
+- Biópsias
+- Aconselhamento
+- Fisioterapia
+- Serviços de suporte pessoal
 
-- Surgical procedures
-- Diagnostic procedures
-- Endoscopic procedures
-- Biopsies
-- Counseling
-- Physical therapy
-- Personal support services
+Este recurso fornece informações resumidas sobre a ocorrência do procedimento e não se destina a fornecer instantâneos em tempo real de um procedimento à medida que ele se desenrola. No entanto, para procedimentos de longo prazo, como psicoterapia, ele pode representar informações resumidas sobre o progresso geral. A criação de um recurso para suportar informações detalhadas em tempo real sobre procedimentos aguarda a identificação de um caso de uso específico para compartilhar tais informações.
 
-This resource provides summarized information about the occurrence of the procedure and is not intended to provide real-time snapshots of a procedure as it unfolds. However, for long-term procedures such as psychotherapy, it may represent summarized information on overall progress. The creation of a resource to support detailed real-time procedure information awaits identification of a specific use case for sharing such information.
+### Uso Indevido
 
-### Misuse
+O recurso `Procedure` não deve ser usado para capturar um evento se já existir um recurso mais específico—por exemplo, imunizações, administrações de medicamentos e comunicações. A fronteira entre determinar se uma ação é um Procedimento (treinamento ou aconselhamento) versus Comunicação é baseada na existência de uma intenção específica de mudar a mente do paciente.
 
-The Procedure resource should not be used to capture an event if a more specific resource already exists—e.g., immunizations, medication administrations, and communications. The boundary between determining if an action is a Procedure (training or counseling) versus Communication is based on the existence of a specific intent to change the patient’s mindset.
+### Casos de Uso
 
-### Use Case
+Os procedimentos armazenados em documentos relevantes da RNDS de Saúde Suplementar e outras partes que estão em status "concluído", registrados até um ano antes da solicitação para gerar o resumo do paciente, serão exibidos no Resumo do Paciente.
 
-The procedures stored in relevant documents of the RNDS of Health Supplementary and other parties that are in "completed" status, recorded up to a year before the request for generating the patient summary, will be displayed in the Patient Summary.
+## Extensões
 
-## Extensions
+Este perfil não possui extensões.
 
-This profile has no extensions.
+## Mapeamento de Estrutura
 
-## Structure Mapping
+http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProcedimentoRealizado-1.0 mapeado para ProcedureBRIPS.
 
-[http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProcedimentoRealizado-1.0](http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProcedimentoRealizado-1.0) mapped to ProcedureBRIPS.
+| **Elemento**                        | **Card.** | **Descrição**                                               | **Domínio**                           | **Mapeamento (FHIRPath)** |
+|-------------------------------------|-----------|-------------------------------------------------------------|---------------------------------------|---------------------------|
+| Procedure.identifier                | 1..1      | Código de autorização para o procedimento                   | BRTipoIdentificadorProcedimento-1.0   | Fixo em 'AUTH'            |
+| Procedure.status                    | 1..1      | Status do procedimento                                      | BREstadoEvento-1.0                   |                           |
+| Procedure.code                      | 1..1      | Código do procedimento realizado                            | BRProcedimentosNacionais-1.0          |                           |
+| Procedure.patient.reference         | 1..1      | Referência ao indivíduo                                     | Reference:Patient                    |                           |
+| Procedure.performedDateTime         | 1..1      | Data ou data/hora em que o procedimento foi realizado       |                                       |                           |
+| Procedure.practitioner.function     | 0..1      | Função desempenhada pelo profissional                       | BROcupacao-1.0                       |                           |
+| Procedure.practitioner.actor        | 1..1      | Referência ao Local do Profissional, Estabelecimento de Saúde, etc |                                       |                           |
+| Procedure.practitioner.onBehalfOf   | 0..1      | Profissional/Instituição realizando o procedimento em nome de |                                       |                           |
+| Procedure.note.text                 | 1..1      | Notas sobre o resultado e observações do procedimento       |                                       |                           |
 
-| **Element**                         | **Card.** | **Description**                                             | **Domain**                            | **Mapping (FHIRPath)**     | **Note** |
-|-------------------------------------|-----------|-------------------------------------------------------------|---------------------------------------|----------------------------|----------|
-| Procedure.identifier                | 1..1      | Authorization code for the procedure                         | BRTipoIdentificadorProcedimento-1.0   | Fixed at ‘AUTH’             |          |
-| Procedure.status                    | 1..1      | Status of the procedure                                      | BREstadoEvento-1.0                   |                            |          |
-| Procedure.code                      | 1..1      | Code of the performed procedure                              | BRProcedimentosNacionais-1.0          |                            |          |
-| Procedure.patient.reference         | 1..1      | Reference to the individual                                  | Reference:Patient                    |                            |          |
-| Procedure.performedDateTime         | 1..1      | Date or datetime the procedure was performed                 |                                       |                            |          |
-| Procedure.practitioner.function     | 0..1      | Role performed by the practitioner                           | BROcupacao-1.0                       |                            |          |
-| Procedure.practitioner.actor        | 1..1      | Reference to the Practitioner Location, Health Facility, etc |                                       |                            |          |
-| Procedure.practitioner.onBehalfOf   | 0..1      | Professional/Institution performing the procedure on behalf  |                                       |                            |          |
-| Procedure.note.text                 | 1..1      | Notes on the outcome and observations of the procedure       |                                       |                            |          |
 
-For more information, visit: [https://terminologia.saude.gov.br/#/orgs/MS/collections/BREstadoEvento-1.0/](https://terminologia.saude.gov.br/#/orgs/MS/collections/BREstadoEvento-1.0/).
+
+
+
+
+
+
+
+
+
+
+
+

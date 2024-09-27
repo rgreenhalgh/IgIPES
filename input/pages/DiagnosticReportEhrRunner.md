@@ -9,23 +9,23 @@ Este perfil restringe o recurso DiagnosticReport para representar testes de diag
 
 ## Escopo/Uso
 
-Este perfil restringe o recurso DiagnosticReport para usar os perfis IPS específicos para observações e tipos de dados codificados. O recurso DiagnosticReportehrrunner contém os resultados e a interpretação de testes de diagnóstico realizados em pacientes, grupos de pacientes, dispositivos e locais e/ou amostras derivadas destes. O relatório inclui contexto clínico, como solicitação e informações do fornecedor, e alguma combinação de resultados atômicos, imagens, interpretações textuais e codificadas e representação formatada de relatórios diagnósticos. Incluído em cada um deles estaria o próprio recurso DiagnosticReportehrrunner.
+Este perfil restringe o recurso DiagnosticReport para usar os perfis específicos para observações e tipos de dados codificados do Sumário de Paciente. O recurso `DiagnosticReportEhrRunner`contém os resultados e a interpretação de testes de diagnóstico realizados em pacientes, grupos de pacientes, dispositivos e locais e/ou amostras derivadas destes. O relatóEio inclui contexto clínico, como solicitação e informações do fornecedor, e alguma combinação de resultados atômicos, imagens, interpretações textuais e codificadas e representação formatada de relatórios diagnósticos. Incluído em cada um deles estaria o próprio recurso  `DiagnosticReportEhrRunner`.
 
-O recurso DiagnosticReportehrrunner é adequado para os seguintes tipos de relatórios de diagnóstico:
+O recurso `DiagnosticReportehrrunner` é adequado para os seguintes tipos de relatórios de diagnóstico:
 - Laboratório (Bioquímica, Hematologia, Microbiologia etc.)
 - Patologia / Histopatologia / disciplinas afins
 - Exames de imagem (raio-x, tomografia computadorizada, ressonância magnética etc.)
 - Outros diagnósticos - Cardiologia, Gastroenterologia etc.
 
-Para apoiar a necessidade de apresentação de resultados individuais, ou grupos de resultados dos tipos de observações que podem fazer parte do DiagnosticReportehrrunner, onde o agrupamento de resultados é arbitrário, mas relevante para o objetivo do sumário do paciente, se introduziu um conjunto de fatias com o desenvolvimento de perfis que especializam o recurso Observation, com a finalidade de individualizar os diversos tipos de observações, que são: ObservationResultsehrrunner, ObservationResultsLaboratoryehrrunner, ObservationResultsPathologyehrrunner e ObservationResultsRadiologyehrrunner, onde as observações são apresentadas de forma estruturada.
+Para apoiar a necessidade de apresentação de resultados individuais, ou grupos de resultados dos tipos de observações que podem fazer parte do DiagnosticReportehrrunner, onde o agrupamento de resultados é arbitrário, mas relevante para o objetivo do sumário do paciente, se introduziu um conjunto de fatias com o desenvolvimento de perfis que especializam o recurso Observation, com a finalidade de individualizar os diversos tipos de observações, que são: `ObservationResultsEhrRunner`, `ObservationResultsLaboratoryEhrRunner`, `ObservationResultsPathologyEhrRunner` e `ObservationResultsRadiologyEhrRunner`, onde as observações são apresentadas de forma estruturada.
 
 ## Uso indevido
 
-O recurso DiagnosticReportehrrunner se destina a capturar um único relatório e não é adequado para uso na exibição de informações resumidas que abrangem vários relatórios. Por exemplo, esse recurso não foi projetado para formatos de relatórios cumulativos laboratoriais nem relatórios estruturados detalhados para sequenciamento.
+O recurso `DiagnosticReportEhrRunner` se destina a capturar um único relatório e não é adequado para uso na exibição de informações resumidas que abrangem vários relatórios. Por exemplo, esse recurso não foi projetado para formatos de relatórios cumulativos laboratoriais nem relatórios estruturados detalhados para sequenciamento.
 
 ## Casos de uso
 
-Este recurso usa um conjunto específico de termos. Um praticante “solicita” um conjunto de “testes”. O serviço de diagnóstico retorna um "relatório" que pode conter uma "narrativa" - um resumo escrito dos resultados e/ou "resultados" - os pedaços individuais de dados atômicos, cada um deles sendo "observações". Os resultados são divididos em “grupos” por tipo de observação e montados nos perfis do IPS que restringem o recurso Observation, ObservationResultsehrrunner, ObservationResultsLaboratoryehrrunner, ObservationResultsPathologyehrrunner e ObservationResultsRadiologyehrrunner.
+Este recurso usa um conjunto específico de termos. Um médico “solicita” um conjunto de “exames”. O serviço de diagnóstico retorna um "relatório" que pode conter uma "narrativa" - um resumo escrito dos resultados e/ou "resultados" - os pedaços individuais de dados atômicos, cada um deles sendo "observações". Os resultados são divididos em “grupos” por tipo de observação e montados nos perfis do Sumário do Paciente que restringem o recurso  nas seções específicas para exames laboratoriais, anatomo-patológicos e de imagemm.
 
 Normalmente, os seguintes padrões serão usados:
 - **ObservationResultsLaboratory**: Um relatório de exames laboratorial simples, com único conjunto de observações atômicas e uma apresentação tabular em narrativa. Isso normalmente é encontrado em áreas de alto volume, como Bioquímica e Hematologia.

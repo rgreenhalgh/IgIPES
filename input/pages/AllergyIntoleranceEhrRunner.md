@@ -1,8 +1,7 @@
 Resource Profile: AllergyIntoleranceEhrRunner
 
-| URL Canônica: https://ips.saude.gov.br/StructureDefinition/Allergy | Versão: 0.0.1 |
-|------------------------------------------------------------------------------------------------|-------------|
-| Ativo desde: 2023-10-11                                                                        | Nome computável: AllergyIntoleranceEhrRunner|
+
+
 
 
 Este perfil representa as restrições aplicadas ao recurso AllergyIntoleranceIPS do Guia de Implementação FHIR do Sumário do Paciente, que segue o modelo da RNDS, para representar informações de alergias e intolerâncias dos paciente no visualizador do Sumnário. 
@@ -19,5 +18,5 @@ Não se aplica.
 ## Extensões
 Este perfil não possui extensões.
 ## Limites e Relacionamentos
-Este recurso faz referência aos seguintes perfis: ao paciente - PatientBRIPS - que apresenta a alergia, ao profissional – PractitionerBRIPS – e à função do profissional – PractitionerRoleBRIPS - que atende o paciente na ocorrência. Além destes perfis, caso o paciente esteja acompanhado o perfil RelatedPerson pode ser referenciado. Este perfil é usado principalmente para atribuição de informações, uma vez que estes acompanhantes geralmente são uma fonte de informações sobre o paciente. 
+Este recurso faz referência aos seguintes perfis: ao paciente - PatientBRIPS - que apresenta a alergia, ao profissional – `PractitionerEhrRunner` – e à função do profissional – `PractitionerRolEhrRunner` - que atende o paciente na ocorrência. Além destes perfis, caso o paciente esteja acompanhado o perfil `RelatedPerson` pode ser referenciado. Este perfil é usado principalmente para atribuição de informações, uma vez que estes acompanhantes geralmente são uma fonte de informações sobre o paciente. 
  
