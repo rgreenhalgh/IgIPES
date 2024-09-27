@@ -1,10 +1,9 @@
-# Resource Profile: DiagnosticReportehrrunner
+# Resource Profile: DiagnosticReportehrRunner
 
-|--------------------|-----------------------------------------------------------------------|
-| URL Canônica       |[ DiagnosticReportBRIPS |](https://ehrrunner.com/fhir/StructureDefinition/DiagnosticReportPresentedForm)
-| Versão             | 0.0.1                                                                 |
-| Ativo desde        | 2024-05-16                                                            |
-| Nome computável    | DiagnosticReportehrrunner                                                |
+ URL Canônica: http://ehrrunner.com/fhir/StructureDefinition/DiagnosticReportEhrRunner | Versão: 1.0 |
+------------------------------------------------------------------------------------------------|-------------|
+ Ativo desde: 2023-02-10                                                                        | Nome computável: DiagnosticReportEhrRunner |
+
 
 Este perfil restringe o recurso DiagnosticReport para representar testes de diagnóstico e relatórios de procedimentos em um resumo do paciente.
 
@@ -29,9 +28,9 @@ O recurso DiagnosticReportehrrunner se destina a capturar um único relatório e
 Este recurso usa um conjunto específico de termos. Um praticante “solicita” um conjunto de “testes”. O serviço de diagnóstico retorna um "relatório" que pode conter uma "narrativa" - um resumo escrito dos resultados e/ou "resultados" - os pedaços individuais de dados atômicos, cada um deles sendo "observações". Os resultados são divididos em “grupos” por tipo de observação e montados nos perfis do IPS que restringem o recurso Observation, ObservationResultsehrrunner, ObservationResultsLaboratoryehrrunner, ObservationResultsPathologyehrrunner e ObservationResultsRadiologyehrrunner.
 
 Normalmente, os seguintes padrões serão usados:
-- **ObservationResultsLaboratoryehrrunner**: Um relatório de exames laboratorial simples, com único conjunto de observações atômicas e uma apresentação tabular em narrativa. Isso normalmente é encontrado em áreas de alto volume, como Bioquímica e Hematologia.
-- **ObservationResultsPathologyehrrunner**: Relatório documental na forma apresentada e narrativa. Possivelmente algumas imagens importantes e alguns diagnósticos codificados para registros. Se o serviço estiver criando um relatório estruturado, alguns dados atômicos poderão ser incluídos. Por exemplo, um relatório histopatológico.
-- **ObservationResultsRadiologyehrrunner**: Um relatório documental em forma apresentada e narrativa, com uma referência de estudo de imagem usando DICOM (ImagingStudy) e possivelmente algumas imagens principais. Alguns relatórios de imagem, como uma varredura de densidade óssea, podem incluir alguns dados atômicos, em um exame de densitometria óssea, por exemplo.
+- **ObservationResultsLaboratory**: Um relatório de exames laboratorial simples, com único conjunto de observações atômicas e uma apresentação tabular em narrativa. Isso normalmente é encontrado em áreas de alto volume, como Bioquímica e Hematologia.
+- **ObservationResultsPathology**: Relatório documental na forma apresentada e narrativa. Possivelmente algumas imagens importantes e alguns diagnósticos codificados para registros. Se o serviço estiver criando um relatório estruturado, alguns dados atômicos poderão ser incluídos. Por exemplo, um relatório histopatológico.
+- **ObservationResultsRadiology**: Um relatório documental em forma apresentada e narrativa, com uma referência de estudo de imagem usando DICOM (ImagingStudy) e possivelmente algumas imagens principais. Alguns relatórios de imagem, como uma varredura de densidade óssea, podem incluir alguns dados atômicos, em um exame de densitometria óssea, por exemplo.
 
 Observe que a natureza dos relatórios das diversas disciplinas que fornecem relatórios de diagnóstico está mudando rapidamente, à medida que os sistemas especialistas fornecem relatórios narrativos aprimorados em relatórios de grande volume, os relatórios estruturados trazem dados adicionais para áreas que têm sido classicamente baseadas em narrativas e a natureza dos exames de imagem e os procedimentos laboratoriais estão se fundindo. Portanto, estes padrões descritos acima são apenas exemplos de como um relatório de diagnóstico pode ser usado. Por isso, não foram criadas regras obrigatórias para as escolhas desses tipos/perfis pelos criadores, dada a grande variedade de formas que o resultado de uma investigação diagnóstica pode assumir.
 

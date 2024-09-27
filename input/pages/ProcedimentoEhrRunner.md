@@ -1,5 +1,5 @@
 # Resources Profile: ProcedureEHRrunner
-| URL Canônica: http://ehrrunner.com/fhir/StructureDefinition/Procedure | Versão: 1.0 |
+| URL Canônica: http://ehrrunner.com/fhir/StructureDefinition/ProcedureEhrRunner | Versão: 1.0 |
 |------------------------------------------------------------------------------------------------|-------------|
 | Ativo desde: 2023-02-10                                                                        | Nome computável: ProcedureEhrruner |
 

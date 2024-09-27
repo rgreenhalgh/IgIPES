@@ -1,12 +1,9 @@
-# Resource Profile: PatientEHRRUNNER
-
-**URL Canônica:** [https://ehrrunner.com/fhir/StructureDefinition/Patient](https://ehrrunner.com/fhir/StructureDefinition/Patient)  
-**Versão:** 0.0.1  
-**Ativo desde:** 2024-07-02  
-**Nome computável:** Patient
-
-Este perfil representa as restrições aplicadas ao recurso Paciente no Implementation Guide do Guia de Implementação do Sumário do Paciente e descreve as expectativas mínimas para o recurso Paciente quando utilizado em um dos referidos recursos.
-
+# Resource Profile: PatientEhrRunner
+ URL Canônica: http://ehrrunhrRunnerfhir/StructureDefinition/ServiceRequestEhrRunner | Versão: 1.0 |
+------------------------------------------------------------------------------------------------|-------------|
+ Ativo desde: 2023-02-10                                                                        | Nome computável: PatientEhrRunner |
+ 
+ Este perfil representa as restrições aplicadas ao recurso Paciente no Implementation Guide do Guia de Implementação do Sumário do Paciente e descreve as expectativas mínimas para o recurso Paciente quando utilizado em um dos referidos recursos.
 
 ## Escopo/Uso
 Os dados deste recurso estão focados nas informações demográficas necessárias para apoiar os procedimentos administrativos, financeiros e logísticos. Para contemplar uma descrição do paciente com maior equidade, conforme recomendações da Portaria GM/MS Nº 230, de 7 de março de 2023, foram adicionados atributos adicionais para expressar o sexo do paciente, além do sexo administrativo: **sexo ao nascer (sexoNascimento)** e **identidade de gênero (identidadeGenero)** conforme descrito abaixo. Com relação à orientação sexual, este é um dado que pode mudar durante a vida do paciente, portanto, recomenda-se que ele seja coletado em cada evento assistencial.

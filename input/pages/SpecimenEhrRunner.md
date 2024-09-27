@@ -1,7 +1,7 @@
 # Resource Profile: Amostra Biológica
-| URL Canônica:https://ehrrunner.com/fhir/StructureDefinition/Specimen | Versão: 0.0.1 |
+| URL Canônica:https://ehrrunner.com/fhir/StructureDefinition/SpecimenEhrRunner | Versão: 0.0.1 |
 |------------------------------------------------------------------------------------------------|-------------|
-| Ativo desde: 2023-10-11                                                                        | Nome computável: SpecimenEHRRunner |
+| Ativo desde: 2023-10-11                                                                        | Nome computável: SpecimenEhrRunner |
 
 SpecimenEHRRunner
 Este perfil restringe o recurso Specimen para representar as características de amostras biológicas no contexto de resultados laboratoriais integrados a um resumo do paciente. O recurso Specimen descreve uma amostra utilizada para análise laboratorial.

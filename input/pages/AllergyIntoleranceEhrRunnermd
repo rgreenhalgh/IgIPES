@@ -1,8 +1,8 @@
-Resource Profile: AllergyIntoleranceBRIPS
+Resource Profile: AllergyIntoleranceEhrRunner
 
 | URL Canônica: https://ips.saude.gov.br/StructureDefinition/Allergy | Versão: 0.0.1 |
 |------------------------------------------------------------------------------------------------|-------------|
-| Ativo desde: 2023-10-11                                                                        | Nome computável: AllergyIntoleranceBRIPS |
+| Ativo desde: 2023-10-11                                                                        | Nome computável: AllergyIntoleranceEhrRunner|
 
 
 Este perfil representa as restrições aplicadas ao recurso AllergyIntoleranceIPS do Guia de Implementação FHIR do Sumário do Paciente, que segue o modelo da RNDS, para representar informações de alergias e intolerâncias dos paciente no visualizador do Sumnário. 

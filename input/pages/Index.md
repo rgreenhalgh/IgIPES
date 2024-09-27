@@ -1,6 +1,4 @@
-Claro! Aqui está o texto transformado em formato Markdown:
 
-```markdown
 # Guia de Implementação dos Requisitos e Especificações
 
 ## 1. Introdução

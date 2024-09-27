@@ -1,5 +1,7 @@
 # Perfil FHIR: Solicitação de Serviço - Exames e Procedimentos
-
+| URL Canônica: http://ehrrunner.com/fhir/StructureDefinition/ServiceRequestEhrRunner | Versão: 1.0 |
+|------------------------------------------------------------------------------------------------|-------------|
+| Ativo desde: 2023-02-10                                                                        | Nome computável: ServiceRequestEhrRunner |
 ## Introdução
 O recurso `ServiceRequest` é utilizado para representar uma solicitação de serviço clínico ou administrativo. Este perfil é essencial para a comunicação entre diferentes sistemas de saúde, garantindo que as solicitações sejam compreendidas e processadas corretamente. O Perfil `Solicitação de Serviço - Exames e Procedimentos` da plataforma iPeS é uma especialização desse recurso, criada para atender casos de uso específicos do cenário brasileiro
 

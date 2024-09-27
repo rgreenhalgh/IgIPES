@@ -1,9 +1,8 @@
 # Resource Profile: Estabelecimento de Saúde
 
-**URL Canônica:** [https://ehrrunner.com/fhir/StructureDefinition/Organization](https://ehrrunner.com/fhir/StructureDefinition/Organization)  
-**Versão:** 0.0.1  
-**Ativo desde:** 2024-07-02  
-**Nome computável:** Organization
+**U URL Canônica: http://ehrrunner.com/fhir/StructureDefinition/OrganizationEhrRunner | Versão: 1.0 |
+------------------------------------------------------------------------------------------------|-------------|
+ Ativo desde: 2023-02-10                                                                        | Nome computável: ServiceRequestEhrRunner |
 
 Este perfil representa o estabelecimento onde são realizados os serviços de saúde humana sob uma responsabilidade técnica.
 
