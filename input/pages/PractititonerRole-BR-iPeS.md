@@ -1,7 +1,9 @@
 
-| URL Canônica                                                                 |Versão                   
- (https://example.org/fhir/StructureDefinition/PractitionerRoleEhrRunner)                  0.0.1                                                            
-| Ativo desde  2024-07-102      | Nome computável    PractitionerRoleEHrRunner                                                         
+PractitionerRoleca: http://ehrrunner.com/fhir/StructureDefinition/
+| Versão: 1.0 |
+ Ativo desde: 2023-02-10    | Nome computável: PractitionerRole-BR-iPeS |      
+              
+                                
                                                     
 
 ## Papel do profissional prestador da assistência à saúde

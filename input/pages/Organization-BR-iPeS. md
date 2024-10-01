@@ -1,8 +1,7 @@
 # Resource Profile: Estabelecimento de Saúde
 
-**U URL Canônica: http://ehrrunner.com/fhir/StructureDefinition/OrganizationEhrRunner | Versão: 1.0 |
-------------------------------------------------------------------------------------------------|-------------|
- Ativo desde: 2023-02-10                                                                        | Nome computável: ServiceRequestEhrRunner |
+ URL Canônica: http://ehrrunner.com/fhir/StructureDefinition/Organization-BR-iPeS | Versão: 1.0 |
+ Ativo desde: 2023-02-10    | Nome computável: Organization-BR-iPeS |
 
 Este perfil representa o estabelecimento onde são realizados os serviços de saúde humana sob uma responsabilidade técnica.
 

@@ -1,5 +1,9 @@
-
-# Recurso Observation - FHIR R4
+Resource Profile: Observation-BR-iPeS
+| URL Canônica: http://ehrrunner.com/fhir/StructureDefinition/Observation-BR-iPeS | Versão: 0.0.1 |
+| Ativo desde: 
+2023-10-11          | Nome computável: Observation-BR-iPeS|
+#
+ Recurso Observation - FHIR R4
 
 ## Escopo e Uso
 
@@ -15,7 +19,7 @@ O recurso **Observation** é um recurso de evento na perspectiva do fluxo de tra
 - Ferramentas de avaliação clínica como APGAR ou Escala de Coma de Glasgow
 - Características pessoais como cor dos olhos
 - Histórico social como uso de tabaco, suporte familiar ou estado cognitivo
-- Características centrais como estado de gravidez ou declaração de óbito
+- Características centrais como estado de gravidez ou declaração de óbito.
 
 ### Perfis Centrais para Observation
 
@@ -23,7 +27,15 @@ Os seguintes perfis centrais foram definidos para o recurso Observation FHIR R4.
 
 - **Sinais vitais**: O perfil FHIR Vital Signs define expectativas mínimas para o recurso Observation registrar, buscar e recuperar sinais vitais (por exemplo, temperatura, pressão arterial, taxa de respiração, etc.) associados a um paciente.
 
-No entanto, a RNDS utiliza um único recurso [BRMedidaObservada](https://simplifier.net/redenacionaldedadosemsaude/brmedidaobservada), que tem um ValueSet derivado do LOINC, o brt[Tipoobservacao](https://simplifier.net/redenacionaldedadosemsaude/valueset-brtipoobservacao-1.0) que contém todo o tipo de informação de observações realizadas no atendimento clínico e nesse showcase será utilizada a versão atual do RAC
+No entanto, a RNDS utiliza um único recurso [BRMedidaObservada](https://simplifier.net/redenacionaldedadosemsaude/brmedidaobservada), que tem um ValueSet derivado do LOINC, o brt[Tipoobservacao](https://simplifier.net/redenacionaldedadosemsaude/valueset-brtipoobservacao-1.0) que contém todo o tipo de informação de observações realizadas no atendimento clínico e nesse showcase será utilizada a versão atual do RAC.
+No RAC são capturadas as seguintes medidas descritivas 
+# Código de Medições
+ **29463-7**: Peso Corporal
+ **8480-6**: Pressão Arterial Sistólica
+ **8462-4**: Pressão Arterial Diastólica
+ **8280-0**: Circunferência Abdominal
+ **9843-4**: Perímetro Cefálico
+ **8302-2**: Altura
 
 ### Limites e Relacionamentos
 

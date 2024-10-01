@@ -1,6 +1,7 @@
-| URL Canônica: https://ips.saude.gov.br/StructureDefinition/BundleSumariodoPacienteEhrRunner| Versão: 0.0.1 |
+| URL Canônicahttp://ehrrunner.com/fhir?
+BundleSumariodoPaciente-BR-iPeS| Versão: 0.0.1 |
 |------------------------------------------------------------------------------------------------|-------------|
-| Ativo desde: 2023-10-11                                                                        | Nome computável: AllergyIntoleranceEhrRunner|
+| Ativo desde: 2023-10-11                                                                        | Nome computável: BundleSumariodoPaciente=BR-iPeS|
 
 # Bundle - FHIR v4.0.1
 

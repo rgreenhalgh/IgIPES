@@ -1,6 +1,5 @@
-| URL Canônica: https://ehrrunner.com/fhir/StructureDefinition/PractitionerEhrRunner | Versão: 0.0.1 |
-|------------------------------------------------------------------------------------------------|-------------|
-| Ativo desde: 2024-07-18                                                                        | Nome computável: PractitionerEhrRunner |
+| URL Canônica: https://ehrrunner.com/fhir/StructureDefinition/Practitioner-BR-iPeS | Versão: 0.0.1 |
+| Ativo desde: 2024-07-18   | Nome computável: Practitioner-BR-iPeS |
 
 ## Papel do profissional prestador da assistência à saúde
 

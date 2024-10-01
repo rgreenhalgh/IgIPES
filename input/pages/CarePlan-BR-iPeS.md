@@ -1,6 +1,6 @@
- URL Canônica: http://ehrrunner.com/fhir/StructureDefinitionCareplanEhrRunner | Versão: 1.0 |
+ URL Canônica: http://ehrrunner.com/fhir/StructureDefinitionCareplan-BR-iPeS Versão: 1.0 |
 ------------------------------------------------------------------------------------------------|-------------|
- Ativo desde: 2023-02-10                                                                        | Nome computável: CareplanEhrRunner |
+ Ativo desde: 2023-02-10                                                                        | Nome computável: CareplanE=Br-iPeS |
 
 Esese recurso é uma restrição do Peerfil `CarePlan` e descreve a intenção de como um ou mais profissionais pretendem prestar cuidados a um determinado paciente, grupo ou comunidade por um período de tempo, possivelmente limitado ao cuidado de uma condição específica ou conjunto de condições.
 
