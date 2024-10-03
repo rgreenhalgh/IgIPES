@@ -1,7 +1,11 @@
-# Resource Profile: Patient-BR-iPeS
- URL Canônica: http://ehrrunhrRunnerfhir/StructureDefinition/Patient-BR-iPeS | Versão: 1.0
- Ativo desde: 2023-02-10        | Nome computável: Patient-BR-iPeS |
- 
+| Resource Profile                     | Patient-br-ipes                                                      |
+|--------------------------------------|-----------------------------------------------------------------------------------|
+| URL Canônica                        | [http://ipes-br.com/fhir/StructureDefinition/Patient-br-ipes](http://ipes-br.com/fhir/StructureDefinition/Patient-br-ipes) |
+| Ativo desde                          | 2023-02-10                                                                        |
+| Nome computável                      | Patient-br-ipes                                                     |
+| Versão                               | 1.0   
+
+
  Este perfil representa as restrições aplicadas ao recurso Paciente no Implementation Guide do Guia de Implementação do Sumário do Paciente e descreve as expectativas mínimas para o recurso Paciente quando utilizado em um dos referidos recursos.
 
 ## Escopo/Uso

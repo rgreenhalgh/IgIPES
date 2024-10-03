@@ -1,6 +1,11 @@
-# Perfil FHIR: Solicitação de Serviço - Exames e Procedimentos
-| URL Canônica: http://ehrrunner.com/fhir/StructureDefinition/ServiceRequest-BR-iPeS | Versão: 1.0 |
-| Ativo desde: 2023-02-10| Nome computável: ServiceRequestEhrRunner |
+| Resource Profile                     | ServiceRequest-br-ipes                                                      |
+|--------------------------------------|-----------------------------------------------------------------------------------|
+| URL Canônica                        | [http://ipes-br.com/fhir/StructureDefinition/ServiceRequest-br-ipes](http://ipes-br.com/fhir/StructureDefinition/ServiceRequest-br-ipes) |
+| Ativo desde                          | 2023-02-10                                                                        |
+| Nome computável                      | ServiceRequest-br-ipes                                                     |
+| Versão                               | 1.0   
+
+
 ## Introdução
 O recurso `ServiceRequest` é utilizado para representar uma solicitação de serviço clínico ou administrativo. Este perfil é essencial para a comunicação entre diferentes sistemas de saúde, garantindo que as solicitações sejam compreendidas e processadas corretamente. O Perfil `Solicitação de Serviço - Exames e Procedimentos` da plataforma iPeS é uma especialização desse recurso, criada para atender casos de uso específicos do cenário brasileiro
 
@@ -119,7 +124,7 @@ O `Procedure` documenta a realização de um procedimento solicitado por um `Ser
 ```json
 {
     "resourceType": "StructureDefinition",
-    "url": "https://ehrrunner.com/fhir/StructureDefinition/ServiceRequest",
+    "url": "https://ipes-br.com/fhir/StructureDefinition/ServiceRequest",
     "version": "1.0",
     "name": "ServiceRequest",
     "title": "Solicitação de Serviço - Exames e Procedimentos",
@@ -602,7 +607,7 @@ O `Procedure` documenta a realização de um procedimento solicitado por um `Ser
                 "id": "ServiceRequest.category:category.coding.system",
                 "path": "ServiceRequest.category.coding.system",
                 "min": 1,
-                "fixedUri": "http://ehrrunner.com/fhir/CodeSystem/ServiceRequestCategory"
+                "fixedUri": "http://ipes-br.com/fhir/CodeSystem/ServiceRequestCategory"
             },
             {
                 "id": "ServiceRequest.category:category.coding.version",
@@ -702,7 +707,7 @@ O `Procedure` documenta a realização de um procedimento solicitado por um `Ser
                     {
                         "code": "Reference",
                         "targetProfile":  [
-                            "http://ehrrunner.com/fhir/StructureDefinition/Patient"
+                            "http://ipes-br.com/fhir/StructureDefinition/Patient"
                         ]
                     }
                 ]
@@ -734,7 +739,7 @@ O `Procedure` documenta a realização de um procedimento solicitado por um `Ser
                     {
                         "code": "Reference",
                         "targetProfile":  [
-                            "http://ehrrunner.com/fhir/StructureDefinition/Encounter"
+                            "http://ipes-br.com/fhir/StructureDefinition/Encounter"
                         ]
                     }
                 ]

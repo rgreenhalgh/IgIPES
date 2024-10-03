@@ -1,7 +1,10 @@
-# Resource Profile: Estabelecimento de Saúde
+| Resource Profile                     | Organization-br-ipes                                                      |
+|--------------------------------------|-----------------------------------------------------------------------------------|
+| URL Canônica                        | [http://ipes-br.com/fhir/StructureDefinition/Organization-br-ipes](http://ipes-br.com/fhir/StructureDefinition/Organization-br-ipes) |
+| Ativo desde                          | 2023-02-10                                                                        |
+| Nome computável                      | Organization-br-ipes                                                     |
+| Versão                               | 1.0   
 
- URL Canônica: http://ehrrunner.com/fhir/StructureDefinition/Organization-BR-iPeS | Versão: 1.0 |
- Ativo desde: 2023-02-10    | Nome computável: Organization-BR-iPeS |
 
 Este perfil representa o estabelecimento onde são realizados os serviços de saúde humana sob uma responsabilidade técnica.
 

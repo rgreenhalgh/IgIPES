@@ -1,6 +1,3 @@
-Aqui está o conteúdo formatado em Markdown (.md) conforme solicitado:
-
-```md
 # 4. Tecnologias subjacentes
 
 Os métodos e padrões de integração neste Guia de Implementação (GI) são baseados no padrão FHIR HL7. Como resultado, este IG usa terminologia, notações e princípios de design que são específicos para FHIR. Os leitores que não estão familiarizados com FHIR são incentivados a ler (ou pelo menos revisar) os seguintes tópicos antes de ler as especificações formais neste guia de implementação:
@@ -38,6 +35,3 @@ Os métodos e padrões de integração neste Guia de Implementação (GI) são b
 ## Recurso base
 
 [Recurso base](https://www.hl7.org/fhir/resource.html)
-```
-
-Esse formato em Markdown pode ser salvo diretamente como um arquivo `.md` e contém links para os recursos FHIR mencionados.

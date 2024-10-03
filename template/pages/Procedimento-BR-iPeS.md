@@ -1,6 +1,10 @@
-# Resources Profile: ProcedureEHRrunner
-| URL Canônica: http://ehrrunner.com/fhir/StructureDefinition/Procedure-BR-iPeS | Versão: 1.0 |
-| Ativo desde: 2023-02-10      | Nome computável: Procedure-BR-iPes |
+| Resource Profile                     | Procedure-br-ipes                                                      |
+|--------------------------------------|-----------------------------------------------------------------------------------|
+| URL Canônica                        | [http://ipes-br.com/fhir/StructureDefinition/Procedure-br-ipes](http://ipes-br.com/fhir/StructureDefinition/Procedure-br-ipes) |
+| Ativo desde                          | 2023-02-10                                                                        |
+| Nome computável                      | Procedure-br-ipes                                                     |
+| Versão                               | 1.0   
+
 
 # Este perfil representa as restrições aplicadas ao recurso Procedure, especificando uma entrada para o Histórico de Procedimentos para o Resumo do Paciente iPeS com base no FHIR R4
 

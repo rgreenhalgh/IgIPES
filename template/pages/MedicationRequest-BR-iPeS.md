@@ -1,6 +1,9 @@
- URL Canônica: http://ehrrunner.com/fhir/StructureDefinition/MedicationRequest-BR-iPeS | Versão: 1.0 |
-------------------------------------------------------------------------------------------------|-------------|
- Ativo desde: 2023-02-10                                                                        | Nome computável: MedicationRequest-BR-iPeS |
+| Resource Profile                     | MedicationRequest-br-ipes                                                      |
+|--------------------------------------|-----------------------------------------------------------------------------------|
+| URL Canônica                        | [http://ipes-br.com/fhir/StructureDefinition/MedicationRequest-br-ipes](http://ipes-br.com/fhir/StructureDefinition/MedicationRequest-br-ipes) |
+| Ativo desde                          | 2023-02-10                                                                        |
+| Nome computável                      | MedicationRequest-br-ipes                                                     |
+| Versão                               | 1.0   
 
 ### Descrição
 Este perfil estabelece as restrições aplicadas ao recurso MedicationRequest pelo Guia de Implementação FHIR do Sumário do Paciente iPeS, baseado no FHIR R4. Um registro de uma solicitação de medicação é representado no sumário do paciente como uma instância de um recurso MedicationRequest restrito por esse perfil.

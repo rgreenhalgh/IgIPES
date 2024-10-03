@@ -1,5 +1,10 @@
-| URL Canônica: https://ehrrunner.com/fhir/StructureDefinition/Practitioner-BR-iPeS | Versão: 0.0.1 |
-| Ativo desde: 2024-07-18   | Nome computável: Practitioner-BR-iPeS |
+| Resource Profile                     | Practitioner-br-ipes                                                      |
+|--------------------------------------|-----------------------------------------------------------------------------------|
+| URL Canônica                        | [http://ipes-br.com/fhir/StructureDefinition/Practitioner-br-ipes](http://ipes-br.com/fhir/StructureDefinition/Practitioner-br-ipes) |
+| Ativo desde                          | 2024-07-18                                                                        |
+| Nome computável                      | Practitioner-br-ipes                                                     |
+| Versão                               | 1.0   
+
 
 ## Papel do profissional prestador da assistência à saúde
 

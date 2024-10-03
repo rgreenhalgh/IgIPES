@@ -1,4 +1,4 @@
-| Resource Profile                     | BundleSumariodoPaciente-BR-iPeS                                                      |
+| Resource Profile                     | BundleSumariodoPaciente-br-ipes                                                      |
 |--------------------------------------|-----------------------------------------------------------------------------------|
 | URL Canônica                        | [http://ipes-br.com/fhir/StructureDefinition/BundleSumariodoPaciente-br-ipes](http://ipes-br.com/fhir/StructureDefinition/BundleSumariodoPaciente-br-ipes) |
 | Ativo desde                          | 2023-10-11                                                                        |

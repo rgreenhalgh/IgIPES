@@ -1,6 +1,10 @@
-# Resource Profile: Amostra Biológica
-| URL Canônica:https://ehrrunner.com/fhir/StructureDefinition/Specimen- BR-iPeS | Versão: 0.1
-| Ativo desde: 2023-10-11      | Nome computável: Specimen-BR-iPeS |
+| Resource Profile                     | Specimen-br-ipes                                                      |
+|--------------------------------------|-----------------------------------------------------------------------------------|
+| URL Canônica                        | [http://ipes-br.com/fhir/StructureDefinition/Specimen-br-ipes](http://ipes-br.com/fhir/StructureDefinition/Specimen-br-ipes) |
+| Ativo desde                          | 2023-10-11                                                                        |
+| Nome computável                      | Specimen-br-ipes                                                     |
+| Versão                               | 1.0   
+
 
 SpecimenEHRRunner
 Este perfil restringe o recurso Specimen para representar as características de amostras biológicas no contexto de resultados laboratoriais integrados a um resumo do paciente. O recurso Specimen descreve uma amostra utilizada para análise laboratorial.
@@ -15,4 +19,4 @@ Não se aplica
 ## Extensões
 Não há extensões neste recurso.
 ## Limites e Relacionamentos
-O recurso `SpecimenEHRRunner` é referenciado no recurso Observation
+O recurso `Specimen-br-ipes` é referenciado no recurso Observation

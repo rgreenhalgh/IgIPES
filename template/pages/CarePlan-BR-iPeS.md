@@ -1,10 +1,14 @@
- URL Canônica: http://ehrrunner.com/fhir/StructureDefinitionCareplan-BR-iPeS Versão: 1.0 |
-------------------------------------------------------------------------------------------------|-------------|
- Ativo desde: 2023-02-10                                                                        | Nome computável: CareplanE=Br-iPeS |
+| Resource Profile                     | StructureDefinitionCareplan-br-ipes                                                      |
+|--------------------------------------|-----------------------------------------------------------------------------------|
+| URL Canônica                        | [http://ipes-br.com/fhir/StructureDefinition/StructureDefinitionCareplan-br-ipes](http://ipes-br.com/fhir/StructureDefinition/StructureDefinitionCareplan-br-ipes) |
+| Ativo desde                          | 2023-02-10                                                                        |
+| Nome computável                      | StructureDefinitionCareplan-br-ipes                                                     |
+| Versão                               | 1.0                                                                               |
 
-Esese recurso é uma restrição do Peerfil `CarePlan` e descreve a intenção de como um ou mais profissionais pretendem prestar cuidados a um determinado paciente, grupo ou comunidade por um período de tempo, possivelmente limitado ao cuidado de uma condição específica ou conjunto de condições.
 
-## ÂEscopo e utilização
+Esse recurso é uma restrição do Perfil `CarePlan` e descreve a intenção de como um ou mais profissionais pretendem prestar cuidados a um determinado paciente, grupo ou comunidade por um período de tempo, possivelmente limitado ao cuidado de uma condição específica ou conjunto de condições.
+
+## Escopo e utilização
 `CarePlan` é um dos recursos de solicitação (Request) na especificação do fluxo de trabalho do FHIR.
 
 Os Planos de Cuidados são usados ​​em muitas áreas de cuidados de saúder com uma variedade de escopos. Eles podem ser tão simples quanto um médico de família controlando quando seu paciente deve tomar a próxima imunização contra tétano até um plano detalhado para um paciente oncológico cobrindo dieta, quimioterapia, radiação, trabalho de laboratório e aconselhamento com relações de tempo detalhadas, pré-condições e objetivos. Eles podem ser usados ​​em cuidados veterinários ou pesquisa clínica para descrever o cuidado de um rebanho ou outra coleção de animais. Na saúde pública, eles podem descrever campanhas de educação ou imunização.

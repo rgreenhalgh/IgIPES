@@ -1,9 +1,9 @@
-Resource Profile: ObservacaoDesctritiva-BR-iPeS
-| URL Canônica: http://ehrrunner.com/fhir/StructureDefiniti
-Observation-BR-iPeS | Versão: 0.0.1 |
-| Ativo desde: 
-2023-10-11          | Nome computável: ObservacaoDescritiva-BR-iPeS|
-
+| Resource Profile                     | ObservacaoDesctritiva-br-ipes                                                      |
+|--------------------------------------|-----------------------------------------------------------------------------------|
+| URL Canônica                        | [http://ipes-br.com/fhir/StructureDefinition/ObservacaoDesctritiva-br-ipes](http://ipes-br.com/fhir/StructureDefinition/ObservacaoDesctritiva-br-ipes) |
+| Ativo desde                          | 2023-10-11                                                                        |
+| Nome computável                      | ObservacaoDesctritiva-br-ipes                                                     |
+| Versão                               | 1.0   
 
 
 Este perfil indica que uma observação específica representa um comentário de anotação de texto livre.
@@ -28,7 +28,7 @@ Este perfil não possui extensões.
 
 Limites e Relacionamentos
 
-Este recurso pode ser referenciado por outros recursos http://ehrrunner.com/fhir/StructureDefinition/Patient http://ehrrunner.com/fhir/StructureDefinition/Encounter 
+Este recurso pode ser referenciado por outros recursos http://ipes-br.com/fhir/StructureDefinition/Patient http://ipes-br.com/fhir/StructureDefinition/Encounter 
 
  
 

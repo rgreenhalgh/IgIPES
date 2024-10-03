@@ -1,8 +1,11 @@
- URL Canônica: http://ehrrunner.com/fhir/StructureDefinition/Condition-BR-iPeS| Versão: 1.0 
- Ativo desde: 2023-02-10      | Nome computável: Condition-BR-iPeS |
-Aqui está o texto formatado em Markdown (.md) conforme solicitado:
+| Resource Profile                     | Condition-br-ipes                                                      |
+|--------------------------------------|-----------------------------------------------------------------------------------|
+| URL Canônica                        | [http://ipes-br.com/fhir/StructureDefinition/Condition-br-ipes](http://ipes-br.com/fhir/StructureDefinition/Condition-br-ipes) |
+| Ativo desde                          | 2023-02-10                                                                        |
+| Nome computável                      | Condition-br-ipes                                                     |
+| Versão                               | 1.0                                                                               |
 
-```md
+
 # Perfil: Problema ou Diagnóstico
 
 Tipicamente avaliado por profissional clínico e codificado com **CID-10** para diagnóstico ou **CIAP-2** (Classificação Internacional da Atenção Primária) para problema/condição.
@@ -33,13 +36,10 @@ O recurso de condição pode ser referenciado por outros recursos como "motivos"
 
 Este recurso pode ser referenciado por outros recursos:
 
-- [http://ehrrunner.com/fhir/StructureDefinition/Patient](http://ehrrunner.com/fhir/StructureDefinition/Patient)
-- [http://ehrrunner.com/fhir/StructureDefinition/Encounter](http://ehrrunner.com/fhir/StructureDefinition/Encounter)
-- [https://ehrrunner.com/fhir/StructureDefinition/ServiceRequest](https://ehrrunner.com/fhir/StructureDefinition/ServiceRequest)
-- [http://ehrrunner.com/fhir/StructureDefinition/Procedure](http://ehrrunner.com/fhir/StructureDefinition/Procedure)
-```
-
-Esse formato em Markdown pode ser salvo diretamente como um arquivo `.md`.
+- [http://ipes-br.com/fhir/StructureDefinition/Patient](http://ipes-br.com/fhir/StructureDefinition/Patient)
+- [http://ipes-br.com/fhir/StructureDefinition/Encounter](http://ipes-br.com/fhir/StructureDefinition/Encounter)
+- [https://ipes-br.com/fhir/StructureDefinition/ServiceRequest](https://ipes-br.com/fhir/StructureDefinition/ServiceRequest)
+- [http://ipes-br.com/fhir/StructureDefinition/Procedure](http://ipes-br.com/fhir/StructureDefinition/Procedure)
 
 
 

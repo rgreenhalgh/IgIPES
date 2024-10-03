@@ -1,8 +1,9 @@
-# Resource Profile: DiagnosticReportFormatado-BR-iPeS
-
- URL Canônica: http://ehrrunner.com/fhir/StructureDefinition/DiagnosticReport-BR-iPeS| Versão: 1.0 |
-------------------------------------------------------------------------------------------------|-------------|
- Ativo desde: 2023-02-10                                                                        | Nome computável: DiagnosticReportformatado-BR-iPeS |
+| Resource Profile                     | DiagnosticReportFormatado-br-ipes                                                      |
+|--------------------------------------|-----------------------------------------------------------------------------------|
+| URL Canônica                        | [http://ipes-br.com/fhir/StructureDefinition/DiagnosticReport-br-ipes](http://ipes-br.com/fhir/StructureDefinition/DiagnosticReport-br-ipes) |
+| Ativo desde                          | 2023-02-10                                                                        |
+| Nome computável                      | DiagnosticReport-br-ipes                                                     |
+| Versão                               | 1.0                                                                               |
 
 
 Este perfil restringe o recurso DiagnosticReport para representar testes de diagnóstico e relatórios de procedimentos em um resumo do paciente.

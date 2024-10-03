@@ -1,10 +1,10 @@
-
-PractitionerRoleca: http://ehrrunner.com/fhir/StructureDefinition/
-| Versão: 1.0 |
- Ativo desde: 2023-02-10    | Nome computável: PractitionerRole-BR-iPeS |      
-              
-                                
-                                                    
+| Resource Profile                     | PractitionerRole-br-ipes                                                      |
+|--------------------------------------|-----------------------------------------------------------------------------------|
+| URL Canônica                        | [http://ipes-br.com/fhir/StructureDefinition/PractitionerRole-br-ipes](http://ipes-br.com/fhir/StructureDefinition/PractitionerRole-br-ipes) |
+| Ativo desde                          | 2023-02-10                                                                        |
+| Nome computável                      | PractitionerRole-br-ipes                                                     |
+| Versão                               | 1.0   
+                                               
 
 ## Papel do profissional prestador da assistência à saúde
 

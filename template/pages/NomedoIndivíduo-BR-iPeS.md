@@ -1,8 +1,10 @@
- URL Canônica: http://ehrrunner.com/fhir/StructureDefinition/NomedoIndividuo-Br-iPeS | Versão: 1.0 |
-------------------------------------------------------------------------------------------------|-------------|
- Ativo desde: 2023-02-10                                                                        | Nome computável: HumanNameEhrRunner |
+| Resource Profile                     | NomedoIndividuo-br-ipes                                                      |
+|--------------------------------------|-----------------------------------------------------------------------------------|
+| URL Canônica                        | [http://ipes-br.com/fhir/StructureDefinition/NomedoIndividuo-br-ipes](http://ipes-br.com/fhir/StructureDefinition/NomedoIndividuo-br-ipes) |
+| Ativo desde                          | 2023-02-10                                                                        |
+| Nome computável                      | HumanName-br-ipes                                                     |
+| Versão                               | 1.0   
 
- Definições para o perfil de tipo de dados |NomeIndfividuo-BR-iPeS
 
 ## Uso:
 

@@ -1,9 +1,10 @@
-Resource Profile: Observation-BR-iPeS
-| URL Canônica: http://ehrrunner.com/fhir/StructureDefinition/Observation-BR-iPeS | Versão: 0.0.1 |
-| Ativo desde: 
-2023-10-11          | Nome computável: Observation-BR-iPeS|
-#
- Recurso Observation - FHIR R4
+| Resource Profile                     | Observation-br-ipes                                                      |
+|--------------------------------------|-----------------------------------------------------------------------------------|
+| URL Canônica                        | [http://ipes-br.com/fhir/StructureDefinition/Observation-br-ipes](http://ipes-br.com/fhir/StructureDefinition/Observation-br-ipes) |
+| Ativo desde                          | 2023-10-11                                                                        |
+| Nome computável                      | Observation-br-ipes                                                     |
+| Versão                               | 1.0   
+
 
 ## Escopo e Uso
 

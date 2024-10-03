@@ -1,6 +1,11 @@
- URL Canônica: http://ehrrunner.com/fhir/StructureDefinition/Encounter-BR-iPeS| Versão: 1.0 |
-------------------------------------------------------------------------------------------------|-------------|
- Ativo desde: 2023-02-10                                                                        | Nome computável: Encounter-BR-iPeS|
+| Resource Profile                     | Encounter-br-ipes                                                      |
+|--------------------------------------|-----------------------------------------------------------------------------------|
+| URL Canônica                        | [http://ipes-br.com/fhir/StructureDefinition/Encounter-br-ipes](http://ipes-br.com/fhir/StructureDefinition/Encounter-br-ipes) |
+| Ativo desde                          | 2023-02-10                                                                        |
+| Nome computável                      | Encounter-br-ipes                                                     |
+| Versão                               | 1.0                                                                               |
+
+
 # Encontro ou Contato Assistencial
 
 Interação formal entre o paciente e profissional(is) de saúde(s) 
@@ -70,16 +75,16 @@ Este perfil **não possui extensões**.
 
 Este recurso pode ser referenciado por outros recursos:
 
-- [http://ehrrunner.com/fhir/StructureDefinition/Patient](http://
-ehrrunner.com/fhir/StructureDefinition/Patient)
-- [http://ehrrunner.com/fhir/StructureDefinition/Referral-1.0]
-(http://ehrrunner.com/fhir/StructureDefinition/Referral-1.0)
-- [http://ehrrunner.com/fhir/StructureDefinition/Appointment-1.0]
-(http://ehrrunner.com/fhir/StructureDefinition/Appointment-1.0)
-- [http://ehrrunner.com/fhir/StructureDefinition/Condition](http://
-ehrrunner.com/fhir/StructureDefinition/Condition)
-- [http://ehrrunner.com/fhir/StructureDefinition/Organization-1.0]
-(http://ehrrunner.com/fhir/StructureDefinition/Organization-1.0)
-- [http://ehrrunner.com/fhir/StructureDefinition/Procedure](http://
-ehrrunner.com/fhir/StructureDefinition/Procedure)
+- [http://ipes-br.com/fhir/StructureDefinition/Patient](http://
+ipes-br.com/fhir/StructureDefinition/Patient)
+- [http://ipes-br.com/fhir/StructureDefinition/Referral-1.0]
+(http://ipes-br.com/fhir/StructureDefinition/Referral-1.0)
+- [http://ipes-br.com/fhir/StructureDefinition/Appointment-1.0]
+(http://ipes-br.com/fhir/StructureDefinition/Appointment-1.0)
+- [http://ipes-br.com/fhir/StructureDefinition/Condition](http://
+ipes-br.com/fhir/StructureDefinition/Condition)
+- [http://ipes-br.com/fhir/StructureDefinition/Organization-1.0]
+(http://ipes-br.com/fhir/StructureDefinition/Organization-1.0)
+- [http://ipes-br.com/fhir/StructureDefinition/Procedure](http://
+ipes-br.com/fhir/StructureDefinition/Procedure)
 
