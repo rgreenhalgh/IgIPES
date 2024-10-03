@@ -1,7 +1,9 @@
-| URL Canônicahttp://ehrrunner.com/fhir?
-BundleSumariodoPaciente-BR-iPeS| Versão: 0.0.1 |
-|------------------------------------------------------------------------------------------------|-------------|
-| Ativo desde: 2023-10-11                                                                        | Nome computável: BundleSumariodoPaciente=BR-iPeS|
+| Resource Profile                     | BundleSumariodoPaciente-BR-iPeS                                                      |
+|--------------------------------------|-----------------------------------------------------------------------------------|
+| URL Canônica                        | [http://ipes-br.com/fhir/StructureDefinition/BundleSumariodoPaciente-br-ipes](http://ipes-br.com/fhir/StructureDefinition/BundleSumariodoPaciente-br-ipes) |
+| Ativo desde                          | 2023-10-11                                                                        |
+| Nome computável                      | BundleSumariodoPaciente-br-ipes                                                     |
+| Versão                               | 1.0                                                                               |
 
 # Bundle - FHIR v4.0.1
 

@@ -1,13 +1,9 @@
-Resource Profile: AllergyIntolerance-BR-iPeS
-| URL Canônicahttp://ehrrunner.com/fhir?
-AllergyIntolerance-BR-iPeS| Versão: 0.0.1 |
-|
-------------------------------------------------------------
----------------------------|-------------|
-| Ativo desde: 
-2023-10-11                                                  
-             | Nome computável: AllergyIntoleranceEhrRunner|
-
+| Resource Profile                     | AllergyIntolerance-BR-iPeS                                                       |
+|--------------------------------------|-----------------------------------------------------------------------------------|
+| URL Canônica                        | [http://ipes-br.com/fhir/StructureDefinition/AllergyIntolerance-br-ipes](http://ipes-br.com/fhir/StructureDefinition/AllergyIntolerance-br-ipes) |
+| Ativo desde                          | 2023-10-11                                                                        |
+| Nome computável                      | AllergyIntolerance-br-ipes                                                         |
+| Versão                               | 1.0                                                                               |
 
 
 
