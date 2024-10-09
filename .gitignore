@@ -2,7 +2,6 @@ AppData/
 NTUSER.DAT*
 *.log
 *.ini
-*.json
 2024_IG_CBIS/
 .fhir/
 *.db

@@ -250,7 +250,43 @@
         "description": "Jurisdição de Órgãos Expedidores",
         "exampleBoolean": false,
         "groupingId": "core"
-      }      
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/DiagnosticReport"
+        },
+        "name": "DiagnosticReport",
+        "description": "Relatório de diagnóstico",
+        "exampleBoolean": false,
+        "groupingId": "core"
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/Medication"
+        },
+        "name": "Medication",
+        "description": "Medicação",
+        "exampleBoolean": false,
+        "groupingId": "core"
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/MedicationRequest"
+        },
+        "name": "MedicationRequest",
+        "description": "Solicitação de medicação",
+        "exampleBoolean": false,
+        "groupingId": "core"
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/Specimen"
+        },
+        "name": "Specimen",
+        "description": "Amostra",
+        "exampleBoolean": false,
+        "groupingId": "core"
+      }
     ]
   }
 }
