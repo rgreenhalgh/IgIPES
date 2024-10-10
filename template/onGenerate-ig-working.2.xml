@@ -21,7 +21,7 @@
    <version value="1.0.0"/>
    <name value="2024IGCBIS"/>
    <status value="draft"/>
-   <date value="2024-09-22T19:20:27-03:00"/>
+   <date value="2024-10-10T15:46:28-03:00"/>
    <publisher value="CBIS Publisher"/>
    <description value="Implementation Guide for 2024 IG CBIS"/>
    <packageId value="com.ehrrunner.fhir.2024_ig_cbis"/>
@@ -811,6 +811,78 @@
          </reference>
          <name value="BRJurisdicaoOrgaoExpedidor"/>
          <description value="Jurisdição de Órgãos Expedidores"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="core"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:resource"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-DiagnosticReport.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/DiagnosticReport"/>
+         </reference>
+         <name value="DiagnosticReport"/>
+         <description value="Relatório de diagnóstico"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="core"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:resource"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-Medication.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/Medication"/>
+         </reference>
+         <name value="Medication"/>
+         <description value="Medicação"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="core"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:resource"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-MedicationRequest.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/MedicationRequest"/>
+         </reference>
+         <name value="MedicationRequest"/>
+         <description value="Solicitação de medicação"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="core"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:resource"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-Specimen.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/Specimen"/>
+         </reference>
+         <name value="Specimen"/>
+         <description value="Amostra"/>
          <exampleBoolean value="false"/>
          <groupingId value="core"/>
       </resource>

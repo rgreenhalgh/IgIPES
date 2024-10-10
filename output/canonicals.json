@@ -77,6 +77,13 @@
     "name" : "BirthCountry"
   },
   {
+    "id" : "DiagnosticReport",
+    "type" : "StructureDefinition",
+    "url" : "http://ehrrunner.com/fhir/StructureDefinition/DiagnosticReport",
+    "version" : "1.0.0",
+    "name" : "DiagnosticReport"
+  },
+  {
     "id" : "Encounter",
     "type" : "StructureDefinition",
     "url" : "http://ehrrunner.com/fhir/StructureDefinition/Encounter",
@@ -89,6 +96,20 @@
     "url" : "http://ehrrunner.com/fhir/StructureDefinition/IdentificadorIndividuo",
     "version" : "1.0.0",
     "name" : "IdentificadorIndividuo"
+  },
+  {
+    "id" : "Medication",
+    "type" : "StructureDefinition",
+    "url" : "http://ehrrunner.com/fhir/StructureDefinition/Medication",
+    "version" : "1.0.0",
+    "name" : "Medication"
+  },
+  {
+    "id" : "MedicationRequest",
+    "type" : "StructureDefinition",
+    "url" : "http://ehrrunner.com/fhir/StructureDefinition/MedicationRequest",
+    "version" : "1.0.0",
+    "name" : "MedicationRequest"
   },
   {
     "id" : "Observation",
@@ -131,6 +152,13 @@
     "url" : "http://ehrrunner.com/fhir/StructureDefinition/ServiceRequest",
     "version" : "1.0.0",
     "name" : "ServiceRequest"
+  },
+  {
+    "id" : "Specimen",
+    "type" : "StructureDefinition",
+    "url" : "http://ehrrunner.com/fhir/StructureDefinition/Specimen",
+    "version" : "1.0.0",
+    "name" : "Specimen"
   },
   {
     "id" : "EHRDocumentTypeValueset",

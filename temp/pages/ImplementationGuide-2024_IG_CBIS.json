@@ -9,7 +9,7 @@
   "version" : "1.0.0",
   "name" : "2024IGCBIS",
   "status" : "draft",
-  "date" : "2024-09-22T19:20:27-03:00",
+  "date" : "2024-10-10T15:46:28-03:00",
   "publisher" : "CBIS Publisher",
   "description" : "Implementation Guide for 2024 IG CBIS",
   "packageId" : "com.ehrrunner.fhir.2024_ig_cbis",
@@ -885,6 +885,58 @@
       },
       "name" : "BRJurisdicaoOrgaoExpedidor",
       "description" : "Jurisdição de Órgãos Expedidores",
+      "exampleBoolean" : false,
+      "groupingId" : "core"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/DiagnosticReport"
+      },
+      "name" : "DiagnosticReport",
+      "description" : "Relatório de diagnóstico",
+      "exampleBoolean" : false,
+      "groupingId" : "core"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/Medication"
+      },
+      "name" : "Medication",
+      "description" : "Medicação",
+      "exampleBoolean" : false,
+      "groupingId" : "core"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/MedicationRequest"
+      },
+      "name" : "MedicationRequest",
+      "description" : "Solicitação de medicação",
+      "exampleBoolean" : false,
+      "groupingId" : "core"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/Specimen"
+      },
+      "name" : "Specimen",
+      "description" : "Amostra",
       "exampleBoolean" : false,
       "groupingId" : "core"
     },

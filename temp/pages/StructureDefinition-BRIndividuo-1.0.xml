@@ -53,7 +53,7 @@ MIRABETE, Julio Fabbrini. Código de processo penal interpretado.11. ed. 6. tir.
   <name value="BRIndividuo"/>
   <title value="Indivíduo"/>
   <status value="draft"/>
-  <date value="2024-09-22T19:20:27-03:00"/>
+  <date value="2024-10-10T15:46:28-03:00"/>
   <publisher value="CBIS Publisher"/>
   <contact>
     <telecom>
@@ -3903,7 +3903,7 @@ MIRABETE, Julio Fabbrini. Código de processo penal interpretado.11. ed. 6. tir.
       <path value="Patient.address.type"/>
       <short value="postal | physical | both"/>
       <definition value="Distinguishes between physical addresses (those you can visit) and mailing addresses (e.g. PO Boxes and care-of addresses). Most addresses are both."/>
-      <comment value="The definition of Address states that &quot;address is intended to describe postal addresses, not physical locations&quot;. However, many applications track whether an address has a dual purpose of being a location that can be visited as well as being a valid delivery destination, and Postal addresses are often used as proxies for physical locations (also see the [Location](location.html#) resource)."/>
+      <comment value="The definition of Address states that &quot;address is intended to describe postal addresses, not physical locations&quot;. However, many applications track whether an address has a dual purpose of being a location that can be visited as well as being a valid delivery destination, and Postal addresses are often used as proxies for physical locations (also see the [Location](http://hl7.org/fhir/R4/location.html#) resource)."/>
       <min value="1"/>
       <max value="1"/>
       <base>

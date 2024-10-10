@@ -16,7 +16,7 @@
   fhir:version [ fhir:v "1.0.0"] ; # 
   fhir:name [ fhir:v "2024IGCBIS"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-09-22T19:20:27-03:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-10-10T15:46:28-03:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "CBIS Publisher"] ; # 
   fhir:description [ fhir:v "Implementation Guide for 2024 IG CBIS"] ; # 
   fhir:packageId [ fhir:v "com.ehrrunner.fhir.2024_ig_cbis"] ; # 
@@ -806,6 +806,58 @@
        ] ;
        fhir:name [ fhir:v "BRJurisdicaoOrgaoExpedidor" ] ;
        fhir:description [ fhir:v "Jurisdição de Órgãos Expedidores" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:groupingId [ fhir:v "core" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://ehrrunner.com/fhir/StructureDefinition/DiagnosticReport> ;
+         fhir:reference [ fhir:v "StructureDefinition/DiagnosticReport" ]
+       ] ;
+       fhir:name [ fhir:v "DiagnosticReport" ] ;
+       fhir:description [ fhir:v "Relatório de diagnóstico" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:groupingId [ fhir:v "core" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://ehrrunner.com/fhir/StructureDefinition/Medication> ;
+         fhir:reference [ fhir:v "StructureDefinition/Medication" ]
+       ] ;
+       fhir:name [ fhir:v "Medication" ] ;
+       fhir:description [ fhir:v "Medicação" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:groupingId [ fhir:v "core" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://ehrrunner.com/fhir/StructureDefinition/MedicationRequest> ;
+         fhir:reference [ fhir:v "StructureDefinition/MedicationRequest" ]
+       ] ;
+       fhir:name [ fhir:v "MedicationRequest" ] ;
+       fhir:description [ fhir:v "Solicitação de medicação" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:groupingId [ fhir:v "core" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://ehrrunner.com/fhir/StructureDefinition/Specimen> ;
+         fhir:reference [ fhir:v "StructureDefinition/Specimen" ]
+       ] ;
+       fhir:name [ fhir:v "Specimen" ] ;
+       fhir:description [ fhir:v "Amostra" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ] ;
        fhir:groupingId [ fhir:v "core" ]
      ] [

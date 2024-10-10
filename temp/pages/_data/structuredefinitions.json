@@ -122,8 +122,27 @@
     ],
     "extension-contexts" : ["Patient"]
   },
-  "Encounter" : {
+  "DiagnosticReport" : {
     "index" : 5,
+    "url" : "http://ehrrunner.com/fhir/StructureDefinition/DiagnosticReport",
+    "name" : "DiagnosticReport",
+    "title" : "Relatório de Diagnóstico",
+    "path" : "StructureDefinition-DiagnosticReport.html",
+    "kind" : "resource",
+    "type" : "DiagnosticReport",
+    "base" : "http://hl7.org/fhir/StructureDefinition/DiagnosticReport",
+    "basename" : "DiagnosticReport",
+    "basepath" : "http://hl7.org/fhir/R4/diagnosticreport.html",
+    "status" : "draft",
+    "date" : "Sun Mar 26 01:21:02 BRT 2023",
+    "abstract" : false,
+    "derivation" : "constraint",
+    "publisher" : "CBIS Publisher",
+    "copyright" : null,
+    "description" : "Relatório de diagnóstico"
+  },
+  "Encounter" : {
+    "index" : 6,
     "url" : "http://ehrrunner.com/fhir/StructureDefinition/Encounter",
     "name" : "Encounter",
     "title" : "Contato Assistencial",
@@ -142,7 +161,7 @@
     "description" : "Encontro ou Contato assistencial. Interação formal entre o paciente e profissional(is) de saúde(s) para prestação de serviços de saúde. Tipicamente, representa uma consulta ambulatorial (atenção primária e secundária), um internação, um atendimento em urgência/emergência ou um atendimento em telemedicina. O recurso é utilizado para indexação da informação na \"linha do tempo\" do Registro Eletrônico de Saúde do paciente. É parte estruturante dos seguintes modelos de informação: Registro de Atendimento Clínico (RAC), Sumário de Alta (SA), Registro de Pronto Atendimento (RPA) ou Conjunto Mínimo de Dados (CMD)."
   },
   "IdentificadorIndividuo" : {
-    "index" : 6,
+    "index" : 7,
     "url" : "http://ehrrunner.com/fhir/StructureDefinition/IdentificadorIndividuo",
     "name" : "IdentificadorIndividuo",
     "title" : "Identificador do Indivíduo",
@@ -160,8 +179,46 @@
     "copyright" : null,
     "description" : "Identificador do indivíduo. Usado para identificar pacientes e profissionais de saúde. Inclui identificadores comuns, como CPF, CNS, RG, Passaporte, Registro em COnselho Profissional (CRM, COREM e outros), entre outros."
   },
+  "Medication" : {
+    "index" : 8,
+    "url" : "http://ehrrunner.com/fhir/StructureDefinition/Medication",
+    "name" : "Medication",
+    "title" : "Medicação",
+    "path" : "StructureDefinition-Medication.html",
+    "kind" : "resource",
+    "type" : "Medication",
+    "base" : "http://hl7.org/fhir/StructureDefinition/Medication",
+    "basename" : "Medication",
+    "basepath" : "http://hl7.org/fhir/R4/medication.html",
+    "status" : "draft",
+    "date" : "Sun Mar 26 01:21:02 BRT 2023",
+    "abstract" : false,
+    "derivation" : "constraint",
+    "publisher" : "CBIS Publisher",
+    "copyright" : null,
+    "description" : "Medicação"
+  },
+  "MedicationRequest" : {
+    "index" : 9,
+    "url" : "http://ehrrunner.com/fhir/StructureDefinition/MedicationRequest",
+    "name" : "MedicationRequest",
+    "title" : "Solicitação de Medicação",
+    "path" : "StructureDefinition-MedicationRequest.html",
+    "kind" : "resource",
+    "type" : "MedicationRequest",
+    "base" : "http://hl7.org/fhir/StructureDefinition/MedicationRequest",
+    "basename" : "MedicationRequest",
+    "basepath" : "http://hl7.org/fhir/R4/medicationrequest.html",
+    "status" : "draft",
+    "date" : "Sun Mar 26 01:21:02 BRT 2023",
+    "abstract" : false,
+    "derivation" : "constraint",
+    "publisher" : "CBIS Publisher",
+    "copyright" : null,
+    "description" : "Solicitação de medicação"
+  },
   "Observation" : {
-    "index" : 7,
+    "index" : 10,
     "url" : "http://ehrrunner.com/fhir/StructureDefinition/Observation",
     "name" : "Observation",
     "title" : "Observação - Medida",
@@ -180,7 +237,7 @@
     "description" : ""
   },
   "Organization" : {
-    "index" : 8,
+    "index" : 11,
     "url" : "http://ehrrunner.com/fhir/StructureDefinition/Organization",
     "name" : "Organization",
     "title" : "Estabelecimento de Saúde",
@@ -199,7 +256,7 @@
     "description" : "Estabelecimento de saúde. Tipicamente identificado pelo seu CNES ou CNPJ (ou ambos)."
   },
   "Practitioner" : {
-    "index" : 9,
+    "index" : 12,
     "url" : "http://ehrrunner.com/fhir/StructureDefinition/Practitioner",
     "name" : "Practitioner",
     "title" : "Profissional de Saúde",
@@ -218,7 +275,7 @@
     "description" : "Profissional de saúde"
   },
   "Procedure" : {
-    "index" : 10,
+    "index" : 13,
     "url" : "http://ehrrunner.com/fhir/StructureDefinition/Procedure",
     "name" : "Procedure",
     "title" : "Procedimento",
@@ -237,7 +294,7 @@
     "description" : "Procedimento realizado"
   },
   "ServiceRequest" : {
-    "index" : 11,
+    "index" : 14,
     "url" : "http://ehrrunner.com/fhir/StructureDefinition/ServiceRequest",
     "name" : "ServiceRequest",
     "title" : "Solicitação de Serviço - Exames e Procedimentos",
@@ -255,8 +312,27 @@
     "copyright" : null,
     "description" : ""
   },
+  "Specimen" : {
+    "index" : 15,
+    "url" : "http://ehrrunner.com/fhir/StructureDefinition/Specimen",
+    "name" : "Specimen",
+    "title" : "Amostra",
+    "path" : "StructureDefinition-Specimen.html",
+    "kind" : "resource",
+    "type" : "Specimen",
+    "base" : "http://hl7.org/fhir/StructureDefinition/Specimen",
+    "basename" : "Specimen",
+    "basepath" : "http://hl7.org/fhir/R4/specimen.html",
+    "status" : "draft",
+    "date" : "Sun Mar 26 01:21:02 BRT 2023",
+    "abstract" : false,
+    "derivation" : "constraint",
+    "publisher" : "CBIS Publisher",
+    "copyright" : null,
+    "description" : "Amostra"
+  },
   "BRIndividuo-1.0" : {
-    "index" : 12,
+    "index" : 16,
     "url" : "http://example.org/StructureDefinition/BRIndividuo-1.0",
     "name" : "BRIndividuo",
     "title" : "Indivíduo",
@@ -267,7 +343,7 @@
     "basename" : "Patient",
     "basepath" : "StructureDefinition-Patient.html",
     "status" : "draft",
-    "date" : "Sun Sep 22 19:20:27 BRT 2024",
+    "date" : "Thu Oct 10 15:46:28 BRT 2024",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "CBIS Publisher",
@@ -275,7 +351,7 @@
     "description" : "Indíviduo, sujeito da assistência à saúde."
   },
   "BRMunicipio" : {
-    "index" : 13,
+    "index" : 17,
     "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMunicipio-1.0",
     "name" : "BRMunicipio",
     "title" : "Município",
@@ -301,7 +377,7 @@
     "extension-contexts" : ["Patient"]
   },
   "Patient" : {
-    "index" : 14,
+    "index" : 18,
     "url" : "http://ehrrunner.com/fhir/StructureDefinition/Patient",
     "name" : "Patient",
     "title" : "Paciente",

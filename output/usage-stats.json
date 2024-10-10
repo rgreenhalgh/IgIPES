@@ -177,10 +177,28 @@
     }
   ],
   "profiles": {
+    "DiagnosticReport": [
+      {
+        "url": "http://ehrrunner.com/fhir/StructureDefinition/DiagnosticReport",
+        "title": "Relatório de Diagnóstico"
+      }
+    ],
     "Encounter": [
       {
         "url": "http://ehrrunner.com/fhir/StructureDefinition/Encounter",
         "title": "Contato Assistencial"
+      }
+    ],
+    "Medication": [
+      {
+        "url": "http://ehrrunner.com/fhir/StructureDefinition/Medication",
+        "title": "Medicação"
+      }
+    ],
+    "MedicationRequest": [
+      {
+        "url": "http://ehrrunner.com/fhir/StructureDefinition/MedicationRequest",
+        "title": "Solicitação de Medicação"
       }
     ],
     "Observation": [
@@ -217,6 +235,12 @@
       {
         "url": "http://ehrrunner.com/fhir/StructureDefinition/ServiceRequest",
         "title": "Solicitação de Serviço - Exames e Procedimentos"
+      }
+    ],
+    "Specimen": [
+      {
+        "url": "http://ehrrunner.com/fhir/StructureDefinition/Specimen",
+        "title": "Amostra"
       }
     ]
   },
@@ -263,13 +287,19 @@
       "StructureDefinition"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
+      "StructureDefinition.differential.element.type",
       "StructureDefinition.snapshot.element.type"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status": [
-      "StructureDefinition"
+      "StructureDefinition",
+      "StructureDefinition.differential.element"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg": [
       "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/binding-definition": [
+      "StructureDefinition.differential.element.binding",
+      "StructureDefinition.snapshot.element.binding"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
       "ImplementationGuide.definition"

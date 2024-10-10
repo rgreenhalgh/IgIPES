@@ -229,6 +229,38 @@
             <td>{% capture desc %}Jurisdição de Órgãos Expedidores{% endcapture %}
 {{ desc | markdownify}}</td>
          </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-DiagnosticReport.html"
+                  title="StructureDefinition/DiagnosticReport">DiagnosticReport</a>
+            </td>
+            <td>{% capture desc %}Relatório de diagnóstico{% endcapture %}
+{{ desc | markdownify}}</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-Medication.html"
+                  title="StructureDefinition/Medication">Medication</a>
+            </td>
+            <td>{% capture desc %}Medicação{% endcapture %}
+{{ desc | markdownify}}</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-MedicationRequest.html"
+                  title="StructureDefinition/MedicationRequest">MedicationRequest</a>
+            </td>
+            <td>{% capture desc %}Solicitação de medicação{% endcapture %}
+{{ desc | markdownify}}</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-Specimen.html"
+                  title="StructureDefinition/Specimen">Specimen</a>
+            </td>
+            <td>{% capture desc %}Amostra{% endcapture %}
+{{ desc | markdownify}}</td>
+         </tr>
       </tbody>
    </table>
    <a name="2"> </a>

@@ -92,6 +92,18 @@
       "http://hl7.org/fhir/R4/valueset-administrative-gender.html" : "AdministrativeGender"
     },
     {
+      "url" : "http://hl7.org/fhir/diagnostic-report-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "DiagnosticReportStatus",
+      "title" : "DiagnosticReportStatus",
+      "description" : "The status of the diagnostic report.",
+      "oids" : ["2.16.840.1.113883.4.642.4.236"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-diagnostic-report-status.html" : "DiagnosticReportStatus"
+    },
+    {
       "url" : "http://hl7.org/fhir/encounter-location-status",
       "version" : "4.0.1",
       "status" : "draft",
@@ -232,6 +244,7 @@
       "oids" : ["2.16.840.1.113883.6.1"],
       "uses" : {
       },
+      "http://hl7.org/fhir/R4/valueset-report-codes.html" : "LOINC Diagnostic Report Codes",
       "http://hl7.org/fhir/R4/valueset-observation-codes.html" : "LOINC Codes"
     },
     {
@@ -244,19 +257,24 @@
       "oids" : ["2.16.840.1.113883.6.96"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R4/valueset-procedure-category.html" : "Procedure Category Codes (SNOMED CT)",
+      "http://hl7.org/fhir/R4/valueset-specimen-collection-method.html" : "FHIR Specimen Collection Method",
+      "http://hl7.org/fhir/R4/valueset-encounter-reason.html" : "Encounter Reason Codes",
+      "http://hl7.org/fhir/R4/valueset-servicerequest-orderdetail.html" : "Service Request Order Details Codes",
       "http://hl7.org/fhir/R4/valueset-procedure-followup.html" : "Procedure Follow up Codes (SNOMED CT)",
       "http://hl7.org/fhir/R4/valueset-condition-code.html" : "Condition/Problem/Diagnosis Codes",
+      "http://hl7.org/fhir/R4/valueset-procedure-category.html" : "Procedure Category Codes (SNOMED CT)",
+      "http://hl7.org/fhir/R4/valueset-device-kind.html" : "FHIR Device Types",
+      "http://hl7.org/fhir/R4/valueset-medication-codes.html" : "SNOMED CT Medication Codes",
+      "http://hl7.org/fhir/R4/valueset-medication-as-needed-reason.html" : "SNOMED CT Medication As Needed Reason Codes",
+      "http://hl7.org/fhir/R4/valueset-participant-role.html" : "Participant Roles",
+      "http://hl7.org/fhir/R4/valueset-specimen-container-type.html" : "Specimen Container Type",
+      "http://hl7.org/fhir/R4/valueset-clinical-findings.html" : "SNOMED CT Clinical Findings",
       "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
       "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes",
-      "http://hl7.org/fhir/R4/valueset-servicerequest-orderdetail.html" : "Service Request Order Details Codes",
-      "http://hl7.org/fhir/R4/valueset-device-action.html" : "Procedure Device Action Codes",
-      "http://hl7.org/fhir/R4/valueset-medication-as-needed-reason.html" : "SNOMED CT Medication As Needed Reason Codes",
-      "http://hl7.org/fhir/R4/valueset-device-kind.html" : "FHIR Device Types",
-      "http://hl7.org/fhir/R4/valueset-participant-role.html" : "Participant Roles",
-      "http://hl7.org/fhir/R4/valueset-encounter-reason.html" : "Encounter Reason Codes",
-      "http://hl7.org/fhir/R4/valueset-procedure-not-performed-reason.html" : "Procedure Not Performed Reason (SNOMED-CT)",
       "http://hl7.org/fhir/R4/valueset-procedure-outcome.html" : "Procedure Outcome Codes (SNOMED CT)",
+      "http://hl7.org/fhir/R4/valueset-medication-form-codes.html" : "SNOMED CT Form Codes",
+      "http://hl7.org/fhir/R4/valueset-device-action.html" : "Procedure Device Action Codes",
+      "http://hl7.org/fhir/R4/valueset-procedure-not-performed-reason.html" : "Procedure Not Performed Reason (SNOMED-CT)",
       "http://hl7.org/fhir/R4/valueset-procedure-reason.html" : "Procedure Reason Codes"
     },
     {
@@ -344,6 +362,30 @@
       "http://hl7.org/fhir/R4/valueset-location-physical-type.html" : "Location type"
     },
     {
+      "url" : "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "MedicationRequestCourseOfTherapyCodes",
+      "title" : "MedicationRequest Course of Therapy Codes",
+      "description" : "MedicationRequest Course of Therapy Codes",
+      "oids" : ["2.16.840.1.113883.4.642.1.1327"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-medicationrequest-course-of-therapy.html" : "Medication request  course of  therapy  codes"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/medicationrequest-status-reason",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "MedicationRequestStatusReasonCodes",
+      "title" : "MedicationRequest Status Reason Codes",
+      "description" : "MedicationRequest Status Reason Codes",
+      "oids" : ["2.16.840.1.113883.4.642.1.1325"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-medicationrequest-status-reason.html" : "Medication request  status  reason  codes"
+    },
+    {
       "url" : "http://terminology.hl7.org/CodeSystem/observation-category",
       "version" : "1.0.1",
       "status" : "active",
@@ -404,6 +446,18 @@
       "http://hl7.org/fhir/R4/valueset-service-type.html" : "Service type"
     },
     {
+      "url" : "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "DiagnosticServiceSectionId",
+      "title" : "diagnosticServiceSectionId",
+      "description" : "HL7-defined code system of concepts which specify a section of a diagnostic service where the observation may be performed.  Used in HL7 Version 2.x messaging in the OBR and OM4 segments.",
+      "oids" : ["2.16.840.1.113883.18.29"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-diagnostic-service-sections.html" : "Diagnostic Service Section Codes"
+    },
+    {
       "url" : "http://terminology.hl7.org/CodeSystem/v2-0092",
       "version" : "2.0.0",
       "status" : "active",
@@ -437,8 +491,68 @@
       "oids" : ["2.16.840.1.113883.18.108"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R4/valueset-identifier-type.html" : "IdentifierType",
-      "ValueSet-BRTipoDocumentoIndividuo-1.0_ValueSet.html" : "Tipo de Documento do Indivíduo"
+      "ValueSet-BRTipoDocumentoIndividuo-1.0_ValueSet.html" : "Tipo de Documento do Indivíduo",
+      "http://hl7.org/fhir/R4/valueset-identifier-type.html" : "IdentifierType"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "AdditivePreservative",
+      "title" : "additivePreservative",
+      "description" : "HL7-defined code system of concepts specifying any additive introduced to the specimen before or at the time of collection.  These additives may be introduced in order to preserve, maintain or enhance the particular nature or component of the specimen.  Used in HL7 Version 2.x messaging in the SPM and SAC segments.",
+      "oids" : ["2.16.840.1.113883.18.229"],
+      "uses" : {
+      },
+      "http://terminology.hl7.org/6.0.2/ValueSet-v2-0371.html" : "hl7VS-additivePreservative"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v2-0373",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "Treatment",
+      "title" : "treatment",
+      "description" : "Code system of concepts that identify the specimen treatment performed during lab processing.  Used in the Interaction Specimen Container Detail (SAC) segment in HL7 Version 2.x messaging.",
+      "oids" : ["2.16.840.1.113883.18.231"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-specimen-processing-procedure.html" : "Specimen processing procedure"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "SpecimenType",
+      "title" : "specimenType",
+      "description" : "HL7-defined code system of concepts that describe the precise nature of an entity that may be used as the source material for an observation.  This is one of two code systems that are used instead of table 0070 (code system 2.16.840.1.113883.18.28) which conflated specimen types and specimen collection methods.   Used in HL7 Version 2.x messaging in the SPM segment.",
+      "oids" : ["2.16.840.1.113883.18.311"],
+      "uses" : {
+      },
+      "http://terminology.hl7.org/6.0.2/ValueSet-v2-0487.html" : "hl7VS-specimenType"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v2-0493",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "SpecimenCondition",
+      "title" : "specimenCondition",
+      "description" : "Code system of concepts specifying a mode or state of being that describes the nature of the specimen.  Used in HL7 Version 2.x messaging in the SPM segment.",
+      "oids" : ["2.16.840.1.113883.18.317"],
+      "uses" : {
+      },
+      "http://terminology.hl7.org/6.0.2/ValueSet-v2-0493.html" : "hl7VS-specimenCondition"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v2-0916",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "RelevantClincialInformation",
+      "title" : "relevantClincialInformation",
+      "description" : "Code system of concepts specifying additional clinical information about the patient or specimen to report the supporting and/or suspected diagnosis and clinical findings on requests for interpreted diagnostic studies. Used in HL7 Version 2.x messaging in the OBR segment.",
+      "oids" : ["2.16.840.1.113883.18.422"],
+      "uses" : {
+      },
+      "http://terminology.hl7.org/6.0.2/ValueSet-v2-0916.html" : "hl7VS-relevantClincialInformation"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
@@ -451,6 +565,18 @@
       "uses" : {
       },
       "http://terminology.hl7.org/6.0.2/ValueSet-v3-ActEncounterCode.html" : "ActEncounterCode"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+      "version" : "3.1.0",
+      "status" : "active",
+      "name" : "ActReason",
+      "title" : "ActReason",
+      "description" : "A set of codes specifying the motivation, cause, or rationale of an Act, when such rationale is not reasonably represented as an ActRelationship of type \"has reason\" linking to another Act.\r\n\r\n*Examples:* Example reasons that might qualify for being coded in this field might be: \"routine requirement\", \"infectious disease reporting requirement\", \"on patient request\", \"required by law\".",
+      "oids" : ["2.16.840.1.113883.5.8"],
+      "uses" : {
+      },
+      "http://terminology.hl7.org/6.0.2/ValueSet-v3-SubstanceAdminSubstitutionReason.html" : "SubstanceAdminSubstitutionReason"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-EncounterSpecialCourtesy",
@@ -524,6 +650,18 @@
       "uses" : {
       },
       "http://terminology.hl7.org/6.0.2/ValueSet-v3-ServiceDeliveryLocationRoleType.html" : "ServiceDeliveryLocationRoleType"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "SubstanceAdminSubstitution",
+      "title" : "Substance Admin Substitution",
+      "description" : "Identifies what sort of change is permitted or has occurred between the therapy that was ordered and the therapy that was/will be provided.",
+      "oids" : ["2.16.840.1.113883.5.1070"],
+      "uses" : {
+      },
+      "http://terminology.hl7.org/6.0.2/ValueSet-v3-ActSubstanceAdminSubstitutionCode.html" : "ActSubstanceAdminSubstitutionCode"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil",

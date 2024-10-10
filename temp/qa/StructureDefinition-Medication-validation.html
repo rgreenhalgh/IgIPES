@@ -1,0 +1,22 @@
+<html>
+<head>
+  <title>StructureDefinition-Medication-validation</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<table class="grid">
+<tr><td><b>Level</b></td><td><b>Type</b></td><td><b>Location</b></td><td><b>Message</b></td></tr>
+<tr><td>error</td><td>invalid</td><td>StructureDefinition.where(url = 'http://ehrrunner.com/fhir/StructureDefinition/Medication')</td><td>The element Medication.identifier @diff[1] is out of order (and maybe others after it)</td><td></td></tr>
+<tr><td>error</td><td>value</td><td>StructureDefinition.differential.element[1]</td><td>No match found for Medication.marketingAuthorizationHolder in the generated snapshot: check that the path and definitions are legal in the differential (including order)</td><td></td></tr>
+<tr><td>error</td><td>value</td><td>StructureDefinition.differential.element[2]</td><td>No match found for Medication.doseForm in the generated snapshot: check that the path and definitions are legal in the differential (including order)</td><td></td></tr>
+<tr><td>error</td><td>value</td><td>StructureDefinition.differential.element[3]</td><td>No match found for Medication.totalVolume in the generated snapshot: check that the path and definitions are legal in the differential (including order)</td><td></td></tr>
+<tr><td>error</td><td>value</td><td>StructureDefinition.differential.element[4]</td><td>No match found for Medication.definition in the generated snapshot: check that the path and definitions are legal in the differential (including order)</td><td></td></tr>
+<tr><td>error</td><td>value</td><td>http://ehrrunner.com/fhir/StructureDefinition/Medication</td><td>The profile http://ehrrunner.com/fhir/StructureDefinition/Medication has 4 elements in the differential (id: Medication.marketingAuthorizationHolder, id: Medication.doseForm, id: Medication.totalVolume, id: Medication.definition) that don't have a matching element in the snapshot: check that the path and definitions are legal in the differential (including order)</td><td></td></tr>
+<tr><td>error</td><td>invalid</td><td>StructureDefinition/Medication: StructureDefinition.snapshot.element[11].binding.valueSet</td><td>Canonical URL 'http://hl7.org/fhir/ValueSet/medication-status|5.0.0' does not resolve</td><td></td></tr>
+<tr><td>error</td><td>invalid</td><td>StructureDefinition/Medication: StructureDefinition.differential.element[7].binding.valueSet</td><td>Canonical URL 'http://hl7.org/fhir/ValueSet/medication-status|5.0.0' does not resolve</td><td></td></tr>
+<tr><td>warning</td><td>business-rule</td><td>Medicação.Medication.status</td><td>Binding http://hl7.org/fhir/ValueSet/medication-status|5.0.0 could not be located</td><td></td></tr>
+<tr><td>warning</td><td>business-rule</td><td>StructureDefinition.where(url = 'http://ehrrunner.com/fhir/StructureDefinition/Medication')</td><td>The Implementation Guide contains no examples for this profile</td><td></td></tr>
+<tr><td>information</td><td>informational</td><td>StructureDefinition/Medication: StructureDefinition</td><td>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition|4.0.1</td><td></td></tr>
+</table>
+</body>
+</html>
