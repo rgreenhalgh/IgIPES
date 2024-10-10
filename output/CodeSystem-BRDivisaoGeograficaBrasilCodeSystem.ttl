@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://ehrrunner.com/fhir/CodeSystem/BRDivisaoGeograficaBrasilCodeSystem> a fhir:CodeSystem ;
+<http://br-ipes.com/fhir/CodeSystem/BRDivisaoGeograficaBrasilCodeSystem> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "BRDivisaoGeograficaBrasilCodeSystem"] ; # 
   fhir:language [ fhir:v "pt-BR"] ; # 

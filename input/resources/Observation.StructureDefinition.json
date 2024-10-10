@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id":"Observation",
-  "url": "http://ehrrunner.com/fhir/StructureDefinition/Observation",
+  "url": "http://br-ipes.com/fhir/StructureDefinition/Observation",
   "name": "Observation",
   "title": "Observação - Medida",
   "status": "draft",
@@ -44,7 +44,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://ehrrunner.com/fhir/StructureDefinition/Patient"
+              "http://br-ipes.com/fhir/StructureDefinition/Patient"
             ]
           }
         ]
@@ -76,7 +76,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://ehrrunner.com/fhir/StructureDefinition/Encounter"
+              "http://br-ipes.com/fhir/StructureDefinition/Encounter"
             ]
           }
         ]

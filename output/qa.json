@@ -1,13 +1,13 @@
 {
-  "url" : "http://ehrrunner.com/fhir/ImplementationGuide/2024_IG_CBIS",
+  "url" : "http://br-ipes.com/fhir/ImplementationGuide/2024_IG_CBIS",
   "name" : "2024IGCBIS",
   "title" : null,
   "description" : "Implementation Guide for 2024 IG CBIS",
   "status" : "draft",
-  "package-id" : "com.ehrrunner.fhir.2024_ig_cbis",
+  "package-id" : "com.br-ipes.fhir.2024_ig_cbis",
   "ig-ver" : "1.0.0",
-  "date" : "Thu, 10 Oct, 2024 15:46:28 -0300",
-  "dateISO8601" : "2024-10-10T15:46:28-03:00",
+  "date" : "Thu, 10 Oct, 2024 16:09:10 -0300",
+  "dateISO8601" : "2024-10-10T16:09:10-03:00",
   "errs" : 193,
   "warnings" : 91,
   "hints" : 4,
@@ -15,5 +15,5 @@
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 2269859304
+  "maxMemory" : 1868537856
 }

@@ -1,6 +1,36 @@
 {
   "codeSystems" : [
     {
+      "url" : "http://br-ipes.com/fhir/ValueSet/EHRDocumentType",
+      "version" : "1.0.0",
+      "status" : "draft",
+      "name" : "EHRDocumentType",
+      "title" : "EHRDocumentType",
+      "description" : "Tipos de documentos OpenEHR (TDDs)",
+      "systems" : ["http://br-ipes.com/fhir/CodeSystem/EHRDocumentType"]
+    },
+    {
+      "url" : "http://br-ipes.com/fhir/ValueSet/EventSummaryType",
+      "version" : "1.0.0",
+      "status" : "draft",
+      "name" : "EventSummaryType",
+      "title" : "EventSummaryType",
+      "description" : "Tipos de estruturas usadas para construir um registro eletrônico de saúde do tipo \"sumário de evento ou contato assistencial\"",
+      "systems" : ["http://br-ipes.com/fhir/CodeSystem/EventSummaryType"]
+    },
+    {
+      "url" : "http://br-ipes.com/fhir/ValueSet/ServiceRequestCategory",
+      "version" : "1.0.0",
+      "status" : "draft",
+      "name" : "ServiceRequestCategory",
+      "title" : "ServiceRequestCategory",
+      "description" : "Categorias utilizadas nos perfis do recurso ServiceRequest",
+      "systems" : ["http://br-ipes.com/fhir/CodeSystem/ServiceRequestCategory"],
+      "uses" : {
+      },
+      "StructureDefinition-ServiceRequest.html" : "Solicitação de Serviço - Exames e Procedimentos"
+    },
+    {
       "url" : "http://ehrruner.com/fhir/StructureDefinition/ValueSet/Especialidade",
       "version" : "1.0.0",
       "status" : "draft",
@@ -32,38 +62,6 @@
       "systems" : [
         "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/AreaAtuacao"
       ]
-    },
-    {
-      "url" : "http://ehrrunner.com/fhir/ValueSet/EHRDocumentType",
-      "version" : "1.0.0",
-      "status" : "draft",
-      "name" : "EHRDocumentType",
-      "title" : "EHRDocumentType",
-      "description" : "Tipos de documentos OpenEHR (TDDs)",
-      "systems" : ["http://ehrrunner.com/fhir/CodeSystem/EHRDocumentType"]
-    },
-    {
-      "url" : "http://ehrrunner.com/fhir/ValueSet/EventSummaryType",
-      "version" : "1.0.0",
-      "status" : "draft",
-      "name" : "EventSummaryType",
-      "title" : "EventSummaryType",
-      "description" : "Tipos de estruturas usadas para construir um registro eletrônico de saúde do tipo \"sumário de evento ou contato assistencial\"",
-      "systems" : ["http://ehrrunner.com/fhir/CodeSystem/EventSummaryType"]
-    },
-    {
-      "url" : "http://ehrrunner.com/fhir/ValueSet/ServiceRequestCategory",
-      "version" : "1.0.0",
-      "status" : "draft",
-      "name" : "ServiceRequestCategory",
-      "title" : "ServiceRequestCategory",
-      "description" : "Categorias utilizadas nos perfis do recurso ServiceRequest",
-      "systems" : [
-        "http://ehrrunner.com/fhir/CodeSystem/ServiceRequestCategory"
-      ],
-      "uses" : {
-      },
-      "StructureDefinition-ServiceRequest.html" : "Solicitação de Serviço - Exames e Procedimentos"
     },
     {
       "url" : "http://example.org/ValueSet/BRTipoDocumentoIndividuo-1.0",

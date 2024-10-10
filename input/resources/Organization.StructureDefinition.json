@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id":"Organization",
-  "url": "http://ehrrunner.com/fhir/StructureDefinition/Organization",
+  "url": "http://br-ipes.com/fhir/StructureDefinition/Organization",
   "version": "1.0",
   "name": "Organization",
   "title": "Estabelecimento de Saúde",

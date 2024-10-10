@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id":"Procedure",
-  "url": "http://ehrrunner.com/fhir/StructureDefinition/Procedure",
+  "url": "http://br-ipes.com/fhir/StructureDefinition/Procedure",
   "version": "1.0",
   "name": "Procedure",
   "title": "Procedimento",
@@ -105,7 +105,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://ehrrunner.com/fhir/StructureDefinition/Patient"
+              "http://br-ipes.com/fhir/StructureDefinition/Patient"
             ]
           }
         ]
@@ -174,8 +174,8 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://ehrrunner.com/fhir/StructureDefinition/Practitioner-1.0",
-              "http://ehrrunner.com/fhir/StructureDefinition/Organization-1.0"
+              "http://br-ipes.com/fhir/StructureDefinition/Practitioner-1.0",
+              "http://br-ipes.com/fhir/StructureDefinition/Organization-1.0"
             ]
           }
         ]

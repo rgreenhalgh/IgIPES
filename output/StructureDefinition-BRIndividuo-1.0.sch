@@ -14,7 +14,7 @@
     <sch:rule context="f:Patient">
       <sch:assert test="count(f:extension[@url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRacaCorEtnia-1.0']) &lt;= 1">extension with URL = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRacaCorEtnia-1.0': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMunicipio-1.0']) &lt;= 1">extension with URL = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMunicipio-1.0': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://ehrrunner.com/fhir/StructureDefinition/BirthCountry-1.0']) &lt;= 1">extension with URL = 'http://ehrrunner.com/fhir/StructureDefinition/BirthCountry-1.0': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://br-ipes.com/fhir/StructureDefinition/BirthCountry-1.0']) &lt;= 1">extension with URL = 'http://br-ipes.com/fhir/StructureDefinition/BirthCountry-1.0': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/StructureDefinition/patient-genderIdentity']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/StructureDefinition/patient-genderIdentity': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/StructureDefinition/patient-importance']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/StructureDefinition/patient-importance': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:active) &gt;= 1">active: minimum cardinality of 'active' is 1</sch:assert>

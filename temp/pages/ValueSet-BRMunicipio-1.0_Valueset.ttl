@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://ehrrunner.com/fhir/ValueSet/BRMunicipio-1.0_Valueset> a fhir:ValueSet ;
+<http://br-ipes.com/fhir/ValueSet/BRMunicipio-1.0_Valueset> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "BRMunicipio-1.0_Valueset"] ; # 
   fhir:language [ fhir:v "pt-BR"] ; # 

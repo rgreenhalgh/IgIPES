@@ -1,14 +1,14 @@
 {
   "resourceType": "ImplementationGuide",
   "id": "2024_IG_CBIS",
-  "url": "http://ehrrunner.com/fhir/ImplementationGuide/2024_IG_CBIS",
+  "url": "http://br-ipes.com/fhir/ImplementationGuide/2024_IG_CBIS",
   "version": "1.0.0",
   "name": "2024IGCBIS",
   "status": "draft",
   "publisher": "CBIS Publisher",
   "description": "Implementation Guide for 2024 IG CBIS",
   "fhirVersion": ["4.0.1"],
-  "packageId": "com.ehrrunner.fhir.2024_ig_cbis",
+  "packageId": "com.br-ipes.fhir.2024_ig_cbis",
   "definition": {
     "grouping": [
       {

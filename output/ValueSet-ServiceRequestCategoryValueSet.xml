@@ -3,9 +3,9 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="ServiceRequestCategoryValueSet"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet ServiceRequestCategoryValueSet</b></p><a name="ServiceRequestCategoryValueSet"> </a><a name="hcServiceRequestCategoryValueSet"> </a><a name="ServiceRequestCategoryValueSet-en-US"> </a><ul><li>Include all codes defined in <a href="CodeSystem-ServiceRequestCategory.html"><code>http://ehrrunner.com/fhir/CodeSystem/ServiceRequestCategory</code></a></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet ServiceRequestCategoryValueSet</b></p><a name="ServiceRequestCategoryValueSet"> </a><a name="hcServiceRequestCategoryValueSet"> </a><a name="ServiceRequestCategoryValueSet-en-US"> </a><ul><li>Include all codes defined in <a href="CodeSystem-ServiceRequestCategory.html"><code>http://br-ipes.com/fhir/CodeSystem/ServiceRequestCategory</code></a></li></ul></div>
   </text>
-  <url value="http://ehrrunner.com/fhir/ValueSet/ServiceRequestCategory"/>
+  <url value="http://br-ipes.com/fhir/ValueSet/ServiceRequestCategory"/>
   <version value="1.0.0"/>
   <name value="ServiceRequestCategory"/>
   <title value="ServiceRequestCategory"/>
@@ -20,7 +20,7 @@
   <description value="Categorias utilizadas nos perfis do recurso ServiceRequest"/>
   <compose>
     <include>
-      <system value="http://ehrrunner.com/fhir/CodeSystem/ServiceRequestCategory"/>
+      <system value="http://br-ipes.com/fhir/CodeSystem/ServiceRequestCategory"/>
     </include>
   </compose>
 </ValueSet>

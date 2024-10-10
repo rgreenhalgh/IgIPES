@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://ehrrunner.com/fhir/ValueSet/EventSummaryTypeValueSet> a fhir:ValueSet ;
+<http://br-ipes.com/fhir/ValueSet/EventSummaryTypeValueSet> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "EventSummaryTypeValueSet"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet EventSummaryTypeValueSet</b></p><a name=\"EventSummaryTypeValueSet\"> </a><a name=\"hcEventSummaryTypeValueSet\"> </a><a name=\"EventSummaryTypeValueSet-en-US\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-EventSummaryTypeCodeSystem.html\"><code>http://ehrrunner.com/fhir/CodeSystem/EventSummaryType</code></a></li></ul></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet EventSummaryTypeValueSet</b></p><a name=\"EventSummaryTypeValueSet\"> </a><a name=\"hcEventSummaryTypeValueSet\"> </a><a name=\"EventSummaryTypeValueSet-en-US\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-EventSummaryTypeCodeSystem.html\"><code>http://br-ipes.com/fhir/CodeSystem/EventSummaryType</code></a></li></ul></div>"
   ] ; # 
-  fhir:url [ fhir:v "http://ehrrunner.com/fhir/ValueSet/EventSummaryType"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "http://br-ipes.com/fhir/ValueSet/EventSummaryType"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "1.0.0"] ; # 
   fhir:name [ fhir:v "EventSummaryType"] ; # 
   fhir:title [ fhir:v "EventSummaryType"] ; # 
@@ -27,7 +27,7 @@
   fhir:description [ fhir:v "Tipos de estruturas usadas para construir um registro eletrônico de saúde do tipo \"sumário de evento ou contato assistencial\""] ; # 
   fhir:compose [
      fhir:include ( [
-       fhir:system [ fhir:v "http://ehrrunner.com/fhir/CodeSystem/EventSummaryType"^^xsd:anyURI ]
+       fhir:system [ fhir:v "http://br-ipes.com/fhir/CodeSystem/EventSummaryType"^^xsd:anyURI ]
      ] )
   ] . # 
 

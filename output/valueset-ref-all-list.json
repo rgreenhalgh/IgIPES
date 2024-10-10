@@ -1,6 +1,36 @@
 {
   "codeSystems" : [
     {
+      "url" : "http://br-ipes.com/fhir/ValueSet/EHRDocumentType",
+      "version" : "1.0.0",
+      "status" : "draft",
+      "name" : "EHRDocumentType",
+      "title" : "EHRDocumentType",
+      "description" : "Tipos de documentos OpenEHR (TDDs)",
+      "systems" : ["http://br-ipes.com/fhir/CodeSystem/EHRDocumentType"]
+    },
+    {
+      "url" : "http://br-ipes.com/fhir/ValueSet/EventSummaryType",
+      "version" : "1.0.0",
+      "status" : "draft",
+      "name" : "EventSummaryType",
+      "title" : "EventSummaryType",
+      "description" : "Tipos de estruturas usadas para construir um registro eletrônico de saúde do tipo \"sumário de evento ou contato assistencial\"",
+      "systems" : ["http://br-ipes.com/fhir/CodeSystem/EventSummaryType"]
+    },
+    {
+      "url" : "http://br-ipes.com/fhir/ValueSet/ServiceRequestCategory",
+      "version" : "1.0.0",
+      "status" : "draft",
+      "name" : "ServiceRequestCategory",
+      "title" : "ServiceRequestCategory",
+      "description" : "Categorias utilizadas nos perfis do recurso ServiceRequest",
+      "systems" : ["http://br-ipes.com/fhir/CodeSystem/ServiceRequestCategory"],
+      "uses" : {
+      },
+      "StructureDefinition-ServiceRequest.html" : "Solicitação de Serviço - Exames e Procedimentos"
+    },
+    {
       "url" : "http://ehrruner.com/fhir/StructureDefinition/ValueSet/Especialidade",
       "version" : "1.0.0",
       "status" : "draft",
@@ -32,38 +62,6 @@
       "systems" : [
         "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/AreaAtuacao"
       ]
-    },
-    {
-      "url" : "http://ehrrunner.com/fhir/ValueSet/EHRDocumentType",
-      "version" : "1.0.0",
-      "status" : "draft",
-      "name" : "EHRDocumentType",
-      "title" : "EHRDocumentType",
-      "description" : "Tipos de documentos OpenEHR (TDDs)",
-      "systems" : ["http://ehrrunner.com/fhir/CodeSystem/EHRDocumentType"]
-    },
-    {
-      "url" : "http://ehrrunner.com/fhir/ValueSet/EventSummaryType",
-      "version" : "1.0.0",
-      "status" : "draft",
-      "name" : "EventSummaryType",
-      "title" : "EventSummaryType",
-      "description" : "Tipos de estruturas usadas para construir um registro eletrônico de saúde do tipo \"sumário de evento ou contato assistencial\"",
-      "systems" : ["http://ehrrunner.com/fhir/CodeSystem/EventSummaryType"]
-    },
-    {
-      "url" : "http://ehrrunner.com/fhir/ValueSet/ServiceRequestCategory",
-      "version" : "1.0.0",
-      "status" : "draft",
-      "name" : "ServiceRequestCategory",
-      "title" : "ServiceRequestCategory",
-      "description" : "Categorias utilizadas nos perfis do recurso ServiceRequest",
-      "systems" : [
-        "http://ehrrunner.com/fhir/CodeSystem/ServiceRequestCategory"
-      ],
-      "uses" : {
-      },
-      "StructureDefinition-ServiceRequest.html" : "Solicitação de Serviço - Exames e Procedimentos"
     },
     {
       "url" : "http://example.org/ValueSet/BRTipoDocumentoIndividuo-1.0",
@@ -117,8 +115,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.1"],
       "uses" : {
       },
-      "StructureDefinition-BRIndividuo-1.0.html" : "Indivíduo",
       "StructureDefinition-Patient.html" : "Paciente",
+      "StructureDefinition-BRIndividuo-1.0.html" : "Indivíduo",
       "StructureDefinition-Practitioner.html" : "Profissional de Saúde"
     },
     {
@@ -133,9 +131,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.141"],
       "uses" : {
       },
+      "StructureDefinition-ServiceRequest.html" : "Solicitação de Serviço - Exames e Procedimentos",
       "StructureDefinition-Procedure.html" : "Procedimento",
-      "StructureDefinition-Specimen.html" : "Amostra",
-      "StructureDefinition-ServiceRequest.html" : "Solicitação de Serviço - Exames e Procedimentos"
+      "StructureDefinition-Specimen.html" : "Amostra"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/clinical-findings",
@@ -163,8 +161,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.161"],
       "uses" : {
       },
-      "StructureDefinition-Procedure.html" : "Procedimento",
-      "StructureDefinition-MedicationRequest.html" : "Solicitação de Medicação"
+      "StructureDefinition-MedicationRequest.html" : "Solicitação de Medicação",
+      "StructureDefinition-Procedure.html" : "Procedimento"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/contactentity-type",
@@ -410,12 +408,12 @@
       "sources" : ["2.16.840.1.113883.4.642.3.45"],
       "uses" : {
       },
-      "StructureDefinition-Procedure.html" : "Procedimento",
-      "StructureDefinition-BRIndividuo-1.0.html" : "Indivíduo",
       "StructureDefinition-Patient.html" : "Paciente",
-      "StructureDefinition-Practitioner.html" : "Profissional de Saúde",
+      "StructureDefinition-Organization.html" : "Estabelecimento de Saúde",
       "StructureDefinition-Encounter.html" : "Contato Assistencial",
-      "StructureDefinition-Organization.html" : "Estabelecimento de Saúde"
+      "StructureDefinition-BRIndividuo-1.0.html" : "Indivíduo",
+      "StructureDefinition-Procedure.html" : "Procedimento",
+      "StructureDefinition-Practitioner.html" : "Profissional de Saúde"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
@@ -429,13 +427,13 @@
       "sources" : ["2.16.840.1.113883.4.642.3.57"],
       "uses" : {
       },
-      "StructureDefinition-Procedure.html" : "Procedimento",
-      "StructureDefinition-BRIndividuo-1.0.html" : "Indivíduo",
-      "StructureDefinition-IdentificadorIndividuo.html" : "Identificador do Indivíduo",
       "StructureDefinition-Patient.html" : "Paciente",
-      "StructureDefinition-Practitioner.html" : "Profissional de Saúde",
+      "StructureDefinition-Organization.html" : "Estabelecimento de Saúde",
       "StructureDefinition-Encounter.html" : "Contato Assistencial",
-      "StructureDefinition-Organization.html" : "Estabelecimento de Saúde"
+      "StructureDefinition-BRIndividuo-1.0.html" : "Indivíduo",
+      "StructureDefinition-Procedure.html" : "Procedimento",
+      "StructureDefinition-IdentificadorIndividuo.html" : "Identificador do Indivíduo",
+      "StructureDefinition-Practitioner.html" : "Profissional de Saúde"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/languages",
@@ -449,18 +447,18 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-Medication.html" : "Medicação",
-      "StructureDefinition-Procedure.html" : "Procedimento",
-      "StructureDefinition-BRIndividuo-1.0.html" : "Indivíduo",
-      "StructureDefinition-Observation.html" : "Observação - Medida",
-      "StructureDefinition-DiagnosticReport.html" : "Relatório de Diagnóstico",
-      "StructureDefinition-Patient.html" : "Paciente",
-      "StructureDefinition-Specimen.html" : "Amostra",
       "StructureDefinition-MedicationRequest.html" : "Solicitação de Medicação",
-      "StructureDefinition-Practitioner.html" : "Profissional de Saúde",
+      "StructureDefinition-Patient.html" : "Paciente",
+      "StructureDefinition-DiagnosticReport.html" : "Relatório de Diagnóstico",
+      "StructureDefinition-Organization.html" : "Estabelecimento de Saúde",
+      "StructureDefinition-Observation.html" : "Observação - Medida",
       "StructureDefinition-Encounter.html" : "Contato Assistencial",
+      "StructureDefinition-Medication.html" : "Medicação",
+      "StructureDefinition-BRIndividuo-1.0.html" : "Indivíduo",
       "StructureDefinition-ServiceRequest.html" : "Solicitação de Serviço - Exames e Procedimentos",
-      "StructureDefinition-Organization.html" : "Estabelecimento de Saúde"
+      "StructureDefinition-Procedure.html" : "Procedimento",
+      "StructureDefinition-Specimen.html" : "Amostra",
+      "StructureDefinition-Practitioner.html" : "Profissional de Saúde"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/link-type",
@@ -474,8 +472,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.423"],
       "uses" : {
       },
-      "StructureDefinition-BRIndividuo-1.0.html" : "Indivíduo",
-      "StructureDefinition-Patient.html" : "Paciente"
+      "StructureDefinition-Patient.html" : "Paciente",
+      "StructureDefinition-BRIndividuo-1.0.html" : "Indivíduo"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/location-physical-type",
@@ -508,8 +506,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.29"],
       "uses" : {
       },
-      "StructureDefinition-BRIndividuo-1.0.html" : "Indivíduo",
-      "StructureDefinition-Patient.html" : "Paciente"
+      "StructureDefinition-Patient.html" : "Paciente",
+      "StructureDefinition-BRIndividuo-1.0.html" : "Indivíduo"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/medication-as-needed-reason",
@@ -537,8 +535,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.375"],
       "uses" : {
       },
-      "StructureDefinition-Medication.html" : "Medicação",
-      "StructureDefinition-MedicationRequest.html" : "Solicitação de Medicação"
+      "StructureDefinition-MedicationRequest.html" : "Solicitação de Medicação",
+      "StructureDefinition-Medication.html" : "Medicação"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/medication-form-codes",
@@ -698,8 +696,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.1130"],
       "uses" : {
       },
-      "StructureDefinition-BRIndividuo-1.0.html" : "Indivíduo",
-      "StructureDefinition-Patient.html" : "Paciente"
+      "StructureDefinition-Patient.html" : "Paciente",
+      "StructureDefinition-BRIndividuo-1.0.html" : "Indivíduo"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/procedure-category",
@@ -872,10 +870,10 @@
       "sources" : ["2.16.840.1.113883.4.642.3.27"],
       "uses" : {
       },
-      "StructureDefinition-Procedure.html" : "Procedimento",
       "StructureDefinition-Observation.html" : "Observação - Medida",
       "StructureDefinition-Encounter.html" : "Contato Assistencial",
-      "StructureDefinition-ServiceRequest.html" : "Solicitação de Serviço - Exames e Procedimentos"
+      "StructureDefinition-ServiceRequest.html" : "Solicitação de Serviço - Exames e Procedimentos",
+      "StructureDefinition-Procedure.html" : "Procedimento"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/service-type",

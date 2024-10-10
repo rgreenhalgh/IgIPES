@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id":"Practitioner",
-  "url": "http://ehrrunner.com/fhir/StructureDefinition/Practitioner",
+  "url": "http://br-ipes.com/fhir/StructureDefinition/Practitioner",
   "version": "1.0",
   "name": "Practitioner",
   "title": "Profissional de Saúde",
@@ -32,7 +32,7 @@
           {
             "code": "Identifier",
             "profile": [
-              "http://ehrrunner.com/fhir/StructureDefinition/IdentificadorIndividuo"
+              "http://br-ipes.com/fhir/StructureDefinition/IdentificadorIndividuo"
             ]
           }
         ]
@@ -189,7 +189,7 @@
         "path": "Practitioner.qualification.code",
         "binding": {
           "strength": "preferred",
-          "valueSet": "http://ehrrunner.com/fhir/ValueSet/Especialidade"
+          "valueSet": "http://br-ipes.com/fhir/ValueSet/Especialidade"
         }
       },
       {
@@ -222,7 +222,7 @@
         "path": "Practitioner.qualification.code",
         "binding": {
           "strength": "preferred",
-          "valueSet": "http://ehrrunner.com/fhir/ValueSet/AreaAtuacao"
+          "valueSet": "http://br-ipes.com/fhir/ValueSet/AreaAtuacao"
         }
       },
       {

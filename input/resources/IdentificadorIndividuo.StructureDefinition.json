@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id":"IdentificadorIndividuo",
-  "url": "http://ehrrunner.com/fhir/StructureDefinition/IdentificadorIndividuo",
+  "url": "http://br-ipes.com/fhir/StructureDefinition/IdentificadorIndividuo",
   "version": "1.0",
   "name": "IdentificadorIndividuo",
   "title": "Identificador do Indivíduo",

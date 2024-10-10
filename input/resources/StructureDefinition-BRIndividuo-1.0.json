@@ -53,7 +53,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "Patient",
-  "baseDefinition": "http://ehrrunner.com/fhir/StructureDefinition/Patient",
+  "baseDefinition": "http://br-ipes.com/fhir/StructureDefinition/Patient",
   "derivation": "constraint",
   "differential": {
     "element": [

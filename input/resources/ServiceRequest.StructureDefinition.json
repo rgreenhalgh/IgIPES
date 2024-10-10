@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "ServiceRequest",
-  "url": "http://ehrrunner.com/fhir/StructureDefinition/ServiceRequest",
+  "url": "http://br-ipes.com/fhir/StructureDefinition/ServiceRequest",
   "version": "1.0",
   "name": "ServiceRequest",
   "title": "Solicitação de Serviço - Exames e Procedimentos",
@@ -22,8 +22,8 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://ehrrunner.com/fhir/StructureDefinition/Organization",
-              "http://ehrrunner.com/fhir/StructureDefinition/Practitioner"
+              "http://br-ipes.com/fhir/StructureDefinition/Organization",
+              "http://br-ipes.com/fhir/StructureDefinition/Practitioner"
             ]
           }
         ]
@@ -41,7 +41,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://ehrrunner.com/fhir/StructureDefinition/Patient"
+              "http://br-ipes.com/fhir/StructureDefinition/Patient"
             ]
           }
         ]
@@ -58,7 +58,7 @@
         "definition": "Categoria do pedido (SADT, procedimentos, etc.).",
         "binding": {
           "strength": "required",
-          "valueSet": "http://ehrrunner.com/fhir/ValueSet/ServiceRequestCategory"
+          "valueSet": "http://br-ipes.com/fhir/ValueSet/ServiceRequestCategory"
         }
       },
       {

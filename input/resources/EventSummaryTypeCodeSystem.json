@@ -1,7 +1,7 @@
 {
   "resourceType": "CodeSystem",
   "id":"EventSummaryTypeCodeSystem",
-  "url": "http://ehrrunner.com/fhir/CodeSystem/EventSummaryType",
+  "url": "http://br-ipes.com/fhir/CodeSystem/EventSummaryType",
   "version": "1.0",
   "name": "EventSummaryType",
   "title": "EventSummaryType",
@@ -18,7 +18,7 @@
   ],
   "description": "Tipos de estruturas usadas para construir um registro eletrônico de saúde do tipo \"sumário de evento ou contato assistencial\"",
   "caseSensitive": false,
-  "valueSet": "http://ehrrunner.com/fhir/ValueSet/EventSummaryType",
+  "valueSet": "http://br-ipes.com/fhir/ValueSet/EventSummaryType",
   "compositional": false,
   "versionNeeded": false,
   "content": "complete",

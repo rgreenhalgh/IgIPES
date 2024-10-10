@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://ehrrunner.com/fhir/ValueSet/BRTipoDocumentoIndividuo-1.0_ValueSet> a fhir:ValueSet ;
+<http://br-ipes.com/fhir/ValueSet/BRTipoDocumentoIndividuo-1.0_ValueSet> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "BRTipoDocumentoIndividuo-1.0_ValueSet"] ; # 
   fhir:language [ fhir:v "pt-BR"] ; # 

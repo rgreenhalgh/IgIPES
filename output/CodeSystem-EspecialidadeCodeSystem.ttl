@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://ehrrunner.com/fhir/CodeSystem/EspecialidadeCodeSystem> a fhir:CodeSystem ;
+<http://br-ipes.com/fhir/CodeSystem/EspecialidadeCodeSystem> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "EspecialidadeCodeSystem"] ; # 
   fhir:text [

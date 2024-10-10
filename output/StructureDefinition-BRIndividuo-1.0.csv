@@ -79,7 +79,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Município","Informa o município de nascimento (apenas para nascidos no Brasil).","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Patient.extension:birthCountry","Patient.extension","birthCountry","","",0,1,"","","","Extension {[CanonicalType[http://ehrrunner.com/fhir/StructureDefinition/BirthCountry-1.0]]} {[]}
+"Patient.extension:birthCountry","Patient.extension","birthCountry","","",0,1,"","","","Extension {[CanonicalType[http://br-ipes.com/fhir/StructureDefinition/BirthCountry-1.0]]} {[]}
 ","País de nascimento","País de nascimento.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -145,7 +145,7 @@ user content","",0,*,"","Y","","Extension {[]} {[]}
 
 Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension).","","","","","","","",,,,,"",,,,"DomainResource.modifierExtension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","N/A"
-"Patient.identifier","Patient.identifier","","","",0,*,"","","Y","Identifier {[CanonicalType[http://ehrrunner.com/fhir/StructureDefinition/IdentificadorIndividuo]]} {[]}
+"Patient.identifier","Patient.identifier","","","",0,*,"","","Y","Identifier {[CanonicalType[http://br-ipes.com/fhir/StructureDefinition/IdentificadorIndividuo]]} {[]}
 ","An identifier for this patient","An identifier for this patient.","","Patients are almost always assigned specific numerical identifiers.","","","","","","","",,,,,"","pattern:type.coding}
 ","",,"open","Patient.identifier",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","id",".id","FiveWs.identifier","PID-3"

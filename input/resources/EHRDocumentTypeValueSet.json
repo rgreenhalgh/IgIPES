@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id":"EHRDocumentTypeValueset",
-  "url": "http://ehrrunner.com/fhir/ValueSet/EHRDocumentType",
+  "url": "http://br-ipes.com/fhir/ValueSet/EHRDocumentType",
   "version": "1.0",
   "name": "EHRDocumentType",
   "title": "EHRDocumentType",
@@ -20,7 +20,7 @@
   "compose": {
     "include": [
       {
-        "system": "http://ehrrunner.com/fhir/CodeSystem/EHRDocumentType"
+        "system": "http://br-ipes.com/fhir/CodeSystem/EHRDocumentType"
       }
     ]
   }

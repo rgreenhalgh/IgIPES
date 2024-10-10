@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "Specimen",
-  "url": "http://ehrrunner.com/fhir/StructureDefinition/Specimen",
+  "url": "http://br-ipes.com/fhir/StructureDefinition/Specimen",
   "version": "1.0",
   "name": "Specimen",
   "title": "Amostra",

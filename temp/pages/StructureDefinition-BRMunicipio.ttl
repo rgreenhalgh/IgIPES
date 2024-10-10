@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://ehrrunner.com/fhir/StructureDefinition/BRMunicipio> a fhir:StructureDefinition ;
+<http://br-ipes.com/fhir/StructureDefinition/BRMunicipio> a fhir:StructureDefinition ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "BRMunicipio"] ; # 
   fhir:meta [

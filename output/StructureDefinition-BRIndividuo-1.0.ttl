@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://ehrrunner.com/fhir/StructureDefinition/BRIndividuo-1.0> a fhir:StructureDefinition ;
+<http://br-ipes.com/fhir/StructureDefinition/BRIndividuo-1.0> a fhir:StructureDefinition ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "BRIndividuo-1.0"] ; # 
   fhir:meta [
@@ -46,7 +46,7 @@
   fhir:name [ fhir:v "BRIndividuo"] ; # 
   fhir:title [ fhir:v "Indivíduo"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-10-10T15:46:28-03:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-10-10T16:09:10-03:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "CBIS Publisher"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -82,8 +82,8 @@
   fhir:abstract [ fhir:v "false"^^xsd:boolean] ; # 
   fhir:type [ fhir:v "Patient"^^xsd:anyURI] ; # 
   fhir:baseDefinition [
-     fhir:v "http://ehrrunner.com/fhir/StructureDefinition/Patient"^^xsd:anyURI ;
-     fhir:link <http://ehrrunner.com/fhir/StructureDefinition/Patient>
+     fhir:v "http://br-ipes.com/fhir/StructureDefinition/Patient"^^xsd:anyURI ;
+     fhir:link <http://br-ipes.com/fhir/StructureDefinition/Patient>
   ] ; # 
   fhir:derivation [ fhir:v "constraint"] ; # 
   fhir:snapshot [
@@ -1132,8 +1132,8 @@
        fhir:type ( [
          fhir:code [ fhir:v "Extension"^^xsd:anyURI ] ;
          fhir:profile ( [
-           fhir:v "http://ehrrunner.com/fhir/StructureDefinition/BirthCountry-1.0"^^xsd:anyURI ;
-           fhir:link <http://ehrrunner.com/fhir/StructureDefinition/BirthCountry-1.0>
+           fhir:v "http://br-ipes.com/fhir/StructureDefinition/BirthCountry-1.0"^^xsd:anyURI ;
+           fhir:link <http://br-ipes.com/fhir/StructureDefinition/BirthCountry-1.0>
          ] )
        ] ) ;
        fhir:condition ( [ fhir:v "ele-1" ] ) ;
@@ -1912,8 +1912,8 @@
        fhir:type ( [
          fhir:code [ fhir:v "Identifier"^^xsd:anyURI ] ;
          fhir:profile ( [
-           fhir:v "http://ehrrunner.com/fhir/StructureDefinition/IdentificadorIndividuo"^^xsd:anyURI ;
-           fhir:link <http://ehrrunner.com/fhir/StructureDefinition/IdentificadorIndividuo>
+           fhir:v "http://br-ipes.com/fhir/StructureDefinition/IdentificadorIndividuo"^^xsd:anyURI ;
+           fhir:link <http://br-ipes.com/fhir/StructureDefinition/IdentificadorIndividuo>
          ] )
        ] ) ;
        fhir:constraint ( [

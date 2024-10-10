@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id":"Patient",
-  "url": "http://ehrrunner.com/fhir/StructureDefinition/Patient",
+  "url": "http://br-ipes.com/fhir/StructureDefinition/Patient",
   "version": "1.0",
   "name": "Patient",
   "title": "Paciente",
@@ -68,7 +68,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://ehrrunner.com/fhir/StructureDefinition/BirthCountry-1.0"
+              "http://br-ipes.com/fhir/StructureDefinition/BirthCountry-1.0"
             ]
           }
         ],
@@ -141,7 +141,7 @@
           {
             "code": "Identifier",
             "profile": [
-              "http://ehrrunner.com/fhir/StructureDefinition/IdentificadorIndividuo"
+              "http://br-ipes.com/fhir/StructureDefinition/IdentificadorIndividuo"
             ]
           }
         ]

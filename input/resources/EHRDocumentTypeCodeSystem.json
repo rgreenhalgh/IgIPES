@@ -1,7 +1,7 @@
 {
   "resourceType": "CodeSystem",
   "id":"EHRDocumentTypeCodeSystem",
-  "url": "http://ehrrunner.com/fhir/CodeSystem/EHRDocumentType",
+  "url": "http://br-ipes.com/fhir/CodeSystem/EHRDocumentType",
   "version": "1.0",
   "name": "EHRDocumentType",
   "title": "EHRDocumentType",
@@ -18,7 +18,7 @@
   ],
   "description": "Tipos de documentos OpenEHR (TDDs)",
   "caseSensitive": true,
-  "valueSet": "http://ehrrunner.com/fhir/ValueSet/EHRDocumentType",
+  "valueSet": "http://br-ipes.com/fhir/ValueSet/EHRDocumentType",
   "compositional": false,
   "versionNeeded": false,
   "content": "complete",

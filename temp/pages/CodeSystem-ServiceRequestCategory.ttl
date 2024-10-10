@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://ehrrunner.com/fhir/CodeSystem/ServiceRequestCategory> a fhir:CodeSystem ;
+<http://br-ipes.com/fhir/CodeSystem/ServiceRequestCategory> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "ServiceRequestCategory"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ServiceRequestCategory</b></p><a name=\"ServiceRequestCategory\"> </a><a name=\"hcServiceRequestCategory\"> </a><a name=\"ServiceRequestCategory-en-US\"> </a><p>This case-insensitive code system <code>http://ehrrunner.com/fhir/CodeSystem/ServiceRequestCategory</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">SADT<a name=\"ServiceRequestCategory-SADT\"> </a></td><td>Serviço Auxiliar de Diagnóstico ou Terapia</td></tr><tr><td style=\"white-space:nowrap\">Referral<a name=\"ServiceRequestCategory-Referral\"> </a></td><td>Referência (atenção especializada)</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ServiceRequestCategory</b></p><a name=\"ServiceRequestCategory\"> </a><a name=\"hcServiceRequestCategory\"> </a><a name=\"ServiceRequestCategory-en-US\"> </a><p>This case-insensitive code system <code>http://br-ipes.com/fhir/CodeSystem/ServiceRequestCategory</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">SADT<a name=\"ServiceRequestCategory-SADT\"> </a></td><td>Serviço Auxiliar de Diagnóstico ou Terapia</td></tr><tr><td style=\"white-space:nowrap\">Referral<a name=\"ServiceRequestCategory-Referral\"> </a></td><td>Referência (atenção especializada)</td></tr></table></div>"
   ] ; # 
-  fhir:url [ fhir:v "http://ehrrunner.com/fhir/CodeSystem/ServiceRequestCategory"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "http://br-ipes.com/fhir/CodeSystem/ServiceRequestCategory"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "1.0.0"] ; # 
   fhir:name [ fhir:v "ServiceRequestCategory"] ; # 
   fhir:title [ fhir:v "ServiceRequestCategory"] ; # 
@@ -27,8 +27,8 @@
   fhir:description [ fhir:v "Categorias utilizadas nos perfis do recurso ServiceRequest"] ; # 
   fhir:caseSensitive [ fhir:v "false"^^xsd:boolean] ; # 
   fhir:valueSet [
-     fhir:v "http://ehrrunner.com/fhir/ValueSet/ServiceRequestCategory"^^xsd:anyURI ;
-     fhir:link <http://ehrrunner.com/fhir/ValueSet/ServiceRequestCategory>
+     fhir:v "http://br-ipes.com/fhir/ValueSet/ServiceRequestCategory"^^xsd:anyURI ;
+     fhir:link <http://br-ipes.com/fhir/ValueSet/ServiceRequestCategory>
   ] ; # 
   fhir:compositional [ fhir:v "false"^^xsd:boolean] ; # 
   fhir:versionNeeded [ fhir:v "false"^^xsd:boolean] ; # 

@@ -1,7 +1,7 @@
 {
   "resourceType": "CodeSystem",
   "id": "ServiceRequestCategory",
-  "url": "http://ehrrunner.com/fhir/CodeSystem/ServiceRequestCategory",
+  "url": "http://br-ipes.com/fhir/CodeSystem/ServiceRequestCategory",
   "version": "1.0",
   "name": "ServiceRequestCategory",
   "title": "ServiceRequestCategory",
@@ -18,7 +18,7 @@
   ],
   "description": "Categorias utilizadas nos perfis do recurso ServiceRequest",
   "caseSensitive": false,
-  "valueSet": "http://ehrrunner.com/fhir/ValueSet/ServiceRequestCategory",
+  "valueSet": "http://br-ipes.com/fhir/ValueSet/ServiceRequestCategory",
   "compositional": false,
   "versionNeeded": false,
   "content": "complete",

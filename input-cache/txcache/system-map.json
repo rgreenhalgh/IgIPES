@@ -6,7 +6,7 @@
       "candidates" : []
     },
     {
-      "system" : "http://ehrrunner.com/fhir/CodingSystem/identifier-type",
+      "system" : "http://br-ipes.com/fhir/CodingSystem/identifier-type",
       "authoritative" : [],
       "candidates" : []
     },

@@ -98,7 +98,7 @@
   },
   "BirthCountry-1.0" : {
     "index" : 4,
-    "url" : "http://ehrrunner.com/fhir/StructureDefinition/BirthCountry-1.0",
+    "url" : "http://br-ipes.com/fhir/StructureDefinition/BirthCountry-1.0",
     "name" : "BirthCountry",
     "title" : "País de Nascimento",
     "path" : "StructureDefinition-BirthCountry-1.0.html",
@@ -124,7 +124,7 @@
   },
   "DiagnosticReport" : {
     "index" : 5,
-    "url" : "http://ehrrunner.com/fhir/StructureDefinition/DiagnosticReport",
+    "url" : "http://br-ipes.com/fhir/StructureDefinition/DiagnosticReport",
     "name" : "DiagnosticReport",
     "title" : "Relatório de Diagnóstico",
     "path" : "StructureDefinition-DiagnosticReport.html",
@@ -143,7 +143,7 @@
   },
   "Encounter" : {
     "index" : 6,
-    "url" : "http://ehrrunner.com/fhir/StructureDefinition/Encounter",
+    "url" : "http://br-ipes.com/fhir/StructureDefinition/Encounter",
     "name" : "Encounter",
     "title" : "Contato Assistencial",
     "path" : "StructureDefinition-Encounter.html",
@@ -162,7 +162,7 @@
   },
   "IdentificadorIndividuo" : {
     "index" : 7,
-    "url" : "http://ehrrunner.com/fhir/StructureDefinition/IdentificadorIndividuo",
+    "url" : "http://br-ipes.com/fhir/StructureDefinition/IdentificadorIndividuo",
     "name" : "IdentificadorIndividuo",
     "title" : "Identificador do Indivíduo",
     "path" : "StructureDefinition-IdentificadorIndividuo.html",
@@ -181,7 +181,7 @@
   },
   "Medication" : {
     "index" : 8,
-    "url" : "http://ehrrunner.com/fhir/StructureDefinition/Medication",
+    "url" : "http://br-ipes.com/fhir/StructureDefinition/Medication",
     "name" : "Medication",
     "title" : "Medicação",
     "path" : "StructureDefinition-Medication.html",
@@ -200,7 +200,7 @@
   },
   "MedicationRequest" : {
     "index" : 9,
-    "url" : "http://ehrrunner.com/fhir/StructureDefinition/MedicationRequest",
+    "url" : "http://br-ipes.com/fhir/StructureDefinition/MedicationRequest",
     "name" : "MedicationRequest",
     "title" : "Solicitação de Medicação",
     "path" : "StructureDefinition-MedicationRequest.html",
@@ -219,7 +219,7 @@
   },
   "Observation" : {
     "index" : 10,
-    "url" : "http://ehrrunner.com/fhir/StructureDefinition/Observation",
+    "url" : "http://br-ipes.com/fhir/StructureDefinition/Observation",
     "name" : "Observation",
     "title" : "Observação - Medida",
     "path" : "StructureDefinition-Observation.html",
@@ -238,7 +238,7 @@
   },
   "Organization" : {
     "index" : 11,
-    "url" : "http://ehrrunner.com/fhir/StructureDefinition/Organization",
+    "url" : "http://br-ipes.com/fhir/StructureDefinition/Organization",
     "name" : "Organization",
     "title" : "Estabelecimento de Saúde",
     "path" : "StructureDefinition-Organization.html",
@@ -257,7 +257,7 @@
   },
   "Practitioner" : {
     "index" : 12,
-    "url" : "http://ehrrunner.com/fhir/StructureDefinition/Practitioner",
+    "url" : "http://br-ipes.com/fhir/StructureDefinition/Practitioner",
     "name" : "Practitioner",
     "title" : "Profissional de Saúde",
     "path" : "StructureDefinition-Practitioner.html",
@@ -276,7 +276,7 @@
   },
   "Procedure" : {
     "index" : 13,
-    "url" : "http://ehrrunner.com/fhir/StructureDefinition/Procedure",
+    "url" : "http://br-ipes.com/fhir/StructureDefinition/Procedure",
     "name" : "Procedure",
     "title" : "Procedimento",
     "path" : "StructureDefinition-Procedure.html",
@@ -295,7 +295,7 @@
   },
   "ServiceRequest" : {
     "index" : 14,
-    "url" : "http://ehrrunner.com/fhir/StructureDefinition/ServiceRequest",
+    "url" : "http://br-ipes.com/fhir/StructureDefinition/ServiceRequest",
     "name" : "ServiceRequest",
     "title" : "Solicitação de Serviço - Exames e Procedimentos",
     "path" : "StructureDefinition-ServiceRequest.html",
@@ -314,7 +314,7 @@
   },
   "Specimen" : {
     "index" : 15,
-    "url" : "http://ehrrunner.com/fhir/StructureDefinition/Specimen",
+    "url" : "http://br-ipes.com/fhir/StructureDefinition/Specimen",
     "name" : "Specimen",
     "title" : "Amostra",
     "path" : "StructureDefinition-Specimen.html",
@@ -339,11 +339,11 @@
     "path" : "StructureDefinition-BRIndividuo-1.0.html",
     "kind" : "resource",
     "type" : "Patient",
-    "base" : "http://ehrrunner.com/fhir/StructureDefinition/Patient",
+    "base" : "http://br-ipes.com/fhir/StructureDefinition/Patient",
     "basename" : "Patient",
     "basepath" : "StructureDefinition-Patient.html",
     "status" : "draft",
-    "date" : "Thu Oct 10 15:46:28 BRT 2024",
+    "date" : "Thu Oct 10 16:09:10 BRT 2024",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "CBIS Publisher",
@@ -378,7 +378,7 @@
   },
   "Patient" : {
     "index" : 18,
-    "url" : "http://ehrrunner.com/fhir/StructureDefinition/Patient",
+    "url" : "http://br-ipes.com/fhir/StructureDefinition/Patient",
     "name" : "Patient",
     "title" : "Paciente",
     "path" : "StructureDefinition-Patient.html",

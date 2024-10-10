@@ -34,7 +34,7 @@
   "name" : "BRIndividuo",
   "title" : "Indivíduo",
   "status" : "draft",
-  "date" : "2024-10-10T15:46:28-03:00",
+  "date" : "2024-10-10T16:09:10-03:00",
   "publisher" : "CBIS Publisher",
   "contact" : [{
     "telecom" : [{
@@ -73,7 +73,7 @@
   "kind" : "resource",
   "abstract" : false,
   "type" : "Patient",
-  "baseDefinition" : "http://ehrrunner.com/fhir/StructureDefinition/Patient",
+  "baseDefinition" : "http://br-ipes.com/fhir/StructureDefinition/Patient",
   "derivation" : "constraint",
   "snapshot" : {
     "element" : [{
@@ -1115,7 +1115,7 @@
       },
       "type" : [{
         "code" : "Extension",
-        "profile" : ["http://ehrrunner.com/fhir/StructureDefinition/BirthCountry-1.0"]
+        "profile" : ["http://br-ipes.com/fhir/StructureDefinition/BirthCountry-1.0"]
       }],
       "condition" : ["ele-1"],
       "constraint" : [{
@@ -1893,7 +1893,7 @@
       },
       "type" : [{
         "code" : "Identifier",
-        "profile" : ["http://ehrrunner.com/fhir/StructureDefinition/IdentificadorIndividuo"]
+        "profile" : ["http://br-ipes.com/fhir/StructureDefinition/IdentificadorIndividuo"]
       }],
       "constraint" : [{
         "key" : "ele-1",

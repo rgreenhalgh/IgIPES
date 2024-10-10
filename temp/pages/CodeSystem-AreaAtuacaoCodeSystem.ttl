@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://ehrrunner.com/fhir/CodeSystem/AreaAtuacaoCodeSystem> a fhir:CodeSystem ;
+<http://br-ipes.com/fhir/CodeSystem/AreaAtuacaoCodeSystem> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "AreaAtuacaoCodeSystem"] ; # 
   fhir:text [

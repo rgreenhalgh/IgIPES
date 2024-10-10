@@ -1,10 +1,10 @@
 {
-  "package": "com.ehrrunner.fhir.2024_ig_cbis",
+  "package": "com.br-ipes.fhir.2024_ig_cbis",
   "version": "1.0.0",
   "fhirVersion": "4.0.1",
   "extensions": [
     {
-      "url": "http://ehrrunner.com/fhir/StructureDefinition/BirthCountry-1.0",
+      "url": "http://br-ipes.com/fhir/StructureDefinition/BirthCountry-1.0",
       "title": "País de Nascimento",
       "types": [
         "CodeableConcept"
@@ -179,37 +179,37 @@
   "profiles": {
     "DiagnosticReport": [
       {
-        "url": "http://ehrrunner.com/fhir/StructureDefinition/DiagnosticReport",
+        "url": "http://br-ipes.com/fhir/StructureDefinition/DiagnosticReport",
         "title": "Relatório de Diagnóstico"
       }
     ],
     "Encounter": [
       {
-        "url": "http://ehrrunner.com/fhir/StructureDefinition/Encounter",
+        "url": "http://br-ipes.com/fhir/StructureDefinition/Encounter",
         "title": "Contato Assistencial"
       }
     ],
     "Medication": [
       {
-        "url": "http://ehrrunner.com/fhir/StructureDefinition/Medication",
+        "url": "http://br-ipes.com/fhir/StructureDefinition/Medication",
         "title": "Medicação"
       }
     ],
     "MedicationRequest": [
       {
-        "url": "http://ehrrunner.com/fhir/StructureDefinition/MedicationRequest",
+        "url": "http://br-ipes.com/fhir/StructureDefinition/MedicationRequest",
         "title": "Solicitação de Medicação"
       }
     ],
     "Observation": [
       {
-        "url": "http://ehrrunner.com/fhir/StructureDefinition/Observation",
+        "url": "http://br-ipes.com/fhir/StructureDefinition/Observation",
         "title": "Observação - Medida"
       }
     ],
     "Organization": [
       {
-        "url": "http://ehrrunner.com/fhir/StructureDefinition/Organization",
+        "url": "http://br-ipes.com/fhir/StructureDefinition/Organization",
         "title": "Estabelecimento de Saúde"
       }
     ],
@@ -221,31 +221,31 @@
     ],
     "Practitioner": [
       {
-        "url": "http://ehrrunner.com/fhir/StructureDefinition/Practitioner",
+        "url": "http://br-ipes.com/fhir/StructureDefinition/Practitioner",
         "title": "Profissional de Saúde"
       }
     ],
     "Procedure": [
       {
-        "url": "http://ehrrunner.com/fhir/StructureDefinition/Procedure",
+        "url": "http://br-ipes.com/fhir/StructureDefinition/Procedure",
         "title": "Procedimento"
       }
     ],
     "ServiceRequest": [
       {
-        "url": "http://ehrrunner.com/fhir/StructureDefinition/ServiceRequest",
+        "url": "http://br-ipes.com/fhir/StructureDefinition/ServiceRequest",
         "title": "Solicitação de Serviço - Exames e Procedimentos"
       }
     ],
     "Specimen": [
       {
-        "url": "http://ehrrunner.com/fhir/StructureDefinition/Specimen",
+        "url": "http://br-ipes.com/fhir/StructureDefinition/Specimen",
         "title": "Amostra"
       }
     ]
   },
   "usage": {
-    "http://ehrrunner.com/fhir/StructureDefinition/BirthCountry-1.0": [
+    "http://br-ipes.com/fhir/StructureDefinition/BirthCountry-1.0": [
       "Patient"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [

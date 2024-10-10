@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://ehrrunner.com/fhir/StructureDefinition/BRNomeIndividuo-1.0> a fhir:StructureDefinition ;
+<http://br-ipes.com/fhir/StructureDefinition/BRNomeIndividuo-1.0> a fhir:StructureDefinition ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "BRNomeIndividuo-1.0"] ; # 
   fhir:meta [

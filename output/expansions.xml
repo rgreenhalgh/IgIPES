@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="f6bc9e03-3459-4073-badb-7d365b79829d"/>
+  <id value="14fe50fd-1aa7-4a71-ba49-894743a3d093"/>
   <meta>
-    <lastUpdated value="2024-10-10T15:46:28.648-03:00"/>
+    <lastUpdated value="2024-10-10T16:09:10.419-03:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -56,8 +56,8 @@
         <date value="2020-03-11T19:17:52.0302375+00:00"/>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:ac87b112-6f29-43fb-a179-8bcd5099bc71"/>
-          <timestamp value="2024-10-10T15:48:15-03:00"/>
+          <identifier value="urn:uuid:776b5b43-0e01-4311-9f9b-058b5a9fda91"/>
+          <timestamp value="2024-10-10T16:10:41-03:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -86,7 +86,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://ehrrunner.com/fhir/ValueSet/EHRDocumentType"/>
+    <fullUrl value="http://br-ipes.com/fhir/ValueSet/EHRDocumentType"/>
     <resource>
       <ValueSet>
         <text>
@@ -113,96 +113,96 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrrunner.com/fhir/CodeSystem/EHRDocumentType-RegistroAtendimentoCl|ednico.v4.1"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/CodeSystem/EHRDocumentType-RegistroAtendimentoCl|ednico.v4.1"> </a>  
                   <a href="CodeSystem-EHRDocumentTypeCodeSystem.html#EHRDocumentTypeCodeSystem-RegistroAtendimentoCl.237nico.46v4.461">RegistroAtendimentoClínico.v4.1</a>
                 </td>
-                <td>http://ehrrunner.com/fhir/CodeSystem/EHRDocumentType</td>
+                <td>http://br-ipes.com/fhir/CodeSystem/EHRDocumentType</td>
                 <td>RAC 4.1</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrrunner.com/fhir/CodeSystem/EHRDocumentType-RegistroAtendimentoCl|ednico.v4.2"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/CodeSystem/EHRDocumentType-RegistroAtendimentoCl|ednico.v4.2"> </a>  
                   <a href="CodeSystem-EHRDocumentTypeCodeSystem.html#EHRDocumentTypeCodeSystem-RegistroAtendimentoCl.237nico.46v4.462">RegistroAtendimentoClínico.v4.2</a>
                 </td>
-                <td>http://ehrrunner.com/fhir/CodeSystem/EHRDocumentType</td>
+                <td>http://br-ipes.com/fhir/CodeSystem/EHRDocumentType</td>
                 <td>RAC 4.2</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrrunner.com/fhir/CodeSystem/EHRDocumentType-Registro|20de|20Atendimento|20Cl|ednico|20v1.0"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/CodeSystem/EHRDocumentType-Registro|20de|20Atendimento|20Cl|ednico|20v1.0"> </a>  
                   <a href="CodeSystem-EHRDocumentTypeCodeSystem.html#EHRDocumentTypeCodeSystem-RegistrodeAtendimentoCl.237nicov1.460">Registro de Atendimento Clínico v1.0</a>
                 </td>
-                <td>http://ehrrunner.com/fhir/CodeSystem/EHRDocumentType</td>
+                <td>http://br-ipes.com/fhir/CodeSystem/EHRDocumentType</td>
                 <td>RAC 1.0</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrrunner.com/fhir/CodeSystem/EHRDocumentType-Sum|e1rio|20de|20Alta|20v1.0"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/CodeSystem/EHRDocumentType-Sum|e1rio|20de|20Alta|20v1.0"> </a>  
                   <a href="CodeSystem-EHRDocumentTypeCodeSystem.html#EHRDocumentTypeCodeSystem-Sum.225riodeAltav1.460">Sumário de Alta v1.0</a>
                 </td>
-                <td>http://ehrrunner.com/fhir/CodeSystem/EHRDocumentType</td>
+                <td>http://br-ipes.com/fhir/CodeSystem/EHRDocumentType</td>
                 <td>SA 1.0</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrrunner.com/fhir/CodeSystem/EHRDocumentType-Sum|e1rioAlta.v4.0"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/CodeSystem/EHRDocumentType-Sum|e1rioAlta.v4.0"> </a>  
                   <a href="CodeSystem-EHRDocumentTypeCodeSystem.html#EHRDocumentTypeCodeSystem-Sum.225rioAlta.46v4.460">SumárioAlta.v4.0</a>
                 </td>
-                <td>http://ehrrunner.com/fhir/CodeSystem/EHRDocumentType</td>
+                <td>http://br-ipes.com/fhir/CodeSystem/EHRDocumentType</td>
                 <td>SA 4.0</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrrunner.com/fhir/CodeSystem/EHRDocumentType-ColetaDadosSimplificada.v4.1"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/CodeSystem/EHRDocumentType-ColetaDadosSimplificada.v4.1"> </a>  
                   <a href="CodeSystem-EHRDocumentTypeCodeSystem.html#EHRDocumentTypeCodeSystem-ColetaDadosSimplificada.46v4.461">ColetaDadosSimplificada.v4.1</a>
                 </td>
-                <td>http://ehrrunner.com/fhir/CodeSystem/EHRDocumentType</td>
+                <td>http://br-ipes.com/fhir/CodeSystem/EHRDocumentType</td>
                 <td>CDS 4.1</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrrunner.com/fhir/CodeSystem/EHRDocumentType-Sum|e1rio|20Pronto|20Atendimento|20HAOC|20v|202.0"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/CodeSystem/EHRDocumentType-Sum|e1rio|20Pronto|20Atendimento|20HAOC|20v|202.0"> </a>  
                   <a href="CodeSystem-EHRDocumentTypeCodeSystem.html#EHRDocumentTypeCodeSystem-Sum.225rioProntoAtendimentoHAOCv2.460">Sumário Pronto Atendimento HAOC v 2.0</a>
                 </td>
-                <td>http://ehrrunner.com/fhir/CodeSystem/EHRDocumentType</td>
+                <td>http://br-ipes.com/fhir/CodeSystem/EHRDocumentType</td>
                 <td>SPA 2.0</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrrunner.com/fhir/CodeSystem/EHRDocumentType-Sum|e1rio|20Pronto|20Atendimento|20HAOC|20v|202.1"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/CodeSystem/EHRDocumentType-Sum|e1rio|20Pronto|20Atendimento|20HAOC|20v|202.1"> </a>  
                   <a href="CodeSystem-EHRDocumentTypeCodeSystem.html#EHRDocumentTypeCodeSystem-Sum.225rioProntoAtendimentoHAOCv2.461">Sumário Pronto Atendimento HAOC v 2.1</a>
                 </td>
-                <td>http://ehrrunner.com/fhir/CodeSystem/EHRDocumentType</td>
+                <td>http://br-ipes.com/fhir/CodeSystem/EHRDocumentType</td>
                 <td>SPA 2.1</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrrunner.com/fhir/CodeSystem/EHRDocumentType-SHROP|20-|20COVID19|20laboratory|20report.v1.0"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/CodeSystem/EHRDocumentType-SHROP|20-|20COVID19|20laboratory|20report.v1.0"> </a>  
                   <a href="CodeSystem-EHRDocumentTypeCodeSystem.html#EHRDocumentTypeCodeSystem-SHROP-COVID19laboratoryreport.46v1.460">SHROP - COVID19 laboratory report.v1.0</a>
                 </td>
-                <td>http://ehrrunner.com/fhir/CodeSystem/EHRDocumentType</td>
+                <td>http://br-ipes.com/fhir/CodeSystem/EHRDocumentType</td>
                 <td>REL COVID19 1.0</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrrunner.com/fhir/CodeSystem/EHRDocumentType-SHROP|20-|20COVID19|20immunization|20report.v1.0"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/CodeSystem/EHRDocumentType-SHROP|20-|20COVID19|20immunization|20report.v1.0"> </a>  
                   <a href="CodeSystem-EHRDocumentTypeCodeSystem.html#EHRDocumentTypeCodeSystem-SHROP-COVID19immunizationreport.46v1.460">SHROP - COVID19 immunization report.v1.0</a>
                 </td>
-                <td>http://ehrrunner.com/fhir/CodeSystem/EHRDocumentType</td>
+                <td>http://br-ipes.com/fhir/CodeSystem/EHRDocumentType</td>
                 <td>RIA COVID19 1.0</td>
               </tr>
             </table>
           </div>
         </text>
-        <url value="http://ehrrunner.com/fhir/ValueSet/EHRDocumentType"/>
+        <url value="http://br-ipes.com/fhir/ValueSet/EHRDocumentType"/>
         <version value="1.0.0"/>
         <name value="EHRDocumentType"/>
         <title value="EHRDocumentType"/>
         <status value="draft"/>
         <date value="2023-11-04T17:46:04.4163856+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:119aaab0-0b1a-430a-9b71-5fcda0959a12"/>
-          <timestamp value="2024-10-10T15:48:19-03:00"/>
+          <identifier value="urn:uuid:30b0af2e-635e-43d0-8dd3-deb9083ae25d"/>
+          <timestamp value="2024-10-10T16:10:46-03:00"/>
           <total value="10"/>
           <offset value="0"/>
           <parameter>
@@ -219,55 +219,55 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://ehrrunner.com/fhir/CodeSystem/EHRDocumentType|1.0.0"/>
+            <valueUri value="http://br-ipes.com/fhir/CodeSystem/EHRDocumentType|1.0.0"/>
           </parameter>
           <contains>
-            <system value="http://ehrrunner.com/fhir/CodeSystem/EHRDocumentType"/>
+            <system value="http://br-ipes.com/fhir/CodeSystem/EHRDocumentType"/>
             <code value="RegistroAtendimentoClínico.v4.1"/>
             <display value="RAC 4.1"/>
           </contains>
           <contains>
-            <system value="http://ehrrunner.com/fhir/CodeSystem/EHRDocumentType"/>
+            <system value="http://br-ipes.com/fhir/CodeSystem/EHRDocumentType"/>
             <code value="RegistroAtendimentoClínico.v4.2"/>
             <display value="RAC 4.2"/>
           </contains>
           <contains>
-            <system value="http://ehrrunner.com/fhir/CodeSystem/EHRDocumentType"/>
+            <system value="http://br-ipes.com/fhir/CodeSystem/EHRDocumentType"/>
             <code value="Registro de Atendimento Clínico v1.0"/>
             <display value="RAC 1.0"/>
           </contains>
           <contains>
-            <system value="http://ehrrunner.com/fhir/CodeSystem/EHRDocumentType"/>
+            <system value="http://br-ipes.com/fhir/CodeSystem/EHRDocumentType"/>
             <code value="Sumário de Alta v1.0"/>
             <display value="SA 1.0"/>
           </contains>
           <contains>
-            <system value="http://ehrrunner.com/fhir/CodeSystem/EHRDocumentType"/>
+            <system value="http://br-ipes.com/fhir/CodeSystem/EHRDocumentType"/>
             <code value="SumárioAlta.v4.0"/>
             <display value="SA 4.0"/>
           </contains>
           <contains>
-            <system value="http://ehrrunner.com/fhir/CodeSystem/EHRDocumentType"/>
+            <system value="http://br-ipes.com/fhir/CodeSystem/EHRDocumentType"/>
             <code value="ColetaDadosSimplificada.v4.1"/>
             <display value="CDS 4.1"/>
           </contains>
           <contains>
-            <system value="http://ehrrunner.com/fhir/CodeSystem/EHRDocumentType"/>
+            <system value="http://br-ipes.com/fhir/CodeSystem/EHRDocumentType"/>
             <code value="Sumário Pronto Atendimento HAOC v 2.0"/>
             <display value="SPA 2.0"/>
           </contains>
           <contains>
-            <system value="http://ehrrunner.com/fhir/CodeSystem/EHRDocumentType"/>
+            <system value="http://br-ipes.com/fhir/CodeSystem/EHRDocumentType"/>
             <code value="Sumário Pronto Atendimento HAOC v 2.1"/>
             <display value="SPA 2.1"/>
           </contains>
           <contains>
-            <system value="http://ehrrunner.com/fhir/CodeSystem/EHRDocumentType"/>
+            <system value="http://br-ipes.com/fhir/CodeSystem/EHRDocumentType"/>
             <code value="SHROP - COVID19 laboratory report.v1.0"/>
             <display value="REL COVID19 1.0"/>
           </contains>
           <contains>
-            <system value="http://ehrrunner.com/fhir/CodeSystem/EHRDocumentType"/>
+            <system value="http://br-ipes.com/fhir/CodeSystem/EHRDocumentType"/>
             <code value="SHROP - COVID19 immunization report.v1.0"/>
             <display value="RIA COVID19 1.0"/>
           </contains>
@@ -751,8 +751,8 @@
         <status value="draft"/>
         <date value="2023-11-04T17:46:04.4163856+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:3799207c-0c71-47b0-b87e-29cb84c3dcce"/>
-          <timestamp value="2024-10-10T15:48:27-03:00"/>
+          <identifier value="urn:uuid:f3adc6f1-0505-4141-87d0-dd22e1466621"/>
+          <timestamp value="2024-10-10T16:10:52-03:00"/>
           <total value="55"/>
           <offset value="0"/>
           <parameter>
@@ -1051,7 +1051,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://ehrrunner.com/fhir/ValueSet/EventSummaryType"/>
+    <fullUrl value="http://br-ipes.com/fhir/ValueSet/EventSummaryType"/>
     <resource>
       <ValueSet>
         <text>
@@ -1078,96 +1078,96 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrrunner.com/fhir/CodeSystem/EventSummaryType-RAC"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/CodeSystem/EventSummaryType-RAC"> </a>  
                   <a href="CodeSystem-EventSummaryTypeCodeSystem.html#EventSummaryTypeCodeSystem-RAC">RAC</a>
                 </td>
-                <td>http://ehrrunner.com/fhir/CodeSystem/EventSummaryType</td>
+                <td>http://br-ipes.com/fhir/CodeSystem/EventSummaryType</td>
                 <td>Registro de Atendimento Clínico</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrrunner.com/fhir/CodeSystem/EventSummaryType-SA"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/CodeSystem/EventSummaryType-SA"> </a>  
                   <a href="CodeSystem-EventSummaryTypeCodeSystem.html#EventSummaryTypeCodeSystem-SA">SA</a>
                 </td>
-                <td>http://ehrrunner.com/fhir/CodeSystem/EventSummaryType</td>
+                <td>http://br-ipes.com/fhir/CodeSystem/EventSummaryType</td>
                 <td>Sumário de Alta</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrrunner.com/fhir/CodeSystem/EventSummaryType-SPA"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/CodeSystem/EventSummaryType-SPA"> </a>  
                   <a href="CodeSystem-EventSummaryTypeCodeSystem.html#EventSummaryTypeCodeSystem-SPA">SPA</a>
                 </td>
-                <td>http://ehrrunner.com/fhir/CodeSystem/EventSummaryType</td>
+                <td>http://br-ipes.com/fhir/CodeSystem/EventSummaryType</td>
                 <td>Sumário de Pronto Atendimento</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrrunner.com/fhir/CodeSystem/EventSummaryType-REL"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/CodeSystem/EventSummaryType-REL"> </a>  
                   <a href="CodeSystem-EventSummaryTypeCodeSystem.html#EventSummaryTypeCodeSystem-REL">REL</a>
                 </td>
-                <td>http://ehrrunner.com/fhir/CodeSystem/EventSummaryType</td>
+                <td>http://br-ipes.com/fhir/CodeSystem/EventSummaryType</td>
                 <td>Resultado de Exame Laboratorial</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrrunner.com/fhir/CodeSystem/EventSummaryType-REI"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/CodeSystem/EventSummaryType-REI"> </a>  
                   <a href="CodeSystem-EventSummaryTypeCodeSystem.html#EventSummaryTypeCodeSystem-REI">REI</a>
                 </td>
-                <td>http://ehrrunner.com/fhir/CodeSystem/EventSummaryType</td>
+                <td>http://br-ipes.com/fhir/CodeSystem/EventSummaryType</td>
                 <td>Resultado de Exame de Imagem</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrrunner.com/fhir/CodeSystem/EventSummaryType-RPM"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/CodeSystem/EventSummaryType-RPM"> </a>  
                   <a href="CodeSystem-EventSummaryTypeCodeSystem.html#EventSummaryTypeCodeSystem-RPM">RPM</a>
                 </td>
-                <td>http://ehrrunner.com/fhir/CodeSystem/EventSummaryType</td>
+                <td>http://br-ipes.com/fhir/CodeSystem/EventSummaryType</td>
                 <td>Registro de Prescrição de Medicamento</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrrunner.com/fhir/CodeSystem/EventSummaryType-RDM"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/CodeSystem/EventSummaryType-RDM"> </a>  
                   <a href="CodeSystem-EventSummaryTypeCodeSystem.html#EventSummaryTypeCodeSystem-RDM">RDM</a>
                 </td>
-                <td>http://ehrrunner.com/fhir/CodeSystem/EventSummaryType</td>
+                <td>http://br-ipes.com/fhir/CodeSystem/EventSummaryType</td>
                 <td>Registro de Dispensação de Medicamento</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrrunner.com/fhir/CodeSystem/EventSummaryType-RIA"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/CodeSystem/EventSummaryType-RIA"> </a>  
                   <a href="CodeSystem-EventSummaryTypeCodeSystem.html#EventSummaryTypeCodeSystem-RIA">RIA</a>
                 </td>
-                <td>http://ehrrunner.com/fhir/CodeSystem/EventSummaryType</td>
+                <td>http://br-ipes.com/fhir/CodeSystem/EventSummaryType</td>
                 <td>Registro de Imunobiológico Administrado</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrrunner.com/fhir/CodeSystem/EventSummaryType-RRA"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/CodeSystem/EventSummaryType-RRA"> </a>  
                   <a href="CodeSystem-EventSummaryTypeCodeSystem.html#EventSummaryTypeCodeSystem-RRA">RRA</a>
                 </td>
-                <td>http://ehrrunner.com/fhir/CodeSystem/EventSummaryType</td>
+                <td>http://br-ipes.com/fhir/CodeSystem/EventSummaryType</td>
                 <td>Registro de Regulação Assistencial</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrrunner.com/fhir/CodeSystem/EventSummaryType-NVE"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/CodeSystem/EventSummaryType-NVE"> </a>  
                   <a href="CodeSystem-EventSummaryTypeCodeSystem.html#EventSummaryTypeCodeSystem-NVE">NVE</a>
                 </td>
-                <td>http://ehrrunner.com/fhir/CodeSystem/EventSummaryType</td>
+                <td>http://br-ipes.com/fhir/CodeSystem/EventSummaryType</td>
                 <td>Notificação da Vigilância Epidemiológica</td>
               </tr>
             </table>
           </div>
         </text>
-        <url value="http://ehrrunner.com/fhir/ValueSet/EventSummaryType"/>
+        <url value="http://br-ipes.com/fhir/ValueSet/EventSummaryType"/>
         <version value="1.0.0"/>
         <name value="EventSummaryType"/>
         <title value="EventSummaryType"/>
         <status value="draft"/>
         <date value="2023-11-04T17:46:04.4163856+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:09d0c65e-4503-4d09-8fdc-d17b5a35db1d"/>
-          <timestamp value="2024-10-10T15:48:35-03:00"/>
+          <identifier value="urn:uuid:9e3a7665-3df5-47d9-a371-1f3303b62011"/>
+          <timestamp value="2024-10-10T16:10:59-03:00"/>
           <total value="10"/>
           <offset value="0"/>
           <parameter>
@@ -1184,55 +1184,55 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://ehrrunner.com/fhir/CodeSystem/EventSummaryType|1.0.0"/>
+            <valueUri value="http://br-ipes.com/fhir/CodeSystem/EventSummaryType|1.0.0"/>
           </parameter>
           <contains>
-            <system value="http://ehrrunner.com/fhir/CodeSystem/EventSummaryType"/>
+            <system value="http://br-ipes.com/fhir/CodeSystem/EventSummaryType"/>
             <code value="RAC"/>
             <display value="Registro de Atendimento Clínico"/>
           </contains>
           <contains>
-            <system value="http://ehrrunner.com/fhir/CodeSystem/EventSummaryType"/>
+            <system value="http://br-ipes.com/fhir/CodeSystem/EventSummaryType"/>
             <code value="SA"/>
             <display value="Sumário de Alta"/>
           </contains>
           <contains>
-            <system value="http://ehrrunner.com/fhir/CodeSystem/EventSummaryType"/>
+            <system value="http://br-ipes.com/fhir/CodeSystem/EventSummaryType"/>
             <code value="SPA"/>
             <display value="Sumário de Pronto Atendimento"/>
           </contains>
           <contains>
-            <system value="http://ehrrunner.com/fhir/CodeSystem/EventSummaryType"/>
+            <system value="http://br-ipes.com/fhir/CodeSystem/EventSummaryType"/>
             <code value="REL"/>
             <display value="Resultado de Exame Laboratorial"/>
           </contains>
           <contains>
-            <system value="http://ehrrunner.com/fhir/CodeSystem/EventSummaryType"/>
+            <system value="http://br-ipes.com/fhir/CodeSystem/EventSummaryType"/>
             <code value="REI"/>
             <display value="Resultado de Exame de Imagem"/>
           </contains>
           <contains>
-            <system value="http://ehrrunner.com/fhir/CodeSystem/EventSummaryType"/>
+            <system value="http://br-ipes.com/fhir/CodeSystem/EventSummaryType"/>
             <code value="RPM"/>
             <display value="Registro de Prescrição de Medicamento"/>
           </contains>
           <contains>
-            <system value="http://ehrrunner.com/fhir/CodeSystem/EventSummaryType"/>
+            <system value="http://br-ipes.com/fhir/CodeSystem/EventSummaryType"/>
             <code value="RDM"/>
             <display value="Registro de Dispensação de Medicamento"/>
           </contains>
           <contains>
-            <system value="http://ehrrunner.com/fhir/CodeSystem/EventSummaryType"/>
+            <system value="http://br-ipes.com/fhir/CodeSystem/EventSummaryType"/>
             <code value="RIA"/>
             <display value="Registro de Imunobiológico Administrado"/>
           </contains>
           <contains>
-            <system value="http://ehrrunner.com/fhir/CodeSystem/EventSummaryType"/>
+            <system value="http://br-ipes.com/fhir/CodeSystem/EventSummaryType"/>
             <code value="RRA"/>
             <display value="Registro de Regulação Assistencial"/>
           </contains>
           <contains>
-            <system value="http://ehrrunner.com/fhir/CodeSystem/EventSummaryType"/>
+            <system value="http://br-ipes.com/fhir/CodeSystem/EventSummaryType"/>
             <code value="NVE"/>
             <display value="Notificação da Vigilância Epidemiológica"/>
           </contains>
@@ -1292,8 +1292,8 @@
         <status value="draft"/>
         <date value="2023-11-04T17:46:04.4163856+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:889235b2-df48-4390-8339-748c5cc3baf1"/>
-          <timestamp value="2024-10-10T15:48:38-03:00"/>
+          <identifier value="urn:uuid:09385624-a08e-49c7-aaf4-f40207c0d347"/>
+          <timestamp value="2024-10-10T16:11:02-03:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -1327,7 +1327,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://ehrrunner.com/fhir/ValueSet/ServiceRequestCategory"/>
+    <fullUrl value="http://br-ipes.com/fhir/ValueSet/ServiceRequestCategory"/>
     <resource>
       <ValueSet>
         <text>
@@ -1354,32 +1354,32 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrrunner.com/fhir/CodeSystem/ServiceRequestCategory-SADT"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/CodeSystem/ServiceRequestCategory-SADT"> </a>  
                   <a href="CodeSystem-ServiceRequestCategory.html#ServiceRequestCategory-SADT">SADT</a>
                 </td>
-                <td>http://ehrrunner.com/fhir/CodeSystem/ServiceRequestCategory</td>
+                <td>http://br-ipes.com/fhir/CodeSystem/ServiceRequestCategory</td>
                 <td>Serviço Auxiliar de Diagnóstico ou Terapia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrrunner.com/fhir/CodeSystem/ServiceRequestCategory-Referral"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/CodeSystem/ServiceRequestCategory-Referral"> </a>  
                   <a href="CodeSystem-ServiceRequestCategory.html#ServiceRequestCategory-Referral">Referral</a>
                 </td>
-                <td>http://ehrrunner.com/fhir/CodeSystem/ServiceRequestCategory</td>
+                <td>http://br-ipes.com/fhir/CodeSystem/ServiceRequestCategory</td>
                 <td>Referência (atenção especializada)</td>
               </tr>
             </table>
           </div>
         </text>
-        <url value="http://ehrrunner.com/fhir/ValueSet/ServiceRequestCategory"/>
+        <url value="http://br-ipes.com/fhir/ValueSet/ServiceRequestCategory"/>
         <version value="1.0.0"/>
         <name value="ServiceRequestCategory"/>
         <title value="ServiceRequestCategory"/>
         <status value="draft"/>
         <date value="2023-11-04T17:46:04.4163856+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:36265c22-528b-4ca6-a1a2-012b8816aa83"/>
-          <timestamp value="2024-10-10T15:48:43-03:00"/>
+          <identifier value="urn:uuid:25af0532-aaa8-48ee-afee-ae0df656c511"/>
+          <timestamp value="2024-10-10T16:11:07-03:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -1396,15 +1396,15 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://ehrrunner.com/fhir/CodeSystem/ServiceRequestCategory|1.0.0"/>
+            <valueUri value="http://br-ipes.com/fhir/CodeSystem/ServiceRequestCategory|1.0.0"/>
           </parameter>
           <contains>
-            <system value="http://ehrrunner.com/fhir/CodeSystem/ServiceRequestCategory"/>
+            <system value="http://br-ipes.com/fhir/CodeSystem/ServiceRequestCategory"/>
             <code value="SADT"/>
             <display value="Serviço Auxiliar de Diagnóstico ou Terapia"/>
           </contains>
           <contains>
-            <system value="http://ehrrunner.com/fhir/CodeSystem/ServiceRequestCategory"/>
+            <system value="http://br-ipes.com/fhir/CodeSystem/ServiceRequestCategory"/>
             <code value="Referral"/>
             <display value="Referência (atenção especializada)"/>
           </contains>

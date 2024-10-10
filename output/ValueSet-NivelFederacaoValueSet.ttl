@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://ehrrunner.com/fhir/ValueSet/NivelFederacaoValueSet> a fhir:ValueSet ;
+<http://br-ipes.com/fhir/ValueSet/NivelFederacaoValueSet> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "NivelFederacaoValueSet"] ; # 
   fhir:text [

@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "DiagnosticReport",
-  "url": "http://ehrrunner.com/fhir/StructureDefinition/DiagnosticReport",
+  "url": "http://br-ipes.com/fhir/StructureDefinition/DiagnosticReport",
   "version": "1.0",
   "name": "DiagnosticReport",
   "title": "Relatório de Diagnóstico",

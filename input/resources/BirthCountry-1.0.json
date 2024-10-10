@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id":"BirthCountry-1.0",
-  "url": "http://ehrrunner.com/fhir/StructureDefinition/BirthCountry-1.0",
+  "url": "http://br-ipes.com/fhir/StructureDefinition/BirthCountry-1.0",
   "version": "1.0",
   "name": "BirthCountry",
   "title": "País de Nascimento",
@@ -31,7 +31,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://ehrrunner.com/fhir/StructureDefinition/BirthCountry-1.0"
+        "fixedUri": "http://br-ipes.com/fhir/StructureDefinition/BirthCountry-1.0"
       },
       {
         "id": "Extension.value[x]",

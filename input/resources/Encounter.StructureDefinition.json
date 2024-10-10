@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id":"Encounter",
-  "url": "http://ehrrunner.com/fhir/StructureDefinition/Encounter",
+  "url": "http://br-ipes.com/fhir/StructureDefinition/Encounter",
   "version": "1.0",
   "name": "Encounter",
   "title": "Contato Assistencial",
@@ -43,7 +43,7 @@
         "fixedCodeableConcept": {
           "coding": [
             {
-              "system": "http://ehrrunner.com/fhir/CodingSystem/identifier-type",
+              "system": "http://br-ipes.com/fhir/CodingSystem/identifier-type",
               "code": "local"
             }
           ]
@@ -79,7 +79,7 @@
         "fixedCodeableConcept": {
           "coding": [
             {
-              "system": "http://ehrrunner.com/fhir/CodingSystem/identifier-type",
+              "system": "http://br-ipes.com/fhir/CodingSystem/identifier-type",
               "code": "rnds"
             }
           ]
@@ -120,7 +120,7 @@
         "fixedCodeableConcept": {
           "coding": [
             {
-              "system": "http://ehrrunner.com/fhir/CodingSystem/identifier-type",
+              "system": "http://br-ipes.com/fhir/CodingSystem/identifier-type",
               "code": "mhd"
             }
           ]
@@ -130,7 +130,7 @@
         "id": "Encounter.identifier:mhdIdentifier.system",
         "path": "Encounter.identifier.system",
         "min": 1,
-        "fixedUri": "http://ehrrunner.com/fhir/NamingSystem/MHDDocumentOID"
+        "fixedUri": "http://br-ipes.com/fhir/NamingSystem/MHDDocumentOID"
       },
       {
         "id": "Encounter.identifier:mhdIdentifier.value",
@@ -233,7 +233,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://ehrrunner.com/fhir/StructureDefinition/Patient"
+              "http://br-ipes.com/fhir/StructureDefinition/Patient"
             ]
           }
         ]
@@ -267,7 +267,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://ehrrunner.com/fhir/StructureDefinition/Referral"
+              "http://br-ipes.com/fhir/StructureDefinition/Referral"
             ]
           }
         ]
@@ -386,7 +386,7 @@
         "max": "1",
         "binding": {
           "strength": "extensible",
-          "valueSet": "http://ehrrunner.com/fhir/ValueSet/Especialidade-1.0"
+          "valueSet": "http://br-ipes.com/fhir/ValueSet/Especialidade-1.0"
         }
       },
       {
@@ -421,7 +421,7 @@
         "max": "1",
         "binding": {
           "strength": "preferred",
-          "valueSet": "http://ehrrunner.com/fhir/ValueSet/AreaAtuacao-1.0"
+          "valueSet": "http://br-ipes.com/fhir/ValueSet/AreaAtuacao-1.0"
         }
       },
       {
@@ -470,7 +470,7 @@
         "min": 1,
         "binding": {
           "strength": "extensible",
-          "valueSet": "http://ehrrunner.com/fhir/ValueSet/IdentifierType-1.0"
+          "valueSet": "http://br-ipes.com/fhir/ValueSet/IdentifierType-1.0"
         }
       },
       {
@@ -523,7 +523,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://ehrrunner.com/fhir/StructureDefinition/Appointment"
+              "http://br-ipes.com/fhir/StructureDefinition/Appointment"
             ]
           }
         ]
@@ -561,7 +561,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://ehrrunner.com/fhir/StructureDefinition/ObservationText"
+              "http://br-ipes.com/fhir/StructureDefinition/ObservationText"
             ]
           }
         ]
@@ -590,7 +590,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://ehrrunner.com/fhir/StructureDefinition/Condition"
+              "http://br-ipes.com/fhir/StructureDefinition/Condition"
             ]
           }
         ]
@@ -617,8 +617,8 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://ehrrunner.com/fhir/StructureDefinition/Condition",
-              "http://ehrrunner.com/fhir/StructureDefinition/Procedure"
+              "http://br-ipes.com/fhir/StructureDefinition/Condition",
+              "http://br-ipes.com/fhir/StructureDefinition/Procedure"
             ]
           }
         ]
@@ -736,7 +736,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://ehrrunner.com/fhir/StructureDefinition/Organization-1.0"
+              "http://br-ipes.com/fhir/StructureDefinition/Organization-1.0"
             ]
           }
         ]
@@ -762,7 +762,7 @@
         "min": 1,
         "binding": {
           "strength": "extensible",
-          "valueSet": "http://ehrrunner.com/fhir/ValueSet/IdentifierType-1.0"
+          "valueSet": "http://br-ipes.com/fhir/ValueSet/IdentifierType-1.0"
         }
       },
       {
@@ -854,7 +854,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://ehrrunner.com/fhir/StructureDefinition/Organization"
+              "http://br-ipes.com/fhir/StructureDefinition/Organization"
             ]
           }
         ]
@@ -875,7 +875,7 @@
         "min": 1,
         "binding": {
           "strength": "extensible",
-          "valueSet": "http://ehrrunner.com/fhir/ValueSet/IdentifierType-1.0"
+          "valueSet": "http://br-ipes.com/fhir/ValueSet/IdentifierType-1.0"
         }
       },
       {

@@ -1,6 +1,30 @@
 {
   "codeSystems" : [
     {
+      "url" : "http://br-ipes.com/fhir/CodeSystem/EHRDocumentType",
+      "version" : "1.0.0",
+      "status" : "draft",
+      "name" : "EHRDocumentType",
+      "title" : "EHRDocumentType",
+      "description" : "Tipos de documentos OpenEHR (TDDs)"
+    },
+    {
+      "url" : "http://br-ipes.com/fhir/CodeSystem/EventSummaryType",
+      "version" : "1.0.0",
+      "status" : "draft",
+      "name" : "EventSummaryType",
+      "title" : "EventSummaryType",
+      "description" : "Tipos de estruturas usadas para construir um registro eletrônico de saúde do tipo \"sumário de evento ou contato assistencial\""
+    },
+    {
+      "url" : "http://br-ipes.com/fhir/CodeSystem/ServiceRequestCategory",
+      "version" : "1.0.0",
+      "status" : "draft",
+      "name" : "ServiceRequestCategory",
+      "title" : "ServiceRequestCategory",
+      "description" : "Categorias utilizadas nos perfis do recurso ServiceRequest"
+    },
+    {
       "url" : "http://ehrruner.com/fhir/CodeSystem/AreaAtuacao",
       "version" : "1.0.0",
       "status" : "draft",
@@ -23,30 +47,6 @@
       "name" : "NivelFederacao",
       "title" : "Nível da Federação",
       "description" : "Tipo de federação suportada para um PractitionerRole"
-    },
-    {
-      "url" : "http://ehrrunner.com/fhir/CodeSystem/EHRDocumentType",
-      "version" : "1.0.0",
-      "status" : "draft",
-      "name" : "EHRDocumentType",
-      "title" : "EHRDocumentType",
-      "description" : "Tipos de documentos OpenEHR (TDDs)"
-    },
-    {
-      "url" : "http://ehrrunner.com/fhir/CodeSystem/EventSummaryType",
-      "version" : "1.0.0",
-      "status" : "draft",
-      "name" : "EventSummaryType",
-      "title" : "EventSummaryType",
-      "description" : "Tipos de estruturas usadas para construir um registro eletrônico de saúde do tipo \"sumário de evento ou contato assistencial\""
-    },
-    {
-      "url" : "http://ehrrunner.com/fhir/CodeSystem/ServiceRequestCategory",
-      "version" : "1.0.0",
-      "status" : "draft",
-      "name" : "ServiceRequestCategory",
-      "title" : "ServiceRequestCategory",
-      "description" : "Categorias utilizadas nos perfis do recurso ServiceRequest"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil",

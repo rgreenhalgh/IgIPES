@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id":"ServiceRequestCategoryValueSet",
-  "url": "http://ehrrunner.com/fhir/ValueSet/ServiceRequestCategory",
+  "url": "http://br-ipes.com/fhir/ValueSet/ServiceRequestCategory",
   "version": "1.0",
   "name": "ServiceRequestCategory",
   "title": "ServiceRequestCategory",
@@ -20,7 +20,7 @@
   "compose": {
     "include": [
       {
-        "system": "http://ehrrunner.com/fhir/CodeSystem/ServiceRequestCategory"
+        "system": "http://br-ipes.com/fhir/CodeSystem/ServiceRequestCategory"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "version" : "1.0.0",
   "fhirVersion" : ["4.0.1"],
-  "date" : "20241010154558",
-  "name" : "com.ehrrunner.fhir.2024_ig_cbis"
+  "date" : "20241010160839",
+  "name" : "com.br-ipes.fhir.2024_ig_cbis"
 }

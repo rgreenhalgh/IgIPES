@@ -11,20 +11,20 @@
          <a name="2024_IG_CBIS-en-US"> </a>
          <h2>2024IGCBIS</h2>
          <p>The official URL for this implementation guide is: </p>
-         <pre>http://ehrrunner.com/fhir/ImplementationGuide/2024_IG_CBIS</pre>
+         <pre>http://br-ipes.com/fhir/ImplementationGuide/2024_IG_CBIS</pre>
          <div>
             <p>Implementation Guide for 2024 IG CBIS</p>
          </div>
       </div>
    </text>
-   <url value="http://ehrrunner.com/fhir/ImplementationGuide/2024_IG_CBIS"/>
+   <url value="http://br-ipes.com/fhir/ImplementationGuide/2024_IG_CBIS"/>
    <version value="1.0.0"/>
    <name value="2024IGCBIS"/>
    <status value="draft"/>
-   <date value="2024-10-10T15:46:28-03:00"/>
+   <date value="2024-10-10T16:09:10-03:00"/>
    <publisher value="CBIS Publisher"/>
    <description value="Implementation Guide for 2024 IG CBIS"/>
-   <packageId value="com.ehrrunner.fhir.2024_ig_cbis"/>
+   <packageId value="com.br-ipes.fhir.2024_ig_cbis"/>
    <license value="CC0-1.0"/>
    <fhirVersion value="4.0.1"/>
    <dependsOn id="hl7tx">
@@ -105,7 +105,7 @@
             <valueString value="path-history"/>
          </extension>
          <extension url="value">
-            <valueString value="http://ehrrunner.com/fhir/history.html"/>
+            <valueString value="http://br-ipes.com/fhir/history.html"/>
          </extension>
       </extension>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -1043,7 +1043,7 @@
       </parameter>
       <parameter>
          <code value="path-history"/>
-         <value value="http://ehrrunner.com/fhir/history.html"/>
+         <value value="http://br-ipes.com/fhir/history.html"/>
       </parameter>
       <parameter>
          <code value="template-html"/>
