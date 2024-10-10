@@ -46,7 +46,7 @@
   fhir:name [ fhir:v "BRIndividuo"] ; # 
   fhir:title [ fhir:v "Indivíduo"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-10-10T16:09:10-03:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-10-10T16:24:33-03:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "CBIS Publisher"] ; # 
   fhir:contact ( [
      fhir:telecom ( [

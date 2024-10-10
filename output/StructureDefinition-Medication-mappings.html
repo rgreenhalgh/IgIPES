@@ -240,28 +240,12 @@
 
   <a name="script10.6"> </a><h3>Mappings for Mapping to NCPDP SCRIPT 10.6 (http://ncpdp.org/SCRIPT10_6)</h3><table class="grid">
  <tr><td colspan="3"><b>Medication</b></td></tr>
- <tr><td>Medication</td><td>NewRx/MedicationPrescribed
--or-
-RxFill/MedicationDispensed
--or-
-RxHistoryResponse/MedicationDispensed
--or-
-RxHistoryResponse/MedicationPrescribed</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;code</td><td>coding.code = //element(*,MedicationType)/DrugCoded/ProductCode
-
-coding.system = //element(*,MedicationType)/DrugCoded/ProductCodeQualifier
-
-coding.display = //element(*,MedicationType)/DrugDescription</td> </tr>
+ <tr><td>Medication</td><td>NewRx/MedicationPrescribed-or-RxFill/MedicationDispensed-or-RxHistoryResponse/MedicationDispensed-or-RxHistoryResponse/MedicationPrescribed</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;code</td><td>coding.code = //element(*,MedicationType)/DrugCoded/ProductCodecoding.system = //element(*,MedicationType)/DrugCoded/ProductCodeQualifiercoding.display = //element(*,MedicationType)/DrugDescription</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;manufacturer</td><td>no mapping</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;form</td><td>coding.code =  //element(*,DrugCodedType)/FormCode
-
-coding.system = //element(*,DrugCodedType)/FormSourceCode</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;form</td><td>coding.code =  //element(*,DrugCodedType)/FormCodecoding.system = //element(*,DrugCodedType)/FormSourceCode</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;ingredient</td><td></td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;item[x]</td><td>coding.code = //element(*,MedicationType)/DrugCoded/ProductCode
-
-coding.system = //element(*,MedicationType)/DrugCoded/ProductCodeQualifier
-
-coding.display = //element(*,MedicationType)/DrugDescription</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;item[x]</td><td>coding.code = //element(*,MedicationType)/DrugCoded/ProductCodecoding.system = //element(*,MedicationType)/DrugCoded/ProductCodeQualifiercoding.display = //element(*,MedicationType)/DrugDescription</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;strength</td><td>//element(*,DrugCodedType)/Strength</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;batch</td><td>no mapping</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lotNumber</td><td>no mapping</td> </tr>
@@ -324,7 +308,7 @@ coding.display = //element(*,MedicationType)/DrugDescription</td> </tr>
 </div>
 
         </div>    <!-- /inner-wrapper -->
-      </div>    <!-- /row -->br-ipes
+      </div>    <!-- /row -->
     </div>    <!-- /container -->
   </div>    <!-- /segment-content -->
 
@@ -340,7 +324,7 @@ coding.display = //element(*,MedicationType)/DrugDescription</td> </tr>
 
       <div class="inner-wrapper">
         <p>
-          IG &copy;  <a style="color:var(--footer-hyperlink-text-color)" href="null">CBIS Publisher</a>.  Package com.br-ipes.fhir.2024_ig_cbis#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Oct 10, 2024 16:09-0300">2024-10-10</span>
+          IG &copy;  <a style="color:var(--footer-hyperlink-text-color)" href="null">CBIS Publisher</a>.  Package com.br-ipes.fhir.2024_ig_cbis#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Oct 10, 2024 16:24-0300">2024-10-10</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"><a name="l775">​</a>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

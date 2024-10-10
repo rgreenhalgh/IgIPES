@@ -10,7 +10,7 @@
     "url" : "http://br-ipes.com/fhir/ImplementationGuide/2024_IG_CBIS",
     "version" : "1.0.0",
     "name" : "2024IGCBIS",
-    "date" : "2024-10-10T16:09:10-03:00",
+    "date" : "2024-10-10T16:24:33-03:00",
     "description" : "Implementation Guide for 2024 IG CBIS",
     "status" : {
       "class" : "colsd",
@@ -632,7 +632,7 @@
     "version" : "1.0.0",
     "name" : "BRIndividuo",
     "title" : "Indivíduo",
-    "date" : "2024-10-10T16:09:10-03:00",
+    "date" : "2024-10-10T16:24:33-03:00",
     "description" : "Indíviduo, sujeito da assistência à saúde.",
     "status" : {
       "class" : "colstu",

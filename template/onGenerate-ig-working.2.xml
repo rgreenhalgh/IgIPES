@@ -21,7 +21,7 @@
    <version value="1.0.0"/>
    <name value="2024IGCBIS"/>
    <status value="draft"/>
-   <date value="2024-10-10T16:09:10-03:00"/>
+   <date value="2024-10-10T16:24:33-03:00"/>
    <publisher value="CBIS Publisher"/>
    <description value="Implementation Guide for 2024 IG CBIS"/>
    <packageId value="com.br-ipes.fhir.2024_ig_cbis"/>

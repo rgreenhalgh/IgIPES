@@ -3,7 +3,7 @@
 
 err = 193, warn = 91, info = 4
 IG Publisher Version: 1.6.29 Out of date - current version is 1.6.30
-Generated Thu Oct 10 16:14:09 BRT 2024. FHIR version 4.0.1 for com.br-ipes.fhir.2024_ig_cbis#1.0.0 (canonical = http://br-ipes.com/fhir)
+Generated Thu Oct 10 16:29:34 BRT 2024. FHIR version 4.0.1 for com.br-ipes.fhir.2024_ig_cbis#1.0.0 (canonical = http://br-ipes.com/fhir)
  Build Errors : 2288 / 7 / 0
  /home/henrique/Desktop/IgIPES/input/resources/AreaAtuacaoCodeSystem : 2 / 1 / 1
  /home/henrique/Desktop/IgIPES/input/resources/AreaAtuacaoValueSet : 2 / 2 / 1

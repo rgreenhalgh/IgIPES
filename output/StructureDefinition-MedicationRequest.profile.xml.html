@@ -887,11 +887,7 @@ Clinical decision support systems should take the status into account when deter
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>="Whether the request is a proposal, plan, or an original order."/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.comment">comment</a>
-               <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>="It is expected that the type of requester will be restricted for different stages of a MedicationRequest.  For example, Proposals can be created by a patient, relatedPerson, Practitioner or Device.  Plans can be created by Practitioners, Patients, RelatedPersons and Devices.  Original orders can be created by a Practitioner only.
-
-An instance-order is an instantiation of a request or order and may be used to populate Medication Administration Record.
-
-This element is labeled as a modifier because the intent alters when and how the resource is actually applicable."/&gt;
+               <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>="It is expected that the type of requester will be restricted for different stages of a MedicationRequest.  For example, Proposals can be created by a patient, relatedPerson, Practitioner or Device.  Plans can be created by Practitioners, Patients, RelatedPersons and Devices.  Original orders can be created by a Practitioner only.An instance-order is an instantiation of a request or order and may be used to populate Medication Administration Record.This element is labeled as a modifier because the intent alters when and how the resource is actually applicable."/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>="1"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="1"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -983,11 +979,7 @@ This element is labeled as a modifier because the intent alters when and how the
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping">mapping</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping.identity">identity</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>="script10.6"/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping.map">map</a>
-             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Message/Body/NewRx/MedicationPrescribed/Directions
-
-or 
-
-Message/Body/NewRx/MedicationPrescribed/StructuredSIG"/&gt;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Message/Body/NewRx/MedicationPrescribed/Directionsor Message/Body/NewRx/MedicationPrescribed/StructuredSIG"/&gt;
       &lt;/mapping&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping">mapping</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping.identity">identity</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>="w5"/&gt;
@@ -1171,13 +1163,7 @@ Message/Body/NewRx/MedicationPrescribed/StructuredSIG"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping">mapping</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping.identity">identity</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>="script10.6"/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping.map">map</a>
-             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Message/Body/NewRx/MedicationPrescribed
-
-Medication.code.coding.code = Message/Body/NewRx/MedicationPrescribed/DrugCoded/ProductCode
-
-Medication.code.coding.system = Message/Body/NewRx/MedicationPrescribed/DrugCoded/ProductCodeQualifier
-
-Medication.code.coding.display = Message/Body/NewRx/MedicationPrescribed/DrugDescription"/&gt;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Message/Body/NewRx/MedicationPrescribedMedication.code.coding.code = Message/Body/NewRx/MedicationPrescribed/DrugCoded/ProductCodeMedication.code.coding.system = Message/Body/NewRx/MedicationPrescribed/DrugCoded/ProductCodeQualifierMedication.code.coding.display = Message/Body/NewRx/MedicationPrescribed/DrugDescription"/&gt;
       &lt;/mapping&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping">mapping</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping.identity">identity</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>="w5"/&gt;
@@ -1233,9 +1219,7 @@ Medication.code.coding.display = Message/Body/NewRx/MedicationPrescribed/DrugDes
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping">mapping</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping.identity">identity</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>="script10.6"/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping.map">map</a>
-             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Message/Body/NewRx/Patient
-
-(need detail to link to specific patient … Patient.Identification in SCRIPT)"/&gt;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Message/Body/NewRx/Patient(need detail to link to specific patient … Patient.Identification in SCRIPT)"/&gt;
       &lt;/mapping&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping">mapping</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping.identity">identity</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>="w5"/&gt;
@@ -3397,11 +3381,7 @@ Clinical decision support systems should take the status into account when deter
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>="Whether the request is a proposal, plan, or an original order."/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.comment">comment</a>
-               <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>="It is expected that the type of requester will be restricted for different stages of a MedicationRequest.  For example, Proposals can be created by a patient, relatedPerson, Practitioner or Device.  Plans can be created by Practitioners, Patients, RelatedPersons and Devices.  Original orders can be created by a Practitioner only.
-
-An instance-order is an instantiation of a request or order and may be used to populate Medication Administration Record.
-
-This element is labeled as a modifier because the intent alters when and how the resource is actually applicable."/&gt;
+               <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>="It is expected that the type of requester will be restricted for different stages of a MedicationRequest.  For example, Proposals can be created by a patient, relatedPerson, Practitioner or Device.  Plans can be created by Practitioners, Patients, RelatedPersons and Devices.  Original orders can be created by a Practitioner only.An instance-order is an instantiation of a request or order and may be used to populate Medication Administration Record.This element is labeled as a modifier because the intent alters when and how the resource is actually applicable."/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>="1"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="1"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.type">type</a>&gt;
@@ -3465,11 +3445,7 @@ This element is labeled as a modifier because the intent alters when and how the
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping">mapping</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping.identity">identity</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>="script10.6"/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping.map">map</a>
-             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Message/Body/NewRx/MedicationPrescribed/Directions
-
-or 
-
-Message/Body/NewRx/MedicationPrescribed/StructuredSIG"/&gt;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Message/Body/NewRx/MedicationPrescribed/Directionsor Message/Body/NewRx/MedicationPrescribed/StructuredSIG"/&gt;
       &lt;/mapping&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping">mapping</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping.identity">identity</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>="w5"/&gt;
@@ -3587,9 +3563,7 @@ Message/Body/NewRx/MedicationPrescribed/StructuredSIG"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping">mapping</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping.identity">identity</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>="script10.6"/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping.map">map</a>
-             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Message/Body/NewRx/Patient
-
-(need detail to link to specific patient … Patient.Identification in SCRIPT)"/&gt;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Message/Body/NewRx/Patient(need detail to link to specific patient … Patient.Identification in SCRIPT)"/&gt;
       &lt;/mapping&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping">mapping</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping.identity">identity</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>="w5"/&gt;
@@ -4469,7 +4443,7 @@ Note that one should NOT use the List or Composition resource to accomplish the 
     &lt;/element&gt;
   &lt;/differential&gt;
 &lt;/StructureDefinition&gt;</code></pre>
-br-ipes
+
 
     <!-- insert notes if present -->
   
@@ -4495,7 +4469,7 @@ br-ipes
 
       <div class="inner-wrapper">
         <p>
-          IG &copy;  <a style="color:var(--footer-hyperlink-text-color)" href="null">CBIS Publisher</a>.  Package com.br-ipes.fhir.2024_ig_cbis#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Oct 10, 2024 16:09-0300">2024-10-10</span>
+          IG &copy;  <a style="color:var(--footer-hyperlink-text-color)" href="null">CBIS Publisher</a>.  Package com.br-ipes.fhir.2024_ig_cbis#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Oct 10, 2024 16:24-0300">2024-10-10</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"><a name="l16812">​</a>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

@@ -270,21 +270,9 @@
  <tr><td>MedicationRequest</td><td>Message/Body/NewRx</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;identifier</td><td>Message/Header/PrescriberOrderNumber</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;status</td><td>no mapping</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;category</td><td>Message/Body/NewRx/MedicationPrescribed/Directions
-
-or 
-
-Message/Body/NewRx/MedicationPrescribed/StructuredSIG</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;medication[x]</td><td>Message/Body/NewRx/MedicationPrescribed
-
-Medication.code.coding.code = Message/Body/NewRx/MedicationPrescribed/DrugCoded/ProductCode
-
-Medication.code.coding.system = Message/Body/NewRx/MedicationPrescribed/DrugCoded/ProductCodeQualifier
-
-Medication.code.coding.display = Message/Body/NewRx/MedicationPrescribed/DrugDescription</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;subject</td><td>Message/Body/NewRx/Patient
-
-(need detail to link to specific patient … Patient.Identification in SCRIPT)</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;category</td><td>Message/Body/NewRx/MedicationPrescribed/Directionsor Message/Body/NewRx/MedicationPrescribed/StructuredSIG</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;medication[x]</td><td>Message/Body/NewRx/MedicationPrescribedMedication.code.coding.code = Message/Body/NewRx/MedicationPrescribed/DrugCoded/ProductCodeMedication.code.coding.system = Message/Body/NewRx/MedicationPrescribed/DrugCoded/ProductCodeQualifierMedication.code.coding.display = Message/Body/NewRx/MedicationPrescribed/DrugDescription</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;subject</td><td>Message/Body/NewRx/Patient(need detail to link to specific patient … Patient.Identification in SCRIPT)</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;encounter</td><td>no mapping</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;authoredOn</td><td>Message/Body/NewRx/MedicationPrescribed/WrittenDate</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;reasonCode</td><td>Message/Body/NewRx/MedicationPrescribed/Diagnosis/Primary/Value</td> </tr>
@@ -411,7 +399,7 @@ Medication.code.coding.display = Message/Body/NewRx/MedicationPrescribed/DrugDes
     </div>    <!-- /container -->
   </div>    <!-- /segment-content -->
 
-  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it wibr-ipesnsformed to empty tag -> fails -->
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
 
   <script src="assets/js/tabs.js" type="text/javascript"> </script>
@@ -423,7 +411,7 @@ Medication.code.coding.display = Message/Body/NewRx/MedicationPrescribed/DrugDes
 
       <div class="inner-wrapper">
         <p>
-          IG &copy;  <a style="color:var(--footer-hyperlink-text-color)" href="null">CBIS Publisher</a>.  Package com.br-ipes.fhir.2024_ig_cbis#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Oct 10, 2024 16:09-0300">2024-10-10</span>
+          IG &copy;  <a style="color:var(--footer-hyperlink-text-color)" href="null">CBIS Publisher</a>.  Package com.br-ipes.fhir.2024_ig_cbis#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Oct 10, 2024 16:24-0300">2024-10-10</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"><a name="l1378">​</a>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

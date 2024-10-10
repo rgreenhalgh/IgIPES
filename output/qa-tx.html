@@ -21,12 +21,12 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:1521
 content-type:application/fhir+json
-date:Thu, 10 Oct 2024 19:08:57 GMT
+date:Thu, 10 Oct 2024 19:24:20 GMT
 pragma:no-cache
 server:nginx
-x-request-id:162-384919
+x-request-id:162-388084
 
-{"resourceType" : "CapabilityStatement","id" : "FhirServer","meta" : {"tag" : [{"system" : "http://hl7.org/fhir/v3/ObservationValue","code" : "SUBSETTED","display" : "Subsetted"}]},"url" : "http://tx.fhir.org/r4/metadata","version" : "4.0.1-3.4.20","name" : "FHIR Reference Server Conformance Statement","status" : "active","date" : "2024-10-10T19:08:57.511Z","contact" : [{"telecom" : [{"system" : "other","value" : "http://healthintersections.com.au/"}]}],"kind" : "instance","instantiates" : ["http://hl7.org/fhir/CapabilityStatement/terminology-server"],"software" : {"name" : "Reference Server","version" : "3.4.20","releaseDate" : "2024-10-09T09:42:05.550Z"},"implementation" : {"description" : "FHIR Server running at http://tx.fhir.org/r4","url" : "http://tx.fhir.org/r4"},"fhirVersion" : "4.0.1","format" : ["application/fhir+xml","application/fhir+json"],"rest" : [{"mode" : "server","security" : {"cors" : true},"operation" : [{"name" : "expand","definition" : "http://hl7.org/fhir/OperationDefinition/ValueSet-expand"},{"name" : "lookup","definition" : "http://hl7.org/fhir/OperationDefinition/ValueSet-lookup"},{"name" : "validate-code","definition" : "http://hl7.org/fhir/OperationDefinition/Resource-validate"},{"name" : "translate","definition" : "http://hl7.org/fhir/OperationDefinition/ConceptMap-translate"},{"name" : "closure","definition" : "http://hl7.org/fhir/OperationDefinition/ConceptMap-closure"},{"name" : "versions","definition" : "http://tx.fhir.org/r4/OperationDefinition/fso-versions"}]}]}
+{"resourceType" : "CapabilityStatement","id" : "FhirServer","meta" : {"tag" : [{"system" : "http://hl7.org/fhir/v3/ObservationValue","code" : "SUBSETTED","display" : "Subsetted"}]},"url" : "http://tx.fhir.org/r4/metadata","version" : "4.0.1-3.4.20","name" : "FHIR Reference Server Conformance Statement","status" : "active","date" : "2024-10-10T19:24:20.497Z","contact" : [{"telecom" : [{"system" : "other","value" : "http://healthintersections.com.au/"}]}],"kind" : "instance","instantiates" : ["http://hl7.org/fhir/CapabilityStatement/terminology-server"],"software" : {"name" : "Reference Server","version" : "3.4.20","releaseDate" : "2024-10-09T09:42:05.550Z"},"implementation" : {"description" : "FHIR Server running at http://tx.fhir.org/r4","url" : "http://tx.fhir.org/r4"},"fhirVersion" : "4.0.1","format" : ["application/fhir+xml","application/fhir+json"],"rest" : [{"mode" : "server","security" : {"cors" : true},"operation" : [{"name" : "expand","definition" : "http://hl7.org/fhir/OperationDefinition/ValueSet-expand"},{"name" : "lookup","definition" : "http://hl7.org/fhir/OperationDefinition/ValueSet-lookup"},{"name" : "validate-code","definition" : "http://hl7.org/fhir/OperationDefinition/Resource-validate"},{"name" : "translate","definition" : "http://hl7.org/fhir/OperationDefinition/ConceptMap-translate"},{"name" : "closure","definition" : "http://hl7.org/fhir/OperationDefinition/ConceptMap-closure"},{"name" : "versions","definition" : "http://tx.fhir.org/r4/OperationDefinition/fso-versions"}]}]}
 
 </pre><hr/>
 <a name="l2"> </a><h3>2</h3>
@@ -38,7 +38,7 @@ Accept: application/fhir+json; fhirVersion=4.0
 Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 User-Agent: fhir/publisher
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil","version":"*","code":"city"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"9d45bb79-8c52-45a9-9313-de9fcd9080b8"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil","version":"*","code":"city"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"5fdce29e-e56c-4257-a7ee-70da9e3e093f"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
 
 
 Response (00:00:00.0): 
@@ -51,11 +51,11 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:1739
 content-type:application/fhir+json
-date:Thu, 10 Oct 2024 19:09:17 GMT
-last-modified:Thu, 10 Oct 2024 19:09:17 GMT
+date:Thu, 10 Oct 2024 19:24:41 GMT
+last-modified:Thu, 10 Oct 2024 19:24:41 GMT
 pragma:no-cache
 server:nginx
-x-request-id:162-384963
+x-request-id:162-388143
 
 {"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "system","valueUri" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil"},{"name" : "x-caused-by-unknown-system","valueCanonical" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil|*"},{"name" : "code","valueCode" : "city"},{"name" : "version","valueString" : "*"},{"name" : "message","valueString" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil' version '*' could not be found, so the code cannot be validated. Valid versions: []"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "not-found"}],"text" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil' version '*' could not be found, so the code cannot be validated. Valid versions: []"},"location" : ["Coding.system"],"expression" : ["Coding.system"]}]}},{"name" : "diagnostics","valueString" : "<1 sec http://hl7.org/fhir/ValueSet/@all: Analysing\r\n<1 sec http://hl7.org/fhir/ValueSet/@all: Parameters: disp-lang=en, en-US, default-to-latest\r\n<1 sec http://hl7.org/fhir/ValueSet/@all: Validate \"[http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil|*#city (\"\")]\"\r\n<1 sec http://hl7.org/fhir/ValueSet/@all: Check \"http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil|*#city\"\r\n<1 sec http://hl7.org/fhir/ValueSet/@all: Didn't find CodeSystem \"http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil|*\"\r\n"}]}
 
@@ -69,7 +69,7 @@ Accept: application/fhir+json; fhirVersion=4.0
 Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 User-Agent: fhir/publisher
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://br-ipes.com/fhir/CodingSystem/identifier-type","code":"local"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"9d45bb79-8c52-45a9-9313-de9fcd9080b8"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://br-ipes.com/fhir/CodingSystem/identifier-type","code":"local"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"5fdce29e-e56c-4257-a7ee-70da9e3e093f"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
 
 
 Response (00:00:00.0): 
@@ -82,11 +82,11 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:1517
 content-type:application/fhir+json
-date:Thu, 10 Oct 2024 19:09:18 GMT
-last-modified:Thu, 10 Oct 2024 19:09:18 GMT
+date:Thu, 10 Oct 2024 19:24:42 GMT
+last-modified:Thu, 10 Oct 2024 19:24:42 GMT
 pragma:no-cache
 server:nginx
-x-request-id:162-384964
+x-request-id:162-388148
 
 {"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "system","valueUri" : "http://br-ipes.com/fhir/CodingSystem/identifier-type"},{"name" : "x-caused-by-unknown-system","valueCanonical" : "http://br-ipes.com/fhir/CodingSystem/identifier-type"},{"name" : "code","valueCode" : "local"},{"name" : "message","valueString" : "A definition for CodeSystem 'http://br-ipes.com/fhir/CodingSystem/identifier-type' could not be found, so the code cannot be validated"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "not-found"}],"text" : "A definition for CodeSystem 'http://br-ipes.com/fhir/CodingSystem/identifier-type' could not be found, so the code cannot be validated"},"location" : ["Coding.system"],"expression" : ["Coding.system"]}]}},{"name" : "diagnostics","valueString" : "<1 sec http://hl7.org/fhir/ValueSet/@all: Analysing\r\n<1 sec http://hl7.org/fhir/ValueSet/@all: Parameters: disp-lang=en, en-US, default-to-latest\r\n<1 sec http://hl7.org/fhir/ValueSet/@all: Validate \"[http://br-ipes.com/fhir/CodingSystem/identifier-type#local (\"\")]\"\r\n<1 sec http://hl7.org/fhir/ValueSet/@all: Check \"http://br-ipes.com/fhir/CodingSystem/identifier-type#local\"\r\n<1 sec http://hl7.org/fhir/ValueSet/@all: Didn't find CodeSystem \"http://br-ipes.com/fhir/CodingSystem/identifier-type\"\r\n"}]}
 
@@ -100,7 +100,7 @@ Accept: application/fhir+json; fhirVersion=4.0
 Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 User-Agent: fhir/publisher
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoIdentificadorProcedimento-1.0","code":"AUTH"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"9d45bb79-8c52-45a9-9313-de9fcd9080b8"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoIdentificadorProcedimento-1.0","code":"AUTH"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"5fdce29e-e56c-4257-a7ee-70da9e3e093f"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
 
 
 Response (00:00:00.0): 
@@ -113,11 +113,11 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:1682
 content-type:application/fhir+json
-date:Thu, 10 Oct 2024 19:09:19 GMT
-last-modified:Thu, 10 Oct 2024 19:09:19 GMT
+date:Thu, 10 Oct 2024 19:24:43 GMT
+last-modified:Thu, 10 Oct 2024 19:24:43 GMT
 pragma:no-cache
 server:nginx
-x-request-id:162-384968
+x-request-id:162-388151
 
 {"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "system","valueUri" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoIdentificadorProcedimento-1.0"},{"name" : "x-caused-by-unknown-system","valueCanonical" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoIdentificadorProcedimento-1.0"},{"name" : "code","valueCode" : "AUTH"},{"name" : "message","valueString" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoIdentificadorProcedimento-1.0' could not be found, so the code cannot be validated"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "not-found"}],"text" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoIdentificadorProcedimento-1.0' could not be found, so the code cannot be validated"},"location" : ["Coding.system"],"expression" : ["Coding.system"]}]}},{"name" : "diagnostics","valueString" : "<1 sec http://hl7.org/fhir/ValueSet/@all: Analysing\r\n<1 sec http://hl7.org/fhir/ValueSet/@all: Parameters: disp-lang=en, en-US, default-to-latest\r\n<1 sec http://hl7.org/fhir/ValueSet/@all: Validate \"[http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoIdentificadorProcedimento-1.0#AUTH (\"\")]\"\r\n<1 sec http://hl7.org/fhir/ValueSet/@all: Check \"http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoIdentificadorProcedimento-1.0#AUTH\"\r\n<1 sec http://hl7.org/fhir/ValueSet/@all: Didn't find CodeSystem \"http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoIdentificadorProcedimento-1.0\"\r\n"}]}
 
@@ -131,7 +131,7 @@ Accept: application/fhir+json; fhirVersion=4.0
 Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 User-Agent: fhir/publisher
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil","version":"*","code":"city"}},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"9d45bb79-8c52-45a9-9313-de9fcd9080b8"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil","version":"*","code":"city"}},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"5fdce29e-e56c-4257-a7ee-70da9e3e093f"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
 
 
 Response (00:00:00.0): 
@@ -144,11 +144,11 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:1718
 content-type:application/fhir+json
-date:Thu, 10 Oct 2024 19:09:20 GMT
-last-modified:Thu, 10 Oct 2024 19:09:20 GMT
+date:Thu, 10 Oct 2024 19:24:45 GMT
+last-modified:Thu, 10 Oct 2024 19:24:45 GMT
 pragma:no-cache
 server:nginx
-x-request-id:162-384973
+x-request-id:162-388156
 
 {"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "system","valueUri" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil"},{"name" : "x-caused-by-unknown-system","valueCanonical" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil|*"},{"name" : "code","valueCode" : "city"},{"name" : "version","valueString" : "*"},{"name" : "message","valueString" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil' version '*' could not be found, so the code cannot be validated. Valid versions: []"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "not-found"}],"text" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil' version '*' could not be found, so the code cannot be validated. Valid versions: []"},"location" : ["Coding.system"],"expression" : ["Coding.system"]}]}},{"name" : "diagnostics","valueString" : "<1 sec http://hl7.org/fhir/ValueSet/@all: Analysing\r\n<1 sec http://hl7.org/fhir/ValueSet/@all: Parameters: default-to-latest\r\n<1 sec http://hl7.org/fhir/ValueSet/@all: Validate \"[http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil|*#city (\"\")]\"\r\n<1 sec http://hl7.org/fhir/ValueSet/@all: Check \"http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil|*#city\"\r\n<1 sec http://hl7.org/fhir/ValueSet/@all: Didn't find CodeSystem \"http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil|*\"\r\n"}]}
 
@@ -162,7 +162,7 @@ Accept: application/fhir+json; fhirVersion=4.0
 Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 User-Agent: fhir/publisher
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador","code":"AUTH"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"9d45bb79-8c52-45a9-9313-de9fcd9080b8"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador","code":"AUTH"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"5fdce29e-e56c-4257-a7ee-70da9e3e093f"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
 
 
 Response (00:00:00.0): 
@@ -175,11 +175,11 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:1584
 content-type:application/fhir+json
-date:Thu, 10 Oct 2024 19:09:20 GMT
-last-modified:Thu, 10 Oct 2024 19:09:20 GMT
+date:Thu, 10 Oct 2024 19:24:45 GMT
+last-modified:Thu, 10 Oct 2024 19:24:45 GMT
 pragma:no-cache
 server:nginx
-x-request-id:162-384975
+x-request-id:162-388158
 
 {"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "system","valueUri" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador"},{"name" : "x-caused-by-unknown-system","valueCanonical" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador"},{"name" : "code","valueCode" : "AUTH"},{"name" : "message","valueString" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador' could not be found, so the code cannot be validated"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "not-found"}],"text" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador' could not be found, so the code cannot be validated"},"location" : ["Coding.system"],"expression" : ["Coding.system"]}]}},{"name" : "diagnostics","valueString" : "<1 sec http://hl7.org/fhir/ValueSet/@all: Analysing\r\n<1 sec http://hl7.org/fhir/ValueSet/@all: Parameters: disp-lang=en, en-US, default-to-latest\r\n<1 sec http://hl7.org/fhir/ValueSet/@all: Validate \"[http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador#AUTH (\"\")]\"\r\n<1 sec http://hl7.org/fhir/ValueSet/@all: Check \"http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador#AUTH\"\r\n<1 sec http://hl7.org/fhir/ValueSet/@all: Didn't find CodeSystem \"http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador\"\r\n"}]}
 
@@ -202,12 +202,12 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:1521
 content-type:application/fhir+json
-date:Thu, 10 Oct 2024 19:08:57 GMT
+date:Thu, 10 Oct 2024 19:24:20 GMT
 pragma:no-cache
 server:nginx
-x-request-id:162-384919
+x-request-id:162-388084
 
-{"resourceType" : "CapabilityStatement","id" : "FhirServer","meta" : {"tag" : [{"system" : "http://hl7.org/fhir/v3/ObservationValue","code" : "SUBSETTED","display" : "Subsetted"}]},"url" : "http://tx.fhir.org/r4/metadata","version" : "4.0.1-3.4.20","name" : "FHIR Reference Server Conformance Statement","status" : "active","date" : "2024-10-10T19:08:57.511Z","contact" : [{"telecom" : [{"system" : "other","value" : "http://healthintersections.com.au/"}]}],"kind" : "instance","instantiates" : ["http://hl7.org/fhir/CapabilityStatement/terminology-server"],"software" : {"name" : "Reference Server","version" : "3.4.20","releaseDate" : "2024-10-09T09:42:05.550Z"},"implementation" : {"description" : "FHIR Server running at http://tx.fhir.org/r4","url" : "http://tx.fhir.org/r4"},"fhirVersion" : "4.0.1","format" : ["application/fhir+xml","application/fhir+json"],"rest" : [{"mode" : "server","security" : {"cors" : true},"operation" : [{"name" : "expand","definition" : "http://hl7.org/fhir/OperationDefinition/ValueSet-expand"},{"name" : "lookup","definition" : "http://hl7.org/fhir/OperationDefinition/ValueSet-lookup"},{"name" : "validate-code","definition" : "http://hl7.org/fhir/OperationDefinition/Resource-validate"},{"name" : "translate","definition" : "http://hl7.org/fhir/OperationDefinition/ConceptMap-translate"},{"name" : "closure","definition" : "http://hl7.org/fhir/OperationDefinition/ConceptMap-closure"},{"name" : "versions","definition" : "http://tx.fhir.org/r4/OperationDefinition/fso-versions"}]}]}
+{"resourceType" : "CapabilityStatement","id" : "FhirServer","meta" : {"tag" : [{"system" : "http://hl7.org/fhir/v3/ObservationValue","code" : "SUBSETTED","display" : "Subsetted"}]},"url" : "http://tx.fhir.org/r4/metadata","version" : "4.0.1-3.4.20","name" : "FHIR Reference Server Conformance Statement","status" : "active","date" : "2024-10-10T19:24:20.497Z","contact" : [{"telecom" : [{"system" : "other","value" : "http://healthintersections.com.au/"}]}],"kind" : "instance","instantiates" : ["http://hl7.org/fhir/CapabilityStatement/terminology-server"],"software" : {"name" : "Reference Server","version" : "3.4.20","releaseDate" : "2024-10-09T09:42:05.550Z"},"implementation" : {"description" : "FHIR Server running at http://tx.fhir.org/r4","url" : "http://tx.fhir.org/r4"},"fhirVersion" : "4.0.1","format" : ["application/fhir+xml","application/fhir+json"],"rest" : [{"mode" : "server","security" : {"cors" : true},"operation" : [{"name" : "expand","definition" : "http://hl7.org/fhir/OperationDefinition/ValueSet-expand"},{"name" : "lookup","definition" : "http://hl7.org/fhir/OperationDefinition/ValueSet-lookup"},{"name" : "validate-code","definition" : "http://hl7.org/fhir/OperationDefinition/Resource-validate"},{"name" : "translate","definition" : "http://hl7.org/fhir/OperationDefinition/ConceptMap-translate"},{"name" : "closure","definition" : "http://hl7.org/fhir/OperationDefinition/ConceptMap-closure"},{"name" : "versions","definition" : "http://tx.fhir.org/r4/OperationDefinition/fso-versions"}]}]}
 
 --- 2 -----------------
 Request: 
@@ -217,7 +217,7 @@ Accept: application/fhir+json; fhirVersion=4.0
 Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 User-Agent: fhir/publisher
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil","version":"*","code":"city"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"9d45bb79-8c52-45a9-9313-de9fcd9080b8"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil","version":"*","code":"city"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"5fdce29e-e56c-4257-a7ee-70da9e3e093f"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
 
 
 Response (00:00:00.0): 
@@ -230,11 +230,11 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:1739
 content-type:application/fhir+json
-date:Thu, 10 Oct 2024 19:09:17 GMT
-last-modified:Thu, 10 Oct 2024 19:09:17 GMT
+date:Thu, 10 Oct 2024 19:24:41 GMT
+last-modified:Thu, 10 Oct 2024 19:24:41 GMT
 pragma:no-cache
 server:nginx
-x-request-id:162-384963
+x-request-id:162-388143
 
 {"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "system","valueUri" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil"},{"name" : "x-caused-by-unknown-system","valueCanonical" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil|*"},{"name" : "code","valueCode" : "city"},{"name" : "version","valueString" : "*"},{"name" : "message","valueString" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil' version '*' could not be found, so the code cannot be validated. Valid versions: []"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "not-found"}],"text" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil' version '*' could not be found, so the code cannot be validated. Valid versions: []"},"location" : ["Coding.system"],"expression" : ["Coding.system"]}]}},{"name" : "diagnostics","valueString" : "<1 sec http://hl7.org/fhir/ValueSet/@all: Analysing\r\n<1 sec http://hl7.org/fhir/ValueSet/@all: Parameters: disp-lang=en, en-US, default-to-latest\r\n<1 sec http://hl7.org/fhir/ValueSet/@all: Validate \"[http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil|*#city (\"\")]\"\r\n<1 sec http://hl7.org/fhir/ValueSet/@all: Check \"http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil|*#city\"\r\n<1 sec http://hl7.org/fhir/ValueSet/@all: Didn't find CodeSystem \"http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil|*\"\r\n"}]}
 
@@ -246,7 +246,7 @@ Accept: application/fhir+json; fhirVersion=4.0
 Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 User-Agent: fhir/publisher
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://br-ipes.com/fhir/CodingSystem/identifier-type","code":"local"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"9d45bb79-8c52-45a9-9313-de9fcd9080b8"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://br-ipes.com/fhir/CodingSystem/identifier-type","code":"local"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"5fdce29e-e56c-4257-a7ee-70da9e3e093f"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
 
 
 Response (00:00:00.0): 
@@ -259,11 +259,11 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:1517
 content-type:application/fhir+json
-date:Thu, 10 Oct 2024 19:09:18 GMT
-last-modified:Thu, 10 Oct 2024 19:09:18 GMT
+date:Thu, 10 Oct 2024 19:24:42 GMT
+last-modified:Thu, 10 Oct 2024 19:24:42 GMT
 pragma:no-cache
 server:nginx
-x-request-id:162-384964
+x-request-id:162-388148
 
 {"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "system","valueUri" : "http://br-ipes.com/fhir/CodingSystem/identifier-type"},{"name" : "x-caused-by-unknown-system","valueCanonical" : "http://br-ipes.com/fhir/CodingSystem/identifier-type"},{"name" : "code","valueCode" : "local"},{"name" : "message","valueString" : "A definition for CodeSystem 'http://br-ipes.com/fhir/CodingSystem/identifier-type' could not be found, so the code cannot be validated"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "not-found"}],"text" : "A definition for CodeSystem 'http://br-ipes.com/fhir/CodingSystem/identifier-type' could not be found, so the code cannot be validated"},"location" : ["Coding.system"],"expression" : ["Coding.system"]}]}},{"name" : "diagnostics","valueString" : "<1 sec http://hl7.org/fhir/ValueSet/@all: Analysing\r\n<1 sec http://hl7.org/fhir/ValueSet/@all: Parameters: disp-lang=en, en-US, default-to-latest\r\n<1 sec http://hl7.org/fhir/ValueSet/@all: Validate \"[http://br-ipes.com/fhir/CodingSystem/identifier-type#local (\"\")]\"\r\n<1 sec http://hl7.org/fhir/ValueSet/@all: Check \"http://br-ipes.com/fhir/CodingSystem/identifier-type#local\"\r\n<1 sec http://hl7.org/fhir/ValueSet/@all: Didn't find CodeSystem \"http://br-ipes.com/fhir/CodingSystem/identifier-type\"\r\n"}]}
 
@@ -275,7 +275,7 @@ Accept: application/fhir+json; fhirVersion=4.0
 Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 User-Agent: fhir/publisher
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoIdentificadorProcedimento-1.0","code":"AUTH"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"9d45bb79-8c52-45a9-9313-de9fcd9080b8"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoIdentificadorProcedimento-1.0","code":"AUTH"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"5fdce29e-e56c-4257-a7ee-70da9e3e093f"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
 
 
 Response (00:00:00.0): 
@@ -288,11 +288,11 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:1682
 content-type:application/fhir+json
-date:Thu, 10 Oct 2024 19:09:19 GMT
-last-modified:Thu, 10 Oct 2024 19:09:19 GMT
+date:Thu, 10 Oct 2024 19:24:43 GMT
+last-modified:Thu, 10 Oct 2024 19:24:43 GMT
 pragma:no-cache
 server:nginx
-x-request-id:162-384968
+x-request-id:162-388151
 
 {"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "system","valueUri" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoIdentificadorProcedimento-1.0"},{"name" : "x-caused-by-unknown-system","valueCanonical" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoIdentificadorProcedimento-1.0"},{"name" : "code","valueCode" : "AUTH"},{"name" : "message","valueString" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoIdentificadorProcedimento-1.0' could not be found, so the code cannot be validated"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "not-found"}],"text" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoIdentificadorProcedimento-1.0' could not be found, so the code cannot be validated"},"location" : ["Coding.system"],"expression" : ["Coding.system"]}]}},{"name" : "diagnostics","valueString" : "<1 sec http://hl7.org/fhir/ValueSet/@all: Analysing\r\n<1 sec http://hl7.org/fhir/ValueSet/@all: Parameters: disp-lang=en, en-US, default-to-latest\r\n<1 sec http://hl7.org/fhir/ValueSet/@all: Validate \"[http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoIdentificadorProcedimento-1.0#AUTH (\"\")]\"\r\n<1 sec http://hl7.org/fhir/ValueSet/@all: Check \"http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoIdentificadorProcedimento-1.0#AUTH\"\r\n<1 sec http://hl7.org/fhir/ValueSet/@all: Didn't find CodeSystem \"http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoIdentificadorProcedimento-1.0\"\r\n"}]}
 
@@ -304,7 +304,7 @@ Accept: application/fhir+json; fhirVersion=4.0
 Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 User-Agent: fhir/publisher
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil","version":"*","code":"city"}},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"9d45bb79-8c52-45a9-9313-de9fcd9080b8"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil","version":"*","code":"city"}},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"5fdce29e-e56c-4257-a7ee-70da9e3e093f"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
 
 
 Response (00:00:00.0): 
@@ -317,11 +317,11 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:1718
 content-type:application/fhir+json
-date:Thu, 10 Oct 2024 19:09:20 GMT
-last-modified:Thu, 10 Oct 2024 19:09:20 GMT
+date:Thu, 10 Oct 2024 19:24:45 GMT
+last-modified:Thu, 10 Oct 2024 19:24:45 GMT
 pragma:no-cache
 server:nginx
-x-request-id:162-384973
+x-request-id:162-388156
 
 {"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "system","valueUri" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil"},{"name" : "x-caused-by-unknown-system","valueCanonical" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil|*"},{"name" : "code","valueCode" : "city"},{"name" : "version","valueString" : "*"},{"name" : "message","valueString" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil' version '*' could not be found, so the code cannot be validated. Valid versions: []"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "not-found"}],"text" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil' version '*' could not be found, so the code cannot be validated. Valid versions: []"},"location" : ["Coding.system"],"expression" : ["Coding.system"]}]}},{"name" : "diagnostics","valueString" : "<1 sec http://hl7.org/fhir/ValueSet/@all: Analysing\r\n<1 sec http://hl7.org/fhir/ValueSet/@all: Parameters: default-to-latest\r\n<1 sec http://hl7.org/fhir/ValueSet/@all: Validate \"[http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil|*#city (\"\")]\"\r\n<1 sec http://hl7.org/fhir/ValueSet/@all: Check \"http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil|*#city\"\r\n<1 sec http://hl7.org/fhir/ValueSet/@all: Didn't find CodeSystem \"http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil|*\"\r\n"}]}
 
@@ -333,7 +333,7 @@ Accept: application/fhir+json; fhirVersion=4.0
 Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 User-Agent: fhir/publisher
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador","code":"AUTH"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"9d45bb79-8c52-45a9-9313-de9fcd9080b8"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador","code":"AUTH"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"5fdce29e-e56c-4257-a7ee-70da9e3e093f"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
 
 
 Response (00:00:00.0): 
@@ -346,11 +346,11 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:1584
 content-type:application/fhir+json
-date:Thu, 10 Oct 2024 19:09:20 GMT
-last-modified:Thu, 10 Oct 2024 19:09:20 GMT
+date:Thu, 10 Oct 2024 19:24:45 GMT
+last-modified:Thu, 10 Oct 2024 19:24:45 GMT
 pragma:no-cache
 server:nginx
-x-request-id:162-384975
+x-request-id:162-388158
 
 {"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "system","valueUri" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador"},{"name" : "x-caused-by-unknown-system","valueCanonical" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador"},{"name" : "code","valueCode" : "AUTH"},{"name" : "message","valueString" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador' could not be found, so the code cannot be validated"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "not-found"}],"text" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador' could not be found, so the code cannot be validated"},"location" : ["Coding.system"],"expression" : ["Coding.system"]}]}},{"name" : "diagnostics","valueString" : "<1 sec http://hl7.org/fhir/ValueSet/@all: Analysing\r\n<1 sec http://hl7.org/fhir/ValueSet/@all: Parameters: disp-lang=en, en-US, default-to-latest\r\n<1 sec http://hl7.org/fhir/ValueSet/@all: Validate \"[http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador#AUTH (\"\")]\"\r\n<1 sec http://hl7.org/fhir/ValueSet/@all: Check \"http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador#AUTH\"\r\n<1 sec http://hl7.org/fhir/ValueSet/@all: Didn't find CodeSystem \"http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador\"\r\n"}]}
 </pre></head></html>
