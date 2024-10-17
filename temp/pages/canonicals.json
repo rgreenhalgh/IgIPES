@@ -142,42 +142,42 @@
   {
     "id" : "AreaAtuacaoCodeSystem",
     "type" : "CodeSystem",
-    "url" : "http://ehrruner.com/fhir/CodeSystem/AreaAtuacao",
+    "url" : "http://br-ipes.com/fhir/CodeSystem/AreaAtuacao",
     "version" : "1.0.0",
     "name" : "AreaAtuacao"
   },
   {
     "id" : "EspecialidadeCodeSystem",
     "type" : "CodeSystem",
-    "url" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+    "url" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
     "version" : "1.0.0",
     "name" : "Especialidade"
   },
   {
     "id" : "NivelFederacaoCodeSystem",
     "type" : "CodeSystem",
-    "url" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/NivelFederacao",
+    "url" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/NivelFederacao",
     "version" : "1.0.0",
     "name" : "NivelFederacao"
   },
   {
     "id" : "EspecialidadeValueset",
     "type" : "ValueSet",
-    "url" : "http://ehrruner.com/fhir/StructureDefinition/ValueSet/Especialidade",
+    "url" : "http://br-ipes.com/fhir/StructureDefinition/ValueSet/Especialidade",
     "version" : "1.0.0",
     "name" : "Especialidade"
   },
   {
     "id" : "NivelFederacaoValueSet",
     "type" : "ValueSet",
-    "url" : "http://ehrruner.com/fhir/StructureDefinition/ValueSet/NivelFederacao",
+    "url" : "http://br-ipes.com/fhir/StructureDefinition/ValueSet/NivelFederacao",
     "version" : "1.0.0",
     "name" : "NivelFederacao"
   },
   {
     "id" : "AreaAtuacaoValueset",
     "type" : "ValueSet",
-    "url" : "http://ehrruner.com/fhir/ValueSet/AreaAtuacao",
+    "url" : "http://br-ipes.com/fhir/ValueSet/AreaAtuacao",
     "version" : "1.0.0",
     "name" : "AreaAtuacao"
   },

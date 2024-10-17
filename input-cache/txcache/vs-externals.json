@@ -18,7 +18,7 @@
   "http://hl7.org/fhir/ValueSet/medication-dose-aid" : null,
   "http://www.saude.gov.br/fhir/r4/ValueSet/BRProcedimentosNacionais-1.0" : null,
   "http://www.saude.gov.br/fhir/r4/ValueSet/BRCaraterAtendimento-1.0" : null,
-  "http://ehrruner.com/fhir/StructureDefinition/ValueSet/AreaAtuacao" : null,
+  "http://br-ipes.com/fhir/StructureDefinition/ValueSet/AreaAtuacao" : null,
   "http://hl7.org/fhir/ValueSet/medicationrequest-intent|5.0.0" : null,
   "http://hl7.org/fhir/ValueSet/medicationrequest-admin-location" : null,
   "http://hl7.org/fhir/ValueSet/medication-intended-performer-role" : null,

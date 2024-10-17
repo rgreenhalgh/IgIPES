@@ -25,7 +25,7 @@
       "description" : "Categorias utilizadas nos perfis do recurso ServiceRequest"
     },
     {
-      "url" : "http://ehrruner.com/fhir/CodeSystem/AreaAtuacao",
+      "url" : "http://br-ipes.com/fhir/CodeSystem/AreaAtuacao",
       "version" : "1.0.0",
       "status" : "draft",
       "name" : "AreaAtuacao",
@@ -33,7 +33,7 @@
       "description" : "Área de atuação médica (Resolução CFM n. 2.330/2023)"
     },
     {
-      "url" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+      "url" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
       "version" : "1.0.0",
       "status" : "draft",
       "name" : "Especialidade",
@@ -41,7 +41,7 @@
       "description" : "Especialidade médica (Resolução CFM n. 2.330/2023)"
     },
     {
-      "url" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/NivelFederacao",
+      "url" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/NivelFederacao",
       "version" : "1.0.0",
       "status" : "draft",
       "name" : "NivelFederacao",

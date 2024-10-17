@@ -15,7 +15,7 @@
   "toolingVersionFull" : "5.0.0 (3)",
   "totalFiles" : 35,
   "processedFiles" : 39,
-  "genDate" : "Thu, Oct 10, 2024 16:24-0300",
+  "genDate" : "Thu, Oct 10, 2024 16:40-0300",
   "genDay" : "10/10/2024",
   "resourceTypes" : [
     "Account",
@@ -241,7 +241,7 @@
     "status" : "draft",
     "experimental" : false,
     "publisher" : "CBIS Publisher",
-    "date" : "2024-10-10T16:24:33-03:00",
+    "date" : "2024-10-10T16:40:26-03:00",
     "description" : "Implementation Guide for 2024 IG CBIS",
     "tx-server" : "http://tx.fhir.org/r4",
     "copyright" : null,

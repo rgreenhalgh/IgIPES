@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id":"NivelFederacaoValueSet",
-  "url": "http://ehrruner.com/fhir/StructureDefinition/ValueSet/NivelFederacao",
+  "url": "http://br-ipes.com/fhir/StructureDefinition/ValueSet/NivelFederacao",
   "version": "1.0",
   "name": "NivelFederacao",
   "title": "Nível da Federacao",
@@ -20,7 +20,7 @@
   "compose": {
     "include": [
       {
-        "system": "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/NivelFederacao"
+        "system": "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/NivelFederacao"
       }
     ]
   }

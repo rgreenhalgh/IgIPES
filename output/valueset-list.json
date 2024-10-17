@@ -28,36 +28,36 @@
       "systems" : ["http://br-ipes.com/fhir/CodeSystem/ServiceRequestCategory"]
     },
     {
-      "url" : "http://ehrruner.com/fhir/StructureDefinition/ValueSet/Especialidade",
+      "url" : "http://br-ipes.com/fhir/StructureDefinition/ValueSet/Especialidade",
       "version" : "1.0.0",
       "status" : "draft",
       "name" : "Especialidade",
       "title" : "Especialidade",
       "description" : "Especialidade médica (Resolução CFM n. 2.330/2023)",
       "systems" : [
-        "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"
+        "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"
       ]
     },
     {
-      "url" : "http://ehrruner.com/fhir/StructureDefinition/ValueSet/NivelFederacao",
+      "url" : "http://br-ipes.com/fhir/StructureDefinition/ValueSet/NivelFederacao",
       "version" : "1.0.0",
       "status" : "draft",
       "name" : "NivelFederacao",
       "title" : "Nível da Federacao",
       "description" : "Tipo de federação suportada para um PractitionerRole",
       "systems" : [
-        "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/NivelFederacao"
+        "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/NivelFederacao"
       ]
     },
     {
-      "url" : "http://ehrruner.com/fhir/ValueSet/AreaAtuacao",
+      "url" : "http://br-ipes.com/fhir/ValueSet/AreaAtuacao",
       "version" : "1.0.0",
       "status" : "draft",
       "name" : "AreaAtuacao",
       "title" : "Área de Atuacao",
       "description" : "Área de atuação médica (Resolução CFM n. 2.330/2023)",
       "systems" : [
-        "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/AreaAtuacao"
+        "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/AreaAtuacao"
       ]
     },
     {

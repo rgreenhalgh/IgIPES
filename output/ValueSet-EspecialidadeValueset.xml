@@ -3,9 +3,9 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="EspecialidadeValueset"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet EspecialidadeValueset</b></p><a name="EspecialidadeValueset"> </a><a name="hcEspecialidadeValueset"> </a><a name="EspecialidadeValueset-en-US"> </a><ul><li>Include all codes defined in <a href="CodeSystem-EspecialidadeCodeSystem.html"><code>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</code></a></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet EspecialidadeValueset</b></p><a name="EspecialidadeValueset"> </a><a name="hcEspecialidadeValueset"> </a><a name="EspecialidadeValueset-en-US"> </a><ul><li>Include all codes defined in <a href="CodeSystem-EspecialidadeCodeSystem.html"><code>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</code></a></li></ul></div>
   </text>
-  <url value="http://ehrruner.com/fhir/StructureDefinition/ValueSet/Especialidade"/>
+  <url value="http://br-ipes.com/fhir/StructureDefinition/ValueSet/Especialidade"/>
   <version value="1.0.0"/>
   <name value="Especialidade"/>
   <title value="Especialidade"/>
@@ -20,7 +20,7 @@
   <description value="Especialidade médica (Resolução CFM n. 2.330/2023)"/>
   <compose>
     <include>
-      <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+      <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
     </include>
   </compose>
 </ValueSet>

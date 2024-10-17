@@ -3,9 +3,9 @@
   "id" : "NivelFederacaoCodeSystem",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem NivelFederacaoCodeSystem</b></p><a name=\"NivelFederacaoCodeSystem\"> </a><a name=\"hcNivelFederacaoCodeSystem\"> </a><a name=\"NivelFederacaoCodeSystem-en-US\"> </a><p>This case-insensitive code system <code>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/NivelFederacao</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Organizacao<a name=\"NivelFederacaoCodeSystem-Organizacao\"> </a></td><td>Todos os profissionais de saúde da organização podem federar</td></tr><tr><td style=\"white-space:nowrap\">Individuo<a name=\"NivelFederacaoCodeSystem-Individuo\"> </a></td><td>Apenas o profissional de saúde pode federar</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem NivelFederacaoCodeSystem</b></p><a name=\"NivelFederacaoCodeSystem\"> </a><a name=\"hcNivelFederacaoCodeSystem\"> </a><a name=\"NivelFederacaoCodeSystem-en-US\"> </a><p>This case-insensitive code system <code>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/NivelFederacao</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Organizacao<a name=\"NivelFederacaoCodeSystem-Organizacao\"> </a></td><td>Todos os profissionais de saúde da organização podem federar</td></tr><tr><td style=\"white-space:nowrap\">Individuo<a name=\"NivelFederacaoCodeSystem-Individuo\"> </a></td><td>Apenas o profissional de saúde pode federar</td></tr></table></div>"
   },
-  "url" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/NivelFederacao",
+  "url" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/NivelFederacao",
   "version" : "1.0.0",
   "name" : "NivelFederacao",
   "title" : "Nível da Federação",
@@ -19,7 +19,7 @@
   }],
   "description" : "Tipo de federação suportada para um PractitionerRole",
   "caseSensitive" : false,
-  "valueSet" : "http://ehrruner.com/fhir/StructureDefinition/ValueSet/NivelFederacao",
+  "valueSet" : "http://br-ipes.com/fhir/StructureDefinition/ValueSet/NivelFederacao",
   "compositional" : false,
   "versionNeeded" : false,
   "content" : "complete",

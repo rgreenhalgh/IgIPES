@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="a7e4a883-8ebf-4816-ad4f-36363748f0ea"/>
+  <id value="d4f239f8-d495-4163-aec9-917996781379"/>
   <meta>
-    <lastUpdated value="2024-10-10T16:24:33.792-03:00"/>
+    <lastUpdated value="2024-10-10T16:40:26.055-03:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -56,8 +56,8 @@
         <date value="2020-03-11T19:17:52.0302375+00:00"/>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:188c5b46-ab1f-4fc5-b3bd-15e3434c2773"/>
-          <timestamp value="2024-10-10T16:26:13-03:00"/>
+          <identifier value="urn:uuid:b611548d-841e-495b-9bba-ee910bb905d6"/>
+          <timestamp value="2024-10-10T16:41:53-03:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -201,8 +201,8 @@
         <status value="draft"/>
         <date value="2023-11-04T17:46:04.4163856+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:20f54c74-d665-45c7-b659-60f4f80f81e7"/>
-          <timestamp value="2024-10-10T16:26:17-03:00"/>
+          <identifier value="urn:uuid:eb41e084-3456-4794-8d3d-2fb65d4452ad"/>
+          <timestamp value="2024-10-10T16:41:57-03:00"/>
           <total value="10"/>
           <offset value="0"/>
           <parameter>
@@ -276,7 +276,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://ehrruner.com/fhir/StructureDefinition/ValueSet/Especialidade"/>
+    <fullUrl value="http://br-ipes.com/fhir/StructureDefinition/ValueSet/Especialidade"/>
     <resource>
       <ValueSet>
         <text>
@@ -303,456 +303,456 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-1"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-1"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-1">1</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Acupuntura</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-2"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-2"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-2">2</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Alergia e imunologia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-3"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-3"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-3">3</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Anestesiologia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-4"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-4"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-4">4</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Angiologia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-5"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-5"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-5">5</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Cardiologia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-6"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-6"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-6">6</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Cirurgia cardiovascular</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-7"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-7"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-7">7</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Cirurgia da mão</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-8"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-8"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-8">8</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Cirurgia de cabeça e pescoço</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-9"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-9"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-9">9</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Cirurgia do aparelho digestivo</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-10"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-10"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-10">10</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Cirurgia geral</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-11"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-11"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-11">11</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Cirurgia oncológica</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-12"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-12"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-12">12</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Cirurgia pediátrica</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-13"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-13"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-13">13</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Cirurgia plástica</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-14"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-14"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-14">14</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Cirurgia torácica</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-15"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-15"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-15">15</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Cirurgia vascular</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-16"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-16"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-16">16</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Clínica médica</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-17"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-17"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-17">17</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Coloproctologia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-18"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-18"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-18">18</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Dermatologia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-19"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-19"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-19">19</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Endocrinologia e metabologia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-20"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-20"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-20">20</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Endoscopia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-21"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-21"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-21">21</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Gastroenterologia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-22"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-22"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-22">22</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Genética médica</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-23"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-23"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-23">23</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Geriatria</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-24"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-24"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-24">24</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Ginecologia e obstetrícia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-25"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-25"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-25">25</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Hematologia e hemoterapia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-26"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-26"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-26">26</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Homeopatia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-27"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-27"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-27">27</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Infectologia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-28"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-28"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-28">28</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Mastologia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-29"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-29"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-29">29</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Medicina de emergência</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-30"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-30"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-30">30</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Medicina de família e comunidade</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-31"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-31"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-31">31</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Medicina do trabalho</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-32"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-32"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-32">32</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Medicina de tráfego</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-33"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-33"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-33">33</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Medicina esportiva</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-34"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-34"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-34">34</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Medicina física e reabilitação</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-35"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-35"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-35">35</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Medicina intensiva</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-36"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-36"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-36">36</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Medicina legal e perícia médica</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-37"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-37"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-37">37</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Medicina nuclear</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-38"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-38"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-38">38</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Medicina preventiva e social</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-39"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-39"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-39">39</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Nefrologia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-40"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-40"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-40">40</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Neurocirurgia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-41"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-41"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-41">41</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Neurologia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-42"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-42"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-42">42</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Nutrologia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-43"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-43"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-43">43</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Oftalmologia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-44"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-44"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-44">44</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Oncologia clínica</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-45"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-45"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-45">45</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Ortopedia e traumatologia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-46"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-46"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-46">46</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Otorrinolaringologia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-47"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-47"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-47">47</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Patologia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-48"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-48"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-48">48</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Patologia clínica/medicina laboratorial</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-49"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-49"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-49">49</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Pediatria</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-50"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-50"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-50">50</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Pneumologia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-51"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-51"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-51">51</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Psiquiatria</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-52"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-52"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-52">52</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Radiologia e diagnóstico por imagem</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-53"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-53"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-53">53</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Radioterapia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-54"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-54"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-54">54</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Reumatologia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-55"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-55"> </a>  
                   <a href="CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-55">55</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
                 <td>Urologia</td>
               </tr>
             </table>
           </div>
         </text>
-        <url value="http://ehrruner.com/fhir/StructureDefinition/ValueSet/Especialidade"/>
+        <url value="http://br-ipes.com/fhir/StructureDefinition/ValueSet/Especialidade"/>
         <version value="1.0.0"/>
         <name value="Especialidade"/>
         <title value="Especialidade"/>
         <status value="draft"/>
         <date value="2023-11-04T17:46:04.4163856+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:27de0082-9847-4e02-9444-fd0fca34ea0b"/>
-          <timestamp value="2024-10-10T16:26:23-03:00"/>
+          <identifier value="urn:uuid:040e491d-87f5-4eb5-bc8b-99f10a083022"/>
+          <timestamp value="2024-10-10T16:42:03-03:00"/>
           <total value="55"/>
           <offset value="0"/>
           <parameter>
@@ -769,280 +769,280 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade|1.0.0"/>
+            <valueUri value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade|1.0.0"/>
           </parameter>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="1"/>
             <display value="Acupuntura"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="2"/>
             <display value="Alergia e imunologia"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="3"/>
             <display value="Anestesiologia"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="4"/>
             <display value="Angiologia"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="5"/>
             <display value="Cardiologia"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="6"/>
             <display value="Cirurgia cardiovascular"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="7"/>
             <display value="Cirurgia da mão"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="8"/>
             <display value="Cirurgia de cabeça e pescoço"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="9"/>
             <display value="Cirurgia do aparelho digestivo"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="10"/>
             <display value="Cirurgia geral"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="11"/>
             <display value="Cirurgia oncológica"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="12"/>
             <display value="Cirurgia pediátrica"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="13"/>
             <display value="Cirurgia plástica"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="14"/>
             <display value="Cirurgia torácica"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="15"/>
             <display value="Cirurgia vascular"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="16"/>
             <display value="Clínica médica"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="17"/>
             <display value="Coloproctologia"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="18"/>
             <display value="Dermatologia"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="19"/>
             <display value="Endocrinologia e metabologia"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="20"/>
             <display value="Endoscopia"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="21"/>
             <display value="Gastroenterologia"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="22"/>
             <display value="Genética médica"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="23"/>
             <display value="Geriatria"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="24"/>
             <display value="Ginecologia e obstetrícia"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="25"/>
             <display value="Hematologia e hemoterapia"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="26"/>
             <display value="Homeopatia"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="27"/>
             <display value="Infectologia"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="28"/>
             <display value="Mastologia"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="29"/>
             <display value="Medicina de emergência"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="30"/>
             <display value="Medicina de família e comunidade"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="31"/>
             <display value="Medicina do trabalho"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="32"/>
             <display value="Medicina de tráfego"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="33"/>
             <display value="Medicina esportiva"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="34"/>
             <display value="Medicina física e reabilitação"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="35"/>
             <display value="Medicina intensiva"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="36"/>
             <display value="Medicina legal e perícia médica"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="37"/>
             <display value="Medicina nuclear"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="38"/>
             <display value="Medicina preventiva e social"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="39"/>
             <display value="Nefrologia"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="40"/>
             <display value="Neurocirurgia"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="41"/>
             <display value="Neurologia"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="42"/>
             <display value="Nutrologia"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="43"/>
             <display value="Oftalmologia"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="44"/>
             <display value="Oncologia clínica"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="45"/>
             <display value="Ortopedia e traumatologia"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="46"/>
             <display value="Otorrinolaringologia"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="47"/>
             <display value="Patologia"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="48"/>
             <display value="Patologia clínica/medicina laboratorial"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="49"/>
             <display value="Pediatria"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="50"/>
             <display value="Pneumologia"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="51"/>
             <display value="Psiquiatria"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="52"/>
             <display value="Radiologia e diagnóstico por imagem"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="53"/>
             <display value="Radioterapia"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="54"/>
             <display value="Reumatologia"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"/>
             <code value="55"/>
             <display value="Urologia"/>
           </contains>
@@ -1166,8 +1166,8 @@
         <status value="draft"/>
         <date value="2023-11-04T17:46:04.4163856+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:7b859b86-e727-4ebb-90fd-68887767dd74"/>
-          <timestamp value="2024-10-10T16:26:31-03:00"/>
+          <identifier value="urn:uuid:9fc7eb28-02b7-4ec1-9b39-3cbd9d8ef9cc"/>
+          <timestamp value="2024-10-10T16:42:11-03:00"/>
           <total value="10"/>
           <offset value="0"/>
           <parameter>
@@ -1241,7 +1241,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://ehrruner.com/fhir/StructureDefinition/ValueSet/NivelFederacao"/>
+    <fullUrl value="http://br-ipes.com/fhir/StructureDefinition/ValueSet/NivelFederacao"/>
     <resource>
       <ValueSet>
         <text>
@@ -1268,32 +1268,32 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/NivelFederacao-Organizacao"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/NivelFederacao-Organizacao"> </a>  
                   <a href="CodeSystem-NivelFederacaoCodeSystem.html#NivelFederacaoCodeSystem-Organizacao">Organizacao</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/NivelFederacao</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/NivelFederacao</td>
                 <td>Todos os profissionais de saúde da organização podem federar</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/NivelFederacao-Individuo"> </a>  
+                  <a name="x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/NivelFederacao-Individuo"> </a>  
                   <a href="CodeSystem-NivelFederacaoCodeSystem.html#NivelFederacaoCodeSystem-Individuo">Individuo</a>
                 </td>
-                <td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/NivelFederacao</td>
+                <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/NivelFederacao</td>
                 <td>Apenas o profissional de saúde pode federar</td>
               </tr>
             </table>
           </div>
         </text>
-        <url value="http://ehrruner.com/fhir/StructureDefinition/ValueSet/NivelFederacao"/>
+        <url value="http://br-ipes.com/fhir/StructureDefinition/ValueSet/NivelFederacao"/>
         <version value="1.0.0"/>
         <name value="NivelFederacao"/>
         <title value="Nível da Federacao"/>
         <status value="draft"/>
         <date value="2023-11-04T17:46:04.4163856+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:53258370-7f6f-4d9e-aac7-238b09a7b0cb"/>
-          <timestamp value="2024-10-10T16:26:35-03:00"/>
+          <identifier value="urn:uuid:f6dfe92b-c01a-45dc-be94-2229e5f4799e"/>
+          <timestamp value="2024-10-10T16:42:15-03:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -1310,15 +1310,15 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/NivelFederacao|1.0.0"/>
+            <valueUri value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/NivelFederacao|1.0.0"/>
           </parameter>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/NivelFederacao"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/NivelFederacao"/>
             <code value="Organizacao"/>
             <display value="Todos os profissionais de saúde da organização podem federar"/>
           </contains>
           <contains>
-            <system value="http://ehrruner.com/fhir/StructureDefinition/CodeSystem/NivelFederacao"/>
+            <system value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/NivelFederacao"/>
             <code value="Individuo"/>
             <display value="Apenas o profissional de saúde pode federar"/>
           </contains>
@@ -1378,8 +1378,8 @@
         <status value="draft"/>
         <date value="2023-11-04T17:46:04.4163856+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:2a35ce57-50f6-4a28-b7a8-e88e1c0199fd"/>
-          <timestamp value="2024-10-10T16:26:40-03:00"/>
+          <identifier value="urn:uuid:8d35273e-db9c-42f0-a1ef-b1e7af20ab17"/>
+          <timestamp value="2024-10-10T16:42:20-03:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>

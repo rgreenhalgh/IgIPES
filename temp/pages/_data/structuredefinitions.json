@@ -343,7 +343,7 @@
     "basename" : "Patient",
     "basepath" : "StructureDefinition-Patient.html",
     "status" : "draft",
-    "date" : "Thu Oct 10 16:24:33 BRT 2024",
+    "date" : "Thu Oct 10 16:40:26 BRT 2024",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "CBIS Publisher",

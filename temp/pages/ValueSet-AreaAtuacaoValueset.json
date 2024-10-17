@@ -3,9 +3,9 @@
   "id" : "AreaAtuacaoValueset",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet AreaAtuacaoValueset</b></p><a name=\"AreaAtuacaoValueset\"> </a><a name=\"hcAreaAtuacaoValueset\"> </a><a name=\"AreaAtuacaoValueset-en-US\"> </a><ul><li>Include all codes defined in <code>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/AreaAtuacao</code></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet AreaAtuacaoValueset</b></p><a name=\"AreaAtuacaoValueset\"> </a><a name=\"hcAreaAtuacaoValueset\"> </a><a name=\"AreaAtuacaoValueset-en-US\"> </a><ul><li>Include all codes defined in <code>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/AreaAtuacao</code></li></ul></div>"
   },
-  "url" : "http://ehrruner.com/fhir/ValueSet/AreaAtuacao",
+  "url" : "http://br-ipes.com/fhir/ValueSet/AreaAtuacao",
   "version" : "1.0.0",
   "name" : "AreaAtuacao",
   "title" : "Área de Atuacao",
@@ -20,7 +20,7 @@
   "description" : "Área de atuação médica (Resolução CFM n. 2.330/2023)",
   "compose" : {
     "include" : [{
-      "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/AreaAtuacao"
+      "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/AreaAtuacao"
     }]
   }
 }

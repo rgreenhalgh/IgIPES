@@ -1,7 +1,7 @@
 {
   "systems" : [
     {
-      "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/AreaAtuacao",
+      "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/AreaAtuacao",
       "authoritative" : [],
       "candidates" : []
     },

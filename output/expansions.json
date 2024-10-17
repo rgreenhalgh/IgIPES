@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "a7e4a883-8ebf-4816-ad4f-36363748f0ea",
+  "id" : "d4f239f8-d495-4163-aec9-917996781379",
   "meta" : {
-    "lastUpdated" : "2024-10-10T16:24:33.792-03:00"
+    "lastUpdated" : "2024-10-10T16:40:26.055-03:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -23,8 +23,8 @@
       "date" : "2020-03-11T19:17:52.0302375+00:00",
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:188c5b46-ab1f-4fc5-b3bd-15e3434c2773",
-        "timestamp" : "2024-10-10T16:26:13-03:00",
+        "identifier" : "urn:uuid:b611548d-841e-495b-9bba-ee910bb905d6",
+        "timestamp" : "2024-10-10T16:41:53-03:00",
         "total" : 1,
         "offset" : 0,
         "parameter" : [{
@@ -66,8 +66,8 @@
       "status" : "draft",
       "date" : "2023-11-04T17:46:04.4163856+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:20f54c74-d665-45c7-b659-60f4f80f81e7",
-        "timestamp" : "2024-10-10T16:26:17-03:00",
+        "identifier" : "urn:uuid:eb41e084-3456-4794-8d3d-2fb65d4452ad",
+        "timestamp" : "2024-10-10T16:41:57-03:00",
         "total" : 10,
         "offset" : 0,
         "parameter" : [{
@@ -140,22 +140,22 @@
     }
   },
   {
-    "fullUrl" : "http://ehrruner.com/fhir/StructureDefinition/ValueSet/Especialidade",
+    "fullUrl" : "http://br-ipes.com/fhir/StructureDefinition/ValueSet/Especialidade",
     "resource" : {
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-EspecialidadeCodeSystem.html\">codesystem Especialidade v1.0.0 (CodeSystem)</a></p><p>This value set contains 55 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-1\">1</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Acupuntura</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-2\">2</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Alergia e imunologia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-3\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-3\">3</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Anestesiologia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-4\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-4\">4</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Angiologia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-5\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-5\">5</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Cardiologia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-6\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-6\">6</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Cirurgia cardiovascular</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-7\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-7\">7</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Cirurgia da mão</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-8\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-8\">8</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Cirurgia de cabeça e pescoço</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-9\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-9\">9</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Cirurgia do aparelho digestivo</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-10\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-10\">10</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Cirurgia geral</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-11\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-11\">11</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Cirurgia oncológica</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-12\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-12\">12</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Cirurgia pediátrica</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-13\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-13\">13</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Cirurgia plástica</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-14\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-14\">14</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Cirurgia torácica</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-15\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-15\">15</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Cirurgia vascular</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-16\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-16\">16</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Clínica médica</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-17\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-17\">17</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Coloproctologia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-18\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-18\">18</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Dermatologia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-19\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-19\">19</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Endocrinologia e metabologia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-20\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-20\">20</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Endoscopia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-21\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-21\">21</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Gastroenterologia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-22\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-22\">22</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Genética médica</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-23\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-23\">23</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Geriatria</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-24\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-24\">24</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Ginecologia e obstetrícia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-25\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-25\">25</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Hematologia e hemoterapia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-26\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-26\">26</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Homeopatia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-27\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-27\">27</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Infectologia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-28\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-28\">28</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Mastologia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-29\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-29\">29</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Medicina de emergência</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-30\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-30\">30</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Medicina de família e comunidade</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-31\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-31\">31</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Medicina do trabalho</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-32\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-32\">32</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Medicina de tráfego</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-33\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-33\">33</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Medicina esportiva</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-34\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-34\">34</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Medicina física e reabilitação</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-35\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-35\">35</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Medicina intensiva</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-36\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-36\">36</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Medicina legal e perícia médica</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-37\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-37\">37</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Medicina nuclear</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-38\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-38\">38</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Medicina preventiva e social</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-39\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-39\">39</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Nefrologia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-40\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-40\">40</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Neurocirurgia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-41\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-41\">41</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Neurologia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-42\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-42\">42</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Nutrologia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-43\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-43\">43</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Oftalmologia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-44\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-44\">44</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Oncologia clínica</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-45\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-45\">45</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Ortopedia e traumatologia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-46\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-46\">46</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Otorrinolaringologia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-47\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-47\">47</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Patologia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-48\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-48\">48</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Patologia clínica/medicina laboratorial</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-49\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-49\">49</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Pediatria</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-50\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-50\">50</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Pneumologia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-51\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-51\">51</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Psiquiatria</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-52\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-52\">52</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Radiologia e diagnóstico por imagem</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-53\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-53\">53</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Radioterapia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-54\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-54\">54</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Reumatologia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade-55\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-55\">55</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Urologia</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-EspecialidadeCodeSystem.html\">codesystem Especialidade v1.0.0 (CodeSystem)</a></p><p>This value set contains 55 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-1\">1</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Acupuntura</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-2\">2</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Alergia e imunologia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-3\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-3\">3</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Anestesiologia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-4\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-4\">4</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Angiologia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-5\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-5\">5</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Cardiologia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-6\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-6\">6</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Cirurgia cardiovascular</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-7\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-7\">7</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Cirurgia da mão</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-8\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-8\">8</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Cirurgia de cabeça e pescoço</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-9\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-9\">9</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Cirurgia do aparelho digestivo</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-10\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-10\">10</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Cirurgia geral</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-11\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-11\">11</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Cirurgia oncológica</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-12\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-12\">12</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Cirurgia pediátrica</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-13\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-13\">13</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Cirurgia plástica</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-14\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-14\">14</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Cirurgia torácica</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-15\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-15\">15</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Cirurgia vascular</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-16\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-16\">16</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Clínica médica</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-17\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-17\">17</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Coloproctologia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-18\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-18\">18</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Dermatologia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-19\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-19\">19</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Endocrinologia e metabologia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-20\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-20\">20</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Endoscopia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-21\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-21\">21</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Gastroenterologia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-22\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-22\">22</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Genética médica</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-23\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-23\">23</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Geriatria</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-24\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-24\">24</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Ginecologia e obstetrícia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-25\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-25\">25</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Hematologia e hemoterapia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-26\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-26\">26</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Homeopatia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-27\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-27\">27</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Infectologia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-28\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-28\">28</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Mastologia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-29\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-29\">29</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Medicina de emergência</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-30\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-30\">30</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Medicina de família e comunidade</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-31\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-31\">31</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Medicina do trabalho</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-32\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-32\">32</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Medicina de tráfego</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-33\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-33\">33</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Medicina esportiva</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-34\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-34\">34</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Medicina física e reabilitação</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-35\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-35\">35</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Medicina intensiva</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-36\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-36\">36</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Medicina legal e perícia médica</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-37\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-37\">37</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Medicina nuclear</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-38\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-38\">38</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Medicina preventiva e social</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-39\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-39\">39</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Nefrologia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-40\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-40\">40</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Neurocirurgia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-41\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-41\">41</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Neurologia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-42\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-42\">42</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Nutrologia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-43\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-43\">43</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Oftalmologia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-44\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-44\">44</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Oncologia clínica</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-45\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-45\">45</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Ortopedia e traumatologia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-46\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-46\">46</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Otorrinolaringologia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-47\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-47\">47</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Patologia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-48\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-48\">48</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Patologia clínica/medicina laboratorial</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-49\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-49\">49</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Pediatria</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-50\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-50\">50</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Pneumologia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-51\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-51\">51</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Psiquiatria</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-52\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-52\">52</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Radiologia e diagnóstico por imagem</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-53\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-53\">53</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Radioterapia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-54\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-54\">54</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Reumatologia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade-55\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadeCodeSystem.html#EspecialidadeCodeSystem-55\">55</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td><td>Urologia</td></tr></table></div>"
       },
-      "url" : "http://ehrruner.com/fhir/StructureDefinition/ValueSet/Especialidade",
+      "url" : "http://br-ipes.com/fhir/StructureDefinition/ValueSet/Especialidade",
       "version" : "1.0.0",
       "name" : "Especialidade",
       "title" : "Especialidade",
       "status" : "draft",
       "date" : "2023-11-04T17:46:04.4163856+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:27de0082-9847-4e02-9444-fd0fca34ea0b",
-        "timestamp" : "2024-10-10T16:26:23-03:00",
+        "identifier" : "urn:uuid:040e491d-87f5-4eb5-bc8b-99f10a083022",
+        "timestamp" : "2024-10-10T16:42:03-03:00",
         "total" : 55,
         "offset" : 0,
         "parameter" : [{
@@ -172,280 +172,280 @@
         },
         {
           "name" : "used-codesystem",
-          "valueUri" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade|1.0.0"
+          "valueUri" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade|1.0.0"
         }],
         "contains" : [{
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "1",
           "display" : "Acupuntura"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "2",
           "display" : "Alergia e imunologia"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "3",
           "display" : "Anestesiologia"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "4",
           "display" : "Angiologia"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "5",
           "display" : "Cardiologia"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "6",
           "display" : "Cirurgia cardiovascular"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "7",
           "display" : "Cirurgia da mão"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "8",
           "display" : "Cirurgia de cabeça e pescoço"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "9",
           "display" : "Cirurgia do aparelho digestivo"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "10",
           "display" : "Cirurgia geral"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "11",
           "display" : "Cirurgia oncológica"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "12",
           "display" : "Cirurgia pediátrica"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "13",
           "display" : "Cirurgia plástica"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "14",
           "display" : "Cirurgia torácica"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "15",
           "display" : "Cirurgia vascular"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "16",
           "display" : "Clínica médica"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "17",
           "display" : "Coloproctologia"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "18",
           "display" : "Dermatologia"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "19",
           "display" : "Endocrinologia e metabologia"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "20",
           "display" : "Endoscopia"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "21",
           "display" : "Gastroenterologia"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "22",
           "display" : "Genética médica"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "23",
           "display" : "Geriatria"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "24",
           "display" : "Ginecologia e obstetrícia"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "25",
           "display" : "Hematologia e hemoterapia"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "26",
           "display" : "Homeopatia"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "27",
           "display" : "Infectologia"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "28",
           "display" : "Mastologia"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "29",
           "display" : "Medicina de emergência"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "30",
           "display" : "Medicina de família e comunidade"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "31",
           "display" : "Medicina do trabalho"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "32",
           "display" : "Medicina de tráfego"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "33",
           "display" : "Medicina esportiva"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "34",
           "display" : "Medicina física e reabilitação"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "35",
           "display" : "Medicina intensiva"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "36",
           "display" : "Medicina legal e perícia médica"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "37",
           "display" : "Medicina nuclear"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "38",
           "display" : "Medicina preventiva e social"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "39",
           "display" : "Nefrologia"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "40",
           "display" : "Neurocirurgia"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "41",
           "display" : "Neurologia"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "42",
           "display" : "Nutrologia"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "43",
           "display" : "Oftalmologia"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "44",
           "display" : "Oncologia clínica"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "45",
           "display" : "Ortopedia e traumatologia"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "46",
           "display" : "Otorrinolaringologia"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "47",
           "display" : "Patologia"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "48",
           "display" : "Patologia clínica/medicina laboratorial"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "49",
           "display" : "Pediatria"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "50",
           "display" : "Pneumologia"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "51",
           "display" : "Psiquiatria"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "52",
           "display" : "Radiologia e diagnóstico por imagem"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "53",
           "display" : "Radioterapia"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "54",
           "display" : "Reumatologia"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
           "code" : "55",
           "display" : "Urologia"
         }]
@@ -467,8 +467,8 @@
       "status" : "draft",
       "date" : "2023-11-04T17:46:04.4163856+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:7b859b86-e727-4ebb-90fd-68887767dd74",
-        "timestamp" : "2024-10-10T16:26:31-03:00",
+        "identifier" : "urn:uuid:9fc7eb28-02b7-4ec1-9b39-3cbd9d8ef9cc",
+        "timestamp" : "2024-10-10T16:42:11-03:00",
         "total" : 10,
         "offset" : 0,
         "parameter" : [{
@@ -541,22 +541,22 @@
     }
   },
   {
-    "fullUrl" : "http://ehrruner.com/fhir/StructureDefinition/ValueSet/NivelFederacao",
+    "fullUrl" : "http://br-ipes.com/fhir/StructureDefinition/ValueSet/NivelFederacao",
     "resource" : {
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-NivelFederacaoCodeSystem.html\">codesystem Nível da Federação v1.0.0 (CodeSystem)</a></p><p>This value set contains 2 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/NivelFederacao-Organizacao\"> </a>\u00a0\u00a0<a href=\"CodeSystem-NivelFederacaoCodeSystem.html#NivelFederacaoCodeSystem-Organizacao\">Organizacao</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/NivelFederacao</td><td>Todos os profissionais de saúde da organização podem federar</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://ehrruner.com/fhir/StructureDefinition/CodeSystem/NivelFederacao-Individuo\"> </a>\u00a0\u00a0<a href=\"CodeSystem-NivelFederacaoCodeSystem.html#NivelFederacaoCodeSystem-Individuo\">Individuo</a></td><td>http://ehrruner.com/fhir/StructureDefinition/CodeSystem/NivelFederacao</td><td>Apenas o profissional de saúde pode federar</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-NivelFederacaoCodeSystem.html\">codesystem Nível da Federação v1.0.0 (CodeSystem)</a></p><p>This value set contains 2 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/NivelFederacao-Organizacao\"> </a>\u00a0\u00a0<a href=\"CodeSystem-NivelFederacaoCodeSystem.html#NivelFederacaoCodeSystem-Organizacao\">Organizacao</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/NivelFederacao</td><td>Todos os profissionais de saúde da organização podem federar</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://br-ipes.com/fhir/StructureDefinition/CodeSystem/NivelFederacao-Individuo\"> </a>\u00a0\u00a0<a href=\"CodeSystem-NivelFederacaoCodeSystem.html#NivelFederacaoCodeSystem-Individuo\">Individuo</a></td><td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/NivelFederacao</td><td>Apenas o profissional de saúde pode federar</td></tr></table></div>"
       },
-      "url" : "http://ehrruner.com/fhir/StructureDefinition/ValueSet/NivelFederacao",
+      "url" : "http://br-ipes.com/fhir/StructureDefinition/ValueSet/NivelFederacao",
       "version" : "1.0.0",
       "name" : "NivelFederacao",
       "title" : "Nível da Federacao",
       "status" : "draft",
       "date" : "2023-11-04T17:46:04.4163856+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:53258370-7f6f-4d9e-aac7-238b09a7b0cb",
-        "timestamp" : "2024-10-10T16:26:35-03:00",
+        "identifier" : "urn:uuid:f6dfe92b-c01a-45dc-be94-2229e5f4799e",
+        "timestamp" : "2024-10-10T16:42:15-03:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -573,15 +573,15 @@
         },
         {
           "name" : "used-codesystem",
-          "valueUri" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/NivelFederacao|1.0.0"
+          "valueUri" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/NivelFederacao|1.0.0"
         }],
         "contains" : [{
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/NivelFederacao",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/NivelFederacao",
           "code" : "Organizacao",
           "display" : "Todos os profissionais de saúde da organização podem federar"
         },
         {
-          "system" : "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/NivelFederacao",
+          "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/NivelFederacao",
           "code" : "Individuo",
           "display" : "Apenas o profissional de saúde pode federar"
         }]
@@ -603,8 +603,8 @@
       "status" : "draft",
       "date" : "2023-11-04T17:46:04.4163856+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:2a35ce57-50f6-4a28-b7a8-e88e1c0199fd",
-        "timestamp" : "2024-10-10T16:26:40-03:00",
+        "identifier" : "urn:uuid:8d35273e-db9c-42f0-a1ef-b1e7af20ab17",
+        "timestamp" : "2024-10-10T16:42:20-03:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{

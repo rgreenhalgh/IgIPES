@@ -1,7 +1,7 @@
 {
   "resourceType": "CodeSystem",
-  "id":"AreaAtuacaoCodeSystem",
-  "url": "http://ehrruner.com/fhir/CodeSystem/AreaAtuacao",
+  "id": "AreaAtuacaoCodeSystem",
+  "url": "http://br-ipes.com/fhir/CodeSystem/AreaAtuacao",
   "version": "1.0",
   "name": "AreaAtuacao",
   "title": "Área de Atuação",
@@ -18,7 +18,7 @@
   ],
   "description": "Área de atuação médica (Resolução CFM n. 2.330/2023)",
   "caseSensitive": false,
-  "valueSet": "http://ehrruner.com/fhir/StructureDefinition/ValueSet/AreaAtuacao",
+  "valueSet": "http://br-ipes.com/fhir/StructureDefinition/ValueSet/AreaAtuacao",
   "compositional": false,
   "versionNeeded": false,
   "content": "complete",

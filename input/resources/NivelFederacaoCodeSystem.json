@@ -1,7 +1,7 @@
 {
   "resourceType": "CodeSystem",
   "id":"NivelFederacaoCodeSystem",
-  "url": "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/NivelFederacao",
+  "url": "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/NivelFederacao",
   "version": "1.0",
   "name": "NivelFederacao",
   "title": "Nível da Federação",
@@ -18,7 +18,7 @@
   ],
   "description": "Tipo de federação suportada para um PractitionerRole",
   "caseSensitive": false,
-  "valueSet": "http://ehrruner.com/fhir/StructureDefinition/ValueSet/NivelFederacao",
+  "valueSet": "http://br-ipes.com/fhir/StructureDefinition/ValueSet/NivelFederacao",
   "compositional": false,
   "versionNeeded": false,
   "content": "complete",

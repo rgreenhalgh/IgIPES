@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id":"EspecialidadeValueset",
-  "url": "http://ehrruner.com/fhir/StructureDefinition/ValueSet/Especialidade",
+  "url": "http://br-ipes.com/fhir/StructureDefinition/ValueSet/Especialidade",
   "version": "1.0",
   "name": "Especialidade",
   "title": "Especialidade",
@@ -20,7 +20,7 @@
   "compose": {
     "include": [
       {
-        "system": "http://ehrruner.com/fhir/StructureDefinition/CodeSystem/Especialidade"
+        "system": "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"
       }
     ]
   }
