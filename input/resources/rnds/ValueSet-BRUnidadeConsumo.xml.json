@@ -1,0 +1,23 @@
+{
+  "resourceType": "ValueSet",
+  "id": "BRUnidadeConsumo",
+  "language": "pt-BR",
+  "url": "http://www.saude.gov.br/fhir/r4/ValueSet/BRUnidadeConsumo",
+  "version": "1.0",
+  "name": "BRUnidadeConsumo",
+  "title": "Unidade de Consumo",
+  "status": "active",
+  "experimental": false,
+  "date": "2021-12-01T13:16:09.8385573+00:00",
+  "publisher": "Ministério da Saúde do Brasil",
+  "description": "ValueSet utilizado para definir a unidade de consumo de um medicamento prescrito.",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeMedida",
+        "version": "*"
+      }
+    ]
+  }
+}

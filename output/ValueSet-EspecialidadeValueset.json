@@ -3,9 +3,9 @@
   "id" : "EspecialidadeValueset",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet EspecialidadeValueset</b></p><a name=\"EspecialidadeValueset\"> </a><a name=\"hcEspecialidadeValueset\"> </a><a name=\"EspecialidadeValueset-en-US\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-EspecialidadeCodeSystem.html\"><code>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</code></a></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet EspecialidadeValueset</b></p><a name=\"EspecialidadeValueset\"> </a><a name=\"hcEspecialidadeValueset\"> </a><a name=\"EspecialidadeValueset-en-US\"> </a><ul><li>Include all codes defined in <code>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</code></li></ul></div>"
   },
-  "url" : "http://br-ipes.com/fhir/StructureDefinition/ValueSet/Especialidade",
+  "url" : "http://br-ipes.com/fhir/ValueSet/EspecialidadeValueset",
   "version" : "1.0.0",
   "name" : "Especialidade",
   "title" : "Especialidade",

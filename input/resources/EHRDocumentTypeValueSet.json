@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id":"EHRDocumentTypeValueset",
-  "url": "http://br-ipes.com/fhir/ValueSet/EHRDocumentType",
+  "url": "http://br-ipes.com/fhir/ValueSet/EHRDocumentTypeValueset",
   "version": "1.0",
   "name": "EHRDocumentType",
   "title": "EHRDocumentType",

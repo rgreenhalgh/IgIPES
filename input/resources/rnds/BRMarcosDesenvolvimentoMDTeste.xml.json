@@ -1,0 +1,1659 @@
+{
+  "resourceType": "Questionnaire",
+  "language": "pt-BR",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"pt-BR\" xml:lang=\"pt-BR\"><p>Este questionário é utilizado para registrar os marcos do desenvolvimento da\n        criança, conforme preconizado pelo Ministério da Saúde do Brasil.</p></div>"
+  },
+  "url": "http://www.saude.gov.br/fhir/r4/questionnaire/brmarcosdesenvolvimento",
+  "version": "1.0.0",
+  "name": "BRMarcosDesenvolvimentoTeste",
+  "title": "Marcos do Desenvolvimento - Teste",
+  "status": "active",
+  "date": "2024-08-01T20:40:24.2353053+00:00",
+  "publisher": "Ministério da Saúde do Brasil",
+  "description": "Questionario contendo as informações de marcos do desenvolvimento da criança",
+  "purpose": "Modelo destinado a estruturar o questionario das informações de marcos do desenvolvimento da criança",
+  "item": [
+    {
+      "linkId": "1",
+      "text": "Marcos do desenvolvimento do nascimento aos 6 meses",
+      "type": "group",
+      "required": false,
+      "item": [
+        {
+          "linkId": "1.1",
+          "text": "Postura: pernas e braços fletidos, cabeça lateralizada - (0 a 1 mês)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "1.2",
+          "text": "Observa um rosto - (0 a 1 mês)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "1.3",
+          "text": "Reage ao som - (0 a 1 mês)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "1.4",
+          "text": "Eleva a cabeça - (0 a 1 mês)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "1.5",
+          "text": "Sorri quando estimulada - (1 a 2 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "1.6",
+          "text": "Abre as mãos - (1 a 2 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "1.7",
+          "text": "Emite sons - (1 a 2 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "1.8",
+          "text": "Movimenta os membros - (1 a 2 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "1.9",
+          "text": "Responde ativamente ao contato social - (2 a 4 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "1.10",
+          "text": "Segura objetos - (2 a 4 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "1.11",
+          "text": "Emite sons, ri alto - (2 a 4 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "1.12",
+          "text": "Levanta a cabeça e apoia-se nos antebraços, de bruços - (2 a 4 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "1.13",
+          "text": "Busca ativa de objetos - (4 a 6 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "1.14",
+          "text": "Leva objetos a boca - (4 a 6 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "1.15",
+          "text": "Localiza som - (4 a 6 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "1.16",
+          "text": "Muda de posição (rola) - (4 a 6 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "2",
+      "text": "Marcos do desenvolvimento dos 6 meses ao 1 ano e meio",
+      "type": "group",
+      "required": false,
+      "item": [
+        {
+          "linkId": "2.1",
+          "text": "Brinca de esconde-achou - (6 a 9 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "2.2",
+          "text": "Transfere objetos de uma mão para outra - (6 a 9 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "2.3",
+          "text": "Duplica sílabas - (6 a 9 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "2.4",
+          "text": "Senta-se em apoio - (6 a 9 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "2.5",
+          "text": "Imita gestos - (9 a 12 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "2.6",
+          "text": "Faz pinça - (9 a 12 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "2.7",
+          "text": "Produz 'jargão' - (9 a 12 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "2.8",
+          "text": "Anda com apoio - (9 a 12 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "2.9",
+          "text": "Mostra o que quer - (12 a 15 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "2.10",
+          "text": "Coloca blocos na caneca - (12 a 15 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "2.11",
+          "text": "Diz uma palavra - (12 a 15 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "2.12",
+          "text": "Anda sem apoio - (12 a 15 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "2.13",
+          "text": "Usa colher ou garfo - (15 a 18 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "2.14",
+          "text": "Constrói torre de 2 cubos - (15 a 18 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "2.15",
+          "text": "Fala 3 palavras - (15 a 18 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "2.16",
+          "text": "Anda para trás - (15 a 18 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "3",
+      "text": "Marcos do desenvolvimento do 1 ano e meio aos 3 anos e meio",
+      "type": "group",
+      "required": false,
+      "item": [
+        {
+          "linkId": "3.1",
+          "text": "Tira a roupa - (18 a 24 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "3.2",
+          "text": "Constrói torre de 3 cubos - (18 a 24 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "3.3",
+          "text": "Aponta 2 figuras - (18 a 24 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "3.4",
+          "text": "Chuta a bola - (18 a 24 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "3.5",
+          "text": "Veste-se com supervisão - (24 a 32 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "3.6",
+          "text": "Constrói torre de 6 cubos - (24 a 32 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "3.7",
+          "text": "Frases com 2 palavras - (24 a 32 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "3.8",
+          "text": "Pula com ambos os pés - (24 a 32 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "3.9",
+          "text": "Brinca com outras crianças - (32 a 38 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "3.10",
+          "text": "Imita o desenho de uma linha - (32 a 38 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "3.11",
+          "text": "Reconhece 2 ações - (32 a 38 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "3.12",
+          "text": "Arremesa bola - (32 a 38 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "3.13",
+          "text": "Veste uma camisa - (38 a 42 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "3.14",
+          "text": "Move o polegar com a mão fechada - (38 a 42 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "3.15",
+          "text": "Compreende 2 adjetivos - (38 a 42 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "3.16",
+          "text": "Equilibra-se em cada pé 1 segundo - (38 a 42 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "4",
+      "text": "Marcos do desenvolvimento do 3 ano e meio aos 5 anos",
+      "type": "group",
+      "required": false,
+      "item": [
+        {
+          "linkId": "4.1",
+          "text": "Emparelha cores - (42 a 48 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "4.2",
+          "text": "Copia círculos - (42 a 48 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "4.3",
+          "text": "Fala claramente e compreensível - (42 a 48 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "4.4",
+          "text": "Pula em um pé só - (42 a 48 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "4.5",
+          "text": "Veste-se sem ajuda - (48 a 54 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "4.6",
+          "text": "Copia cruz - (48 a 54 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "4.7",
+          "text": "Compreende 4 preposições - (48 a 54 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "4.8",
+          "text": "Equilibra-se em cada pé 3 segundos - (48 a 54 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "4.9",
+          "text": "Escova os dentes sem ajuda - (54 a 60 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "4.10",
+          "text": "Aponta a linha mais comprida - (54 a 60 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "4.11",
+          "text": "Define 5 palavras - (54 a 60 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "4.12",
+          "text": "Equilibra-se em cada pé 5 segundos - (54 a 60 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "5",
+      "text": "Marcos do desenvolvimento do 5 a 6 anos",
+      "type": "group",
+      "required": false,
+      "item": [
+        {
+          "linkId": "5.1",
+          "text": "Brinca de faz de conta com outras crianças - (60 a 66 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "5.2",
+          "text": "Desenha pessoa com 6 partes - (60 a 66 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "5.3",
+          "text": "Faz analogia - (60 a 66 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "5.4",
+          "text": "Marcha ponta-calcanhar - (60 a 66 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "5.5",
+          "text": "Aceite e segue regras nos jogos de mesa - (66 a 72 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "5.6",
+          "text": "Copia um quadrado - (66 a 72 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "5.7",
+          "text": "Define 7 palavras - (66 a 72 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "5.8",
+          "text": "Equilibra-se em cada pé 7 segundos - (66 a 72 meses)",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "display": "Presente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Ausente"
+              }
+            },
+            {
+              "valueCoding": {
+                "display": "Vazio"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "6",
+      "text": "Marcos do desenvolvimento do 6 a 7 anos",
+      "type": "string",
+      "required": false
+    },
+    {
+      "linkId": "7",
+      "text": "Marcos do desenvolvimento do 7 a 8 anos",
+      "type": "string",
+      "required": false
+    },
+    {
+      "linkId": "8",
+      "text": "Marcos do desenvolvimento do 8 a 9 anos",
+      "type": "string",
+      "required": false
+    },
+    {
+      "linkId": "9",
+      "text": "Marcos do desenvolvimento do 9 a 10 anos",
+      "type": "string",
+      "required": false
+    },
+    {
+      "linkId": "10",
+      "text": "Provavel Atraso no desenvolvimento?",
+      "type": "string",
+      "required": false
+    },
+    {
+      "linkId": "11",
+      "text": "Alerta para o desenvolvimento?",
+      "type": "string",
+      "required": false
+    }
+  ]
+}

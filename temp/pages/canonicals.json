@@ -1,17 +1,45 @@
 [
   {
+    "id" : "AreaAtuacaoCodeSystem",
+    "type" : "CodeSystem",
+    "url" : "http://br-ipes.com/fhir/CodeSystem/AreaAtuacaoCodeSystem",
+    "version" : "1.0.0",
+    "name" : "AreaAtuacao"
+  },
+  {
+    "id" : "BRDivisaoGeograficaBrasil",
+    "type" : "CodeSystem",
+    "url" : "http://br-ipes.com/fhir/CodeSystem/BRDivisaoGeograficaBrasil",
+    "version" : "1.0.0",
+    "name" : "BRDivisaoGeograficaBrasil"
+  },
+  {
     "id" : "EHRDocumentTypeCodeSystem",
     "type" : "CodeSystem",
-    "url" : "http://br-ipes.com/fhir/CodeSystem/EHRDocumentType",
+    "url" : "http://br-ipes.com/fhir/CodeSystem/EHRDocumentTypeCodeSystem",
     "version" : "1.0.0",
     "name" : "EHRDocumentType"
   },
   {
+    "id" : "EspecialidadeCodeSystem",
+    "type" : "CodeSystem",
+    "url" : "http://br-ipes.com/fhir/CodeSystem/EspecialidadeCodeSystem",
+    "version" : "1.0.0",
+    "name" : "Especialidade"
+  },
+  {
     "id" : "EventSummaryTypeCodeSystem",
     "type" : "CodeSystem",
-    "url" : "http://br-ipes.com/fhir/CodeSystem/EventSummaryType",
+    "url" : "http://br-ipes.com/fhir/CodeSystem/EventSummaryTypeCodeSystem",
     "version" : "1.0.0",
     "name" : "EventSummaryType"
+  },
+  {
+    "id" : "NivelFederacaoCodeSystem",
+    "type" : "CodeSystem",
+    "url" : "http://br-ipes.com/fhir/CodeSystem/NivelFederacaoCodeSystem",
+    "version" : "1.0.0",
+    "name" : "NivelFederacao"
   },
   {
     "id" : "ServiceRequestCategory",
@@ -21,11 +49,53 @@
     "name" : "ServiceRequestCategory"
   },
   {
-    "id" : "2024_IG_CBIS",
+    "id" : "IGCBIS2024",
     "type" : "ImplementationGuide",
-    "url" : "http://br-ipes.com/fhir/ImplementationGuide/2024_IG_CBIS",
+    "url" : "http://br-ipes.com/fhir/ImplementationGuide/IGCBIS2024",
     "version" : "1.0.0",
     "name" : "2024IGCBIS"
+  },
+  {
+    "id" : "BRIndividuo-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://br-ipes.com/fhir/StructureDefinition/BRIndividuo-1.0",
+    "version" : "1.0.0",
+    "name" : "BRIndividuo"
+  },
+  {
+    "id" : "BRJurisdicaoOrgaoEmissor-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://br-ipes.com/fhir/StructureDefinition/BRJurisdicaoOrgaoEmissor-1.0",
+    "version" : "1.0.0",
+    "name" : "BRJurisdicaoOrgaoExpedidor"
+  },
+  {
+    "id" : "BRMunicipio",
+    "type" : "StructureDefinition",
+    "url" : "http://br-ipes.com/fhir/StructureDefinition/BRMunicipio",
+    "version" : "1.0.0",
+    "name" : "BRMunicipio"
+  },
+  {
+    "id" : "BRNomeIndividuo-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://br-ipes.com/fhir/StructureDefinition/BRNomeIndividuo-1.0",
+    "version" : "1.0.0",
+    "name" : "BRNomeIndividuo"
+  },
+  {
+    "id" : "BRParentesIndividuo-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://br-ipes.com/fhir/StructureDefinition/BRParentesIndividuo-1.0",
+    "version" : "1.0.0",
+    "name" : "BRParentesIndividuo"
+  },
+  {
+    "id" : "BRRacaCorEtnia-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://br-ipes.com/fhir/StructureDefinition/BRRacaCorEtnia-1.0",
+    "version" : "1.0.0",
+    "name" : "BRRacaCorEtnia"
   },
   {
     "id" : "BirthCountry-1.0",
@@ -119,129 +189,59 @@
     "name" : "Specimen"
   },
   {
-    "id" : "EHRDocumentTypeValueset",
-    "type" : "ValueSet",
-    "url" : "http://br-ipes.com/fhir/ValueSet/EHRDocumentType",
-    "version" : "1.0.0",
-    "name" : "EHRDocumentType"
-  },
-  {
-    "id" : "EventSummaryTypeValueSet",
-    "type" : "ValueSet",
-    "url" : "http://br-ipes.com/fhir/ValueSet/EventSummaryType",
-    "version" : "1.0.0",
-    "name" : "EventSummaryType"
-  },
-  {
-    "id" : "ServiceRequestCategoryValueSet",
-    "type" : "ValueSet",
-    "url" : "http://br-ipes.com/fhir/ValueSet/ServiceRequestCategory",
-    "version" : "1.0.0",
-    "name" : "ServiceRequestCategory"
-  },
-  {
-    "id" : "AreaAtuacaoCodeSystem",
-    "type" : "CodeSystem",
-    "url" : "http://br-ipes.com/fhir/CodeSystem/AreaAtuacao",
-    "version" : "1.0.0",
-    "name" : "AreaAtuacao"
-  },
-  {
-    "id" : "EspecialidadeCodeSystem",
-    "type" : "CodeSystem",
-    "url" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
-    "version" : "1.0.0",
-    "name" : "Especialidade"
-  },
-  {
-    "id" : "NivelFederacaoCodeSystem",
-    "type" : "CodeSystem",
-    "url" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/NivelFederacao",
-    "version" : "1.0.0",
-    "name" : "NivelFederacao"
-  },
-  {
-    "id" : "EspecialidadeValueset",
-    "type" : "ValueSet",
-    "url" : "http://br-ipes.com/fhir/StructureDefinition/ValueSet/Especialidade",
-    "version" : "1.0.0",
-    "name" : "Especialidade"
-  },
-  {
-    "id" : "NivelFederacaoValueSet",
-    "type" : "ValueSet",
-    "url" : "http://br-ipes.com/fhir/StructureDefinition/ValueSet/NivelFederacao",
-    "version" : "1.0.0",
-    "name" : "NivelFederacao"
-  },
-  {
     "id" : "AreaAtuacaoValueset",
     "type" : "ValueSet",
-    "url" : "http://br-ipes.com/fhir/ValueSet/AreaAtuacao",
+    "url" : "http://br-ipes.com/fhir/ValueSet/AreaAtuacaoValueset",
     "version" : "1.0.0",
     "name" : "AreaAtuacao"
   },
   {
-    "id" : "BRIndividuo-1.0",
-    "type" : "StructureDefinition",
-    "url" : "http://example.org/StructureDefinition/BRIndividuo-1.0",
+    "id" : "BRMunicipioValuesetV1.0",
+    "type" : "ValueSet",
+    "url" : "http://br-ipes.com/fhir/ValueSet/BRMunicipioValuesetV1.0",
     "version" : "1.0.0",
-    "name" : "BRIndividuo"
+    "name" : "BRMunicipio"
   },
   {
-    "id" : "BRTipoDocumentoIndividuo-1.0_ValueSet",
+    "id" : "BRTipoDocumentoIndividuoValueSetV1.0",
     "type" : "ValueSet",
-    "url" : "http://example.org/ValueSet/BRTipoDocumentoIndividuo-1.0",
+    "url" : "http://br-ipes.com/fhir/ValueSet/BRTipoDocumentoIndividuoValueSetV1.0",
     "version" : "1.0.0",
     "name" : "BRTipoDocumentoIndividuo"
   },
   {
-    "id" : "BRDivisaoGeograficaBrasilCodeSystem",
-    "type" : "CodeSystem",
-    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil",
-    "version" : "1.0.0",
-    "name" : "BRDivisaoGeograficaBrasil"
-  },
-  {
-    "id" : "BRJurisdicaoOrgaoEmissor-1.0",
-    "type" : "StructureDefinition",
-    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRJurisdicaoOrgaoEmissor-1.0",
-    "version" : "1.0.0",
-    "name" : "BRJurisdicaoOrgaoExpedidor"
-  },
-  {
-    "id" : "BRMunicipio",
-    "type" : "StructureDefinition",
-    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMunicipio-1.0",
-    "version" : "1.0.0",
-    "name" : "BRMunicipio"
-  },
-  {
-    "id" : "BRNomeIndividuo-1.0",
-    "type" : "StructureDefinition",
-    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRNomeIndividuo-1.0",
-    "version" : "1.0.0",
-    "name" : "BRNomeIndividuo"
-  },
-  {
-    "id" : "BRParentesIndividuo-1.0",
-    "type" : "StructureDefinition",
-    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRParentesIndividuo-1.0",
-    "version" : "1.0.0",
-    "name" : "BRParentesIndividuo"
-  },
-  {
-    "id" : "BRRacaCorEtnia-1.0",
-    "type" : "StructureDefinition",
-    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRacaCorEtnia-1.0",
-    "version" : "1.0.0",
-    "name" : "BRRacaCorEtnia"
-  },
-  {
-    "id" : "BRMunicipio-1.0_Valueset",
+    "id" : "EHRDocumentTypeValueset",
     "type" : "ValueSet",
-    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRMunicipio-1.0",
+    "url" : "http://br-ipes.com/fhir/ValueSet/EHRDocumentTypeValueset",
     "version" : "1.0.0",
-    "name" : "BRMunicipio"
+    "name" : "EHRDocumentType"
+  },
+  {
+    "id" : "EspecialidadeValueset",
+    "type" : "ValueSet",
+    "url" : "http://br-ipes.com/fhir/ValueSet/EspecialidadeValueset",
+    "version" : "1.0.0",
+    "name" : "Especialidade"
+  },
+  {
+    "id" : "EventSummaryTypeValueSet",
+    "type" : "ValueSet",
+    "url" : "http://br-ipes.com/fhir/ValueSet/EventSummaryTypeValueSet",
+    "version" : "1.0.0",
+    "name" : "EventSummaryType"
+  },
+  {
+    "id" : "NivelFederacaoValueSet",
+    "type" : "ValueSet",
+    "url" : "http://br-ipes.com/fhir/ValueSet/NivelFederacaoValueSet",
+    "version" : "1.0.0",
+    "name" : "NivelFederacao"
+  },
+  {
+    "id" : "ServiceRequestCategoryValueSet",
+    "type" : "ValueSet",
+    "url" : "http://br-ipes.com/fhir/ValueSet/ServiceRequestCategoryValueSet",
+    "version" : "1.0.0",
+    "name" : "ServiceRequestCategory"
   }
 ]

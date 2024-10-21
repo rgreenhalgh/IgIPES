@@ -12,7 +12,6 @@
   <sch:pattern>
     <sch:title>f:Patient</sch:title>
     <sch:rule context="f:Patient">
-      <sch:assert test="count(f:extension[@url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRacaCorEtnia-1.0']) &lt;= 1">extension with URL = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRacaCorEtnia-1.0': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMunicipio-1.0']) &lt;= 1">extension with URL = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMunicipio-1.0': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://br-ipes.com/fhir/StructureDefinition/BirthCountry-1.0']) &lt;= 1">extension with URL = 'http://br-ipes.com/fhir/StructureDefinition/BirthCountry-1.0': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/StructureDefinition/patient-genderIdentity']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/StructureDefinition/patient-genderIdentity': maximum cardinality of 'extension' is 1</sch:assert>
@@ -32,10 +31,7 @@
   <sch:pattern>
     <sch:title>f:Patient/f:extension</sch:title>
     <sch:rule context="f:Patient/f:extension">
-      <sch:assert test="count(f:extension[@url = 'relationship']) &gt;= 1">extension with URL = 'relationship': minimum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'relationship']) &lt;= 1">extension with URL = 'relationship': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'parent']) &gt;= 1">extension with URL = 'parent': minimum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'parent']) &lt;= 1">extension with URL = 'parent': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:value[x]) &lt;= 1">value[x]: maximum cardinality of 'value[x]' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'code']) &lt;= 1">extension with URL = 'code': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'period']) &lt;= 1">extension with URL = 'period': maximum cardinality of 'extension' is 1</sch:assert>
     </sch:rule>

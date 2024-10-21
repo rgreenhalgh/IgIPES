@@ -5,7 +5,7 @@
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet AreaAtuacaoValueset</b></p><a name="AreaAtuacaoValueset"> </a><a name="hcAreaAtuacaoValueset"> </a><a name="AreaAtuacaoValueset-en-US"> </a><ul><li>Include all codes defined in <code>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/AreaAtuacao</code></li></ul></div>
   </text>
-  <url value="http://br-ipes.com/fhir/ValueSet/AreaAtuacao"/>
+  <url value="http://br-ipes.com/fhir/ValueSet/AreaAtuacaoValueset"/>
   <version value="1.0.0"/>
   <name value="AreaAtuacao"/>
   <title value="Área de Atuacao"/>

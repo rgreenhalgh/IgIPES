@@ -1,7 +1,7 @@
 {
   "BRJurisdicaoOrgaoEmissor-1.0" : {
     "index" : 0,
-    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRJurisdicaoOrgaoEmissor-1.0",
+    "url" : "http://br-ipes.com/fhir/StructureDefinition/BRJurisdicaoOrgaoEmissor-1.0",
     "name" : "BRJurisdicaoOrgaoExpedidor",
     "title" : "Jurisdição do Órgão Expedidor",
     "path" : "StructureDefinition-BRJurisdicaoOrgaoEmissor-1.0.html",
@@ -27,7 +27,7 @@
   },
   "BRNomeIndividuo-1.0" : {
     "index" : 1,
-    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRNomeIndividuo-1.0",
+    "url" : "http://br-ipes.com/fhir/StructureDefinition/BRNomeIndividuo-1.0",
     "name" : "BRNomeIndividuo",
     "title" : "Nome de Indivíduos",
     "path" : "StructureDefinition-BRNomeIndividuo-1.0.html",
@@ -46,7 +46,7 @@
   },
   "BRParentesIndividuo-1.0" : {
     "index" : 2,
-    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRParentesIndividuo-1.0",
+    "url" : "http://br-ipes.com/fhir/StructureDefinition/BRParentesIndividuo-1.0",
     "name" : "BRParentesIndividuo",
     "title" : "Parentes do Indivíduo",
     "path" : "StructureDefinition-BRParentesIndividuo-1.0.html",
@@ -72,7 +72,7 @@
   },
   "BRRacaCorEtnia-1.0" : {
     "index" : 3,
-    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRacaCorEtnia-1.0",
+    "url" : "http://br-ipes.com/fhir/StructureDefinition/BRRacaCorEtnia-1.0",
     "name" : "BRRacaCorEtnia",
     "title" : "Raça/Cor e Etnina",
     "path" : "StructureDefinition-BRRacaCorEtnia-1.0.html",
@@ -333,7 +333,7 @@
   },
   "BRIndividuo-1.0" : {
     "index" : 16,
-    "url" : "http://example.org/StructureDefinition/BRIndividuo-1.0",
+    "url" : "http://br-ipes.com/fhir/StructureDefinition/BRIndividuo-1.0",
     "name" : "BRIndividuo",
     "title" : "Indivíduo",
     "path" : "StructureDefinition-BRIndividuo-1.0.html",
@@ -343,7 +343,7 @@
     "basename" : "Patient",
     "basepath" : "StructureDefinition-Patient.html",
     "status" : "draft",
-    "date" : "Thu Oct 10 16:40:26 BRT 2024",
+    "date" : "Mon Oct 21 17:46:37 BRT 2024",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "CBIS Publisher",
@@ -352,7 +352,7 @@
   },
   "BRMunicipio" : {
     "index" : 17,
-    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMunicipio-1.0",
+    "url" : "http://br-ipes.com/fhir/StructureDefinition/BRMunicipio",
     "name" : "BRMunicipio",
     "title" : "Município",
     "path" : "StructureDefinition-BRMunicipio.html",

@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id":"EspecialidadeValueset",
-  "url": "http://br-ipes.com/fhir/StructureDefinition/ValueSet/Especialidade",
+  "url": "http://br-ipes.com/fhir/ValueSet/EspecialidadeValueset",
   "version": "1.0",
   "name": "Especialidade",
   "title": "Especialidade",

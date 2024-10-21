@@ -13,7 +13,6 @@ v: {
   "code" : "pt-BR",
   "system" : "urn:ietf:bcp:47",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -21,6 +20,18 @@ v: {
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : true, "url": "http://example.org/ValueSet/BRTipoDocumentoIndividuo-1.0", "version": "1.0.0"}####
+e: {
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador version *"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://br-ipes.com/fhir/ValueSet/BRTipoDocumentoIndividuo-1.0_ValueSet", "version": "1.0.0"}####
+e: {
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador version *"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://br-ipes.com/fhir/ValueSet/BRTipoDocumentoIndividuoValueSetV1.0", "version": "1.0.0"}####
 e: {
   "from-server" : true,
   "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador version *"

@@ -1,0 +1,14 @@
+<html>
+<head>
+  <title>Patient-example-validation</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<table class="grid">
+<tr><td><b>Level</b></td><td><b>Type</b></td><td><b>Location</b></td><td><b>Message</b></td></tr>
+<tr><td>error</td><td>structure</td><td>Patient/example: Patient.extension[0]</td><td>The extension http://somewhere.org/fhir/uv/myig/StructureDefinition/ext-myExtension could not be found so is not allowed here</td><td></td></tr>
+<tr><td>warning</td><td>structure</td><td>Patient/example: Patient.meta.profile[0]</td><td>Profile reference 'http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles</td><td></td></tr>
+<tr><td>information</td><td>informational</td><td>Patient/example: Patient</td><td>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Patient|4.0.1</td><td></td></tr>
+</table>
+</body>
+</html>

@@ -3,9 +3,9 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="NivelFederacaoCodeSystem"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem NivelFederacaoCodeSystem</b></p><a name="NivelFederacaoCodeSystem"> </a><a name="hcNivelFederacaoCodeSystem"> </a><a name="NivelFederacaoCodeSystem-en-US"> </a><p>This case-insensitive code system <code>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/NivelFederacao</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">Organizacao<a name="NivelFederacaoCodeSystem-Organizacao"> </a></td><td>Todos os profissionais de saúde da organização podem federar</td></tr><tr><td style="white-space:nowrap">Individuo<a name="NivelFederacaoCodeSystem-Individuo"> </a></td><td>Apenas o profissional de saúde pode federar</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem NivelFederacaoCodeSystem</b></p><a name="NivelFederacaoCodeSystem"> </a><a name="hcNivelFederacaoCodeSystem"> </a><a name="NivelFederacaoCodeSystem-en-US"> </a><p>This case-insensitive code system <code>http://br-ipes.com/fhir/CodeSystem/NivelFederacaoCodeSystem</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">Organizacao<a name="NivelFederacaoCodeSystem-Organizacao"> </a></td><td>Todos os profissionais de saúde da organização podem federar</td></tr><tr><td style="white-space:nowrap">Individuo<a name="NivelFederacaoCodeSystem-Individuo"> </a></td><td>Apenas o profissional de saúde pode federar</td></tr></table></div>
   </text>
-  <url value="http://br-ipes.com/fhir/StructureDefinition/CodeSystem/NivelFederacao"/>
+  <url value="http://br-ipes.com/fhir/CodeSystem/NivelFederacaoCodeSystem"/>
   <version value="1.0.0"/>
   <name value="NivelFederacao"/>
   <title value="Nível da Federação"/>

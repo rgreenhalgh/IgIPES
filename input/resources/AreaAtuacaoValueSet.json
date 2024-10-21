@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id":"AreaAtuacaoValueset",
-  "url": "http://br-ipes.com/fhir/ValueSet/AreaAtuacao",
+  "url": "http://br-ipes.com/fhir/ValueSet/AreaAtuacaoValueset",
   "version": "1.0",
   "name": "AreaAtuacao",
   "title": "Área de Atuacao",

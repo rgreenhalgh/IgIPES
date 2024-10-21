@@ -1,59 +1,7 @@
 {
   "codeSystems" : [
     {
-      "url" : "http://br-ipes.com/fhir/ValueSet/EHRDocumentType",
-      "version" : "1.0.0",
-      "status" : "draft",
-      "name" : "EHRDocumentType",
-      "title" : "EHRDocumentType",
-      "description" : "Tipos de documentos OpenEHR (TDDs)",
-      "systems" : ["http://br-ipes.com/fhir/CodeSystem/EHRDocumentType"]
-    },
-    {
-      "url" : "http://br-ipes.com/fhir/ValueSet/EventSummaryType",
-      "version" : "1.0.0",
-      "status" : "draft",
-      "name" : "EventSummaryType",
-      "title" : "EventSummaryType",
-      "description" : "Tipos de estruturas usadas para construir um registro eletrônico de saúde do tipo \"sumário de evento ou contato assistencial\"",
-      "systems" : ["http://br-ipes.com/fhir/CodeSystem/EventSummaryType"]
-    },
-    {
-      "url" : "http://br-ipes.com/fhir/ValueSet/ServiceRequestCategory",
-      "version" : "1.0.0",
-      "status" : "draft",
-      "name" : "ServiceRequestCategory",
-      "title" : "ServiceRequestCategory",
-      "description" : "Categorias utilizadas nos perfis do recurso ServiceRequest",
-      "systems" : ["http://br-ipes.com/fhir/CodeSystem/ServiceRequestCategory"],
-      "uses" : {
-      },
-      "StructureDefinition-ServiceRequest.html" : "Solicitação de Serviço - Exames e Procedimentos"
-    },
-    {
-      "url" : "http://br-ipes.com/fhir/StructureDefinition/ValueSet/Especialidade",
-      "version" : "1.0.0",
-      "status" : "draft",
-      "name" : "Especialidade",
-      "title" : "Especialidade",
-      "description" : "Especialidade médica (Resolução CFM n. 2.330/2023)",
-      "systems" : [
-        "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"
-      ]
-    },
-    {
-      "url" : "http://br-ipes.com/fhir/StructureDefinition/ValueSet/NivelFederacao",
-      "version" : "1.0.0",
-      "status" : "draft",
-      "name" : "NivelFederacao",
-      "title" : "Nível da Federacao",
-      "description" : "Tipo de federação suportada para um PractitionerRole",
-      "systems" : [
-        "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/NivelFederacao"
-      ]
-    },
-    {
-      "url" : "http://br-ipes.com/fhir/ValueSet/AreaAtuacao",
+      "url" : "http://br-ipes.com/fhir/ValueSet/AreaAtuacaoValueset",
       "version" : "1.0.0",
       "status" : "draft",
       "name" : "AreaAtuacao",
@@ -64,7 +12,18 @@
       ]
     },
     {
-      "url" : "http://example.org/ValueSet/BRTipoDocumentoIndividuo-1.0",
+      "url" : "http://br-ipes.com/fhir/ValueSet/BRMunicipioValuesetV1.0",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "BRMunicipio",
+      "title" : "Município",
+      "description" : "Municípios brasileiros, entes subnacionais.",
+      "systems" : [
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil"
+      ]
+    },
+    {
+      "url" : "http://br-ipes.com/fhir/ValueSet/BRTipoDocumentoIndividuoValueSetV1.0",
       "version" : "1.0.0",
       "status" : "active",
       "name" : "BRTipoDocumentoIndividuo",
@@ -74,6 +33,55 @@
         "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador",
         "http://terminology.hl7.org/CodeSystem/v2-0203"
       ]
+    },
+    {
+      "url" : "http://br-ipes.com/fhir/ValueSet/EHRDocumentTypeValueset",
+      "version" : "1.0.0",
+      "status" : "draft",
+      "name" : "EHRDocumentType",
+      "title" : "EHRDocumentType",
+      "description" : "Tipos de documentos OpenEHR (TDDs)",
+      "systems" : ["http://br-ipes.com/fhir/CodeSystem/EHRDocumentType"]
+    },
+    {
+      "url" : "http://br-ipes.com/fhir/ValueSet/EspecialidadeValueset",
+      "version" : "1.0.0",
+      "status" : "draft",
+      "name" : "Especialidade",
+      "title" : "Especialidade",
+      "description" : "Especialidade médica (Resolução CFM n. 2.330/2023)",
+      "systems" : [
+        "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade"
+      ]
+    },
+    {
+      "url" : "http://br-ipes.com/fhir/ValueSet/EventSummaryTypeValueSet",
+      "version" : "1.0.0",
+      "status" : "draft",
+      "name" : "EventSummaryType",
+      "title" : "EventSummaryType",
+      "description" : "Tipos de estruturas usadas para construir um registro eletrônico de saúde do tipo \"sumário de evento ou contato assistencial\"",
+      "systems" : ["http://br-ipes.com/fhir/CodeSystem/EventSummaryType"]
+    },
+    {
+      "url" : "http://br-ipes.com/fhir/ValueSet/NivelFederacaoValueSet",
+      "version" : "1.0.0",
+      "status" : "draft",
+      "name" : "NivelFederacao",
+      "title" : "Nível da Federacao",
+      "description" : "Tipo de federação suportada para um PractitionerRole",
+      "systems" : [
+        "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/NivelFederacao"
+      ]
+    },
+    {
+      "url" : "http://br-ipes.com/fhir/ValueSet/ServiceRequestCategoryValueSet",
+      "version" : "1.0.0",
+      "status" : "draft",
+      "name" : "ServiceRequestCategory",
+      "title" : "ServiceRequestCategory",
+      "description" : "Categorias utilizadas nos perfis do recurso ServiceRequest",
+      "systems" : ["http://br-ipes.com/fhir/CodeSystem/ServiceRequestCategory"]
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/administrative-gender",
@@ -290,20 +298,6 @@
       "uses" : {
       },
       "StructureDefinition-MedicationRequest.html" : "Solicitação de Medicação"
-    },
-    {
-      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRMunicipio-1.0",
-      "version" : "1.0.0",
-      "status" : "active",
-      "name" : "BRMunicipio",
-      "title" : "Município",
-      "description" : "Municípios brasileiros, entes subnacionais.",
-      "systems" : [
-        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil"
-      ],
-      "uses" : {
-      },
-      "StructureDefinition-BRMunicipio.html" : "Município"
     }
   ]
 }

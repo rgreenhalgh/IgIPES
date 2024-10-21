@@ -1,7 +1,7 @@
 {
   "resourceType": "CodeSystem",
   "id": "AreaAtuacaoCodeSystem",
-  "url": "http://br-ipes.com/fhir/CodeSystem/AreaAtuacao",
+  "url": "http://br-ipes.com/fhir/CodeSystem/AreaAtuacaoCodeSystem",
   "version": "1.0",
   "name": "AreaAtuacao",
   "title": "Área de Atuação",

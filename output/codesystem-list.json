@@ -1,7 +1,23 @@
 {
   "codeSystems" : [
     {
-      "url" : "http://br-ipes.com/fhir/CodeSystem/EHRDocumentType",
+      "url" : "http://br-ipes.com/fhir/CodeSystem/AreaAtuacaoCodeSystem",
+      "version" : "1.0.0",
+      "status" : "draft",
+      "name" : "AreaAtuacao",
+      "title" : "Área de Atuação",
+      "description" : "Área de atuação médica (Resolução CFM n. 2.330/2023)"
+    },
+    {
+      "url" : "http://br-ipes.com/fhir/CodeSystem/BRDivisaoGeograficaBrasil",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "BRDivisaoGeograficaBrasil",
+      "title" : "Divisão Geográfica do Brasil",
+      "description" : "As regiões geográficas, estados, distrito federal e municípios do Brasil."
+    },
+    {
+      "url" : "http://br-ipes.com/fhir/CodeSystem/EHRDocumentTypeCodeSystem",
       "version" : "1.0.0",
       "status" : "draft",
       "name" : "EHRDocumentType",
@@ -9,12 +25,28 @@
       "description" : "Tipos de documentos OpenEHR (TDDs)"
     },
     {
-      "url" : "http://br-ipes.com/fhir/CodeSystem/EventSummaryType",
+      "url" : "http://br-ipes.com/fhir/CodeSystem/EspecialidadeCodeSystem",
+      "version" : "1.0.0",
+      "status" : "draft",
+      "name" : "Especialidade",
+      "title" : "Especialidade",
+      "description" : "Especialidade médica (Resolução CFM n. 2.330/2023)"
+    },
+    {
+      "url" : "http://br-ipes.com/fhir/CodeSystem/EventSummaryTypeCodeSystem",
       "version" : "1.0.0",
       "status" : "draft",
       "name" : "EventSummaryType",
       "title" : "EventSummaryType",
       "description" : "Tipos de estruturas usadas para construir um registro eletrônico de saúde do tipo \"sumário de evento ou contato assistencial\""
+    },
+    {
+      "url" : "http://br-ipes.com/fhir/CodeSystem/NivelFederacaoCodeSystem",
+      "version" : "1.0.0",
+      "status" : "draft",
+      "name" : "NivelFederacao",
+      "title" : "Nível da Federação",
+      "description" : "Tipo de federação suportada para um PractitionerRole"
     },
     {
       "url" : "http://br-ipes.com/fhir/CodeSystem/ServiceRequestCategory",
@@ -23,38 +55,6 @@
       "name" : "ServiceRequestCategory",
       "title" : "ServiceRequestCategory",
       "description" : "Categorias utilizadas nos perfis do recurso ServiceRequest"
-    },
-    {
-      "url" : "http://br-ipes.com/fhir/CodeSystem/AreaAtuacao",
-      "version" : "1.0.0",
-      "status" : "draft",
-      "name" : "AreaAtuacao",
-      "title" : "Área de Atuação",
-      "description" : "Área de atuação médica (Resolução CFM n. 2.330/2023)"
-    },
-    {
-      "url" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade",
-      "version" : "1.0.0",
-      "status" : "draft",
-      "name" : "Especialidade",
-      "title" : "Especialidade",
-      "description" : "Especialidade médica (Resolução CFM n. 2.330/2023)"
-    },
-    {
-      "url" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/NivelFederacao",
-      "version" : "1.0.0",
-      "status" : "draft",
-      "name" : "NivelFederacao",
-      "title" : "Nível da Federação",
-      "description" : "Tipo de federação suportada para um PractitionerRole"
-    },
-    {
-      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil",
-      "version" : "1.0.0",
-      "status" : "active",
-      "name" : "BRDivisaoGeograficaBrasil",
-      "title" : "Divisão Geográfica do Brasil",
-      "description" : "As regiões geográficas, estados, distrito federal e municípios do Brasil."
     }
   ]
 }

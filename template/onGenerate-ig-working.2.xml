@@ -1,30 +1,30 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-   <id value="2024_IG_CBIS"/>
+   <id value="IGCBIS2024"/>
    <text>
       <status value="generated"/>
       <div xmlns="http://www.w3.org/1999/xhtml">
          <p class="res-header-id">
-            <b>Generated Narrative: ImplementationGuide 2024_IG_CBIS</b>
+            <b>Generated Narrative: ImplementationGuide IGCBIS2024</b>
          </p>
-         <a name="2024_IG_CBIS"> </a>
-         <a name="hc2024_IG_CBIS"> </a>
-         <a name="2024_IG_CBIS-en-US"> </a>
+         <a name="IGCBIS2024"> </a>
+         <a name="hcIGCBIS2024"> </a>
+         <a name="IGCBIS2024-en-US"> </a>
          <h2>2024IGCBIS</h2>
          <p>The official URL for this implementation guide is: </p>
-         <pre>http://br-ipes.com/fhir/ImplementationGuide/2024_IG_CBIS</pre>
+         <pre>http://br-ipes.com/fhir/ImplementationGuide/IGCBIS2024</pre>
          <div>
             <p>Implementation Guide for 2024 IG CBIS</p>
          </div>
       </div>
    </text>
-   <url value="http://br-ipes.com/fhir/ImplementationGuide/2024_IG_CBIS"/>
+   <url value="http://br-ipes.com/fhir/ImplementationGuide/IGCBIS2024"/>
    <version value="1.0.0"/>
    <name value="2024IGCBIS"/>
    <status value="draft"/>
-   <date value="2024-10-10T16:40:26-03:00"/>
+   <date value="2024-10-21T17:46:37-03:00"/>
    <publisher value="CBIS Publisher"/>
    <description value="Implementation Guide for 2024 IG CBIS"/>
-   <packageId value="com.br-ipes.fhir.2024_ig_cbis"/>
+   <packageId value="com.br-ipes.fhir.ig2024cbis"/>
    <license value="CC0-1.0"/>
    <fhirVersion value="4.0.1"/>
    <dependsOn id="hl7tx">
@@ -552,10 +552,10 @@
             <valueString value="CodeSystem"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="CodeSystem-BRDivisaoGeograficaBrasilCodeSystem.html"/>
+            <valueUri value="CodeSystem-BRDivisaoGeograficaBrasil.html"/>
          </extension>
          <reference>
-            <reference value="CodeSystem/BRDivisaoGeograficaBrasilCodeSystem"/>
+            <reference value="CodeSystem/BRDivisaoGeograficaBrasil"/>
          </reference>
          <name value="BRDivisaoGeograficaBrasil"/>
          <description value="Code system for Divisão Geográfica do Brasil"/>
@@ -678,10 +678,10 @@
             <valueString value="ValueSet"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="ValueSet-BRMunicipio-1.0_Valueset.html"/>
+            <valueUri value="ValueSet-BRMunicipioValuesetV1.0.html"/>
          </extension>
          <reference>
-            <reference value="ValueSet/BRMunicipio-1.0_Valueset"/>
+            <reference value="ValueSet/BRMunicipioValuesetV1.0"/>
          </reference>
          <name value="BRMunicipio"/>
          <description value="ValueSet for Brazilian municipalities"/>
@@ -786,10 +786,10 @@
             <valueString value="ValueSet"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="ValueSet-BRTipoDocumentoIndividuo-1.0_ValueSet.html"/>
+            <valueUri value="ValueSet-BRTipoDocumentoIndividuoValueSetV1.0.html"/>
          </extension>
          <reference>
-            <reference value="ValueSet/BRTipoDocumentoIndividuo-1.0_ValueSet"/>
+            <reference value="ValueSet/BRTipoDocumentoIndividuoValueSetV1.0"/>
          </reference>
          <name value="BRTipoDocumentoIndividuo"/>
          <description value="ValueSet for Document Types for Individual Identification"/>
@@ -885,6 +885,22 @@
          <description value="Amostra"/>
          <exampleBoolean value="false"/>
          <groupingId value="core"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Bundle"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Bundle-h1.html"/>
+         </extension>
+         <reference>
+            <reference value="Bundle/h1"/>
+         </reference>
+         <name value="null (Bundle)"/>
+         <groupingId value="-other"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">

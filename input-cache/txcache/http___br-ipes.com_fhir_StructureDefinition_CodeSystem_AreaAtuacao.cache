@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/AreaAtuacao"
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system http://br-ipes.com/fhir/StructureDefinition/CodeSystem/AreaAtuacao"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://br-ipes.com/fhir/ValueSet/AreaAtuacao", "version": "1.0.0"}####
+e: {
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system http://br-ipes.com/fhir/StructureDefinition/CodeSystem/AreaAtuacao"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://br-ipes.com/fhir/ValueSet/AreaAtuacaoValueset", "version": "1.0.0"}####
+e: {
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system http://br-ipes.com/fhir/StructureDefinition/CodeSystem/AreaAtuacao"
+}
+-------------------------------------------------------------------------------------

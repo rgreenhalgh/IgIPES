@@ -51,7 +51,7 @@
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;period</td><td>CX.7 + CX.8</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;assigner</td><td>CX.4 / (CX.4,CX.9,CX.10)</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;active</td><td></td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;name</td><td>XPN</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;name</td><td>XCN Components</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;telecom</td><td>PRT-15, STF-10, ROL-12</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;address</td><td>ORC-24, STF-11, ROL-11, PRT-14</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;gender</td><td>STF-5</td> </tr>
@@ -170,7 +170,7 @@
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;period</td><td>Role.effectiveTime or implied by context</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;assigner</td><td>II.assigningAuthorityName but note that this is an improper use by the definition of the field.  Also Role.scoper</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;active</td><td>./statusCode</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;name</td><td>n/a, EN (actually, PN)</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;name</td><td>./name</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;telecom</td><td>./telecom</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;address</td><td>./addr</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;gender</td><td>./administrativeGender</td> </tr>
@@ -289,7 +289,7 @@
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;period</td><td>./StartDate and ./EndDate</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;assigner</td><td>./IdentifierIssuingAuthority</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;active</td><td></td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;name</td><td>ProviderName</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;name</td><td>./PreferredName (GivenNames, FamilyName, TitleCode)</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;telecom</td><td>./ContactPoints</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;address</td><td>./Addresses</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;gender</td><td>./GenderCode</td> </tr>

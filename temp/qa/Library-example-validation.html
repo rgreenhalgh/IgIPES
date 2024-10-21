@@ -1,0 +1,14 @@
+<html>
+<head>
+  <title>Library-example-validation</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<table class="grid">
+<tr><td><b>Level</b></td><td><b>Type</b></td><td><b>Location</b></td><td><b>Message</b></td></tr>
+<tr><td>error</td><td>invalid</td><td>Library.where(url = 'http://somewhere.org/fhir/uv/myig/Library/example')</td><td>Conformance resource /home/henrique/Desktop/IgIPES/input/examples/Library-example.json - the canonical URL (http://br-ipes.com/fhir/Library/example) does not match the URL (http://somewhere.org/fhir/uv/myig/Library/example)</td><td></td></tr>
+<tr><td>error</td><td>not-found</td><td>Library.content{0]</td><td>Error Loading example.cql: Cannot invoke &quot;org.hl7.fhir.r5.model.Attachment.getData()&quot; because &quot;a&quot; is null</td><td></td></tr>
+<tr><td>information</td><td>informational</td><td>Library/example: Library</td><td>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Library|4.0.1</td><td></td></tr>
+</table>
+</body>
+</html>

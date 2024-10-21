@@ -1,7 +1,7 @@
 {
   "resourceType": "CodeSystem",
   "id":"EventSummaryTypeCodeSystem",
-  "url": "http://br-ipes.com/fhir/CodeSystem/EventSummaryType",
+  "url": "http://br-ipes.com/fhir/CodeSystem/EventSummaryTypeCodeSystem",
   "version": "1.0",
   "name": "EventSummaryType",
   "title": "EventSummaryType",

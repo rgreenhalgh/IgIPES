@@ -11,7 +11,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Terminology Server Report for 2024IGCBIS</h1>
- <p>Generated Thu Oct 10 16:45:07 BRT 2024, FHIR version 4.0.1 for com.br-ipes.fhir.2024_ig_cbis#1.0.0 (canonical = <a href="http://br-ipes.com/fhir">http://br-ipes.com/fhir</a> (<a href="http://br-ipes.com/fhir/history.html">history</a>))</p>
+ <p>Generated Mon Oct 21 17:52:07 BRT 2024, FHIR version 4.0.1 for com.br-ipes.fhir.ig2024cbis#1.0.0 (canonical = <a href="http://br-ipes.com/fhir">http://br-ipes.com/fhir</a> (<a href="http://br-ipes.com/fhir/history.html">history</a>))</p>
 <p>This page provides a report on which terminology servers were used while publishing this IG. Note that terminology caching reduces the server hit count - this page only reports content that wasn't cached</p>
 <h2>Terminology Parameters</h2>
 <ul>
@@ -21,16 +21,91 @@
   </li>
 </ul>
 <h2>Tx Manager report for 'http://tx.fhir.org/tx-reg'</h2>
-<ul>
-  <li>Request for system [http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil|*] not handled by any servers. Using master @ 'http://tx.fhir.org/r4'</li>
-  <li>Request for system [http://br-ipes.com/fhir/CodingSystem/identifier-type] not handled by any servers. Using master @ 'http://tx.fhir.org/r4'</li>
-  <li>Request for system [http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoIdentificadorProcedimento-1.0] not handled by any servers. Using master @ 'http://tx.fhir.org/r4'</li>
-  <li>Request for system [http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil|*] not handled by any servers. Using master @ 'http://tx.fhir.org/r4'</li>
-  <li>Request for system [http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador] not handled by any servers. Using master @ 'http://tx.fhir.org/r4'</li>
-</ul>
+<table class="grid">
+  <tr>
+    <td>
+      <b>Message</b>
+    </td>
+    <td>
+      <b>Server</b>
+    </td>
+    <td>
+      <b>ValueSet</b>
+    </td>
+    <td>
+      <b>Systems</b>
+    </td>
+    <td>
+      <b>Choices</b>
+    </td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://br-ipes.com/fhir/CodingSystem/identifier-type</td>
+    <td>auth = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://br-ipes.com/fhir/CodingSystem/identifier-type</td>
+    <td>auth = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoIdentificadorProcedimento-1.0</td>
+    <td>auth = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoIdentificadorProcedimento-1.0</td>
+    <td>auth = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador</td>
+    <td>auth = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador</td>
+    <td>auth = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>http://br-ipes.com/fhir/ValueSet/BRMunicipioValuesetV1.0|1.0.0</td>
+    <td>http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil|*</td>
+    <td>auth = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>http://br-ipes.com/fhir/ValueSet/EspecialidadeValueset|1.0.0</td>
+    <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+    <td>auth = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>http://br-ipes.com/fhir/ValueSet/NivelFederacaoValueSet|1.0.0</td>
+    <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/NivelFederacao</td>
+    <td>auth = , candidates=</td>
+  </tr>
+</table>
 <h2>Primary Server: http://tx.fhir.org/r4</h2>
 <a href="http://tx.fhir.org/r4"></a>
-<p>Use Count: 5. Code Systems used: </p>
+<p>Use Count: 6. Code Systems used: </p>
 <table class="grid">
   <tr>
     <th>
@@ -53,9 +128,21 @@
     <td></td>
   </tr>
   <tr>
-    <td>http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil|*</td>
+    <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade</td>
+    <td>1</td>
     <td>0</td>
-    <td>2</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/NivelFederacao</td>
+    <td>1</td>
+    <td>0</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil|*</td>
+    <td>1</td>
+    <td>0</td>
     <td></td>
   </tr>
   <tr>

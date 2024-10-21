@@ -1,8 +1,8 @@
 {
     "resourceType": "ValueSet",
-    "id": "BRMunicipio-1.0_Valueset",
+    "id": "BRMunicipioValuesetV1.0",
     "language": "pt-BR",
-    "url": "http://www.saude.gov.br/fhir/r4/ValueSet/BRMunicipio-1.0",
+    "url": "http://br-ipes.com/fhir/ValueSet/BRMunicipioValuesetV1.0",
     "version": "1.0",
     "name": "BRMunicipio",
     "title": "Município",

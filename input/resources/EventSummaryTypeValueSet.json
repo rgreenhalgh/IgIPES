@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id":"EventSummaryTypeValueSet",
-  "url": "http://br-ipes.com/fhir/ValueSet/EventSummaryType",
+  "url": "http://br-ipes.com/fhir/ValueSet/EventSummaryTypeValueSet",
   "version": "1.0",
   "name": "EventSummaryType",
   "title": "EventSummaryType",

@@ -2399,7 +2399,7 @@
       "binding" : {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/binding-definition",
-          "valueString" : "A coded concept describing the reason that a different medication should (or should not) be substituted from what was prescribed."
+          "valueMarkdown" : "A coded concept describing the reason that a different medication should (or should not) be substituted from what was prescribed."
         },
         {
           "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
@@ -3706,7 +3706,7 @@
       "binding" : {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/binding-definition",
-          "valueString" : "A coded concept describing the reason that a different medication should (or should not) be substituted from what was prescribed."
+          "valueMarkdown" : "A coded concept describing the reason that a different medication should (or should not) be substituted from what was prescribed."
         },
         {
           "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",

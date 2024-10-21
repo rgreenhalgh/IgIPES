@@ -5,7 +5,7 @@
     "lastUpdated": "2023-11-03T16:00:00.4171984+00:00"
   },
   "language": "pt-BR",
-  "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRNomeIndividuo-1.0",
+  "url": "http://br-ipes.com/fhir/StructureDefinition/BRNomeIndividuo-1.0",
   "version": "1.0",
   "name": "BRNomeIndividuo",
   "title": "Nome de Indivíduos",

@@ -15,7 +15,7 @@
       "valueInteger": 1
     }
   ],
-  "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRParentesIndividuo-1.0",
+  "url": "http://br-ipes.com/fhir/StructureDefinition/BRParentesIndividuo-1.0",
   "version": "1.0",
   "name": "BRParentesIndividuo",
   "title": "Parentes do Indivíduo",

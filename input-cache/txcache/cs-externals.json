@@ -1,6 +1,10 @@
 {
-  "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/AreaAtuacao|null" : null,
   "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador|*" : null,
   "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador|null" : null,
-  "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil|*" : null
+  "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/Especialidade|null" : null,
+  "http://br-ipes.com/fhir/CodeSystem/EventSummaryType|null" : null,
+  "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil|*" : null,
+  "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/NivelFederacao|null" : null,
+  "http://br-ipes.com/fhir/CodeSystem/EHRDocumentType|null" : null,
+  "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/AreaAtuacao|null" : null
 }

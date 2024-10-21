@@ -1336,7 +1336,7 @@
       "binding" : {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/binding-definition",
-          "valueString" : "Diagnosis codes provided as adjuncts to the report."
+          "valueMarkdown" : "Diagnosis codes provided as adjuncts to the report."
         },
         {
           "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
@@ -1464,7 +1464,7 @@
       "binding" : {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/binding-definition",
-          "valueString" : "Supporting information role code"
+          "valueMarkdown" : "Supporting information role code"
         },
         {
           "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
@@ -1690,7 +1690,7 @@
       "binding" : {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/binding-definition",
-          "valueString" : "Diagnosis codes provided as adjuncts to the report."
+          "valueMarkdown" : "Diagnosis codes provided as adjuncts to the report."
         },
         {
           "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",

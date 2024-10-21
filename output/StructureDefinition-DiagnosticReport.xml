@@ -1313,7 +1313,7 @@
       <isSummary value="false"/>
       <binding>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/binding-definition">
-          <valueString value="Diagnosis codes provided as adjuncts to the report."/>
+          <valueMarkdown value="Diagnosis codes provided as adjuncts to the report."/>
         </extension>
         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
           <valueString value="AdjunctDiagnosis"/>
@@ -1433,7 +1433,7 @@
       <isSummary value="false"/>
       <binding>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/binding-definition">
-          <valueString value="Supporting information role code"/>
+          <valueMarkdown value="Supporting information role code"/>
         </extension>
         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
           <valueString value="DiagnosticReportSupportingInfoType"/>
@@ -1645,7 +1645,7 @@
       <isSummary value="false"/>
       <binding>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/binding-definition">
-          <valueString value="Diagnosis codes provided as adjuncts to the report."/>
+          <valueMarkdown value="Diagnosis codes provided as adjuncts to the report."/>
         </extension>
         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
           <valueString value="AdjunctDiagnosis"/>

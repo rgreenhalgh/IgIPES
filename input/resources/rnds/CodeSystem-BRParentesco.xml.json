@@ -1,0 +1,26 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRParentesco",
+  "language": "pt-BR",
+  "url": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRParentesco",
+  "version": "201701A",
+  "name": "BRParentesco",
+  "title": "Parentesco",
+  "status": "active",
+  "experimental": false,
+  "date": "2020-03-11T18:20:06.3399184+00:00",
+  "publisher": "Ministério da Saúde do Brasil",
+  "description": "Classificação da relação familiar entre indivíduos.",
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "mother",
+      "display": "Mãe"
+    },
+    {
+      "code": "father",
+      "display": "Pai"
+    }
+  ]
+}

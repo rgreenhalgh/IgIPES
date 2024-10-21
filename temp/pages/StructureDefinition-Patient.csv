@@ -26,17 +26,13 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Patient.extension:parents","Patient.extension","parents","","",0,*,"","","","Extension {[CanonicalType[http://www.saude.gov.br/fhir/r4/StructureDefinition/BRParentesIndividuo-1.0]]} {[]}
-","Parentes do Indivíduo","Parentes de um indivíduo e seu grau de parentesco.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
-","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Extension","An Extension","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Patient.extension:raceEthnicity","Patient.extension","raceEthnicity","raça
-etniacorcútis","",0,1,"","","","Extension {[CanonicalType[http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRacaCorEtnia-1.0]]} {[]}
-","Raça/Cor e Etnia","Dados relacionados à raça/cor e etnia de um indivíduo.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
-","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"Patient.extension:raceEthnicity","Patient.extension","raceEthnicity","","",0,*,"","","","Extension {[CanonicalType[http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRacaCorEtnia-1.0]]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Patient.extension:birthCity","Patient.extension","birthCity","","",0,1,"","","","Extension {[CanonicalType[http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMunicipio-1.0]]} {[]}
-","Município","Informa o município de nascimento (apenas para nascidos no Brasil).","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
-","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Extension","Informa o município de nascimento (apenas para nascidos no Brasil).","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Patient.extension:birthCountry","Patient.extension","birthCountry","","",0,1,"","","","Extension {[CanonicalType[http://br-ipes.com/fhir/StructureDefinition/BirthCountry-1.0]]} {[]}
 ","País de nascimento","País de nascimento.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
@@ -252,10 +248,9 @@ It is often used to filter patient lists to exclude inactive patients
 
 Deceased patients may also be marked as inactive for the same reasons, but may be active for some time after death.","If a record is inactive, and linked to an active record, then future patient/record updates should occur on the other patient.","Need to be able to mark a patient record as not to be used because it was created in error.","","This resource is generally assumed to be active if no value is provided for the active element","","","","","",,,,,"",,,,"Patient.active",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","statusCode","n/a","FiveWs.status"
-"Patient.name","Patient.name","","","",0,*,"Y","","","HumanName {[CanonicalType[http://www.saude.gov.br/fhir/r4/StructureDefinition/BRNomeIndividuo-1.0]]} {[]}
-","Nome do Indivíduo","Nome(s) associado(s) ao indivíduo.","Names may be changed, or repudiated, or people may have different names in different contexts. Names may be divided into parts of different type that have variable significance depending on context, though the division into parts does not always matter. With personal names, the different parts might or might not be imbued with some implicit meaning; various cultures associate different importance with the name parts and the degree to which systems must care about name parts around the world varies widely.","Need to be able to track the patient by multiple names. Examples are your official name and a partner name.","","","","","","","",,,,,"",,,,"Patient.name",0,*,"ele-1
-","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-","n/a","EN (actually, PN)","XPN"
+"Patient.name","Patient.name","","","",0,*,"","","Y","HumanName {[CanonicalType[http://www.saude.gov.br/fhir/r4/StructureDefinition/BRNomeIndividuo-1.0]]} {[]}
+","A name associated with the patient","A name associated with the individual.","A patient may have multiple names with different uses or applicable periods. For animals, the name is a ""HumanName"" in the sense that is assigned and used by humans and has the same patterns.","Need to be able to track the patient by multiple names. Examples are your official name and a partner name.","","","","","","","",,,,,"",,,,"Patient.name",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","name",".patient.name","PID-5, PID-9"
 "Patient.telecom","Patient.telecom","","","",0,*,"","","Y","ContactPoint {[]} {[]}
 ","A contact detail for the individual","A contact detail (e.g. a telephone number or an email address) by which the individual may be contacted.","A Patient may have multiple ways to be contacted with different uses or applicable periods.  May need to have options for contacting the person urgently and also to help with identification. The address might not go directly to the individual, but may reach another party that is able to proxy for the patient (i.e. home phone, or pet owner's phone).","People have (primary) ways to contact them in some way such as phone, email.","","","","","","","",,,,,"",,,,"Patient.telecom",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","telecom",".telecom","PID-13, PID-14, PID-40"

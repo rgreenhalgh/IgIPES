@@ -1,7 +1,7 @@
 {
   "resourceType": "CodeSystem",
   "id":"EHRDocumentTypeCodeSystem",
-  "url": "http://br-ipes.com/fhir/CodeSystem/EHRDocumentType",
+  "url": "http://br-ipes.com/fhir/CodeSystem/EHRDocumentTypeCodeSystem",
   "version": "1.0",
   "name": "EHRDocumentType",
   "title": "EHRDocumentType",

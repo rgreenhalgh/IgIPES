@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id":"NivelFederacaoValueSet",
-  "url": "http://br-ipes.com/fhir/StructureDefinition/ValueSet/NivelFederacao",
+  "url": "http://br-ipes.com/fhir/ValueSet/NivelFederacaoValueSet",
   "version": "1.0",
   "name": "NivelFederacao",
   "title": "Nível da Federacao",

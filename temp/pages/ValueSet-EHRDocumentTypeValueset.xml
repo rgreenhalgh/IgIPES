@@ -3,9 +3,9 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="EHRDocumentTypeValueset"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet EHRDocumentTypeValueset</b></p><a name="EHRDocumentTypeValueset"> </a><a name="hcEHRDocumentTypeValueset"> </a><a name="EHRDocumentTypeValueset-en-US"> </a><ul><li>Include all codes defined in <a href="CodeSystem-EHRDocumentTypeCodeSystem.html"><code>http://br-ipes.com/fhir/CodeSystem/EHRDocumentType</code></a></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet EHRDocumentTypeValueset</b></p><a name="EHRDocumentTypeValueset"> </a><a name="hcEHRDocumentTypeValueset"> </a><a name="EHRDocumentTypeValueset-en-US"> </a><ul><li>Include all codes defined in <code>http://br-ipes.com/fhir/CodeSystem/EHRDocumentType</code></li></ul></div>
   </text>
-  <url value="http://br-ipes.com/fhir/ValueSet/EHRDocumentType"/>
+  <url value="http://br-ipes.com/fhir/ValueSet/EHRDocumentTypeValueset"/>
   <version value="1.0.0"/>
   <name value="EHRDocumentType"/>
   <title value="EHRDocumentType"/>

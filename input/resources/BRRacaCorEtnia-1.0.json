@@ -5,7 +5,7 @@
     "lastUpdated": "2023-11-03T15:05:25.1225311+00:00"
   },
   "language": "pt-BR",
-  "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRacaCorEtnia-1.0",
+  "url": "http://br-ipes.com/fhir/StructureDefinition/BRRacaCorEtnia-1.0",
   "version": "1.0",
   "name": "BRRacaCorEtnia",
   "title": "Raça/Cor e Etnina",

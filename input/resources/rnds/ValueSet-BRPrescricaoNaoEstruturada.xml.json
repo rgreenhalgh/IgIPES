@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "id": "BRPrescricaoNaoEstruturada",
+  "language": "pt-BR",
+  "url": "http://www.saude.gov.br/fhir/r4/ValueSet/BRPrescricaoNaoEstruturada",
+  "version": "1.0",
+  "name": "BRPrescricaoNaoEstruturada",
+  "title": "Indicativo de prescrição não estruturada ou medicamento não identificado",
+  "status": "draft",
+  "experimental": false,
+  "date": "2020-06-27T19:15:12.2909517+00:00",
+  "publisher": "Ministério da Saúde do Brasil",
+  "description": "Indicativo de prescrição não estruturada ou medicamento não identificado.",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido",
+        "version": "*",
+        "concept": [
+          {
+            "code": "no-medication-info",
+            "display": "No information about medications"
+          },
+          {
+            "code": "no-known-medications",
+            "display": "No known medications"
+          }
+        ]
+      }
+    ]
+  }
+}

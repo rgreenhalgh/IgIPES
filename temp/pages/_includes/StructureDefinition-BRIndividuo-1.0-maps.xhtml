@@ -6,18 +6,11 @@
  <tr><td>&nbsp;&nbsp;&nbsp;extension</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;extension (parents)</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension (relationship)</td><td></td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;url</td><td>N/A</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value[x]</td><td>N/A</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension (parent)</td><td></td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;url</td><td>N/A</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value[x]</td><td>N/A</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;url</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value[x]</td><td>N/A</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;extension (raceEthnicity)</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;extension (birthCity)</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;extension (birthCountry)</td><td></td> </tr>
@@ -76,7 +69,7 @@
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;period</td><td>Role.effectiveTime or implied by context</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;assigner</td><td>II.assigningAuthorityName but note that this is an improper use by the definition of the field.  Also Role.scoper</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;active</td><td>statusCode</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;name</td><td>n/a, EN (actually, PN)</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;name</td><td>name</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;telecom</td><td>telecom</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;gender</td><td>player[classCode=PSN|ANM and determinerCode=INSTANCE]/administrativeGender</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;birthDate</td><td>player[classCode=PSN|ANM and determinerCode=INSTANCE]/birthTime</td> </tr>
@@ -102,6 +95,7 @@
  <tr><td>&nbsp;&nbsp;&nbsp;identifier (cpf)</td><td>.id</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;identifier (cns)</td><td>.id</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;active</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;name</td><td>.patient.name</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;telecom</td><td>.telecom</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;gender</td><td>.patient.administrativeGenderCode</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;birthDate</td><td>.patient.birthTime</td> </tr>
@@ -148,7 +142,7 @@
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value</td><td>CX.1 / EI.1</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;period</td><td>CX.7 + CX.8</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;assigner</td><td>CX.4 / (CX.4,CX.9,CX.10)</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;name</td><td>XPN</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;name</td><td>PID-5, PID-9</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;telecom</td><td>PID-13, PID-14, PID-40</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;gender</td><td>PID-8</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;birthDate</td><td>PID-7</td> </tr>

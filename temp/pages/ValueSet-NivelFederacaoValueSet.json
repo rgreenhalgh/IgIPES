@@ -3,9 +3,9 @@
   "id" : "NivelFederacaoValueSet",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet NivelFederacaoValueSet</b></p><a name=\"NivelFederacaoValueSet\"> </a><a name=\"hcNivelFederacaoValueSet\"> </a><a name=\"NivelFederacaoValueSet-en-US\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-NivelFederacaoCodeSystem.html\"><code>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/NivelFederacao</code></a></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet NivelFederacaoValueSet</b></p><a name=\"NivelFederacaoValueSet\"> </a><a name=\"hcNivelFederacaoValueSet\"> </a><a name=\"NivelFederacaoValueSet-en-US\"> </a><ul><li>Include all codes defined in <code>http://br-ipes.com/fhir/StructureDefinition/CodeSystem/NivelFederacao</code></li></ul></div>"
   },
-  "url" : "http://br-ipes.com/fhir/StructureDefinition/ValueSet/NivelFederacao",
+  "url" : "http://br-ipes.com/fhir/ValueSet/NivelFederacaoValueSet",
   "version" : "1.0.0",
   "name" : "NivelFederacao",
   "title" : "Nível da Federacao",

@@ -3,9 +3,9 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="EventSummaryTypeValueSet"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet EventSummaryTypeValueSet</b></p><a name="EventSummaryTypeValueSet"> </a><a name="hcEventSummaryTypeValueSet"> </a><a name="EventSummaryTypeValueSet-en-US"> </a><ul><li>Include all codes defined in <a href="CodeSystem-EventSummaryTypeCodeSystem.html"><code>http://br-ipes.com/fhir/CodeSystem/EventSummaryType</code></a></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet EventSummaryTypeValueSet</b></p><a name="EventSummaryTypeValueSet"> </a><a name="hcEventSummaryTypeValueSet"> </a><a name="EventSummaryTypeValueSet-en-US"> </a><ul><li>Include all codes defined in <code>http://br-ipes.com/fhir/CodeSystem/EventSummaryType</code></li></ul></div>
   </text>
-  <url value="http://br-ipes.com/fhir/ValueSet/EventSummaryType"/>
+  <url value="http://br-ipes.com/fhir/ValueSet/EventSummaryTypeValueSet"/>
   <version value="1.0.0"/>
   <name value="EventSummaryType"/>
   <title value="EventSummaryType"/>

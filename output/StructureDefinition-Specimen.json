@@ -1936,7 +1936,7 @@
       "binding" : {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/binding-definition",
-          "valueString" : "Codes describing specimen role."
+          "valueMarkdown" : "Codes describing specimen role."
         },
         {
           "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
@@ -1985,7 +1985,7 @@
       "binding" : {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/binding-definition",
-          "valueString" : "Codes describing anatomical feature."
+          "valueMarkdown" : "Codes describing anatomical feature."
         },
         {
           "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",

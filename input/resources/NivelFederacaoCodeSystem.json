@@ -1,7 +1,7 @@
 {
   "resourceType": "CodeSystem",
   "id":"NivelFederacaoCodeSystem",
-  "url": "http://br-ipes.com/fhir/StructureDefinition/CodeSystem/NivelFederacao",
+  "url": "http://br-ipes.com/fhir/CodeSystem/NivelFederacaoCodeSystem",
   "version": "1.0",
   "name": "NivelFederacao",
   "title": "Nível da Federação",

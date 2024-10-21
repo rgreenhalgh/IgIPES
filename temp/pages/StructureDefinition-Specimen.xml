@@ -1904,7 +1904,7 @@
       <isSummary value="false"/>
       <binding>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/binding-definition">
-          <valueString value="Codes describing specimen role."/>
+          <valueMarkdown value="Codes describing specimen role."/>
         </extension>
         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
           <valueString value="SpecimenRole"/>
@@ -1949,7 +1949,7 @@
       <isSummary value="false"/>
       <binding>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/binding-definition">
-          <valueString value="Codes describing anatomical feature."/>
+          <valueMarkdown value="Codes describing anatomical feature."/>
         </extension>
         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
           <valueString value="SpecimenFeatureType"/>

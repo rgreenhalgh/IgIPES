@@ -1,14 +1,14 @@
 {
   "resourceType": "ImplementationGuide",
-  "id": "2024_IG_CBIS",
-  "url": "http://br-ipes.com/fhir/ImplementationGuide/2024_IG_CBIS",
+  "id": "IGCBIS2024",
+  "url": "http://br-ipes.com/fhir/ImplementationGuide/IGCBIS2024",
   "version": "1.0.0",
   "name": "2024IGCBIS",
   "status": "draft",
   "publisher": "CBIS Publisher",
   "description": "Implementation Guide for 2024 IG CBIS",
   "fhirVersion": ["4.0.1"],
-  "packageId": "com.br-ipes.fhir.2024_ig_cbis",
+  "packageId": "com.br-ipes.fhir.ig2024cbis",
   "definition": {
     "grouping": [
       {
@@ -118,7 +118,7 @@
       },
       {
         "reference": {
-          "reference": "CodeSystem/BRDivisaoGeograficaBrasilCodeSystem"
+          "reference": "CodeSystem/BRDivisaoGeograficaBrasil"
         },
         "name": "BRDivisaoGeograficaBrasil",
         "description": "Code system for Divisão Geográfica do Brasil",
@@ -181,7 +181,7 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/BRMunicipio-1.0_Valueset"
+          "reference": "ValueSet/BRMunicipioValuesetV1.0"
         },
         "name": "BRMunicipio",
         "description": "ValueSet for Brazilian municipalities",
@@ -235,7 +235,7 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/BRTipoDocumentoIndividuo-1.0_ValueSet"
+          "reference": "ValueSet/BRTipoDocumentoIndividuoValueSetV1.0"
         },
         "name": "BRTipoDocumentoIndividuo",
         "description": "ValueSet for Document Types for Individual Identification",

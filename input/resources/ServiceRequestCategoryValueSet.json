@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id":"ServiceRequestCategoryValueSet",
-  "url": "http://br-ipes.com/fhir/ValueSet/ServiceRequestCategory",
+  "url": "http://br-ipes.com/fhir/ValueSet/ServiceRequestCategoryValueSet",
   "version": "1.0",
   "name": "ServiceRequestCategory",
   "title": "ServiceRequestCategory",
