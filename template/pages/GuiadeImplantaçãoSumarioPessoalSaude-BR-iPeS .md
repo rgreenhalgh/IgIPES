@@ -1,13 +1,13 @@
 
  URL Canônica: http://ehrrunner.com/fhir/StructureDefinition/
-GuiadeImplantaçãoSumarioPessoalSaude-BR-iPeS | Versão: 1.0 |
+GuiadeImplantaçãoSumarioPessoalSaude-BR-ipes | Versão: 1.0 |
 -----------------------------------------------------------------
 ---------------------------|-------------|
  Ativo desde: 
 2023-02-10                                                      
               | Nome computável: IdentificadorIndividuo-BR-iPèS 
 GuiadeImplantaçãoSumarioPessoalçSaude
--BR-iPeS 
+-BR-ipes 
 # Guia de Implementação dos Requisitos e Especificações para o 
 Showcase de Interoperabilidade dO Sumário Pessoal de Saúde no CBiS 2024
 # SUMÁRIO
